@@ -1,0 +1,416 @@
+/* Template Starter Base */
+
+:root {
+   /* Colors */
+  --color-default: 55, 53, 47!important;
+  --color-white: 255, 255, 255!important;
+  --color-gray: 155, 154, 151!important;
+  --color-brown: 100, 71, 58!important;
+  --color-orange: 217, 115, 13!important;
+  --color-yellow: 223, 171, 1!important;
+  --color-green: 15, 123, 108!important;
+  --color-blue: 11, 110, 153!important;
+  --color-purple: 105, 64, 165!important;
+  --color-pink: 173, 26, 114!important;
+  --color-red: 224, 62, 62!important;
+  /* Text */
+  --color-text-default: rgb(var(--color-default))!important;
+  --color-text-default-light: rgba(var(--color-default), 0.6)!important;
+  --color-text-gray: rgb(var(--color-gray))!important;
+  --color-text-brown: rgb(var(--color-brown))!important;
+  --color-text-orange: rgb(var(--color-orange))!important;
+  --color-text-yellow: rgb(var(--color-yellow))!important;
+  --color-text-green: rgb(var(--color-green))!important;
+  --color-text-blue: rgb(var(--color-blue))!important;
+  --color-text-purple: rgb(var(--color-purple))!important;
+  --color-text-pink: rgb(var(--color-pink))!important;
+  --color-text-red: rgb(var(--color-red))!important;
+  /* Background */
+  --color-bg-default: rgba(var(--color-white))!important;
+  --color-bg-gray: rgba(var(--color-gray),.18)!important;
+  --color-bg-brown: rgba(var(--color-brown),.15)!important;
+  --color-bg-orange: rgba(var(--color-orange),.15)!important;
+  --color-bg-yellow: rgba(var(--color-yellow),.15)!important;
+  --color-bg-green: rgba(var(--color-green),.15)!important;
+  --color-bg-blue: rgba(var(--color-blue),.15)!important;
+  --color-bg-purple: rgba(var(--color-purple),.15)!important;
+  --color-bg-pink: rgba(var(--color-pink),.15)!important;
+  --color-bg-red: rgba(var(--color-red),.15)!important;
+  /* Background Light  */
+  --color-bg-gray-light: rgba(var(--color-gray),.05)!important;
+  --color-bg-brown-light: rgba(var(--color-brown),.05)!important;
+  --color-bg-orange-light: rgba(var(--color-orange),.05)!important;
+  --color-bg-yellow-light: rgba(var(--color-yellow),.05)!important;
+  --color-bg-green-light: rgba(var(--color-green),.05)!important;
+  --color-bg-blue-light: rgba(var(--color-blue),.05)!important;
+  --color-bg-purple-light: rgba(var(--color-purple),.05)!important;
+  --color-bg-pink-light: rgba(var(--color-pink),.05)!important;
+  --color-bg-red-light: rgba(var(--color-red),.05)!important;
+  /* Pill */
+  --color-pill-default: rgba(var( --color-default), 0.5)!important;
+  --color-pill-gray: rgba(var(--color-gray),.2)!important;
+  --color-pill-brown: rgba(var(--color-brown),.2)!important;
+  --color-pill-orange: rgba(var(--color-orange),.2)!important;
+  --color-pill-yellow: rgba(var(--color-yellow),.2)!important;
+  --color-pill-green: rgba(var(--color-green),.2)!important;
+  --color-pill-blue: rgba(var(--color-blue),.2)!important;
+  --color-pill-purple: rgba(var(--color-purple),.2)!important;
+  --color-pill-pink: rgba(var(--color-pink),.2)!important;
+  --color-pill-red: rgba(var(--color-red),.2)!important;
+}
+
+.super-content {
+   padding-top: var(--top-spacing)!important;
+   padding-bottom: 10vh!important;
+}
+
+.notion-header {
+  display: var(--notion-header-display)!important;
+}
+
+/* Max Width */
+
+.max-width {
+    max-width: var(--max-width)!important;
+}
+
+/* Super Navbar */
+
+.super-navbar__cta {
+    padding: var(--cta-padding)!important;
+    border-radius: var(--cta-border-radius)!important;
+    border: var(--cta-border)!important;
+    box-shadow: var(--callout-shadow)!important;
+}
+
+/* Typography */
+
+h1.notion-heading {
+    font-size: var(--h1-size)!important;
+    font-weight: var(--h1-weight)!important;
+}
+
+h2.notion-heading {
+    font-size: var(--h2-size)!important;
+    font-weight: var(--h2-weight)!important;
+}
+
+h3.notion-heading {
+    font-size: var(--h3-size)!important;
+    font-weight: var(--h3-weight)!important;
+}
+
+/* Images */
+
+.notion-image>div,
+.notion-image img {
+    border-radius: var(--image-border-radius)!important;
+}
+
+/* Blockquote */
+
+.notion-quote {
+  font-size: var(--quote-size)!important;
+}
+
+/* Collection Blocks */
+
+.notion-collection__header {
+  display: var(--collection-header-display)!important;
+}
+
+.notion-collection-gallery, .notion-collection-board, .notion-collection-list {
+  border-top: var(--collection-header-border)!important;
+}
+
+/* Collection list item */
+
+.notion-collection-list__item {
+    padding: var(--collection-list-item-padding)!important;
+    border-radius: var(--collection-list-item-border-radius)!important;
+}
+
+.notion-pill {
+  margin: var(--notion-pill-margin)!important;
+  padding: var(--notion-pill-padding)!important;
+  border-radius: var(--notion-pill-border-radius)!important;
+  font-size: var(--notion-pill-text-size)!important;
+}
+
+.notion-property__title {
+    font-size: var(--collection-title-text-size)!important;
+}
+
+
+/* Gallery Specific */
+
+.notion-collection-card {
+    box-shadow: var(--collection-card-shadow)!important;
+    -webkit-box-shadow: var(--collection-card-shadow)!important;
+    border-radius: var(--collection-card-border-radius)!important;
+    border: var(--collection-card-border)!important;
+    cursor: pointer!important;
+    background: var(--color-card)!important;
+}
+
+.notion-collection-card:hover {
+    background: var(--color-ui-hover-bg-light)!important;
+}
+
+.notion-collection-gallery {
+    grid-gap: var(--collection-gallery-gap)!important;
+}
+
+/* Code */
+code {
+  font-size: var(--code-size)!important;
+}
+
+
+/* Set card text */
+
+.gallery .notion-collection-card__property .notion-semantic-string {
+    font-size: var(--collection-property-text-size)!important;
+}
+
+.notion-collection-card__cover img {
+    border-radius: var(--col-card-border-radius)!important;
+}
+
+
+/* Table Specific */
+
+
+.notion-collection-table td,
+.notion-collection-table th {
+    padding: var(--table-padding)!important;
+}
+
+
+/* Callout blocks */
+
+
+/* Callout */
+
+.notion-callout {
+    margin: var(--callout-margin)!important;
+    border-radius: var(--callout-border-radius)!important;
+    box-shadow: var(--callout-shadow)!important;
+    padding: var(--callout-padding)!important;
+}
+
+.notion-callout.border {
+    border: var(--callout-border)!important;
+}
+
+
+/* Callout Icon*/
+
+.notion-callout__icon img {
+    width: var(--callout-icon-size)!important;
+    min-width: var(--callout-icon-size)!important;
+}
+
+.notion-callout__icon span {
+    font-size: var(--callout-emoji-size)!important;
+}
+
+
+
+/* Divider */
+
+.notion-divider {
+    margin: var(--divider-margin)!important;
+    opacity: var(--divider-opacity)!important;
+}
+
+
+/* Tally Forms */
+
+iframe {
+    background: transparent!important;
+}
+
+
+/*  End Template Starter Base */
+
+/* Start Theme Variables */
+
+:root {
+    /* Layout */
+    --column-spacing: 40px!important;
+    --max-width: 1150px!important;
+    /* Navbar CTA */
+    --cta-padding: 14px 20px!important;
+    --cta-border-radius: 10px!important;
+    --cta-border: none!important;
+    --cta-shadow: none!important;
+    /* Callout */
+    --callout-padding: 20px 40px 15px 20px!important;
+    --callout-border: none!important;
+    --callout-border-radius: 10px!important;
+    --callout-shadow: 8.6px 6px 10px rgba(0, 0, 0, 0.07), 69px 48px 80px rgba(0, 0, 0, 0.14)!important;
+    --callout-icon-size: 15px!important;
+    --callout-emoji-size: 18px!important;
+    /* Collections */
+    --collection-list-item-border-radius: 5px!important;
+    --collection-list-item-padding: 5px 0px 5px 5px!important;
+    --collection-gallery-gap: 30px!important;
+    --collection-title-text-size: 16px!important;
+    --collection-property-text-size: 14px!important;
+    --color-card-bg: #222330!important;
+    --collection-card-border-radius: 5px!important;
+    --collection-card-padding: 20px!important;
+    --collection-card-border: none!important;
+    --collection-card-cover-size-small: 172px!important;
+    --collection-card-cover-size-medium: 260px!important;
+    --collection-card-cover-size-large: 320px!important;
+    /*Pill */
+    --notion-pill-padding: 2px 5px!important;
+    --notion-pill-border-radius: 0px!important;
+    --notion-pill-text-size: 11px!important;
+    --notion-pill-text-weight: 500!important;
+    --notion-pill-text-transform: uppercase!important;
+    --notion-pill-letter-spacing: 1px!important;
+    /* Images */
+    --image-border-radius: 5px!important;
+    /* Misc */
+    --divider-margin: 15px 0px!important;
+    --divider-opacity: .8!important;
+    /* Typography */
+    --text-spacing: 0px!important;
+    --secondary-font: 'Inter', sans-serif!important;
+    --notion-text-margin: 0px 0px 0px 0px!important;
+    /* h1 */
+    --h1-size: 2.6rem!important;
+    --h1-weight: 500!important;
+    --h1-spacing: -2px!important;
+    --h1-margin: 10px 0px 15px 0px!important;
+    --h1-line-height: 1.1!important;
+    /* h2 */
+    --h2-size: 1.8rem!important;
+    --h2-weight: 500!important;
+    --h2-spacing: -.5px!important;
+    --h2-margin: 10px 0px 10px 0px!important;
+    --h2-line-height: 1.2!important;
+    /* h3 */
+    --h3-size: 1.4rem!important;
+    --h3-weight: 500!important;
+    --h3-spacing: -1px!important;
+    --h3-margin: 5px 0px 5px 0px!important;
+    --h3-line-height: 1.4!important;
+    /* Link */
+    --link-border-width: 0px 0px 0px 0px!important;
+    --link-border-style: none!important;
+    --link-border-color: none!important;
+    /* Colors */
+    --color-text-default: #ffffff!important;
+    --color-border-default: #454b4e!important;
+    --color-bg-default: #2A2B37!important;
+    --color-ui-hover-bg: #222330!important;
+    --color-ui-hover-bg-light: #2E303D!important;
+    --color-bg-gray-light: #1b1b1b!important;
+    --color-text-gray: rgba(255, 255, 255, .7)!important;
+    --color-text-yellow: #f0bd66!important;
+    --color-text-green: #5bd4c1!important;
+    --color-text-blue: #28D4D8!important;
+}
+
+
+/* End Theme Variables*/
+
+/* BASE IS ABOVE
+ * 
+ * 
+ * 
+ * 
+ * 
+ * SKIN IS BELOW
+ */
+
+
+/* Start Theme overwrites */
+
+.bg-gray-light {
+    color: white!important;
+}
+
+p.notion-text__content,
+.notion-bulleted-list,
+.notion-numbered-list {
+    font-family: var(--secondary-font)!important;
+}
+
+.notion-callout .notion-callout {
+    box-shadow: none!important;
+}
+
+.notion-callout {
+    background: rgb(53, 54, 68);
+    background: linear-gradient(140deg, rgba(53, 54, 68, 1) 27%, rgba(42, 43, 55, 1) 100%)!important;
+    color: var(--color-text-default)!important;
+}
+
+.bg-blue-light {
+    background: rgb(85, 42, 170);
+    background: linear-gradient(140deg, rgba(85, 42, 170, 1) 18%, rgba(92, 217, 194, 1) 100%)!important;
+    color: var(--color-text-default)!important;
+}
+
+.bg-yellow-light {
+    background: rgb(255, 187, 49);
+    background: linear-gradient(140deg, rgba(255, 187, 49, 1) 27%, rgba(182, 255, 40, 1) 100%)!important;
+    color: var(--color-text-default)!important;
+}
+
+.bg-green-light {
+    background: rgb(93, 212, 120);
+    background: linear-gradient(140deg, rgba(93, 212, 120, 1) 27%, rgba(31, 157, 194, 1) 100%)!important;
+    color: var(--color-text-default)!important;
+}
+
+.bg-pink-light {
+    background: rgb(177, 54, 135);
+    background: linear-gradient(140deg, rgba(177, 54, 135, 1) 27%, rgba(31, 86, 194, 1) 100%)!important;
+    color: var(--color-text-default)!important;
+}
+
+.bg-purple-light {
+    background: rgb(159, 48, 255);
+    background: linear-gradient(140deg, rgba(159, 48, 255, 1) 27%, rgba(31, 157, 194, 1) 100%)!important;
+    color: var(--color-text-default)!important;
+}
+
+.bg-orange-light {
+    background: rgb(255, 171, 35);
+    background: linear-gradient(140deg, rgba(255, 171, 35, 1) 27%, rgba(242, 80, 80, 1) 100%)!important;
+    color: var(--color-text-default)!important;
+}
+
+.bg-red-light {
+    background: rgb(223, 49, 30);
+    background: linear-gradient(140deg, rgba(223, 49, 30, 1) 27%, rgba(255, 158, 158, 1) 100%)!important;
+    color: var(--color-text-default)!important;
+}
+
+.bg-gray-light {
+    background: rgb(34, 35, 48);
+    background: linear-gradient(163deg, rgba(34, 35, 48, 1) 0%, rgba(18, 19, 31, 1) 100%)!important;
+    color: var(--color-text-default)!important;
+}
+
+.bg-brown-light {
+    background: rgb(245, 141, 112);
+    background: linear-gradient(142deg, rgba(245, 141, 112, 1) 0%, rgba(230, 233, 101, 1) 15%, rgba(223, 255, 217, 1) 32%, rgba(183, 217, 234, 1) 50%, rgba(68, 200, 255, 1) 69%, rgba(179, 165, 249, 1) 85%, rgba(255, 192, 224, 1) 100%)!important;
+    color: #2b2b2b!important;
+}
+
+.bg-brown-light span {
+    color: #2b2b2b!important;
+}
+
+
+/* End Theme overwrites */
+
+
+/* Start Builder Base */
