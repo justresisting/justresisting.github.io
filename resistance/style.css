@@ -271,7 +271,7 @@ iframe {
     --collection-card-border-radius: 5px!important;
     --collection-card-padding: 20px!important;
     --collection-card-border: none!important;
-    --collection-card-cover-size-small: 64px!important;
+    --collection-card-cover-size-small: 32px!important;
     --collection-card-cover-size-medium: 260px!important;
     --collection-card-cover-size-large: 320px!important;
     /* Pill */
