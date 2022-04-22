@@ -728,8 +728,12 @@
 .notion-header,
 .notion-header__content,
 .notion-divider,
+  /* All Toggles will be VISIBLE */
 .notion-toggle {
-  display: none !important; }
+  display: block !important;}
+  /* All BROWN Toggles will be invisible */
+.notion-toggle.bg-brown {
+  display: none !important;}
 
 :root {
   --collection-card-cover-size-small: 32px !important; }
