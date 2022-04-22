@@ -64,8 +64,11 @@
    padding-bottom: 10vh!important;
 }
 
+
+
 .notion-header {
-  display: var(--notion-header-display)!important;
+    /*display: var(--notion-header-display)!important;*/  /* This setting turns Notion Headers back on */
+    display: none!important;
 }
 
 /* Max Width */
