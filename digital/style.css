@@ -933,7 +933,7 @@ iframe, video, img {
           /* Trying to solve the issue with the Page Blocks turning WHITE */
           /*background: var(--contrast) !important;*/
           background: var(--bg) !important;
-          color: var(--bg) !important;
+          color: var(--contrast) !important;
           opacity: 1 !important;
           padding: 0.6rem 1.6rem !important;
           border-radius: 500rem !important;
