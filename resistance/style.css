@@ -234,6 +234,15 @@ iframe {
 
 /*  End Template Starter Base */
 
+/* BASE IS ABOVE
+ * 
+ * 
+ * 
+ * 
+ * 
+ * SKIN IS BELOW
+ */
+
 /* Start Theme Variables */
 
 :root {
@@ -306,7 +315,7 @@ iframe {
     /* Colors */
     --color-text-default: #ffffff!important;
     --color-border-default: #454b4e!important;
-    --color-bg-default: #2A2B37!important;
+    --color-bg-default: #336699!important;
     --color-ui-hover-bg: #222330!important;
     --color-ui-hover-bg-light: #2E303D!important;
     --color-bg-gray-light: #1b1b1b!important;
@@ -318,15 +327,6 @@ iframe {
 
 
 /* End Theme Variables*/
-
-/* BASE IS ABOVE
- * 
- * 
- * 
- * 
- * 
- * SKIN IS BELOW
- */
 
 
 /* Start Theme overwrites */
