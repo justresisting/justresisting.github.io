@@ -1,0 +1,139 @@
+/* Start Theme Variables */
+
+:root {
+    /* Layout */
+    --column-spacing: 40px!important;
+    --max-width: 1100px!important;
+    /* Call to actions */
+    --cta-padding: 13px 14px!important;
+    --cta-border-radius: 4px!important;
+    --cta-border: none!important;
+    --cta-shadow: none!important;
+    /* Callout */
+    --callout-padding: 15px 20px 15px 15px!important;
+    --callout-border: 1px solid var(--color-border-default)!important;
+    --callout-border-radius: 4px!important;
+    --callout-shadow: none!important;
+    --callout-icon-size: 20px!important;
+    --callout-emoji-size: 18px!important;
+    /* Collections */
+    --collection-list-item-border-radius: 0px!important;
+    --collection-list-item-padding: 5px 0px 5px 5px!important;
+    --collection-gallery-gap: 30px!important;
+    --collection-title-text-size: 16px!important;
+    --collection-property-text-size: 14px!important;
+    --color-card-bg: transparent!important;
+    --collection-card-border-radius: 5px!important;
+    --collection-card-padding: 20px!important;
+    --collection-card-border: 1px solid var(--color-border-default)!important;
+    /* --collection-card-cover-size-small previously set at 172px */
+    --collection-card-cover-size-small: 32px!important;
+    --collection-card-cover-size-medium: 260px!important;
+    --collection-card-cover-size-large: 320px!important;
+    /*Pill */
+    --notion-pill-padding: 2px 5px!important;
+    --notion-pill-border-radius: 0px!important;
+    --notion-pill-text-size: 11px!important;
+    --notion-pill-text-weight: 500!important;
+    --notion-pill-text-transform: uppercase!important;
+    --notion-pill-letter-spacing: 1px!important;
+    /* Images */
+    --image-border-radius: 10px!important;
+    /* Misc */
+    --divider-margin: 15px 0px!important;
+    --divider-opacity: 1!important;
+    /* Typography */
+    --text-spacing: -.1px!important;
+    --secondary-font: 'Inter', sans-serif!important;
+    --notion-text-margin: 0px 0px 0px 0px!important;
+    /* h1 */
+    --h1-size: 3em!important;
+    --h1-weight: 500!important;
+    --h1-spacing: -1px!important;
+    --h1-margin: 0px 0px 15px 0px!important;
+    --h1-line-height: 1.25!important;
+    /* h2 */
+    --h2-size: 2.2rem!important;
+    --h2-weight: 500!important;
+    --h2-spacing: -.5px!important;
+    --h2-margin: 10px 0px 20px 0px!important;
+    --h2-line-height: 1.2!important;
+    /* h3 */
+    --h3-size: 1.5rem!important;
+    --h3-weight: 500!important;
+    --h3-spacing: -.5px!important;
+    --h3-margin: 5px 0px 10px 0px!important;
+    --h3-line-height: 1.4!important;
+    /* Link */
+    --link-border-width: 0px 0px 0px 0px!important;
+    --link-border-style: none!important;
+    --link-border-color: none!important;
+    /* Colors */
+    /* Background */
+    --color-bg-default: #336699!important;
+    --color-bg-gray: rgb(71, 71, 71)!important;
+    --color-bg-brown: rgb(195, 182, 169)!important;
+    --color-bg-orange: rgb(247, 188, 144)!important;
+    --color-bg-yellow: rgb(247, 219, 144)!important;
+    --color-bg-green: rgb(131, 206, 166)!important;
+    --color-bg-blue: rgb(166, 210, 250)!important;
+    --color-bg-purple: rgb(113, 110, 239)!important;
+    --color-bg-pink: rgb(228, 166, 250)!important;
+    --color-bg-red: rgb(250, 166, 166)!important;
+    /* Background Light */
+    --color-bg-gray-light: rgba(71, 71, 71, 0.6)!important;
+    --color-bg-brown-light: rgba(195, 182, 169, 0.6)!important;
+    --color-bg-orange-light: rgba(247, 188, 144, 0.6)!important;
+    --color-bg-yellow-light: rgba(247, 219, 144, 0.6)!important;
+    --color-bg-green-light: rgba(131, 206, 166, 0.6)!important;
+    --color-bg-blue-light: rgba(166, 210, 250, 0.6)!important;
+    --color-bg-purple-light: rgba(113, 110, 239, 0.6)!important;
+    --color-bg-pink-light: rgba(228, 166, 250, 0.6)!important;
+    --color-bg-red-light: rgba(250, 166, 166, 0.6)!important;
+    /* Text */
+    --color-text-default: white!important;
+    --color-text-default-light: rgba(55, 53, 47, 0.6)!important;
+    --color-text-brown: rgba(220, 199, 158, 1)!important;
+    --color-text-orange: rgba(255, 190, 158, 1)!important;
+    --color-text-yellow: rgba(255, 221, 147, 1)!important;
+    --color-text-green: rgba(144, 230, 201, 1)!important;
+    --color-text-blue: rgba(145, 222, 255, 1)!important;
+    --color-text-purple: rgba(97, 102, 189, 1)!important;
+    --color-text-pink: rgba(255, 180, 239, 1)!important;
+    --color-text-red: rgba(255, 158, 158, 1)!important;
+    --color-text-gray: rgba(255, 255, 255, .7)!important;
+    /* Pill */
+    --color-pill-purple: rgba(225, 227, 253, 0.36)!important;
+    --color-pill-red: rgba(250, 166, 166, 0.83)!important;
+    --color-pill-green: rgba(131, 206, 166, 0.83)!important;
+    --color-pill-blue: rgba(166, 210, 250, 0.83)!important;
+    --color-pill-pink: rgba(228, 166, 250, 0.83)!important;
+    --color-pill-yellow: rgba(247, 219, 144, 0.83)!important;
+    --color-pill-orange: rgba(247, 188, 144, 0.83)!important;
+    --color-pill-brown: rgba(195, 182, 169, 0.83)!important;
+    --color-pill-gray: rgba(115, 115, 115, 0.83)!important;
+    /* UI */
+    --color-ui-hover-bg: rgba(55, 53, 47, 0.08)!important;
+    --color-ui-hover-bg-light: rgba(55, 53, 47, 0.03)!important;
+    --color-accent-bg: rgb(46, 170, 220)!important;
+    --color-border-default: rgba(233, 233, 233, .3)!important;
+    --color-border-dark: rgba(55, 53, 47, 0.16)!important;
+}
+
+
+/* End Theme Variables*/
+
+
+/* Start Theme overwrites */
+
+p.notion-text__content,
+.notion-bulleted-list,
+.notion-numbered-list {
+    font-family: var(--secondary-font)!important;
+}
+
+
+/* End Theme overwrites */
+
+
+/* Start Builder Base */
