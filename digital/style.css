@@ -1342,7 +1342,9 @@ iframe, video, img {
       border-bottom: none !important; }
     #page-work .notion-collection-gallery.large .notion-collection-card .notion-collection-card__cover {
       min-height: 36.25rem !important;
-      background: var(--contrast) !important;
+      background: var(--bg) !important;
+      /* trying to solev the issue with Page Blocks showing WHITE*/
+      /* background: var(--contrast) !important;*/
       position: relative !important; }
       @media (max-width: 767.98px) {
         #page-work .notion-collection-gallery.large .notion-collection-card .notion-collection-card__cover {
