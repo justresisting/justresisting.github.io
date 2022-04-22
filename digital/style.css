@@ -930,7 +930,9 @@ iframe, video, img {
           .notion-text .notion-text__content .notion-semantic-string strong {
             text-align: left !important; } }
         .notion-text .notion-text__content .notion-semantic-string strong a.link {
-          background: var(--contrast) !important;
+          /* Trying to solve the issue with the Page Blocks turning WHITE */
+          /*background: var(--contrast) !important;*/
+          background: var(--bg) !important;
           color: var(--bg) !important;
           opacity: 1 !important;
           padding: 0.6rem 1.6rem !important;
