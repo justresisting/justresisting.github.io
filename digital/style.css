@@ -1503,7 +1503,9 @@ article[id*="block-projects-"] .notion-column-list .notion-column {
   opacity: 1 !important; }
   .notion-callout:before {
     content: "" !important;
-    background-color: var(--contrast) !important;
+    background-color: var(--bg) !important;
+    /*Trying to fix the Callout Color issue*/
+    /*background-color: var(--contrast) !important;*/
     opacity: 0.15 !important;
     position: absolute;
     top: 0px;
@@ -1559,7 +1561,9 @@ article[id*="block-projects-"] .notion-column-list .notion-column {
         margin-bottom: 0.25rem !important; }
       .notion-callout .notion-callout__content .notion-collection .notion-collection-table__body .notion-collection-table__cell.text .color-green {
         color: var(--contrast) !important;
-        background: var(--accent) !important;
+        background: var(--bg) !important;
+        /* Trying to fix the Callout Color problem*/
+        /* background: var(--accent) !important;*/
         font-family: "Clash Grotesk Semibold", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
         padding: 0.3rem 0.5rem 0.3rem !important;
         margin-right: 0.5rem !important;
