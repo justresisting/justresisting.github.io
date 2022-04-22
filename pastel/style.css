@@ -159,6 +159,13 @@ p.notion-text__content,
     border: none!important;
   }
 
+  /* Callout Icon */
+  /* Turned off Callout Icons */
+
+.notion-callout .notion-callout__icon .notion-icon .notion-callout__icon img .notion-callout__icon span {
+    display: none!important;
+  }
+
 /* End Theme overwrites */
 
 
