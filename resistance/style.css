@@ -210,23 +210,22 @@ code {
 }
 
 
-/* Callout Icon*/
+/* Callout Icon */
 
-.notion-callout__icon img {
+.notion-callout .notion-callout__icon .notion-icon .notion-callout__icon img .notion-callout__icon span {
     display: none!important;
-    /* Turned off Notion Callout images
+  }
+
+/* Turned off Icons */
+/* .notion-callout__icon img {
     width: var(--callout-icon-size)!important;
     min-width: var(--callout-icon-size)!important; 
-    */
 }
 
 .notion-callout__icon span {
-    display: none!important;
-    /* Turns off Notion Callout Icon Spans
     font-size: var(--callout-emoji-size)!important;
-    */
 }
-
+*/
 
 
 /* Divider */
