@@ -118,8 +118,11 @@ h3.notion-heading {
 
 /* Collection Blocks */
 
+    
 .notion-collection__header {
-  display: var(--collection-header-display)!important;
+  /* display: var(--collection-header-display)!important; */
+  /* Hide collection/database titles */
+  --collection-header-display: none!important;
 }
 
 .notion-collection-gallery, .notion-collection-board, .notion-collection-list {
