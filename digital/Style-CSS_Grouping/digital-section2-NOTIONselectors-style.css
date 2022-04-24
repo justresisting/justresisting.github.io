@@ -1,0 +1,263 @@
+@font-face {
+    font-family: 'Clash Grotesk Semibold';
+    src: url("https://mattdowney.github.io/digital/fonts/ClashGrotesk-Semibold.woff2") format("woff2"), url("https://mattdowney.github.io/digital/fonts/ClashGrotesk-Semibold.woff") format("woff");
+    font-weight: 700;
+    font-display: swap;
+    font-style: normal; }
+  
+  @font-face {
+    font-family: 'Clash Grotesk Regular';
+    src: url("https://mattdowney.github.io/digital/fonts/ClashGrotesk-Regular.woff2") format("woff2"), url("https://mattdowney.github.io/digital/fonts/ClashGrotesk-Regular.woff") format("woff");
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal; }
+  
+  @font-face {
+    font-family: 'General Sans Regular';
+    src: url("https://mattdowney.github.io/digital/fonts/GeneralSans-Regular.woff2") format("woff2"), url("https://mattdowney.github.io/digital/fonts/GeneralSans-Regular.woff") format("woff");
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal; }
+  
+  @font-face {
+    font-family: 'General Sans Semibold';
+    src: url("https://mattdowney.github.io/digital/fonts/GeneralSans-Semibold.woff2") format("woff2"), url("https://mattdowney.github.io/digital/fonts/GeneralSans-Semibold.woff") format("woff");
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal; }
+  
+  html {
+    background-color: var(--bg) !important;
+    background-image: url("https://mattdowney.github.io/digital/img/loader.svg");
+    background-repeat: no-repeat;
+    background-size: 3rem 3rem;
+    background-position: center center;
+    height: 100% !important; }
+  
+  body {
+    background: var(--bg) !important;
+    animation: fadeIn 0.35s cubic-bezier(0.39, 0.575, 0.565, 1) 1.1s both;
+    height: 100% !important; }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0; }
+    100% {
+      opacity: 1; } }
+    body.no-scroll {
+      overflow: hidden !important; }
+  
+  html, body,
+  h1, h2, h3, p,
+  ul, ol, li {
+    color: var(--contrast) !important; }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Clash Grotesk Semibold", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important; }
+  
+  h1,
+  h1.notion-heading {
+    font-family: "Clash Grotesk Regular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
+    font-size: 3.25rem !important;
+    line-height: 1.3 !important;
+    max-width: 53.75rem !important;
+    font-weight: 500 !important;
+    position: relative !important;
+    top: -1rem !important; }
+    @media (max-width: 767.98px) {
+      h1,
+      h1.notion-heading {
+        font-size: 2.25rem !important; } }
+  h2,
+  h2.notion-heading {
+    font-size: 2.1875rem !important;
+    font-family: "Clash Grotesk Regular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
+    margin-bottom: 1.25rem !important;
+    margin-top: 1rem !important; }
+  
+  h3,
+  h3.notion-heading {
+    opacity: 0.5 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.1rem !important;
+    font-size: 1.1875rem !important;
+    margin-top: 1rem !important;
+    margin-bottom: 1.875rem !important; }
+  
+  p,
+  p.notion-text__content {
+    font-size: 1.125rem !important;
+    padding: 0 !important;
+    color: var(--contrast) !important; }
+    p .notion-semantic-string,
+    p.notion-text__content .notion-semantic-string {
+      line-height: 1.75 !important; }
+      p .notion-semantic-string a,
+      p.notion-text__content .notion-semantic-string a {
+        font-family: "Clash Grotesk Semibold", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
+        color: var(--contrast) !important;
+        border-bottom: none !important;
+        transition: 0.15s ease-in-out !important; }
+  
+  .notion-semantic-string .link,
+  .notion-semantic-string .notion-link,
+  .link,
+  .notion-link,
+  .notion-link .notion-semantic-string,
+  .notion-heading .notion-link,
+  .notion-text .notion-semantic-string .notink-link,
+  .notion-text .notion-semantic-string .link,
+  p a,
+  .notion-text__content .notion-semantic-string .notion-link,
+  p > span > span > a,
+  .notion-text .notion-text__content .notion-semantic-string .notion-link,
+  .notion-text .notion-text__content .notion-semantic-string .link {
+    opacity: 1 !important;
+    display: inline-block !important;
+    text-decoration: none !important;
+    border: none !important;
+    transition: all 0.2s ease-in-out !important; }
+    .notion-semantic-string .link:hover,
+    .notion-semantic-string .notion-link:hover,
+    .link:hover,
+    .notion-link:hover,
+    .notion-link .notion-semantic-string:hover,
+    .notion-heading .notion-link:hover,
+    .notion-text .notion-semantic-string .notink-link:hover,
+    .notion-text .notion-semantic-string .link:hover,
+    p a:hover,
+    .notion-text__content .notion-semantic-string .notion-link:hover,
+    p > span > span > a:hover,
+    .notion-text .notion-text__content .notion-semantic-string .notion-link:hover,
+    .notion-text .notion-text__content .notion-semantic-string .link:hover {
+      opacity: 1 !important;
+      color: var(--accent) !important; }
+  
+  html, body {
+    -ms-overflow-style: none;
+    min-height: 100%;
+    width: 100%;
+    font-family: "General Sans Regular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important; }
+  
+  html, body,
+  h1, h2, h3, p,
+  ul, ol, li {
+    font-style: normal;
+    padding: 0;
+    margin: 0; }
+  
+  h3.notion-collection__header {
+    display: none !important; }
+  
+  iframe, video, img {
+    max-width: 100%;
+    display: block; }
+  
+  .notion-root {
+    width: 100% !important; }
+  
+  .notion-heading {
+    padding: 0 !important; }
+    .notion-heading .notion-semantic-string {
+      line-height: 1.25rem !important; }
+  
+  .notion-collection-gallery {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important; }
+  
+  .notion-text {
+    min-height: 4.375rem !important;
+    background-color: var(--bg) !important;
+    background: var(--bg) !important; }
+    .notion-text.color-gray {
+      opacity: 0.5 !important; }
+    .notion-text .notion-text__content {
+      letter-spacing: 0.025rem !important; }
+      .notion-text .notion-text__content .notion-semantic-string {
+        white-space: wrap !important;
+        line-height: 1.75 !important;
+        margin-bottom: 2rem !important;
+        letter-spacing: 0.025rem !important; }
+        .notion-text .notion-text__content .notion-semantic-string .notion-link, .notion-text .notion-text__content .notion-semantic-string .link {
+          opacity: 1 !important;
+          transition: all 0.2s ease-in-out !important; }
+        .notion-text .notion-text__content .notion-semantic-string strong {
+          text-align: center !important;
+          margin: 0 auto !important;
+          display: inline-block !important;
+          margin-top: 2rem; }
+          @media (max-width: 767.98px) {
+            .notion-text .notion-text__content .notion-semantic-string strong {
+              text-align: left !important; } }
+          .notion-text .notion-text__content .notion-semantic-string strong a.link {
+            /* Trying to solve the issue with the Page Blocks turning WHITE */
+            /*background: var(--contrast) !important;*/
+            background: var(--bg) !important;
+            color: var(--contrast) !important;
+            opacity: 1 !important;
+            padding: 0.6rem 1.6rem !important;
+            border-radius: 500rem !important;
+            font-size: 1.125rem !important;
+            font-family: "Clash Grotesk Semibold", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
+            letter-spacing: 0.05rem !important;
+            border: 0.2rem solid var(--contrast) !important;
+            transition: all 0.2s ease-in-out !important; }
+            .notion-text .notion-text__content .notion-semantic-string strong a.link:hover {
+              background: var(--bg) !important;
+              color: var(--contrast) !important; }
+  
+  .notion-column {
+    padding: 0 !important; }
+    .notion-column .notion-collection .notion-collection-table__wrapper .notion-collection-table td, .notion-column .notion-collection .notion-collection-table__wrapper .notion-collection-table tr {
+      border: none !important;
+      padding: 0 !important;
+      font-size: 1.125rem !important;
+      line-height: 1.75rem !important; }
+    .notion-column .notion-collection .notion-collection-table__wrapper .notion-collection-table tr {
+      display: block !important; }
+    .notion-column .notion-collection .notion-collection-table__wrapper .notion-collection-table .notion-collection-table__head {
+      display: none !important; }
+    .notion-column .notion-collection .notion-collection-table__wrapper .notion-collection-table .notion-collection-table__cell.date .notion-property__date span.date {
+      display: block !important;
+      font-size: 0.8125rem !important;
+      text-transform: uppercase !important;
+      letter-spacing: 0.15rem !important;
+      margin-bottom: 0.75rem !important;
+      opacity: 0.5 !important; }
+    .notion-column .notion-collection .notion-collection-table__wrapper .notion-collection-table .notion-collection-table__cell.title {
+      display: block !important; }
+      .notion-column .notion-collection .notion-collection-table__wrapper .notion-collection-table .notion-collection-table__cell.title a {
+        font-size: 1.25rem !important;
+        font-family: "Clash Grotesk Semibold", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
+        text-decoration: none !important;
+        transition: all 0.2s ease-in-out !important; }
+        .notion-column .notion-collection .notion-collection-table__wrapper .notion-collection-table .notion-collection-table__cell.title a:hover {
+          color: var(--accent) !important; }
+        .notion-column .notion-collection .notion-collection-table__wrapper .notion-collection-table .notion-collection-table__cell.title a span {
+          border: none !important; }
+          .notion-column .notion-collection .notion-collection-table__wrapper .notion-collection-table .notion-collection-table__cell.title a span:hover {
+            border: none !important; }
+      .notion-column .notion-collection .notion-collection-table__wrapper .notion-collection-table .notion-collection-table__cell.title.no-click {
+        display: none !important; }
+    .notion-column .notion-collection .notion-collection-table__wrapper .notion-collection-table .notion-collection-table__cell.select {
+      display: none !important; }
+    .notion-column .notion-collection .notion-collection-table__wrapper .notion-collection-table .notion-collection-table__cell.text {
+      display: none !important; }
+    .notion-column .notion-collection .notion-collection-table__wrapper .notion-collection-table .notion-collection-table__cell .notion-property__title__icon-wrapper {
+      display: none !important; }
+    .notion-column .notion-collection .notion-collection-table__wrapper .notion-collection-table .notion-collection-table__cell .notion-semantic-string {
+      white-space: pre-wrap !important; }
+    .notion-column .notion-collection .notion-collection-table__wrapper .notion-collection-table tr:first-child .notion-collection-table__cell.date .notion-property__date span.date {
+      display: block !important;
+      margin-top: 0 !important; }
+  
+  .notion-image {
+    margin: 0 !important; }
+    .notion-image img {
+      border-radius: 0.5rem !important; }
+  
+  #page-projects .notion-text,
+  #page-writing .notion-text,
+  .projects .notion-text,
+  .writing .notion-text {
+    min-height: 4.375rem !important; }
