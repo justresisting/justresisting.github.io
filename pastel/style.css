@@ -131,20 +131,10 @@ p.notion-text__content,
 .notion-numbered-list {
     font-family: var(--secondary-font)!important;
 }
-
-/* Remove Notion Header (Page Title, Cover and Icon)*/
-.notion-header {
-    display: none!important;
-}
-
-.super-content {
-    padding-top: 60px!important; /* You can change this number */ 
-}
-
 /* Turn a single line callout block into a button (Entire block is clickable) */
 .notion-callout { 
     position: relative!important;
-  }
+}
   
   .notion-callout .notion-callout__content:first-of-type > .notion-semantic-string span .notion-link {
     position: absolute!important;
@@ -165,6 +155,15 @@ p.notion-text__content,
 .notion-callout .notion-callout__icon .notion-icon .notion-callout__icon img .notion-callout__icon span {
     display: none!important;
   }
+
+  /* Remove Notion Header (Page Title, Cover and Icon)*/
+.notion-header {
+    display: none!important;}
+
+:root {    
+  --callout-icon-size: 20px!important;
+  --callout-emoji-size: 18px!important;}
+
 
 /* End Theme overwrites */
 
