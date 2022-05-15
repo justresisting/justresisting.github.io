@@ -1,0 +1,37 @@
+/* 4-Quote-Buttons
+
+[class="notion-quote bg-gray"] {
+  border: 2px solid var(--color-border-gray) !important;
+}
+
+[class="notion-quote bg-brown"] {
+  border: 2px solid var(--color-border-brown) !important;
+} 
+
+[class="notion-quote bg-orange"] {
+  border: 2px solid var(--color-border-orange) !important;
+}
+
+[class="notion-quote bg-yellow"] {
+  border: 2px solid var(--color-border-yellow) !important;
+}
+
+[class="notion-quote bg-green"] {
+  border: 2px solid var(--color-border-green) !important;
+}
+
+[class="notion-quote bg-blue"] {
+  border: 2px solid var(--color-border-blue) !important;
+}
+
+[class="notion-quote bg-purple"] {
+  border: 2px solid var(--color-purple) !important;
+} 
+
+[class="notion-quote bg-pink"] {
+  border: 2px solid var(--color-pink) !important;
+}
+
+[class="notion-quote bg-red"] {
+  border: 2px solid var(--color-red) !important;
+}
