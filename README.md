@@ -1,1 +1,1 @@
-# ametech-solutions.github.io
+# justresisting.github.io
