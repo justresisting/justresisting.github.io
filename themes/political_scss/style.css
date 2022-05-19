@@ -1570,16 +1570,13 @@
     overflow: auto;
   }
   
-  .notion-code {
-    color: red !important;
-  }
   .notion-code code {
     /*  Affects Text Inside the Codeblock */
     /* Text Shadow Can Cause Code Distortion */
     color: var(--color-text-gray) !important;
     background: none !important;
     text-shadow: transparent 0px 0px !important;
-    
+ 
   }
   
   

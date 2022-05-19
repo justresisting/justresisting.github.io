@@ -1,0 +1,109 @@
+    /* Default Quoteblock Button */
+    [class="notion-quote"] {
+      color: white !important;
+      border: 3px solid rgb(var(--color-white)) !important;
+      background: transparent !important;
+    }
+
+    /* Gray Quoteblock Button */
+    [class="notion-quote bg-gray"] {
+      border: 3px solid rgb(var(--color-black)) !important;
+    }
+
+    /* Gray Quoteblock Button :Hover */
+    [class="notion-quote bg-gray"]:hover {
+      border: 3px solid var(--color-border-default) !important;
+    }
+
+    /* Brown Quoteblock Button */
+    [class="notion-quote bg-brown"] {
+      color: black !important;
+      border: 3px solid var(--color-border-brown) !important;
+    }
+
+    /* Brown Quoteblock Button :Hover */
+    [class="notion-quote bg-brown"]:hover {
+      border: 3px solid var(--color-border-default) !important;
+    }
+
+    /* Orange Quoteblock Button */
+    [class="notion-quote bg-orange"] {
+      color: black !important;
+      border: 3px solid var(--color-border-orange) !important;
+    }
+
+    /* Orange Quoteblock Button :Hover */
+    [class="notion-quote bg-orange"]:hover {
+      border: 3px solid var(--color-border-default) !important;
+    }
+
+    /* Yellow Quoteblock Button */
+    [class="notion-quote bg-yellow"] {
+      color: black !important;
+      border: 3px solid var(--color-border-yellow) !important;
+    }
+
+    /* Yellow Quoteblock Button :Hover */
+    [class="notion-quote bg-yellow"]:hover {
+      border: 3px solid var(--color-border-default) !important;
+    }
+
+    /* Green Quoteblock Button */
+    [class="notion-quote bg-green"] {
+      color: black !important;
+      border: 3px solid var(--color-border-green) !important;
+    }
+
+    /* Green Quoteblock Button :hover */
+    [class="notion-quote bg-green"]:hover {
+      color: black !important;
+      border: 3px solid var(--color-border-default) !important;
+    }
+
+    /* Blue Quoteblock Button */
+    [class="notion-quote bg-blue"] {
+      color: black !important;
+      border: 1px solid var(--color-border-blue) !important;
+    }
+
+    /* Blue Quoteblock Button :hover */
+    [class="notion-quote bg-blue"]:hover {
+      color: black !important;
+      border: 1px solid var(--color-border-default) !important;
+    }
+
+    /* Purple Quoteblock Button */
+    [class="notion-quote bg-purple"] {
+      color: black !important;
+      border: 1px solid var(--color-border-purple) !important;
+    }
+
+    /* Purple Quoteblock Button :hover */
+    [class="notion-quote bg-purple"]:hover {
+      color: black !important;
+      border: 1px solid var(--color-border-default) !important;
+    }
+
+    /* Pink Quoteblock Button  */ 
+    [class="notion-quote bg-pink"] {
+      color: black !important;
+      border: 2px solid var(--color-border-pink) !important;
+    }
+
+    /* Pink Quoteblock Button :hover */
+    [class="notion-quote bg-pink"]:hover {
+      color: black !important;
+      border: 2px solid var(--color-border-default) !important;
+    }
+
+    /* Red Quoteblock Button */
+    [class="notion-quote bg-red"] {
+      color: black !important;
+      border: 2px solid var(--color-border-red) !important;
+    }
+
+    /* Red Quoteblock Button :hover */
+    [class="notion-quote bg-red"]:hover {
+      color: black !important;
+      border: 2px solid var(--color-border-default) !important;
+    }

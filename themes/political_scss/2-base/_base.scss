@@ -6,7 +6,7 @@
 /******* #HTML *******/
 
 html {
-  font-size: var(--body-font) !important;  
+  font-size: var(--body-font) !important;
 }
 
 body {
@@ -54,7 +54,7 @@ body {
   padding-right: 1em !important;
 }
 
-.super-navbar__actions, 
+.super-navbar__actions,
 .super-navbar__logo {
   padding: 0 !important;
 }
@@ -81,7 +81,7 @@ body {
 
 .notion-header__cover.no-cover {
   max-height: 4em !important;
-  height: 0 !important; 
+  height: 0 !important;
 }
 
 .notion-heading {
@@ -162,12 +162,12 @@ body {
 p {
   line-height: 100%  !important;
   margin-bottom: 1rem !important;
-  max-width: 1440px !important;    
+  max-width: 1440px !important;
   -webkit-animation: fadeIn 1.25s !important;
   -moz-animation: fadeIn 1.25s !important;
   -ms-animation: fadeIn 1.25s !important;
   -o-animation: fadeIn 1.25s !important;
-  animation: fadeIn 1.25s !important;     
+  animation: fadeIn 1.25s !important;
 }
 
 
@@ -175,7 +175,7 @@ p {
 
   h1 {
     font-style: normal  !important;
-    font-size: 3rem  !important;
+    font-size: 2.5rem  !important;
     line-height: 100%  !important;
     letter-spacing: -0.04em  !important;
     margin-bottom: 0.5em !important;
@@ -193,7 +193,7 @@ p {
 
     h2 {
       font-style: normal  !important;
-      font-size: 2rem  !important;
+      font-size: 1.75rem  !important;
       line-height: 100%  !important;
       letter-spacing: -0.03em  !important;
       margin-bottom: 0.5em !important;
@@ -261,29 +261,29 @@ p.notion-callout__content{
 
 
 /* This may come in handy sometime*/
-/* Apparently anything with the class bg-<color>-light 
+/* Apparently anything with the class bg-<color>-light
    has a BACKGROUND color selected from within Notion.
    Anything with the class bg-<color> has a FOREGROUND
    color selected from within Notion.
-/* 
-.notion-callout.bg-gray-light, 
-.notion-callout.bg-brown-light, 
-.notion-callout.bg-orange-light, 
-.notion-callout.bg-yellow-light, 
-.notion-callout.bg-green-light, 
-.notion-callout.bg-blue-light, 
-.notion-callout.bg-purple-light, 
-.notion-callout.bg-pink-light, 
+/*
+.notion-callout.bg-gray-light,
+.notion-callout.bg-brown-light,
+.notion-callout.bg-orange-light,
+.notion-callout.bg-yellow-light,
+.notion-callout.bg-green-light,
+.notion-callout.bg-blue-light,
+.notion-callout.bg-purple-light,
+.notion-callout.bg-pink-light,
 .notion-callout.bg-red-light
 
-.notion-callout.bg-gray, 
-.notion-callout.bg-brown, 
-.notion-callout.bg-orange, 
-.notion-callout.bg-yellow, 
-.notion-callout.bg-green, 
-.notion-callout.bg-blue, 
-.notion-callout.bg-purple, 
-.notion-callout.bg-pink, 
+.notion-callout.bg-gray,
+.notion-callout.bg-brown,
+.notion-callout.bg-orange,
+.notion-callout.bg-yellow,
+.notion-callout.bg-green,
+.notion-callout.bg-blue,
+.notion-callout.bg-purple,
+.notion-callout.bg-pink,
 .notion-callout.bg-red,
 */
 
@@ -385,7 +385,7 @@ p.notion-callout__content{
 
 .notion-bulleted-list {
   color: var(--color-text-white);
-  background-color: rgba(var(--color-card-bg), .25);
+  background-color: var(--color-card-bg);
   font-family: var(--secondary-font) !important;
 }
 
@@ -401,7 +401,7 @@ p.notion-callout__content{
   color: var(--color-text-white);
   background-color: rgba(var(--color-card-bg), .25);
   font-family: var(--secondary-font) !important;
-} 
+}
 
 
 /* #Toggle block */
@@ -514,7 +514,7 @@ p.notion-callout__content{
 }
 
 
-.notion-table td, 
+.notion-table td,
 .notion-table th {
   padding: 1rem !important;
   overflow: hidden !important;
@@ -537,7 +537,7 @@ p.notion-callout__content{
   border-radius: var(--element-radius) !important;
 }
 
-.notion-collection-table td, 
+.notion-collection-table td,
 .notion-collection-table th {
   padding: 1rem !important;
   border: 1px solid var(--color-border-default) !important;
@@ -579,7 +579,7 @@ p.notion-callout__content{
   margin-bottom: 1rem !important;
 }
 
-.notion-collection-board .notion-property__title   { 
+.notion-collection-board .notion-property__title   {
   padding: 1rem !important;
   width: fit-content !important;
 }
@@ -647,7 +647,7 @@ border-bottom: none !important;
 white-space: normal !important;
 }
 
-.notion-collection-list__item-property .notion-property__date, 
+.notion-collection-list__item-property .notion-property__date,
 .notion-collection-list__item-property .notion-property__select .notion-pill {
   font-size: 1em !important;
 }
@@ -698,7 +698,7 @@ white-space: normal !important;
 
 /* #View switcher (Database View Dropdowns) */
 
-.notion-dropdown__button p, 
+.notion-dropdown__button p,
 .notion-dropdown__option p{
   margin: 0px 0.5em !important;
 }
@@ -768,10 +768,40 @@ img {
 
 /* #Code */
 
-.notion-code pre{
+/* Affects BACKGROUND of Codeblock */
+.notion-code pre {
   border-radius: var(--element-radius)  !important;
+  background-color: var(--color-bg-gray) !important;
+  padding: 34px 8px 32px 32px;
+  /* color: #fff; */
+  /* text-shadow: white 20px 18px; */
+  box-shadow: lime -1px 1px 8px 1px !important;
+  font-family: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+  font-size: 1em;
+  text-align: left;
+  border-radius: 3px;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  overflow-wrap: normal;
+  line-height: 1.5;
+  tab-size: 4;
+  hyphens: none;
+  margin: 10px 0;
+  direction: ltr;
+  overflow: auto;
 }
 
+/*  Affects Text Inside the Codeblock */
+/* Text Shadow Can Cause Code Distortion */
+.notion-code code {
+color: rgb(155, 153, 147);
+background: none;
+/* text-shadow: white 0px 1px; */
+font-family: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+font-size: 0.9em;
+line-height: 1.4;
+}
 
 /* #File */
 
@@ -878,14 +908,14 @@ img {
   border-bottom: none !important;
 }
 
-.notion-table-of-contents.bg-yellow, 
-.notion-table-of-contents.bg-yellow, 
-.notion-table-of-contents.bg-orange, 
-.notion-table-of-contents.bg-gray, 
-.notion-table-of-contents.bg-brown, 
-.notion-table-of-contents.bg-green, 
-.notion-table-of-contents.bg-blue, 
-.notion-table-of-contents.bg-purple, 
+.notion-table-of-contents.bg-yellow,
+.notion-table-of-contents.bg-yellow,
+.notion-table-of-contents.bg-orange,
+.notion-table-of-contents.bg-gray,
+.notion-table-of-contents.bg-brown,
+.notion-table-of-contents.bg-green,
+.notion-table-of-contents.bg-blue,
+.notion-table-of-contents.bg-purple,
 .notion-table-of-contents.bg-pink,
 .notion-table-of-contents.bg-red{
   border: none !important;
