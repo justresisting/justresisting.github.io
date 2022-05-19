@@ -28,43 +28,46 @@
   line-height: 1 !important;
 }
 
-/** Default Callout Button - BG color in Notion */
+/** Default Callout Button */
 [class="notion-callout border"] {
+  /*! max-width: 250px !important; */
   color: white !important;
-  background-color: var(--color-card-bg) !important;
-  border-color: var(--color-card-bg) !important;
-  box-shadow: 0 0 40px 40px rgb(var(--color-card-bg)) inset, 0 0 0 0 rgb(var(--color-card-bg)) !important;
-  transition: all 150ms ease-in-out !important;
+  background-color: var(--color-bg-default) !important;
+  border-color: var(--color-border-transparent) !important;
+  box-shadow: 2px 2px 2px 2px var(--color-default) inset, 2px 2px 2px 2px var(--color-default) !important;
+  transition: all 500ms ease-in-out !important;
 }
 
-/** Default Callout Button - BG color in Notion :HOVER */
+/** Default Callout Button :HOVER */
 [class="notion-callout border"]:hover {
+  /*! max-width: 250px !important; */
   color: white !important;
-  background-color: var(--color-transparent) !important;
-  border-color: var(--color-card-bg) !important;
-  box-shadow: 0 0 5px 0 rgb(var(--color-card-bg)) inset, 0 0 5px 4px rgb(var(--color-card-bg)) !important;
+  background-color: var(--color-bg-default) !important;
+  border-color: var(--color-border-) !important;
+  box-shadow: 0 0 10px 0 var(--color-default) inset, 0 0 3px 6px var(--color-default) !important;
 }
 
-
-/** Gray Callout Button - BG color in Notion */
+/* ^ Gray Callout Button */
 [class="notion-callout bg-gray-light border"] {
   /*! max-width: 250px !important; */
   color: white !important;
-  border-color: var(--color-transparent) !important;
-  box-shadow: 0 0 40px 40px rgb(var(--color-gray)) inset, 0 0 0 0 rgb(var(--color-gray)) !important;
-  transition: all 150ms ease-in-out !important;
+  background-color: var(--color-bg-gray) !important;
+  border-color: var(--color-border-transparent) !important;
+  box-shadow: 2px 2px 2px 2px rgb(var(--color-black)) inset, 2px 2px 2px 2px rgb(var(--color-black)) !important;
+  transition: all 500ms ease-in-out !important;
 }
 
-/** Gray Callout Button - BG color in Notion :HOVER */
+/*^ Gray Callout Button :HOVER */
 [class="notion-callout bg-gray-light border"]:hover {
   /*! max-width: 250px !important; */
   color: white !important;
-  background-color: rgba(var(--color-gray),.75) !important;
-  border-color: rgb(var(--color-black)) !important;
-  box-shadow: 0 0 0 0 rgb(var(--color-gray)) inset, 0 0 3px 2px rgb(var(--color-gray)) !important;
+  background-color: var(--color-bg-gray-light) !important;
+  border-color: var(--color-border-transparent) !important;
+  box-shadow: 0 0 10px 0 rgb(var(--color-black)) inset, 0 0 3px 6px rgb(var(--color-black)) !important;
 }
 
-/** Brown Callout Button - BG color in Notion */
+
+/** Brown Callout Button */
 [class="notion-callout bg-brown-light border"] {
   /*! max-width: 250px !important; */
   color: white !important;
@@ -74,7 +77,7 @@
   transition: all 150ms ease-in-out !important;
 }
 
-/** Brown Callout Button - BG color in Notion :HOVER */
+/** Brown Callout Button :HOVER */
 [class="notion-callout bg-brown-light border"]:hover {
   /*! max-width: 250px !important; */
   color: white !important;
@@ -83,7 +86,7 @@
   box-shadow: 0 0 5px 0 rgb(var(--color-brown)) inset, 0 0 3px 2px rgba(var(--color-brown),1) !important;
 }
 
-/** Orange Callout Button - BG color in Notion */
+/** Orange Callout Button */
 [class="notion-callout bg-orange-light border"] {
   /*! max-width: 250px !important; */
   color: black !important;
@@ -92,7 +95,7 @@
   transition: all 150ms ease-in-out !important;
 }
 
-/** Orange Callout Button - BG color in Notion :HOVER */
+/** Orange Callout Button :HOVER */
 [class="notion-callout bg-orange-light border"]:hover {
   /*! max-width: 250px !important; */
   color: black !important;
@@ -101,7 +104,7 @@
   box-shadow: 0 0 5px 0 rgb(var(--color-orange)) inset, 0 0 3px 2px rgba(var(--color-orange),0.5) !important;
 }
 
-/** Yellow Callout Button - BG color in Notion */
+/** Yellow Callout Button */
 [class="notion-callout bg-yellow-light border"] {
   /*! max-width: 250px !important; */
   color: black !important;
@@ -110,7 +113,7 @@
   transition: all 150ms ease-in-out !important;
 }
 
-/** Yellow Callout Button - BG color in Notion :HOVER */
+/** Yellow Callout Button :HOVER */
 [class="notion-callout bg-yellow-light border"]:hover {
   /*! max-width: 250px !important; */
   color: black !important;
@@ -119,7 +122,7 @@
   box-shadow: 0 0 5px 0 rgb(var(--color-yellow)) inset, 0 0 3px 2px rgb(var(--color-yellow)) !important;
 }
 
-/** Green Callout Button - BG color in Notion */
+/** Green Callout Button */
 [class="notion-callout bg-green-light border"] {
   /*! max-width: 250px !important; */
   color: white !important;
@@ -128,7 +131,7 @@
   transition: all 150ms ease-in-out !important;
 }
 
-/** Green Callout Button - BG color in Notion :HOVER */
+/** Green Callout Button :HOVER */
 [class="notion-callout bg-green-light border"]:hover {
   /*! max-width: 250px !important; */
   color: white !important;
@@ -137,7 +140,7 @@
   box-shadow: 0 0 5px 0 rgb(var(--color-green)) inset, 0 0 3px 2px rgba(var(--color-green),0.5) !important;
 }
 
-/** Blue Callout Button - BG color in Notion */
+/** Blue Callout Button */
 [class="notion-callout bg-blue-light border"] {
   /*! max-width: 250px !important; */
   color: white !important;
@@ -146,7 +149,7 @@
   transition: all 150ms ease-in-out !important;
 }
 
-/** Blue Callout Button - BG color in Notion :HOVER */
+/** Blue Callout Button :HOVER */
 [class="notion-callout bg-blue-light border"]:hover {
   /*! max-width: 250px !important; */
   color: white !important;
@@ -155,7 +158,7 @@
   box-shadow: 0 0 5px 0 rgb(var(--color-blue)) inset, 0 0 3px 2px rgb(var(--color-blue)) !important;
 }
 
-/** Purple Callout Button - BG color in Notion */
+/** Purple Callout Button */
 [class="notion-callout bg-purple-light border"] {
   /*! max-width: 250px !important; */
   color: white !important;
@@ -164,7 +167,7 @@
   transition: all 150ms ease-in-out !important;
 }
 
-/** Purple Callout Button - BG color in Notion :HOVER */
+/** Purple Callout Button :HOVER */
 [class="notion-callout bg-purple-light border"]:hover {
   /*! max-width: 250px !important; */
   color: white !important;
@@ -173,7 +176,7 @@
   box-shadow: 0 0 5px 0 rgb(var(--color-purple)) inset, 0 0 3px 2px rgb(var(--color-purple)) !important;
 }
 
-/** Pink Callout Button - BG color in Notion */
+/** Pink Callout Button */
 [class="notion-callout bg-pink-light border"] {
   /*! max-width: 250px !important; */
   color: black !important;
@@ -182,7 +185,7 @@
   transition: all 150ms ease-in-out !important;
 }
 
-/** Pink Callout Button - BG color in Notion :HOVER */
+/** Pink Callout Button :HOVER */
 [class="notion-callout bg-pink-light border"]:hover {
   /*! max-width: 250px !important; */
   color: white !important;
@@ -192,7 +195,7 @@
 }
 
 
-/** Red Callout Button - BG color in Notion */
+/** Red Callout Button */
 [class="notion-callout bg-red-light border"] {
   /*! max-width: 250px !important; */
   color: white !important;
@@ -201,7 +204,7 @@
   transition: all 150ms ease-in-out !important;
 }
 
-/** Red Callout Button - BG color in Notion :HOVER */
+/** Red Callout Button :HOVER */
 [class="notion-callout bg-red-light border"]:hover {
   /*! max-width: 250px !important; */
   color: white !important;

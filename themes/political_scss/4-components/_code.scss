@@ -1,0 +1,44 @@
+// Code 
+
+  // Affects Notion Code Markdown  
+code.code {
+    border-radius: var(--element-radius) !important;
+    background-color: var(--color-bg-pink-light) !important;
+    color: var(--color-text-pink) !important;
+    font-size: 0.9rem;
+    padding: .2em .4em;
+    word-break: break-word !important;
+  }
+
+
+  // Affects BACKGROUND of Codeblock 
+.notion-code pre {
+  border-radius: var(--element-radius)  !important;
+  background-color: var(--color-bg-black) !important;
+  padding: 17px 8px 16px 16px;
+  // color: #fff; 
+  // text-shadow: white 20px 18px; 
+  box-shadow: lime -1px 1px 8px 1px !important;
+  font-family: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+  font-size: 1em;
+  text-align: left;
+  border-radius: 3px;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  overflow-wrap: normal;
+  line-height: 1.5;
+  tab-size: 4;
+  hyphens: none;
+  margin: 10px 0;
+  direction: ltr;
+  overflow: auto;
+}
+
+.notion-code code {
+  // Affects Text Inside the Codeblock 
+  color: rgb(var(--color-white)) !important;
+  background: var(--color-bg-gray) !important; 
+  // Text Shadow Can Cause Code Distortion 
+  text-shadow: none 0px 0px !important;
+}

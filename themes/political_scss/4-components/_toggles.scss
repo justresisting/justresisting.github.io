@@ -1,0 +1,75 @@
+//#Toggle block 
+
+  //^ SHOW/Hide All Toggles
+.notion-toggle {
+  display: block !important;
+}
+  //^ HIDE Toggles with Specific Color BG 
+  //$ Toggle with BG color below won't appear on page 
+  //* Replace brown with any color (optional) 
+.notion-toggle.bg-brown {
+  display: none !important;
+}
+
+.notion-toggle.open {
+  color: var(--color-bg-pink) !important;
+  margin-bottom: 1rem !important;
+}
+
+.notion-toggle__summary {
+  font-weight: 600 !important;
+}
+
+.notion-toggle__summary::before {
+  font-size: 2em !important;
+  border-radius: var(--element-radius) !important;
+  margin: 0 0em 0.25em 0 !important;
+  position: relative !important;
+}
+
+
+//# Simple tables 
+
+
+//# Toggle heading 1 
+
+h1.notion-heading {
+    color: var(--color-text-red) !important;
+    text-shadow: 5px 5px 5px black;
+}
+
+.notion-toggle-heading-1 {
+  //$ Affects Toggle Glyphs   
+  color: var(--color-accent-bg) !important;
+  //$ Area under an open heading toggle
+  font-size: 2rem !important;
+}
+
+
+//# Toggle heading 2 
+
+h2.notion-heading {
+    color: var(--color-text-orange) !important;
+    text-shadow: 4px 4px 4px black;
+}
+
+.notion-toggle-heading-2 {
+  //$ Affects Toggle Glyphs   
+  color: var(--color-accent-bg) !important;
+  //$ Area under an open heading toggle
+  font-size: 1.5rem !important;
+}
+
+//# Toggle heading 3 
+
+h3.notion-heading {
+    color: var(--color-text-yellow);
+    text-shadow: 3px 3px 3px black;
+}
+
+.notion-toggle-heading-3 {
+  //$ Affects Toggle Glyphs   
+  color: var(--color-accent-bg) !important;
+  //$ Area under an open heading toggle
+  font-size: 1rem !important;
+}
