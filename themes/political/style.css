@@ -417,7 +417,7 @@
   /* #Page */
   
   .notion-page {
-    border: 1px solid var(--color-border-transparent) !important;
+    border: 1px solid var(--color-border-default) !important;
     border-radius: var(--element-radius) !important;
   }
   
@@ -429,7 +429,7 @@
   }
   
   .notion-page__title .notion-semantic-string {
-    border-bottom: 1px solid var(--color-border-transparent) !important;
+    border-bottom: 1px solid var(--color-border-default) !important;
   }
 
   /*^ Property name in databases*/
@@ -1240,7 +1240,7 @@ h3.notion-heading.toggle,
   }
   
   .notion-collection-table__wrapper{
-    background-color: var(--color-border-transparent) !important;
+    background-color: var(--color-border-default) !important;
     padding: 1em !important;
     border-radius: var(--element-radius) !important;
   }
@@ -1279,7 +1279,7 @@ h3.notion-heading.toggle,
     overflow-x: scroll !important;
     margin-bottom: 1rem !important;
     padding: 1em !important;
-    background-color: var(--color-border-transparent) !important;
+    background-color: var(--color-border-default) !important;
     border-radius: var(--element-radius) !important;
   }
   
@@ -1297,7 +1297,7 @@ h3.notion-heading.toggle,
   /* #Gallery */
   
   .notion-collection-card.gallery {
-    border: 1px solid var(--color-border-transparent) !important;
+    border: 1px solid var(--color-border-default) !important;
     border-radius: var(--element-radius) !important;
     transition: .3s ease-in-out  !important;
   }
@@ -1331,7 +1331,7 @@ h3.notion-heading.toggle,
   .notion-collection-list {
     border: none !important;
     padding: 1rem !important;
-    background-color: var(--color-border-transparent) !important;
+    background-color: var(--color-border-default) !important;
     border-radius: var(--element-radius) !important;
   }
   
@@ -1381,7 +1381,7 @@ h3.notion-heading.toggle,
   .notion-collection-calendar {
     border: none !important;
     padding: 1rem !important;
-    background-color: var(--color-border-transparent) !important;
+    background-color: var(--color-border-default) !important;
     border-radius: var(--element-radius) !important;
   }
   
@@ -1606,7 +1606,7 @@ h3.notion-heading.toggle,
     margin: 1rem 0 !important;
     border-radius: var(--element-radius) !important;
     z-index: 19 !important;
-    border: 1px solid var(--color-border-transparent) !important;
+    border: 1px solid var(--color-border-default) !important;
     color: var(--color-white) !important;
     /*background: var(--color-card-bg) !important;*/
     background-color: transparent !important;
