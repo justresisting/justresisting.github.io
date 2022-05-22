@@ -429,8 +429,9 @@
   }
   
   .notion-page__title .notion-semantic-string {
-    border-bottom: none var(--color-border-transparent) !important;
+    border-bottom: 1px solid var(--color-border-transparent) !important;
   }
+  
   /*^ Property name in databases*/
   .notion-page__property-name {
     display: flex;
