@@ -418,7 +418,7 @@
   /* #Page */
   
   .notion-page {
-    border: 1px solid var(--color-border-default) !important;
+    border-color: transparent !important;
     border-radius: var(--element-radius) !important;
   }
   
