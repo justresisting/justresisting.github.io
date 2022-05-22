@@ -46,6 +46,7 @@
   --color-card-bg: var(--color-default) !important;
   /*^ default color for element :hover*/
   --color-ui-hover-bg: var(--color-default-hover) !important;
+  --color-ui-hover-bg-light: var(--color-default-hover) !important;
   /*^ h1 color */
   --color-text-h1: rgb(255, 50, 50) !important;
   /*^ h2 color */
