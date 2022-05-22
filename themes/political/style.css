@@ -1478,14 +1478,15 @@ h3.notion-heading.toggle,
   /* Code */
 
     /* Affects Notion Code Markdown  */
-  code.code {
-    border-radius: var(--element-radius) !important;
-    background-color: var(--color-bg-blue-light) !important;
-    color: var(--color-text-red) !important;
-    font-size: 0.9rem;
-    padding: .2em .4em !important;
-    word-break: break-word !important;
-  }
+code.code {
+  border-radius: var(--element-radius) !important;
+  background-color: var(--color-bg-blue-light) !important;
+  color: var(--color-text-pink) !important;
+  text-shadow: 1px 1px 1px black !important;
+  font-size: 0.9rem;
+  padding: .2em .4em;
+  word-break: break-word !important;
+}
   
   /* Affects BACKGROUND of Codeblock */
   .notion-code pre {
