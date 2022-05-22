@@ -6,129 +6,53 @@
 /** Default var(--color-card-bg) Callout Border - Notion FG Color */
 [class="notion-callout color-default-light border"] {
   border: 2px solid var(--color-card-bg) !important;
-  background-color: var(--color-border-transparent) !important;
   color: var(--color-text-default) !important;
-}
-
-/** Default var(--color-card-bg) Callout Border - Notion FG Color :Hover */
-[class="notion-callout color-default-light border"] {
-  background-color: var(--color-card-bg) !important;
-  color: var(--color-text-default) !important;
-}
-
-/** Gray Callout Border - Notion FG Color */
-[class="notion-callout color-gray-light border"] {
-  border: 2px solid rgb(var(--color-gray)) !important;
-  background-color: rgb(var(--color-border-transparent)) !important;
-  color: rgb(var(--color-text-default)) !important;
-}
-
-/** Gray Callout Border - Notion FG Color :Hover */
-[class="notion-callout color-gray-light border"]:hover {
-  background-color: rgba(var(--color-gray),.25) !important;
-  color: rgb(var(--color-text-default)) !important;
 }
 
 /** Brown Callout Border - Notion FG Color */
 [class="notion-callout color-brown-light border"] {
-  border: 2px solid rgb(var(--color-brown)) !important;
-  background-color: rgb(var(--color-border-transparent)) !important;
-  color: rgb(var(--color-text-default)) !important;
-}
-
-/** Brown Callout Border - Notion FG Color :Hover */
-[class="notion-callout color-brown-light border"]:hover {
-  background-color: rgba(var(--color-brown),.5) !important;
-  color: rgb(var(--color-text-default)) !important;
+  border: 2px solid var(--color-border-brown) !important;
+  color: var(--color-text-default) !important;
 }
 
 /** Orange Callout Border - Notion FG Color */
 [class="notion-callout color-orange-light border"] {
-  border: 2px solid rgb(var(--color-orange)) !important;
-  background-color: rgb(var(--color-border-transparent)) !important;
-  color: rgb(var(--color-text-default)) !important;
-}
-
-/** Orange Callout Border - Notion FG Color :Hover */
-[class="notion-callout color-orange-light border"]:hover {
-  background-color: rgba(var(--color-orange),.25) !important;
-  color: rgb(var(--color-text-black)) !important;
+  border: 2px solid var(--color-border-orange) !important;
+  color: var(--color-text-default) !important;
 }
 
 /** Yellow Callout Border - Notion FG Color */
 [class="notion-callout color-yellow-light border"] {
-  border: 2px solid rgb(var(--color-yellow)) !important;
-  background-color: rgb(var(--color-border-transparent)) !important;
-  color: rgb(var(--color-text-default)) !important;
-}
-
-/** Yellow Callout Border - Notion FG Color :Hover */
-[class="notion-callout color-yellow-light border"]:hover {
-  background-color: rgba(var(--color-yellow),.25) !important;
-  color: rgb(var(--color-text-black)) !important;
+  border: 2px solid var(--color-border-yellow) !important;
+  color: var(--color-text-default) !important;
 }
 
 /** Green Callout Border - Notion FG Color */
 [class="notion-callout color-green-light border"] {
-  border: 2px solid rgb(var(--color-green)) !important;
-  background-color: rgb(var(--color-border-transparent)) !important;
-  color: rgb(var(--color-text-default)) !important;
-}
-
-/** Green Callout Border - Notion FG Color :Hover */
-[class="notion-callout color-green-light border"]:hover {
-  background-color: rgba(var(--color-green),0.25) !important;
-  color: rgb(var(--color-text-default)) !important;
+  border: 2px solid var(--color-border-green) !important;
+  color: var(--color-text-default) !important;
 }
 
 /** Blue Callout Border - Notion FG Color */
 [class="notion-callout color-blue-light border"] {
-  border: 3px solid rgba(0,255,255,.5) !important;
-  background-color: rgb(var(--color-border-transparent)) !important;
-  color: rgb(var(--color-text-default)) !important;
-}
-
-/** Blue Callout Border - Notion FG Color :Hover */
-[class="notion-callout color-blue-light border"]:hover {
-  background-color: rgba(var(--color-blue),.5) !important;
-  color: rgb(var(--color-text-default)) !important;
+  border: 3px solid var(--color-border-blue) !important;
+  color: var(--color-text-default) !important;
 }
 
 /** Purple Callout Border - Notion FG Color */
 [class="notion-callout color-purple-light border"] {
-  border: 2px solid rgba(var(--color-pink),.5) !important;
-  background-color: rgb(var(--color-border-transparent)) !important;
-  color: rgb(var(--color-text-default)) !important;
-}
-
-/** Purple Callout Border - Notion FG Color :Hover */
-[class="notion-callout color-purple-light border"]:hover {
-  background-color: rgba(var(--color-purple),.5) !important;
-  color: rgb(var(--color-text-default)) !important;
+  border: 2px solid var(--color-border-purple) !important;
+  color: var(--color-text-default) !important;
 }
 
 /** Pink Callout Border - Notion FG Color */
 [class="notion-callout color-pink-light border"] {
-  border: 2px solid rgb(var(--color-pink)) !important;
-  background-color: rgb(var(--color-border-transparent)) !important;
-  color: rgb(var(--color-text-default)) !important;
-}
-
-/** Pink Callout Border - Notion FG Color :Hover */
-[class="notion-callout color-pink-light border"]:hover {
-  background-color: rgba(var(--color-pink),.15) !important;
-  color: rgb(var(--color-text-black)) !important;
+  border: 2px solid var(--color-border-pink) !important;
+  color: var(--color-text-default) !important;
 }
 
 /** Red Callout Border - Notion FG Color */
 [class="notion-callout color-red-light border"] {
-  border: 2px solid rgb(var(--color-red)) !important;
-  background-color: rgb(var(--color-border-transparent)) !important;
-  color: rgb(var(--color-text-default)) !important;
-}
-
-/** Red Callout Border - Notion FG Color :Hover */
-[class="notion-callout color-red-light border"]:hover {
-  background-color: rgba(var(--color-red),.25) !important;
-  color: rgb(var(--color-text-default)) !important;
+  border: 2px solid var(--color-border-red) !important;
+  color: var(--color-text-default) !important;
 }
