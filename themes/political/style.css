@@ -32,7 +32,8 @@
   /*^ global foreground text color */
   --color-text-default: var(--color-text-white) !important;
   /*^ dimmer global foreground text color */
-  --color-text-default-light: var(--color-text-black) !important;
+  /*^ */
+  --color-text-default-light: rgba(var(--color-text-white),1) !important;
   /*^ default border color for elements */
   --color-border-default: var(--color-default) !important;
   /*^ alt border color w/ transparency*/
