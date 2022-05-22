@@ -925,8 +925,8 @@
   /* #Divider */
   
   .notion-divider {
-    border-bottom: none !important;
-    margin: 4em 0 !important;
+    border-bottom: 3px solid var(--color-default) !important;
+    margin: 1rem 0 !important;
   }
   
   
