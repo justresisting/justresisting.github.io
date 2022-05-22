@@ -1435,11 +1435,11 @@ h3.notion-heading.toggle,
   /* Affects BACKGROUND of Codeblock */
   .notion-code pre {
     border-radius: var(--element-radius)  !important;
-    background-color: rgba(0,0,0,.25) !important;
+    background-color: var(--color-bg-black-light) !important;
     padding: 17px 8px 16px 16px;
     /* color: #fff; */
     /* text-shadow: white 20px 18px; */
-    box-shadow: lime -1px 1px -1px 1px !important;
+    box-shadow: lime 0 0 0 2px !important;
     font-family: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
     font-size: 1em;
     text-align: left;
@@ -1457,6 +1457,7 @@ h3.notion-heading.toggle,
   .notion-code code {
     /*  Affects Text Inside the Codeblock */
     /* Text Shadow Can Cause Code Distortion */
+    color: white !important;
     text-shadow: transparent 1px 1px !important;
   }
   
