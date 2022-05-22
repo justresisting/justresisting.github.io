@@ -7,8 +7,8 @@
 /* * lookit this */
 /* // this done */
 /* #section */
-/* ##subsection*/
-/* ###variables */
+/* $subsection*/
+/* %variables */
 
 /* #VARIABLES */
 
@@ -1345,7 +1345,7 @@ h3.notion-heading.toggle,
   }
   
   .notion-collection-list__item:hover {
-    background-color: var(--color-default) !important;
+    background-color: var(--color-default-hover) !important;
     box-shadow: 0px 24px 16px 0px rgba(0,0,0,0.05) !important;
     -webkit-box-shadow: 1px 17px 23px 0px rgba(0,0,0,0.05) !important;
     -moz-box-shadow: 1px 17px 23px 0px rgba(0,0,0,0.05) !important;
