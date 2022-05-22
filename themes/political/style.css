@@ -1233,7 +1233,7 @@ h3.notion-heading.toggle,
   
   .notion-collection-table {
     font-size: 1rem !important;
-    border: 1px solid var(--color-border-transparent) !important;
+    border: 1px solid var(--color-border-default) !important;
     border-radius: var(--element-radius) !important;
     overflow: hidden !important;
     padding: 1em !important;
