@@ -13,51 +13,54 @@
 /* #VARIABLES */
 
 :root {
-  /* Global Border Radius [Rounding] */
+/* #VARIABLES */
+  /* #UI */
+  /*^ Global Border Radius [Rounding] */
   --element-radius: 15px !important;
-  /* Desktop Page Width */
+  /*^ Desktop Page Width */
   --theme-width: 1440px !important;
-  /* Site Font Size*/
+  /*^ Site Font Size*/
   --body-font: 16px !important;
-  /* Site Column Spacing*/
+  /*^ Site Column Spacing*/
   --column-spacing: 2em !important;
-  /** UI */
-  /** --color-default is the default theme color */
-  --color-default: (37, 77, 117)  !important; /* rgb(10,49,97) */
-  /** Site Background */
-  /** --color-bg-default sets background color SITE WIDE */
-  --color-bg-default: rgb(10, 49, 97) !important; /* rgb(10,49,97) */
-  --color-ui-hover-bg: rgba(var(--color-pink),.15) !important;
-  --color-ui-hover-bg-light: rgba(var(--color-white),0.1)  !important;
-  --color-accent-bg: rgba(var(--color-red),.75)  !important;
-  --color-card-bg: rgb(37, 77, 117) !important;
-  --color-card-bg: rgb(51, 102, 153)  !important;
-  --color-border-default: rgba(var(--color-white), 1) !important;
-  --color-border-transparent: rgba(37,77,117,.5) !important;
-  --color-transparent: transparent  !important;
-  /** --color-text-default sets default text color site-wide */
+  /* #Global Colors */
+  /*^ default theme color */
+  --color-default: rgb(10, 49, 97) !important; /* rgb(10,49,97) */
+  --color-default-hover: rgb(37, 77, 117) !important; /* rgb(37,77,117) */ 
+  /*^ global background color */
+  --color-bg-default: rgb(51, 102, 153) !important; /* rgb(10,49,97) */
+  /*^ global foreground text color */
   --color-text-default: rgba(var(--color-white),1)  !important;
-  --color-text-default-light: rgba(var(--color-white),.5)  !important;
-  /* --color-border-default is the default border site-wide*/
-  --color-border-default: rgba(var(--color-white),1)  !important;
-  --color-border-default-light: rgba(var(--color-white),.5)  !important;
+  /*^ default border color for elements */
+  --color-border-default: var(--color-default) !important;
+  /*^ alt border color w/ transparency*/
+  --color-border-transparent: rgba(var(--color-default),.5) !important;
+  /*^ accent color */
+  --color-accent-bg: rgb(0, 155, 155)  !important;
+  /*^ alt accent color w/ transparency */
+  --color-accent-bg-light: var(--color-bg-red-light) !important;
+  /*^ default color for block backgrounds */
+  --color-card-bg: var(--color-default) !important;
+  /*^ default color for element :hover*/
+  --color-ui-hover-bg: var(--color-default-hover) !important;
+  /*^    coders can be dumb. */
+  /*^    my favorite color is clear */
+  /*^    don't judge. hahaha */
+  --color-transparent: transparent  !important;
   /* #Colors */
-  /** This affects text color exclusively (right?) */
-  /** and gray contrasted poorly with the background */
-  /** color so it was set to white */
   --color-white: 255, 255, 255  !important; /* rgb(255,255,255) */
-  --color-gray: 121, 121, 121  !important; /* rgb(121,121,121) */
+  --color-gray: 151, 151, 151  !important; /* rgb(121,121,121) */
   --color-black: 0, 0, 0  !important; /* rgb(0,0,0) */
-  --color-brown: 101, 67, 33  !important; /* rgb(101,67,33) */
-  --color-orange: 255, 119, 0  !important; /* rgb(255,119,0) */
-  --color-yellow: 232, 232, 0  !important; /* rgb(232,232,0) */
+  --color-brown: 67, 33, 0  !important; /* rgb(101,67,33) */
+  --color-orange: 202, 75, 0  !important; /* rgb(255,119,0) */
+  --color-yellow: 202, 202, 0  !important; /* rgb(232,232,0) */
   --color-green: 0, 202, 0  !important; /* rgb(0,202,0) */
-  --color-blue: 37,77,117  !important; /* rgb(37,77,117) */
-  --color-purple: 121,85,121  !important; /* rgb(121,85,121) */
+  --color-blue: 10, 49, 97  !important; /* rgb(37,77,117) */
+  --color-purple: 121,0,121  !important; /* rgb(121,85,121) */
   --color-pink: 255,141,223  !important; /* rgb(255,141,223) */
-  --color-red: 179, 25, 66  !important; /* rgb(179,25,66) */
+  --color-red: 255, 0, 0  !important; /* rgb(179,25,66) */
   /* #Text */
-  /* ^Site Foreground */
+  /*^ Site Foreground */
   --color-text-white: rgba(var(--color-white),1) !important;
   --color-text-gray: rgba(var(--color-gray),1)  !important;
   --color-text-black: rgba(var(--color-black),1)  !important;
@@ -69,29 +72,29 @@
   --color-text-purple: rgba(var(--color-purple),1)  !important;
   --color-text-pink: rgba(var(--color-pink),1)  !important;
   --color-text-red: rgba(var(--color-red),1)  !important;
-  /* ^Site Background = More Opacity*/
-  --color-bg-gray: rgba(var(--color-black),0.25)  !important;
-  --color-bg-black: rgba(var(--color-black),0.25)  !important;
+  /*^ Site Background = More Opacity*/
+  --color-bg-gray: rgba(var(--color-gray),0.75)  !important;
+  --color-bg-black: rgba(var(--color-black),0.75) !important;
   --color-bg-brown: rgba(var(--color-brown),0.5)  !important;
-  --color-bg-orange: rgba(var(--color-orange),0.25)  !important;
-  --color-bg-yellow: rgba(var(--color-yellow),0.25)  !important;
-  --color-bg-green: rgba(var(--color-green),0.25)  !important;
-  --color-bg-blue: rgba(var(--color-blue),0.5)  !important;
-  --color-bg-purple: rgba(var(--color-purple),0.5)  !important;
-  --color-bg-pink: rgba(var(--color-pink),0.25)  !important;
-  --color-bg-red: rgba(var(--color-red),0.35)  !important;
-  /* Site Background Light = More Transparency */
-  --color-bg-gray-light: rgba(var(--color-gray),0.125)  !important;
-  --color-bg-black-light: rgba(var(--color-black),0.125) !important;
-  --color-bg-brown-light: rgba(var(--color-brown),0.25)  !important;
-  --color-bg-orange-light: rgba(var(--color-orange),0.125)  !important;
-  --color-bg-yellow-light: rgba(var(--color-yellow),0.125)  !important;
-  --color-bg-green-light: rgba(var(--color-green),0.125)  !important;
-  --color-bg-blue-light: rgba(var(--color-blue),0.25)  !important;
-  --color-bg-purple-light: rgba(var(--color-purple),0.25)  !important;
-  --color-bg-pink-light: rgba(var(--color-pink),0.125)  !important;
-  --color-bg-red-light: rgba(var(--color-red),0.175)  !important;
-  /* #Site Border Colors */
+  --color-bg-orange: rgba(var(--color-orange),0.5)  !important;
+  --color-bg-yellow: rgba(var(--color-yellow),0.5)  !important;
+  --color-bg-green: rgba(var(--color-green),0.5)  !important;
+  --color-bg-blue: rgba(var(--color-blue),0.75)  !important;
+  --color-bg-purple: rgba(var(--color-purple),0.75)  !important;
+  --color-bg-pink: rgba(var(--color-pink),0.5)  !important;
+  --color-bg-red: rgba(var(--color-red),.5)  !important;
+  /*^ Site Background Light = More Transparency */
+  --color-bg-gray-light: rgba(var(--color-gray),0.25)  !important;
+  --color-bg-black-light: rgba(var(--color-black),0.25) !important;
+  --color-bg-brown-light: rgba(var(--color-brown),0.5)  !important;
+  --color-bg-orange-light: rgba(var(--color-orange),0.25)  !important;
+  --color-bg-yellow-light: rgba(var(--color-yellow),0.25)  !important;
+  --color-bg-green-light: rgba(var(--color-green),0.25)  !important;
+  --color-bg-blue-light: rgba(var(--color-blue),0.5)  !important;
+  --color-bg-purple-light: rgba(var(--color-purple),0.5)  !important;
+  --color-bg-pink-light: rgba(var(--color-pink),0.25)  !important;
+  --color-bg-red-light: rgba(var(--color-red),0.5)  !important;
+  /*^ Site Border Colors */
   --color-border-black:  rgba(var(--color-black),1)  !important;
   --color-border-gray: rgba(var(--color-white),1)  !important;
   --color-border-brown: rgba(var(--color-brown),1)  !important;
@@ -102,7 +105,7 @@
   --color-border-purple: rgba(var(--color-purple),1)  !important;
   --color-border-pink: rgba(var(--color-pink),1)  !important;
   --color-border-red: rgba(var(--color-red),1)  !important;
-  /* #Pill */
+  /*^ Pill */
   --color-pill-default: rgba(var(--color-default),.5)  !important;
   --color-pill-gray: rgba(var(--color-gray),.50)  !important;
   --color-pill-brown: rgba(var(--color-brown),.5)  !important;
@@ -113,24 +116,19 @@
   --color-pill-purple: rgba(var(--color-purple),.75)  !important;
   --color-pill-pink: rgba(var(--color-pink),.75)  !important;
   --color-pill-red: rgba(var(--color-red),0.75)  !important;
-
-  /* Collection Card Size*/
-  --collection-card-cover-size-small: calc(20%) !important;
-  --collection-card-cover-size-medium: calc(30%) !important;
-  --collection-card-cover-size-large: calc(45%) !important;
-  /* #Call to Actions */
+  /* $Call to Actions */
   --cta-padding: 13px 14px !important;
   --cta-border-radius: 4px !important;
   --cta-border: none !important;
   --cta-shadow: none !important;
-  /* #Callouts */
+  /* $Callouts */
   --callout-padding: 15px 20px 15px 15px !important;
   --callout-border: 1px solid var(--color-border-default) !important;
   --callout-border-radius: 4px !important;
   --callout-shadow: none !important;
   --callout-icon-size: 20px !important;
   --callout-emoji-size: 18px !important;
-  /* #Collections */
+  /* $Collections */
   --collection-list-item-border-radius: 0px !important;
   --collection-list-item-padding: 5px 0px 5px 5px !important;
   --collection-gallery-gap: 30px !important;
@@ -142,45 +140,47 @@
   --collection-card-cover-size-small: 172px !important;
   --collection-card-cover-size-medium: 260px !important;
   --collection-card-cover-size-large: 320px !important;
-  /* #Pills [One Line Callouts] */
+  /* $Collection Card Size*/
+  --collection-card-cover-size-small: calc(20%) !important;
+  --collection-card-cover-size-medium: calc(30%) !important;
+  --collection-card-cover-size-large: calc(45%) !important;
+  /* ?Pills [Srsly wtf do they do?] */
   --notion-pill-padding: 2px 5px !important;
   --notion-pill-border-radius: 0px !important;
   --notion-pill-text-size: 11px !important;
   --notion-pill-text-weight: 500 !important;
   --notion-pill-text-transform: uppercase !important;
   --notion-pill-letter-spacing: 1px !important;
-  /* #Images */
+  /* $Images */
   --image-border-radius: 10px !important;
-  /* #Misc */
+  /* $Misc */
   --divider-margin: 15px 0px !important;
   --divider-opacity: 1 !important;
-  /* #Typography */
+  /* $Typography */
   --text-spacing: 1px !important;
   --secondary-font: 'Inter', sans-serif !important;
   --notion-text-margin: 0px 0px 0px 0px !important;
-  /* #h1 */
+  /* $h1 */
   --h1-size: 3em !important;
   --h1-weight: 800 !important;
   --h1-spacing: -1px !important;
   --h1-margin: 5px 0px 5px 0px !important;
   --h1-line-height: 1 !important;
-  /* #h2 */
+  /* $h2 */
   --h2-size: 2rem !important;
   --h2-weight: 700 !important;
   --h2-spacing: -0.5px !important;
   --h2-margin: 5px 0px 5px 0px !important;
   --h2-line-height: 1.2 !important;
-  /* #h3 */
+  /* $h3 */
   --h3-size: 1.375rem !important;
   --h3-weight: 600 !important;
   --h3-spacing: -0.5px !important;
   --h3-margin: 10px 0px 10px 0px !important;
   --h3-line-height: 1.4 !important;
-  /* #Links */
+  /* $Links */
   --link-border-width: 0px 0px 0px 0px !important;
   --link-border-style: none !important;
   --link-border-color: none  !important;
 }
-
-
-/* #END VARIABLES */
+/* %END VARIABLES */
