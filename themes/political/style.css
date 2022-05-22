@@ -36,13 +36,19 @@
   /*^ alt border color w/ transparency*/
   --color-border-transparent: rgba(var(--color-default),.5) !important;
   /*^ accent color */
-  --color-accent-bg: rgb(0, 155, 155)  !important;
+  --color-accent-bg: rgb(0, 178, 128)  !important;
   /*^ alt accent color w/ transparency */
   --color-accent-bg-light: var(--color-bg-red-light) !important;
   /*^ default color for block backgrounds */
   --color-card-bg: var(--color-default) !important;
   /*^ default color for element :hover*/
   --color-ui-hover-bg: var(--color-default-hover) !important;
+  /*^ h1 color */
+  --color-text-h1: rgb(0, 175, 255) !important;
+  /*^ h2 color */
+  --color-text-h2: rgb(0, 175, 255) !important;
+  /*^ h3 color */
+  --color-text-h3: rgb(0, 175, 255) !important;
   /*^    coders can be dumb. */
   /*^    my favorite color is clear */
   /*^    don't judge. hahaha */
@@ -56,8 +62,8 @@
   --color-yellow: 202, 202, 0  !important; /* rgb(232,232,0) */
   --color-green: 0, 202, 0  !important; /* rgb(0,202,0) */
   --color-blue: 10, 49, 97  !important; /* rgb(37,77,117) */
-  --color-purple: 121,0,121  !important; /* rgb(121,85,121) */
-  --color-pink: 255,141,223  !important; /* rgb(255,141,223) */
+  --color-purple: 121, 0, 121  !important; /* rgb(121,85,121) */
+  --color-pink: 255, 141, 223  !important; /* rgb(255,141,223) */
   --color-red: 255, 0, 0  !important; /* rgb(179,25,66) */
   /* #Text */
   /*^ Site Foreground */
@@ -1037,7 +1043,7 @@ h1.notion-heading,
 h1.notion-heading.toggle,
 /*$ Affects Toggle Glyphs   */
 .notion-toggle-heading-1 {
-    color: var(--color-text-red) !important;
+    color: var(--color-text-h1) !important;
     text-shadow: 3px 3px 3px black !important;
     font-size: 2.5rem !important; 
 }
@@ -1056,7 +1062,7 @@ h2.notion-heading,
 h2.notion-heading.toggle,
 /*$ Affects Toggle Glyphs   */
 .notion-toggle-heading-2 {
-    color: var(--color-text-orange) !important;
+    color: var(--color-text-h2) !important;
     text-shadow: 3px 3px 3px black !important;
     font-size: 1.75rem !important; 
 }
@@ -1075,7 +1081,7 @@ h3.notion-heading,
 h3.notion-heading.toggle,
 /*$ Affects Toggle Glyphs   */
 .notion-toggle-heading-3 {
-    color: var(--color-text-yellow) !important;
+    color: var(--color-text-h3) !important;
     text-shadow: 3px 3px 3px black !important;
     font-size: 1.375rem !important; 
 }
@@ -1430,10 +1436,10 @@ h3.notion-heading.toggle,
   .notion-code pre {
     border-radius: var(--element-radius)  !important;
     background-color: rgba(0,0,0,.25) !important;
-    padding: 34px 8px 32px 32px;
+    padding: 17px 8px 16px 16px;
     /* color: #fff; */
     /* text-shadow: white 20px 18px; */
-    box-shadow: lime -1px 1px 8px 1px !important;
+    box-shadow: lime -1px 1px -1px 1px !important;
     font-family: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
     font-size: 1em;
     text-align: left;
@@ -1441,10 +1447,8 @@ h3.notion-heading.toggle,
     white-space: pre;
     word-spacing: normal;
     word-break: normal;
-    overflow-wrap: normal;
     line-height: 1.5;
     tab-size: 4;
-    hyphens: none;
     margin: 10px 0;
     direction: ltr;
     overflow: auto;
@@ -1453,10 +1457,7 @@ h3.notion-heading.toggle,
   .notion-code code {
     /*  Affects Text Inside the Codeblock */
     /* Text Shadow Can Cause Code Distortion */
-    color: var(--color-text-gray) !important;
-    background: none !important;
-    text-shadow: transparent 0px 0px !important;
-    
+    text-shadow: transparent 1px 1px !important;
   }
   
   

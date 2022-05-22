@@ -2,14 +2,14 @@
 
   // ^Affects Notion Code Markdown  
 code.code {
-    border-radius: var(--element-radius) !important;
-    background-color: var(--color-default) !important;
-    color: var(--color-text-pink) !important;
-    text-shadow: 1px 1px 1px black !important;
-    font-size: 1rem;
-    padding: .2em .4em;
-    word-break: break-word !important;
-  }
+  border-radius: var(--element-radius) !important;
+  background-color: var(--color-default) !important;
+  color: var(--color-text-pink) !important;
+  text-shadow: 1px 1px 1px black !important;
+  font-size: 1rem;
+  padding: .2em .4em;
+  word-break: break-word !important;
+}
 
 
   // ^Affects BACKGROUND of Codeblock 
@@ -27,10 +27,8 @@ code.code {
   white-space: pre;
   word-spacing: normal;
   word-break: normal;
-  overflow-wrap: normal;
   line-height: 1.5;
   tab-size: 4;
-  hyphens: none;
   margin: 10px 0;
   direction: ltr;
   overflow: auto;
@@ -39,8 +37,5 @@ code.code {
 .notion-code code {
   // ! Affects Text Inside the Codeblock 
   // !Text Shadow Can Cause Code Distortion 
-  color: rgb(var(--color-white)) !important;
-  background-color: var(--color-accent-bg) !important;
-  text-shadow: transparent 0px 0px !important;
-  
+  text-shadow: transparent 1px 1px !important;
 }
