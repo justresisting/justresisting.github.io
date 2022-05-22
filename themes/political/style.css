@@ -505,7 +505,7 @@
   color: white !important;
   background-color: var(--color-default) !important;
   border: 3px solid var(--color-border-default) !important;
-  box-shadow: 2px 2px 2px 2px var(--color-border-default) inset, 0 0 0 0 var(--color-border-default) !important;
+  box-shadow: 0 0 0 0  var(--color-border-default) inset, 0 0 0 0 var(--color-border-default) !important;
   transition: all 500ms ease-in-out !important;
 }
 
@@ -515,7 +515,7 @@
   color: white !important;
   background-color: var(--color-default) !important;
   border: 3px solid var(--color-border-default) !important;
-  box-shadow: 0 0 5px 0 var(--color-default-hover) inset, 0 0 3px 6px var(--color-default-hover) !important;
+  box-shadow: 0 0 0 0 var(--color-default-hover) inset, 0 0 0 0 var(--color-default-hover) !important;
 }
 
 /* ^ Gray Callout Button */
@@ -524,7 +524,7 @@
   color: white !important;
   background-color: var(--color-bg-black) !important;
   border-color: var(--color-border-default) !important;
-  box-shadow: 2px 2px 2px 2px rgba(var(--color-black),0.75) inset, 0 0 0 0 rgba(var(--color-black),0.75) !important;
+  box-shadow: 0 0 0 0 rgba(var(--color-black),0.75) inset, 0 0 0 0 rgba(var(--color-black),0.75) !important;
   transition: all 500ms ease-in-out !important;
 }
 
@@ -534,7 +534,7 @@
   color: white !important;
   background-color: var(--color-bg-black) !important;
   border-color: var(--color-border-black) !important;
-  box-shadow: 0 0 5px 0 rgba(var(--color-black),0.75) inset, 0 0 3px 2px rgba(var(--color-black),0.75) !important;
+  box-shadow: 0 0 0 0  rgba(var(--color-black),0.75) inset, 0 0 0 0 rgba(var(--color-black),0.75) !important;
 }
 
 
@@ -545,7 +545,7 @@
   font-weight: bold!important;
   background-color: var(--color-bg-brown) !important;
   border-color: var(--color-border-default) !important;
-  box-shadow: 2px 2px 2px 2px rgba(var(--color-brown),0.75) inset, 0 0 0 0 rgba(var(--color-brown),0.75) !important;
+  box-shadow: 0 0 0 0 rgba(var(--color-brown),0.75) inset, 0 0 0 0 rgba(var(--color-brown),0.75) !important;
   transition: all 500ms ease-in-out !important;
 }
 
@@ -555,7 +555,7 @@
   color: white !important;
   background-color: var(--color-bg-brown) !important;
   border-color: var(--color-border-brown) !important;
-  box-shadow: 0 0 5px 0 rgba(var(--color-brown),0.75) inset, 0 0 3px 2px rgba(var(--color-brown),0.75) !important;
+  box-shadow: 0 0 0 0 rgba(var(--color-brown),0.75) inset, 0 0 0 0 rgba(var(--color-brown),0.75) !important;
 }
 
 /** Orange Callout Button */
@@ -564,7 +564,7 @@
   color: black !important;
   background-color: var(--color-bg-orange) !important;
   border-color: var(--color-border-default) !important;
-  box-shadow: 2px 2px 2px 2px rgba(var(--color-orange),0.5) inset, 0px 0px 0px 0px rgb(var(--color-orange)) !important;
+  box-shadow: 0 0 0 0 rgba(var(--color-orange),0.5) inset, 0 0 0 0 rgb(var(--color-orange)) !important;
   transition: all 500ms ease-in-out !important;
 }
 
@@ -574,7 +574,7 @@
   color: black !important;
   background-color: var(--color-bg-orange) !important;
   border-color: var(--color-border-orange) !important;
-  box-shadow: 0 0 5px 0 rgb(var(--color-orange),0.75) inset, 0 0 3px 2px rgba(var(--color-orange),0.75) !important;
+  box-shadow: 0 0 0 0 rgb(var(--color-orange),0.75) inset, 0 0 0 0 rgba(var(--color-orange),0.75) !important;
 }
 
 /** Yellow Callout Button */
@@ -583,7 +583,7 @@
   color: black !important;
   background-color: var(--color-bg-yellow) !important;
   border-color: var(--color-border-default) !important;
-  box-shadow: 2px 2px 2px 2px rgba(var(--color-yellow),0.5) inset, 0 0 0 0 rgba(var(--color-yellow),0.5) !important;
+  box-shadow: 0 0 0 0 rgba(var(--color-yellow),0.5) inset, 0 0 0 0 rgba(var(--color-yellow),0.5) !important;
   transition: all 500ms ease-in-out !important;
 }
 
@@ -593,7 +593,7 @@
   color: black !important;
   background-color: var(--color-bg-yellow) !important;
   border-color: var(--color-border-yellow) !important;
-  box-shadow: 0 0 5px 0 rgba(var(--color-yellow),0.5) inset, 0 0 3px 2px rgba(var(--color-yellow),0.5) !important;
+  box-shadow: 0 0 0 0 rgba(var(--color-yellow),0.5) inset, 0 0 0 0 rgba(var(--color-yellow),0.5) !important;
 }
 
 /** Green Callout Button */
@@ -602,7 +602,7 @@
   color: white !important;
   background-color: var(--color-bg-green);
   border-color: var(--color-border-default) !important;
-  box-shadow: 2px 2px 2px 2px rgba(var(--color-green),0.5) inset, 0 0 0 0 rgba(var(--color-green),0.5) !important;
+  box-shadow: 0 0 0 0 rgba(var(--color-green),0.5) inset, 0 0 0 0 rgba(var(--color-green),0.5) !important;
   transition: all 500ms ease-in-out !important;
 }
 
@@ -612,7 +612,7 @@
   color: white !important;
   background-color: var(--color-bg-green) !important;
   border-color: var(--color-border-green) !important;
-  box-shadow: 0 0 5px 0 rgba(var(--color-green),0.75) inset, 0 0 3px 2px rgba(var(--color-green),0.75) !important;
+  box-shadow: 0 0 0 0 rgba(var(--color-green),0.75) inset, 0 0 0 0 rgba(var(--color-green),0.75) !important;
 }
 
 /** Blue Callout Button */
@@ -621,7 +621,7 @@
   color: white !important;
   background-color: var(--color-bg-blue);
   border-color: var(--color-border-default) !important;
-  box-shadow: 2px 2px 2px 2px rgba(var(--color-blue),1) inset, 0 0 0 0 rgb(var(--color-blue)) !important;
+  box-shadow: 0 0 0 0 rgba(var(--color-blue),1) inset, 0 0 0 0 rgb(var(--color-blue)) !important;
   transition: all 500ms ease-in-out !important;
 }
 
@@ -631,7 +631,7 @@
   color: white !important;
   background-color: var(--color-bg-blue) !important;
   border-color: var(--color-border-blue) !important;
-  box-shadow: 0 0 5px 0 rgba(var(--color-blue),1) inset, 0 0 3px 2px rgba(var(--color-blue),1) !important;
+  box-shadow: 0 0 0 0 rgba(var(--color-blue),1) inset, 0 0 0 0 rgba(var(--color-blue),1) !important;
 }
 
 /** Purple Callout Button */
@@ -640,7 +640,7 @@
   color: white !important;
   background-color: var(--color-bg-purple) !important;
   border-color: var(--color-border-default) !important;
-  box-shadow: 2px 2px 2px 2px rgba(var(--color-purple),0.75) inset, 0 0 0 0 rgba(var(--color-purple),0.75) !important;
+  box-shadow: 0 0 0 0 rgba(var(--color-purple),0.75) inset, 0 0 0 0 rgba(var(--color-purple),0.75) !important;
   transition: all 500ms ease-in-out !important;
 }
 
@@ -650,7 +650,7 @@
   color: white !important;
   background-color: var(--color-bg-purple) !important;
   border-color: var(--color-border-purple) !important;
-  box-shadow: 0 0 5px 0 rgba(var(--color-purple),0.75) inset, 0 0 3px 6px rgba(var(--color-purple),0.75) !important;
+  box-shadow: 0 0 0 0 rgba(var(--color-purple),0.75) inset, 0 0 0 0 rgba(var(--color-purple),0.75) !important;
 }
 
 /** Pink Callout Button */
@@ -659,7 +659,7 @@
   color: white !important;
   background-color: var(--color-bg-pink) !important;
   border-color: var(--color-border-default) !important;
-  box-shadow: 2px 2px 2px 2px rgba(var(--color-pink),.75) inset, 0 0 0 0 rgba(var(--color-pink),0.75) !important;
+  box-shadow: 0 0 0 0 rgba(var(--color-pink),.75) inset, 0 0 0 0 rgba(var(--color-pink),0.75) !important;
   transition: all 500ms ease-in-out !important;
 }
 
@@ -669,7 +669,7 @@
   color: white !important;
   background-color: var(--color-bg-pink) !important;
   border-color: var(--color-border-pink) !important;
-  box-shadow: 0 0 5px 0 rgba(var(--color-pink),0.75) inset, 0 0 3px 2px rgba(var(--color-pink),0.75) !important;
+  box-shadow: 0 0 0 0 rgba(var(--color-pink),0.75) inset, 0 0 0 0 rgba(var(--color-pink),0.75) !important;
 }
 
 
@@ -679,7 +679,7 @@
   color: white !important;
   background-color: var(--color-bg-red) !important;
   border-color: var(--color-border-default) !important;
-  box-shadow: 2px 2px 2px 2px rgba(var(--color-red),0.75) inset, 0 0 0 0 rgba(var(--color-red),0.75) !important;
+  box-shadow: 0 0 0 0 rgba(var(--color-red),0.75) inset, 0 0 0 0 rgba(var(--color-red),0.75) !important;
   transition: all 500ms ease-in-out !important;
 }
 
@@ -689,7 +689,7 @@
   color: white !important;
   background-color: var(--color-bg-red) !important;
   border-color: var(--color-border-red) !important;
-  box-shadow: 0 0 5px 0 rgba(var(--color-red),0.75) inset, 0 0 3px 2px rgba(var(--color-red),0.75) !important;
+  box-shadow: 0 0 0 0 rgba(var(--color-red),0.75) inset, 0 0 0 0 rgba(var(--color-red),0.75) !important;
 }
 
 
