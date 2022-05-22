@@ -786,12 +786,52 @@
   
   /* #Pills */
   
-  .notion-pill {
-    padding: 0.25em 0.75em !important;
-    border-radius: var(--element-radius) !important;
-    border-color: var(--color-accent-bg) !important;
-  }
-  
+.notion-pill {
+  padding: 0.25em 0.75em !important;
+  border-radius: var(--element-radius) !important;
+  border-color: var(--color-accent-bg) !important;
+}
+
+span.notion-pill.pill-default.first {
+  border: 2px solid var(--color-accent-bg) !important;
+}
+
+span.notion-pill.pill-gray.first {
+  border: 2px solid var(--color-accent-bg) !important;
+}
+
+span.notion-pill.pill-brown.first {
+  border: 2px solid var(--color-accent-bg) !important;
+}
+
+span.notion-pill.pill-orange.first {
+  border: 2px solid var(--color-accent-bg) !important;
+}
+
+span.notion-pill.pill-yellow.first {
+  border: 2px solid var(--color-accent-bg) !important;
+}
+
+span.notion-pill.pill-green.first {
+  border: 2px solid var(--color-accent-bg) !important;
+}
+
+span.notion-pill.pill-blue.first {
+  border: 2px solid var(--color-accent-bg) !important;
+}
+
+span.notion-pill.pill-purple.first {
+  border: 2px solid var(--color-accent-bg) !important;
+}
+
+span.notion-pill.pill-pink.first {
+  border: 2px solid var(--color-accent-bg) !important;
+}
+
+.span.notion-pill.pill-red.first {
+  border: 2px solid var(--color-accent-bg) !important;
+}
+
   /* #Quote */
   
   .notion-quote {
