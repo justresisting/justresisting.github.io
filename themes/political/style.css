@@ -1559,7 +1559,7 @@ h3.notion-heading.toggle,
     /* Affects Notion Code Markdown  */
   code.code {
     border-radius: var(--element-radius) !important;
-    background-color: var(--color-bg-pink-light) !important;
+    background-color: var(--color-default) !important;
     color: var(--color-text-pink) !important;
     font-size: 0.9rem;
     padding: .2em .4em !important;
