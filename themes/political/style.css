@@ -1124,41 +1124,57 @@
 
 h1.notion-heading,
 h1.notion-heading.toggle,
-/*$ Area under an open heading toggle */
 /*$ Affects Toggle Glyphs   */
-.notion-toggle-heading-1,
-.notion-toggle.open.notion-toggle-heading-1 {
+.notion-toggle-heading-1 {
     color: var(--color-text-red) !important;
     text-shadow: 3px 3px 3px black !important;
-    font-size: 2rem !important; 
+    font-size: 2.5rem !important; 
 }
 
-
+/*$ Area under an open heading toggle */
+/*$ Affects Toggle Glyphs   */
+.notion-toggle.open.notion-toggle-heading-1 {
+    color: var(--color-text-white) !important;
+    text-shadow: 3px 3px 3px black !important;
+    font-size: 1rem !important; 
+}
 
 /*# Toggle heading 2 */
 
 h2.notion-heading,
 h2.notion-heading.toggle,
+/*$ Affects Toggle Glyphs   */
+.notion-toggle-heading-2 {
+    color: var(--color-text-orange) !important;
+    text-shadow: 3px 3px 3px black !important;
+    font-size: 1.75rem !important; 
+}
+
 /*$ Area under an open heading toggle */
 /*$ Affects Toggle Glyphs   */
-.notion-toggle-heading-2,
 .notion-toggle.open.notion-toggle-heading-2 {
-    color: var(--color-text-orange) !important;
-    text-shadow: 2px 2px 2px black !important;
-    font-size: 1.5rem !important; 
+    color: var(--color-text-white) !important;
+    text-shadow: 3px 3px 3px black !important;
+    font-size: 1rem !important; 
 }
 
 /*# Toggle heading 3 */
 
 h3.notion-heading,
 h3.notion-heading.toggle,
+/*$ Affects Toggle Glyphs   */
+.notion-toggle-heading-3 {
+    color: var(--color-text-yellow) !important;
+    text-shadow: 3px 3px 3px black !important;
+    font-size: 1.375rem !important; 
+}
+
 /*$ Area under an open heading toggle */
 /*$ Affects Toggle Glyphs   */
-.notion-toggle-heading-3,
 .notion-toggle.open.notion-toggle-heading-3 {
-    color: var(--color-text-yellow) !important;
-    text-shadow: 2px 2px 2px black !important;
-    font-size: 1.5rem !important; 
+    color: var(--color-text-white) !important;
+    text-shadow: 3px 3px 3px black !important;
+    font-size: 1rem !important; 
 }
   
   
