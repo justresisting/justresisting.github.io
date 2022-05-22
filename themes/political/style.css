@@ -1693,7 +1693,7 @@ h3.notion-heading.toggle,
     /* Show/Hide ALL Notion Page Blocks */
     display: block !important;
     /* Set Page Block BG Color*/
-    border-color: var(--color-accent-bg) !important;
+    border-color: transparent !important;
     background-color: var(--color-card-bg) !important;
   }
   
