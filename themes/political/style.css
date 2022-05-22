@@ -28,9 +28,11 @@
   --color-default: rgb(10, 49, 97) !important; /* rgb(10,49,97) */
   --color-default-hover: rgb(37, 77, 117) !important; /* rgb(37,77,117) */ 
   /*^ global background color */
-  --color-bg-default: rgb(51, 102, 153) !important; /* rgb(10,49,97) */
+  --color-bg-default: rgb(51, 102, 153) !important; /* rgb(51,102,153) */
   /*^ global foreground text color */
-  --color-text-default: rgba(var(--color-white),1)  !important;
+  --color-text-default: var(--color-text-white) !important;
+  /*^ dimmer global foreground text color */
+  --color-text-default-light: var(--color-text-black) !important;
   /*^ default border color for elements */
   --color-border-default: var(--color-default) !important;
   /*^ alt border color w/ transparency*/
@@ -426,9 +428,18 @@
   }
   
   .notion-page__title .notion-semantic-string {
-    border-bottom: none var(--color-border-transparent);
+    border-bottom: none var(--color-border-transparent) !important;
   }
-  
+  /*^ Property name in databases*/
+  .notion-page__property-name {
+    display: flex;
+    align-items: flex-start;
+    white-space: nowrap;
+    flex: 0 0 auto;
+    min-width: 0;
+    padding-top: 7px;
+    color: white !important;
+  }
   
   /* #Callout */
   
