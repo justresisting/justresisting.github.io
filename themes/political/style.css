@@ -728,7 +728,7 @@
 }
 
 /** Gray Callout Border - Notion FG Color */
-[class="notion-callout color-default-light border"] {
+[class="notion-callout color-gray-light border"] {
   border: 3px solid var(--color-border-gray) !important;
   background-color: transparent !important;
   color: var(--color-text-default) !important;
