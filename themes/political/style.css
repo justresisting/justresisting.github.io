@@ -573,7 +573,7 @@
   color: white !important;
   background-color: var(--color-bg-brown) !important;
   border-color: var(--color-border-brown) !important;
-  box-shadow: 0 0 0 0 rgba(var(--color-brown),0.75) inset, 0 0 0 0 rgba(var(--color-brown),0.75) !important;
+  box-shadow: 0 0 0 0 rgba(var(--color-brown),1) inset, 0 0 0 0 rgba(var(--color-brown),1) !important;
 }
 
 /** Orange Callout Button */
