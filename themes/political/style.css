@@ -729,7 +729,7 @@
 
 /** Gray Callout Border - Notion FG Color */
 [class="notion-callout color-gray-light border"] {
-  border: 3px solid var(--color-border-gray) !important;
+  border: 3px solid var(--color-border-black) !important;
   background-color: transparent !important;
   color: var(--color-text-default) !important;
 }
