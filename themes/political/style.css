@@ -552,9 +552,9 @@
 [class="notion-callout bg-gray-light border"]:hover {
   /*! max-width: 250px !important; */
   color: white !important;
-  background-color: var(--color-bg-grat) !important;
+  background-color: var(--color-bg-black) !important;
   border-color: var(--color-border-black) !important;
-  box-shadow: 0 0 0 0 rgba(var(--color-black),0.5) inset, 0 0 0 0 rgba(var(--color-black),0.5) !important;
+  box-shadow: 0 0 0 0 rgba(var(--color-black),1) inset, 0 0 0 0 rgba(var(--color-black),1) !important;
 }
 
 /** Brown Callout Button */
