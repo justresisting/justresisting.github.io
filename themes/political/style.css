@@ -639,7 +639,7 @@
   color: white !important;
   background-color: var(--color-bg-blue) !important;
   border-color: var(--color-border-default) !important;
-  box-shadow: 0 0 0 0 rgba(var(--color-blue),0.75) inset, 0 0 0 0 rgba(var(--color-blue),0.75) !important;
+  box-shadow: 0 0 0 0 rgba(var(--color-blue),0.5) inset, 0 0 0 0 rgba(var(--color-blue),0.5) !important;
   transition: all 500ms ease-in-out !important;
 }
 
@@ -649,7 +649,7 @@
   color: white !important;
   background-color: var(--color-bg-blue) !important;
   border-color: var(--color-border-blue) !important;
-  box-shadow: 0 0 0 0 rgba(var(--color-blue),0.75) inset, 0 0 0 0 rgba(var(--color-blue),0.75) !important;
+  box-shadow: 0 0 0 0 rgba(var(--color-blue),1) inset, 0 0 0 0 rgba(var(--color-blue),1) !important;
 }
 
 /** Purple Callout Button */
@@ -658,7 +658,7 @@
   color: white !important;
   background-color: var(--color-bg-purple) !important;
   border-color: var(--color-border-default) !important;
-  box-shadow: 0 0 0 0 rgba(var(--color-purple),0.75) inset, 0 0 0 0 rgba(var(--color-purple),0.75) !important;
+  box-shadow: 0 0 0 0 rgba(var(--color-purple),0.5) inset, 0 0 0 0 rgba(var(--color-purple),0.5) !important;
   transition: all 500ms ease-in-out !important;
 }
 
