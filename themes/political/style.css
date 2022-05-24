@@ -668,7 +668,7 @@
   color: white !important;
   background-color: var(--color-bg-purple) !important;
   border-color: var(--color-border-purple) !important;
-  box-shadow: 0 0 0 0 rgba(var(--color-purple),0.75) inset, 0 0 0 0 rgba(var(--color-purple),0.75) !important;
+  box-shadow: 0 0 0 0 rgba(var(--color-purple),1) inset, 0 0 0 0 rgba(var(--color-purple),1) !important;
 }
 
 /** Pink Callout Button */
@@ -723,6 +723,13 @@
 /** Default var(--color-card-bg) Callout Border - Notion FG Color */
 [class="notion-callout color-default-light border"] {
   border: 3px solid var(--color-card-bg) !important;
+  background-color: transparent !important;
+  color: var(--color-text-default) !important;
+}
+
+/** Gray Callout Border - Notion FG Color */
+[class="notion-callout color-default-light border"] {
+  border: 3px solid var(--color-border-gray) !important;
   background-color: transparent !important;
   color: var(--color-text-default) !important;
 }
