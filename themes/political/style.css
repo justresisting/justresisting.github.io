@@ -105,8 +105,8 @@
   --color-bg-pink-light: rgba(var(--color-pink),0.25)  !important;
   --color-bg-red-light: rgba(var(--color-red),0.5)  !important;
   /*^ Site Border Colors */
-  --color-border-black:  rgba(var(--color-black),1)  !important;
-  --color-border-gray: rgba(var(--color-white),1)  !important;
+  --color-border-gray: rgba(var(--color-gray),1)  !important;
+  --color-border-black: rgba(var(--color-black),1)  !important;
   --color-border-brown: rgba(var(--color-brown),1)  !important;
   --color-border-orange: rgba(var(--color-orange),1)  !important;
   --color-border-yellow: rgba(var(--color-yellow),1)  !important;
@@ -352,7 +352,7 @@
   p {
     line-height: 100%  !important;
     margin-bottom: 1rem !important;
-    max-width: 1440px !important;    
+    max-width: var(--theme-width)!important;    
     -webkit-animation: fadeIn 1.25s !important;
     -moz-animation: fadeIn 1.25s !important;
     -ms-animation: fadeIn 1.25s !important;
@@ -369,7 +369,7 @@
       line-height: 100%  !important;
       letter-spacing: -0.04em  !important;
       margin-bottom: 0.5em !important;
-      max-width: 1440px !important;
+      max-width: var(--theme-width) !important;
       -webkit-animation: fadeIn 0.5s !important;
       -moz-animation: fadeIn 0.5s !important;
       -ms-animation: fadeIn 0.5s !important;
@@ -387,7 +387,7 @@
         line-height: 100%  !important;
         letter-spacing: -0.03em  !important;
         margin-bottom: 0.5em !important;
-        max-width: 1440px !important;
+        max-width: var(--theme-width) !important;
         -webkit-animation: fadeIn 0.75s !important;
         -moz-animation: fadeIn 0.75s !important;
         -ms-animation: fadeIn 0.75s !important;
@@ -405,7 +405,7 @@
           line-height: 100%  !important;
           letter-spacing: -0.02em  !important;
           margin-bottom: 0.5em !important;
-          max-width: 1440px !important;
+          max-width: var(--theme-width) !important;
           -webkit-animation: fadeIn 1s !important;
           -moz-animation: fadeIn 1s !important;
           -ms-animation: fadeIn 1s !important;
@@ -456,7 +456,7 @@
     padding: .5rem .5rem .5rem .5rem !important;
     overflow: hidden !important;
     margin-bottom: 1em !important;
-    border: 2px solid var(--color-card-bg) !important;
+    border: 2px solid var(--color-border-default) !important;
   }
   
   
@@ -563,7 +563,7 @@
   color: white !important;
   background-color: var(--color-bg-brown) !important;
   border-color: var(--color-border-default) !important;
-  box-shadow: 0 0 0 0 rgba(var(--color-brown),0.75) inset, 0 0 0 0 rgba(var(--color-brown),0.75) !important;
+  box-shadow: 0 0 0 0 rgba(var(--color-brown),0.5) inset, 0 0 0 0 rgba(var(--color-brown),0.5) !important;
   transition: all 500ms ease-in-out !important;
 }
 
@@ -582,7 +582,7 @@
   color: black !important;
   background-color: var(--color-bg-orange) !important;
   border-color: var(--color-border-default) !important;
-  box-shadow: 0 0 0 0 rgba(var(--color-orange),0.5) inset, 0 0 0 0 rgb(var(--color-orange)) !important;
+  box-shadow: 0 0 0 0 rgba(var(--color-orange),0.5) inset, 0 0 0 0 rgba(var(--color-orange),0.5) !important;
   transition: all 500ms ease-in-out !important;
 }
 
@@ -658,7 +658,7 @@
   color: white !important;
   background-color: var(--color-bg-purple) !important;
   border-color: var(--color-border-default) !important;
-  box-shadow: 0 0 0 0 rgba(var(--color-purple),1) inset, 0 0 0 0 rgba(var(--color-purple),1) !important;
+  box-shadow: 0 0 0 0 rgba(var(--color-purple),0.5) inset, 0 0 0 0 rgba(var(--color-purple),0.5) !important;
   transition: all 500ms ease-in-out !important;
 }
 
@@ -722,70 +722,70 @@
 
 /** Default var(--color-card-bg) Callout Border - Notion FG Color */
 [class="notion-callout color-default-light border"] {
-  border: 3px solid var(--color-card-bg) !important;
+  border: 2px solid var(--color-card-bg) !important;
   background-color: transparent !important;
   color: var(--color-text-default) !important;
 }
 
 /** Gray Callout Border - Notion FG Color */
 [class="notion-callout color-gray-light border"] {
-  border: 3px solid var(--color-border-black) !important;
+  border: 2px solid var(--color-border-black) !important;
   background-color: transparent !important;
   color: var(--color-text-default) !important;
 }
 
 /** Brown Callout Border - Notion FG Color */
 [class="notion-callout color-brown-light border"] {
-  border: 3px solid var(--color-border-brown) !important;
+  border: 2px solid var(--color-border-brown) !important;
   background-color: transparent !important;
   color: var(--color-text-default) !important;
 }
 
 /** Orange Callout Border - Notion FG Color */
 [class="notion-callout color-orange-light border"] {
-  border: 3px solid var(--color-border-orange) !important;
+  border: 2px solid var(--color-border-orange) !important;
   background-color: transparent !important;
   color: var(--color-text-default) !important;
 }
 
 /** Yellow Callout Border - Notion FG Color */
 [class="notion-callout color-yellow-light border"] {
-  border: 3px solid var(--color-border-yellow) !important;
+  border: 2px solid var(--color-border-yellow) !important;
   background-color: transparent !important;
   color: var(--color-text-default) !important;
 }
 
 /** Green Callout Border - Notion FG Color */
 [class="notion-callout color-green-light border"] {
-  border: 3px solid var(--color-border-green) !important;
+  border: 2px solid var(--color-border-green) !important;
   background-color: transparent !important;
   color: var(--color-text-default) !important;
 }
 
 /** Blue Callout Border - Notion FG Color */
 [class="notion-callout color-blue-light border"] {
-  border: 3px solid var(--color-border-blue) !important;
+  border: 2px solid var(--color-border-blue) !important;
   background-color: transparent !important;
   color: var(--color-text-default) !important;
 }
 
 /** Purple Callout Border - Notion FG Color */
 [class="notion-callout color-purple-light border"] {
-  border: 3px solid var(--color-border-purple) !important;
+  border: 2px solid var(--color-border-purple) !important;
   background-color: transparent !important;
   color: var(--color-text-default) !important;
 }
 
 /** Pink Callout Border - Notion FG Color */
 [class="notion-callout color-pink-light border"] {
-  border: 3px solid var(--color-border-pink) !important;
+  border: 2px solid var(--color-border-pink) !important;
   background-color: transparent !important;
   color: var(--color-text-default) !important;
 }
 
 /** Red Callout Border - Notion FG Color */
 [class="notion-callout color-red-light border"] {
-  border: 3px solid var(--color-border-red) !important;
+  border: 2px solid var(--color-border-red) !important;
   background-color: transparent !important;
   color: var(--color-text-default) !important;
 }
@@ -800,43 +800,43 @@
 }
 
 span.notion-pill.pill-default.first {
-  border: 2px solid var(--color-accent-bg) !important;
+  border: 1px solid var(--color-accent-bg) !important;
 }
 
 span.notion-pill.pill-gray.first {
-  border: 2px solid var(--color-accent-bg) !important;
+  border: 1px solid var(--color-accent-bg) !important;
 }
 
 span.notion-pill.pill-brown.first {
-  border: 2px solid var(--color-accent-bg) !important;
+  border: 1px solid var(--color-accent-bg) !important;
 }
 
 span.notion-pill.pill-orange.first {
-  border: 2px solid var(--color-accent-bg) !important;
+  border: 1px solid var(--color-accent-bg) !important;
 }
 
 span.notion-pill.pill-yellow.first {
-  border: 2px solid var(--color-accent-bg) !important;
+  border: 1px solid var(--color-accent-bg) !important;
 }
 
 span.notion-pill.pill-green.first {
-  border: 2px solid var(--color-accent-bg) !important;
+  border: 1px solid var(--color-accent-bg) !important;
 }
 
 span.notion-pill.pill-blue.first {
-  border: 2px solid var(--color-accent-bg) !important;
+  border: 1px solid var(--color-accent-bg) !important;
 }
 
 span.notion-pill.pill-purple.first {
-  border: 2px solid var(--color-accent-bg) !important;
+  border: 1px solid var(--color-accent-bg) !important;
 }
 
 span.notion-pill.pill-pink.first {
-  border: 2px solid var(--color-accent-bg) !important;
+  border: 1px solid var(--color-accent-bg) !important;
 }
 
-.span.notion-pill.pill-red.first {
-  border: 2px solid var(--color-accent-bg) !important;
+span.notion-pill.pill-red.first {
+  border: 1px solid var(--color-accent-bg) !important;
 }
 
   /* #Quote */
