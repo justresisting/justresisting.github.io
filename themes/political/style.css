@@ -117,7 +117,7 @@
   --color-border-red: rgba(var(--color-red),1)  !important;
   /*^ Pill */
   --color-pill-default: rgba(var(--color-default),.5)  !important;
-  --color-pill-gray: rgba(var(--color-gray),.50)  !important;
+  --color-pill-gray: rgba(var(--color-gray),.5)  !important;
   --color-pill-brown: rgba(var(--color-brown),.5)  !important;
   --color-pill-orange: rgba(var(--color-orange),.5)  !important;
   --color-pill-yellow: rgba(var(--color-yellow),.75)  !important;
@@ -542,7 +542,7 @@
 [class="notion-callout bg-gray-light border"] {
   /*! max-width: 250px !important; */
   color: white !important;
-  background-color: var(--color-bg-black) !important;
+  background-color: var(--color-bg-gray) !important;
   border-color: var(--color-border-default) !important;
   box-shadow: 0 0 0 0 rgba(var(--color-black),0.5) inset, 0 0 0 0 rgba(var(--color-black),0.5) !important;
   transition: all 500ms ease-in-out !important;
@@ -552,7 +552,7 @@
 [class="notion-callout bg-gray-light border"]:hover {
   /*! max-width: 250px !important; */
   color: white !important;
-  background-color: var(--color-bg-black) !important;
+  background-color: var(--color-bg-grat) !important;
   border-color: var(--color-border-black) !important;
   box-shadow: 0 0 0 0 rgba(var(--color-black),0.5) inset, 0 0 0 0 rgba(var(--color-black),0.5) !important;
 }
