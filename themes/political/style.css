@@ -502,7 +502,7 @@
   box-sizing: border-box !important;
   appearance: none !important;
   background-color: transparent !important;
-  border: 2px solid var(--color-accent-bg) !important;
+  border: 2px solid var(--color-border-default) !important;
   border-radius: 0.6em !important;
   color: white !important;
   cursor: pointer !important;
@@ -1669,14 +1669,13 @@ code.code {
   
   /* #Breadcrumbs */
 
-/*  
+
 .notion-breadcrumb,
 .notion-breadcrumb__item,
 .notion-breadcrumb > a,
 .notion-breadcrumb > a.has-icon {
   padding: 5px !important;
 }
- 8? 
   
   /* END POLITICAL CUSTOMIZATION */
   
