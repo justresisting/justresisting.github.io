@@ -1161,24 +1161,23 @@ h3.notion-heading.toggle,
   /* #Collection Cards */
   
   .notion-collection-card {
-    color: var(--color-text-white);
-    background-color: var(--color-default) !important;
-    font-family: var(--secondary-font) !important;
   }
   
   .notion-collection-card {
-    box-shadow: none !important;
-    border: none;
+    color: var(--color-text-white) !important;
     background-color: var(--color-default-hover) !important;
+    border: none !important;
     border-radius: var(--element-radius) !important;
+    font-family: var(--secondary-font) !important;
+    box-shadow: none !important;
     transition: .3s ease-in-out  !important;
   }
   
   .notion-collection-card:hover {
-    color: var(--color-text-white);
+    color: var(--color-text-white) !important;
     background-color: var(--color-default) !important;
-    transform: scale(1.1) !important;
     border: none !important;
+    transform: scale(1.1) !important;
     box-shadow: 0px 24px 16px 0px rgba(0,0,0,0.05) !important;
     -webkit-box-shadow: 1px 17px 23px 0px rgba(0,0,0,0.05) !important;
     -moz-box-shadow: 1px 17px 23px 0px rgba(0,0,0,0.05) !important;
@@ -1418,18 +1417,18 @@ h3.notion-heading.toggle,
     margin: 0px 0.5em !important;
   }
   
-  .notion-dropdown__menu-header,
-  .notion-dropdown__menu-header:hover,
   div.notion-dropdown__option,
   .notion-dropdown__option,
   .notion-dropdown__option p,
   .notion-dropdown__option-list,
-  .notion-dropdown__option-list:hover {
+  .notion-dropdown__menu-header {
     background-color: var(--color-bg-default) !important;
   }
   
-  .notion-dropdown__option:hover p {
-    background-color: var(--color-card-bg) !important;
+  .notion-dropdown__option:hover p,
+  .notion-dropdown__option-list:hover,
+  .notion-dropdown__menu-header:hover {
+    background-color: var(--color-default-hover) !important;
   }
   
   
@@ -1466,9 +1465,9 @@ h3.notion-heading.toggle,
   /* Bookmarks */
   
   .notion-bookmark__description {
-    margin: 0;
+    margin: 0.2rem !important;
     margin-bottom: 0px  !important;
-    font-size: 12px  !important;
+    font-size: 14px  !important;
     line-height: 1rem  !important;
     height: fit-content  !important;
     overflow: hidden  !important;
