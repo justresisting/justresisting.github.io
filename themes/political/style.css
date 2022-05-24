@@ -724,35 +724,35 @@
 
 /** Default var(--color-card-bg) Callout Border - Notion FG Color */
 [class="notion-callout color-default-light border"] {
-  border: 2px solid var(--color-card-bg) !important;
+  border: 3px solid var(--color-card-bg) !important;
   background-color: transparent !important;
   color: var(--color-text-default) !important;
 }
 
 /** Brown Callout Border - Notion FG Color */
 [class="notion-callout color-brown-light border"] {
-  border: 2px solid var(--color-border-brown) !important;
+  border: 3px solid var(--color-border-brown) !important;
   background-color: transparent !important;
   color: var(--color-text-default) !important;
 }
 
 /** Orange Callout Border - Notion FG Color */
 [class="notion-callout color-orange-light border"] {
-  border: 2px solid var(--color-border-orange) !important;
+  border: 3px solid var(--color-border-orange) !important;
   background-color: transparent !important;
   color: var(--color-text-default) !important;
 }
 
 /** Yellow Callout Border - Notion FG Color */
 [class="notion-callout color-yellow-light border"] {
-  border: 2px solid var(--color-border-yellow) !important;
+  border: 3px solid var(--color-border-yellow) !important;
   background-color: transparent !important;
   color: var(--color-text-default) !important;
 }
 
 /** Green Callout Border - Notion FG Color */
 [class="notion-callout color-green-light border"] {
-  border: 2px solid var(--color-border-green) !important;
+  border: 3px solid var(--color-border-green) !important;
   background-color: transparent !important;
   color: var(--color-text-default) !important;
 }
@@ -766,21 +766,21 @@
 
 /** Purple Callout Border - Notion FG Color */
 [class="notion-callout color-purple-light border"] {
-  border: 2px solid var(--color-border-purple) !important;
+  border: 3px solid var(--color-border-purple) !important;
   background-color: transparent !important;
   color: var(--color-text-default) !important;
 }
 
 /** Pink Callout Border - Notion FG Color */
 [class="notion-callout color-pink-light border"] {
-  border: 2px solid var(--color-border-pink) !important;
+  border: 3px solid var(--color-border-pink) !important;
   background-color: transparent !important;
   color: var(--color-text-default) !important;
 }
 
 /** Red Callout Border - Notion FG Color */
 [class="notion-callout color-red-light border"] {
-  border: 2px solid var(--color-border-red) !important;
+  border: 3px solid var(--color-border-red) !important;
   background-color: transparent !important;
   color: var(--color-text-default) !important;
 }
@@ -1652,7 +1652,7 @@ code.code {
     transition: all 500ms ease-in-out !important;
   }
   
-  /** Gray Callout Button - BG color in Notion :HOVER */
+  /** Gray Callout Border - BG color in Notion :HOVER */
   [class="notion-callout bg-gray-light border"]:hover {
     /*! max-width: 250px !important; */
     color: white !important;
