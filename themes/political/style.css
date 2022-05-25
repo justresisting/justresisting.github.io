@@ -69,7 +69,7 @@
   --color-blue: 10, 49, 97  !important; /* rgb(37,77,117) */
   --color-purple: 121, 0, 121  !important; /* rgb(121,85,121) */
   --color-pink: 255, 141, 223  !important; /* rgb(255,141,223) */
-  --color-red: 255, 0, 0  !important; /* rgb(179,25,66) */
+  --color-red: 179, 25, 66  !important; /* rgb(179,25,66) */
   /* #Text */
   /*^ Site Foreground */
   --color-text-white: rgba(var(--color-white),1) !important;
@@ -125,7 +125,7 @@
   --color-pill-green: rgba(var(--color-green),.5)  !important;
   --color-pill-blue: rgba(var(--color-blue),.5)  !important;
   --color-pill-purple: rgba(var(--color-purple),.75)  !important;
-  --color-pill-pink: rgba(var(--color-pink),.75)  !important;
+  --color-pill-pink: rgba(var(--color-pink),0.75)  !important;
   --color-pill-red: rgba(var(--color-red),0.25)  !important;
   /* $Call to Actions */
   --cta-padding: 13px 14px !important;
