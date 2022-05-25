@@ -1415,13 +1415,13 @@ h3.notion-heading.toggle,
   
   
   /* View switcher (Dropdowns for Views in Databases) */
-  
+  /* ^ View selection at top of database */
   .notion-dropdown__button p, 
   .notion-dropdown__option p{
-    margin: 0px 1rem !important;
-    padding-left: 10% !important; 
+    margin: 0px 1rem !important; 
   }
   
+  /* ^ Dropdown that lists Views */
   div.notion-dropdown__option,
   .notion-dropdown__option,
   .notion-dropdown__option p,
