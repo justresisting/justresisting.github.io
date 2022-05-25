@@ -126,7 +126,7 @@
   --color-pill-blue: rgba(var(--color-blue),.5)  !important;
   --color-pill-purple: rgba(var(--color-purple),.75)  !important;
   --color-pill-pink: rgba(var(--color-pink),.75)  !important;
-  --color-pill-red: rgba(var(--color-red),0.75)  !important;
+  --color-pill-red: rgba(var(--color-red),0.25)  !important;
   /* $Call to Actions */
   --cta-padding: 13px 14px !important;
   --cta-border-radius: 4px !important;
