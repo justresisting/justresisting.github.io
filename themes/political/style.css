@@ -26,6 +26,7 @@
   /* #Global Colors */
   /*^ default theme color */
   --color-default: rgb(10, 49, 97) !important; /* rgb(10,49,97) */
+  --color-default-light: rgba(var(--color-default),0.25) !important;
   --color-default-hover: rgb(37, 77, 117) !important; /* rgb(37,77,117) */ 
   /*^ global background color */
   --color-bg-default: rgb(51, 102, 153) !important; /* rgb(51,102,153) */
@@ -41,7 +42,7 @@
   /*^ accent color */
   --color-accent-bg: rgb(0, 178, 128)  !important;
   /*^ alt accent color w/ transparency */
-  --color-accent-bg-light: var(--color-bg-red-light) !important;
+  --color-accent-bg-light: rgba(var(--color-accent-bg),0.5) !important;
   /*^ default color for block backgrounds */
   --color-card-bg: var(--color-default) !important;
   /*^ default color for element :hover*/
@@ -56,7 +57,7 @@
   /*^    coders can be dumb. */
   /*^    my favorite color is clear */
   /*^    don't judge. hahaha */
-  --color-transparent: transparent  !important;
+  --color-transparent: rgba(var(--color-default),0.5)  !important;
   /* #Colors */
   --color-white: 255, 255, 255  !important; /* rgb(255,255,255) */
   --color-gray: 151, 151, 151  !important; /* rgb(121,121,121) */
@@ -1163,7 +1164,7 @@ h3.notion-heading.toggle,
   
   .notion-collection-card {
     color: var(--color-text-white) !important;
-    background-color: var(--color-default) !important;
+    background-color: var(--color-accent-bg) !important;
     border: none !important;
     border-radius: var(--element-radius) !important;
     font-family: var(--secondary-font) !important;
