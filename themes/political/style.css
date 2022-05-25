@@ -1418,7 +1418,7 @@ h3.notion-heading.toggle,
   
   .notion-dropdown__button p, 
   .notion-dropdown__option p{
-    margin: 0px 1em !important;
+    margin: 4px 1rem !important;
   }
   
   div.notion-dropdown__option,
