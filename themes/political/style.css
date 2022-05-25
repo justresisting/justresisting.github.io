@@ -1160,8 +1160,6 @@ h3.notion-heading.toggle,
   
   /* #Collection Cards */
   
-  .notion-collection-card {
-  }
   
   .notion-collection-card {
     color: var(--color-text-white) !important;
@@ -1298,7 +1296,12 @@ h3.notion-heading.toggle,
     width: fit-content !important;
   }
   
-  
+  .notion-collection-board,
+  .notion-collection-board.small,
+  .notion-collection-board.medium,
+  .notion-collection-board.large {
+    background-color: var(--color-bg-blue-light) !important;
+  }
   
   /* #Gallery */
   
