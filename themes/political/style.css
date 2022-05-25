@@ -1428,8 +1428,8 @@ h3.notion-heading.toggle,
   .notion-dropdown__option-list,
   .notion-dropdown__menu-header {
     background-color: var(--color-bg-default) !important;
-    margin: 16px 2rem !important;
-    padding-left: 10% !important;
+    margin: auto !important;
+    padding-left: auto !important;
   }
   
   .notion-dropdown__option:hover p,
