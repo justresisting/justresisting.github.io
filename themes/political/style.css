@@ -26,7 +26,7 @@
   /* #Global Colors */
   /*^ default theme color */
   --color-default: rgb(10, 49, 97) !important; /* rgb(10,49,97) */
-  --color-default-light: rgba(var(--color-default),0.25) !important;
+  --color-default-light: rgba(var(--color-default),0.5) !important;
   --color-default-hover: rgb(37, 77, 117) !important; /* rgb(37,77,117) */ 
   /*^ global background color */
   --color-bg-default: rgb(51, 102, 153) !important; /* rgb(51,102,153) */
@@ -47,7 +47,7 @@
   --color-card-bg: var(--color-default) !important;
   /*^ default color for element :hover*/
   --color-ui-hover-bg: var(--color-default-hover) !important;
-  --color-ui-hover-bg-light: var(--color-default-hover) !important;
+  --color-ui-hover-bg-light: rgba(var(--color-default-hover),0.75) !important;
   /*^ h1 color */
   --color-text-h1: rgb(200, 100, 100) !important;
   /*^ h2 color */
@@ -1164,7 +1164,7 @@ h3.notion-heading.toggle,
   
   .notion-collection-card {
     color: var(--color-text-white) !important;
-    background-color: var(--color-accent-bg) !important;
+    background-color: var(--color-default) !important;
     border: none !important;
     border-radius: var(--element-radius) !important;
     font-family: var(--secondary-font) !important;
@@ -1174,7 +1174,7 @@ h3.notion-heading.toggle,
   
   .notion-collection-card:hover {
     color: var(--color-text-white) !important;
-    background-color: var(--color-default-hover) !important;
+    background-color: var(--color-bg-default) !important;
     border: none !important;
     transform: scale(1.1) !important;
     box-shadow: 0px 24px 16px 0px rgba(0,0,0,0.05) !important;
