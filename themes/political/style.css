@@ -22,26 +22,23 @@
   /*^ global background color */
   --color-bg-default: rgb(51, 102, 153) !important; /* rgb(51,102,153) */
   /*^ global foreground text color */
-  --color-text-default: var(--color-text-white) !important;
+  --color-text-default: rgb(255,255,255) !important;
   /*^ dimmer global foreground text color */
-  --color-text-default-light: var(--color-text-white) !important;
+  --color-text-default-light: rgb(200,200,200) !important;
   /*^ default border color for elements */
   --color-border-default: var(--color-default) !important;
   /*^ alt border color w/ transparency*/
-  --color-border-transparent: rgba(var(--color-default),.5) !important;
+  --color-border-transparent: var(--color-default-light) !important;
   /*^ accent color */
-  --color-accent-bg: rgb(16, 178, 122)  !important;
+  --color-accent-bg: rgba(16,128,128,0.5)  !important;
   /*^ alt accent color w/ transparency */
-  --color-accent-bg-light: rgba(var(--color-accent-bg),0.5) !important;
+  --color-accent-bg-light: rgba(16,128,128,0.25) !important;
   /*^ default color for block backgrounds */
   --color-card-bg: var(--color-default) !important;
   /*^ default color for element :hover*/
-  --color-ui-hover-bg: rgba(10, 49, 97, 0.75) !important;
-  --color-ui-hover-bg-light: rgba(10, 49, 97, 0.55) !important;
-  /*^    coders can be dumb. */
-  /*^    my favorite color is clear */
-  /*^    don't judge. hahaha */
-  --color-transparent: rgba(var(--color-default),0.5)  !important;
+  --color-ui-hover-bg: rgba(37, 77, 117, 0.75) !important;
+  --color-ui-hover-bg-light: rgba(37, 77, 117, 0.25) !important;
+  --color-transparent: var(--color-default-light) !important;
   /* #Colors */
   --color-white: 255, 255, 255  !important; /* rgb(255,255,255) */
   --color-gray: 151, 151, 151  !important; /* rgb(121,121,121) */
@@ -56,17 +53,17 @@
   --color-red: 179, 25, 66  !important; /* rgb(179,25,66) */
   /* #Text */
   /*^ Site Foreground */
-  --color-text-white: rgba(var(--color-white),1) !important;
-  --color-text-gray: rgba(var(--color-gray),1)  !important;
-  --color-text-black: rgba(var(--color-black),1)  !important;
-  --color-text-brown: rgba(var(--color-brown),1)  !important;
-  --color-text-orange: rgba(var(--color-orange),1)  !important;
-  --color-text-yellow: rgba(var(--color-yellow),1)  !important;
-  --color-text-green: rgba(var(--color-green),1)  !important;
-  --color-text-blue: rgba(var(--color-blue),1)  !important;
-  --color-text-purple: rgba(var(--color-purple),1)  !important;
-  --color-text-pink: rgba(var(--color-pink),1)  !important;
-  --color-text-red: rgba(var(--color-red),1)  !important;
+  --color-text-white: rgb(var(--color-white)) !important;
+  --color-text-gray: rgb(var(--color-gray))  !important;
+  --color-text-black: rgb(var(--color-black))  !important;
+  --color-text-brown: rgb(var(--color-brown))  !important;
+  --color-text-orange: rgb(var(--color-orange))  !important;
+  --color-text-yellow: rgb(var(--color-yellow))  !important;
+  --color-text-green: rgb(var(--color-green))  !important;
+  --color-text-blue: rgb(var(--color-blue))  !important;
+  --color-text-purple: rgb(var(--color-purple))  !important;
+  --color-text-pink: rgb(var(--color-pink))  !important;
+  --color-text-red: rgb(var(--color-red))  !important;
   /*^ Site Background = More Opacity*/
   --color-bg-white: rgba(var(--color-white),0.75) !important;
   --color-bg-gray: rgba(var(--color-gray),0.75)  !important;
@@ -833,75 +830,75 @@ span.notion-pill.pill-red.first {
     border-radius: var(--element-radius) !important;
   }
 
-/* Quote Button */
+ /* $Quote Button */
 
-/* Default Quoteblock Button */
+/*^ Default Quoteblock Button */
 [class="notion-quote"] {
-  color: black !important;
+  color: var(--color-text-default-light) !important;
   border: 3px solid var(--color-border-default) !important;
   background: transparent !important;
 }
 
-/* Gray Quoteblock Button */
+/*^ Gray Quoteblock Button */
 [class="notion-quote bg-gray"] {
-  color: black !important;
+  color: var(--color-text-default-light) !important;
   background-color: var(--color-bg-gray-light) !important;
   border: 3px solid rgb(var(--color-black)) !important;
 }
 
-/* Brown Quoteblock Button */
+/*^ Brown Quoteblock Button */
 [class="notion-quote bg-brown"] {
-  color: black !important;
+  color: var(--color-text-default-light) !important;
   background-color: var(--color-bg-brown) !important;
   border: 3px solid var(--color-border-default) !important;
 } 
 
-/* Orange Quoteblock Button */
+/*^ Orange Quoteblock Button */
 [class="notion-quote bg-orange"] {
-  color: black !important;
+  color: var(--color-text-default-light) !important;
   background-color: var(--color-bg-orange-light) !important;
   border: 3px solid var(--color-border-default) !important;
 }
 
-/* Yellow Quoteblock Button */
+/*^ Yellow Quoteblock Button */
 [class="notion-quote bg-yellow"] {
-  color: black !important;
+  color: var(--color-text-default-light) !important;
   background-color: var(--color-bg-yellow-light) !important;
   border: 3px solid var(--color-border-default) !important;
 }
 
-/* Green Quoteblock Button */
+/*^ Green Quoteblock Button */
 [class="notion-quote bg-green"] {
-  color: black !important;
+  color: var(--color-text-default-light) !important;
   background-color: var(--color-bg-green-light) !important;
   border: 3px solid var(--color-border-default) !important;
 }
 
-/* Blue Quoteblock Button */ 
+/*^ Blue Quoteblock Button */ 
 [class="notion-quote bg-blue"] {
-  color: black !important;
+  color: var(--color-text-default-light) !important;
   background-color: var(--color-bg-blue-light) !important;
   border: 3px solid var(--color-border-default) !important;
 }
 
 
-/* Purple Quoteblock Button */ 
+/*^ Purple Quoteblock Button */ 
 [class="notion-quote bg-purple"] {
-  color: black !important;
+  color: var(--color-text-default-light) !important;
   background-color: var(--color-bg-purple-light) !important;
   border: 3px solid var(--color-border-default) !important;
 }
 
-/* Pink Quoteblock Button  */ 
+/*^ Pink Quoteblock Button  */ 
 [class="notion-quote bg-pink"] {
-  color: black !important;
+  color: var(--color-text-default-light) !important;
   background-color: var(--color-bg-pink-light) !important;
   border: 3px solid var(--color-border-default) !important;
 }
 
-/* Red Quoteblock Button */
+/*^ Red Quoteblock Button */
 [class="notion-quote bg-red"] {
-  color: black !important;
+  color: var(--color-text-default-light) !important;
   background-color: var(--color-bg-red-light) !important;
   border: 3px solid var(--color-border-default) !important;
 }
@@ -909,54 +906,63 @@ span.notion-pill.pill-red.first {
   
 /* $Quote Border */
   
-/* Default Quoteblock Border */
+/*^ Default Quoteblock Border */
 [class="notion-quote"] {
+  color: var(--color-text-default-light) !important;
   border: 4px solid var(--color-card-bg) !important;
 }
 
-/* Gray Quoteblock Border */
+/*^ Gray Quoteblock Border */
 [class="notion-quote color-gray"] {
+  color: var(--color-text-default-light) !important;
   border: 4px solid rgb(var(--color-gray)) !important;
 }
 
-/* Brown Quoteblock Border */
+/*^ Brown Quoteblock Border */
 [class="notion-quote color-brown"] {
+  color: var(--color-text-default-light) !important;
   border: 3px solid rgb(var(--color-brown)) !important;
 }
 
-/* Orange Quoteblock Border */
+/*^ Orange Quoteblock Border */
 [class="notion-quote color-orange"] {
+  color: var(--color-text-default-light) !important;
   border: 3px solid rgb(var(--color-orange)) !important;
 }
 
-/* Yellow Quoteblock Border */
+/*^ Yellow Quoteblock Border */
 [class="notion-quote color-yellow"] {
+  color: var(--color-text-default-light) !important;
   border: 3px solid rgb(var(--color-yellow)) !important;
 }
 
-/* Green Quoteblock Border */
+/*^ Green Quoteblock Border */
 [class="notion-quote color-green"] {
+  color: var(--color-text-default-light) !important;
   border: 3px solid rgb(var(--color-green)) !important;
 }
 
-/* Blue Quoteblock Border */
+/*^ Blue Quoteblock Border */
 [class="notion-quote color-blue"] {
-  color: cyan !important;
+  color: var(--color-text-default-light) !important;
   border: 5px solid rgb(var(--color-blue)) !important;
 }
 
-/* Purple Quoteblock Border */
+/*^ Purple Quoteblock Border */
 [class="notion-quote color-purple"] {
+  color: var(--color-text-default-light) !important;
   border: 4px solid rgba(var(--color-purple),1) !important;
 }
 
-/* Pink Quoteblock Border */
+/*^ Pink Quoteblock Border */
 [class="notion-quote color-pink"] {
+  color: var(--color-text-default-light) !important;
   border: 3px solid rgb(var(--color-pink)) !important;
 }
 
-/* Red Quoteblock Border */
+/*^ Red Quoteblock Border */
 [class="notion-quote color-red"] {
+  color: var(--color-text-default-light) !important;
   border: 3px solid rgb(var(--color-red)) !important;
 }
   
@@ -1029,6 +1035,8 @@ span.notion-pill.pill-red.first {
   .notion-bulleted-list {
     padding-bottom: 1em !important;
   }
+
+
   
   .notion-bulleted-list {
     color: var(--color-text-white);
