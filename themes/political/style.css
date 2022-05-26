@@ -423,7 +423,7 @@
   .notion-page {
     border-color: transparent !important;
     border-radius: var(--element-radius) !important;
-    max-width: var(--notion-page-width) !important;
+    min-width: var(--notion-page-width) !important;
   }
   
   .notion-page > div {
