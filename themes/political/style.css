@@ -30,9 +30,9 @@
   /*^ alt border color w/ transparency*/
   --color-border-transparent: var(--color-default-light) !important;
   /*^ accent color */
-  --color-accent-bg: rgba(16,128,128,0.5)  !important;
+  --color-accent-bg: rgb(0,255,255)  !important;
   /*^ alt accent color w/ transparency */
-  --color-accent-bg-light: rgba(16,128,128,0.25) !important;
+  --color-accent-bg-light: rgb(16,128,128) !important;
   /*^ default color for block backgrounds */
   --color-card-bg: var(--color-default) !important;
   /*^ default color for element :hover*/
@@ -184,8 +184,7 @@
   /* $Width */
   /*^ Desktop Page Width */
   --theme-width: 1440px !important;
-  /* ^Notion Page Blocks */
-  --notion-page-width: 256px !important;
+  --min-width: 256px !important;
 
   /* #UI */
   /*^ Global Border Radius [Rounding] */
@@ -422,7 +421,7 @@
   .notion-page {
     border-color: transparent !important;
     border-radius: var(--element-radius) !important;
-    min-width: var(--notion-page-width) !important;
+    min-width: var(--min-width) !important;
   }
   
   .notion-page > div {
@@ -1455,7 +1454,19 @@ h3.notion-heading.toggle,
   
   
   /* Bookmarks */
-  
+
+  .notion-bookmark {
+    background-color: var(--color-card-bg)!important;
+  }
+
+    .notion-bookmark:hover {
+    background-color: var(--color-default-hover)!important;
+  }
+
+  .notion-bookmark__title {
+    color: var(--color-accent-bg);
+  }
+    
   .notion-bookmark__description {
     margin: 0.2rem !important;
     margin-bottom: 0px  !important;
@@ -1606,9 +1617,8 @@ code.code {
     border-radius: var(--element-radius) !important;
     z-index: 19 !important;
     border: 1px solid var(--color-border-default) !important;
-    color: var(--color-white) !important;
-    /*background: var(--color-card-bg) !important;*/
-    background-color: transparent !important;
+    color: white !important;
+    background-color: var(--color-default-light) !important;
     opacity: 1 !important;
   }
   
