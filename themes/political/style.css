@@ -1671,43 +1671,54 @@ code.code {
   
   
   /* THEME: POLITICAL OVERWRITES */
-  
   /* These should be set to default values */
   /* When using template, copy/paste these 
      values into Super's global code section */
   
-  /* Show/Hide Notion-Navbar  */
-  .notion-navbar {
+    /*^ SHOW/Hide All Toggles*/
+.notion-toggle {
+    display: block !important;
+    }
+
+    /*^ HIDE Toggles with Specific Color BG*/ 
+    /*$ Toggle with BG color below won't appear on page */
+    /** Replace brown with any color (optional) */ 
+.notion-toggle.bg-brown {
     display: none !important;
-  }
+    }
+  
+    /* Show/Hide Notion-Navbar  */
+.notion-navbar {
+    display: none !important;
+    }
   
   
-  .notion-page {
+.notion-page {
     /* Show/Hide ALL Notion Page Blocks */
     display: block !important;
     /* Set Page Block BG Color*/
     background-color: var(--color-card-bg) !important;
-  }
+    }
   
-  /* Show/Hide Notion Page Block Icons  */
-  /* Doesn't Work on Uploaded Images */
-  /* Leaves Icon Padding  */
-  .notion-icon__page {
+    /* Show/Hide Notion Page Block Icons  */
+    /* Doesn't Work on Uploaded Images */
+    /* Leaves Icon Padding  */
+.notion-icon__page {
     display: none !important;
-  } 
-  /* Remove ALL Notion Page Block Icons*/
-  /* display: none */
-  /* Show Uploaded Icons & Icon Padding */
-  /* display: block*/
-  .notion-page__icon {
+    } 
+    /* Remove ALL Notion Page Block Icons*/
+    /* display: none */
+    /* Show Uploaded Icons & Icon Padding */
+    /* display: block*/
+.notion-page__icon {
     display: none !important;
-  }
+    }
   
-  /* Increase/Decrease Opacity to change Page BG Color on Mouseover */
-  .notion-page:focus,
-  .notion-page:hover {
-  background-color: var(--color-ui-hover-bg) !important;
-  }
+    /* Increase/Decrease Opacity to change Page BG Color on Mouseover */
+.notion-page:focus,
+.notion-page:hover {
+    background-color: var(--color-ui-hover-bg) !important;
+    }
   
   /* #NOTION-HEADER */
   
@@ -1788,16 +1799,6 @@ code.code {
   }
 
 
-    /*^ SHOW/Hide All Toggles*/
-.notion-toggle {
-  display: block !important;
-}
-  /*^ HIDE Toggles with Specific Color BG*/ 
-  /*$ Toggle with BG color below won't appear on page */
-  /** Replace brown with any color (optional) */ 
-.notion-toggle.bg-brown {
-  display: none !important;
-}
   
   /* Set Page Width */
   .super-content.max-width {
