@@ -17,7 +17,7 @@
   /* #Global Colors */
   /*^ default theme color */
   --color-default: rgb(10, 49, 97) !important; /* rgb(10,49,97) */
-  --color-default-light: rgba(10, 49, 97, 0.5) !important;
+  --color-default-light: rgba(10, 49, 97, 0.75) !important;
   --color-default-hover: rgb(10, 49, 97) !important; /* rgb(37,77,117) */ 
   /*^ global background color */
   --color-bg-default: rgb(51, 102, 153) !important; /* rgb(51,102,153) */
@@ -219,15 +219,19 @@
     padding-bottom: 4em !important;
   }
 
-  .super-navbar_menu {
+   .super-navbar__menu {
     background-color: var(--color-default-light) !important;
     min-width: 200px !important;
     backdrop-filter: blur(16px) !important;
   }
 
   .super-navbar__item {
-    font-weight: bold !important;
+    opacity: .85 !important;
+  }
+  
+  .super-navbar__item:hover {
     opacity: 1 !important;
+    text-decoration: underline solid yellow 1px !important;
   }
 
   
@@ -1799,12 +1803,7 @@ code.code {
   }
   
   
-/* Reduces empty space below header */
-/* If header is off*/
-.notion-header__title-wrapper {
-    display: none !important;
-    /* was set to display: none */
-  }
+
   
   /* #TOGGLES */
     /*^ SHOW/Hide All Toggles*/
