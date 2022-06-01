@@ -1764,7 +1764,7 @@ code.code {
   /* END POLITICAL CUSTOMIZATION */
   
   
-  /* THEME: POLITICAL OVERWRITES */
+  /* #THEME: POLITICAL OVERWRITES */
   /* These should be set to default values */
   /* When using template, copy/paste these 
      values into Super's global code section */
@@ -1779,25 +1779,42 @@ code.code {
     display: block !important;
   }
   
-    /* For a cover without a header title */
-    /* Set .notion-header (above) to BLOCK */
-    /* And set below to NONE */
-.notion-header .notion-header__title-wrapper {
-    display: none !important;
-  }
-  
   /* Show/Hide Page Title */
   /* Only works if .notion-header__title-wrapper is set to BLOCK */
 .notion-header__title {
     display: none !important;
-    /* was set to display: none */
+    margin-bottom: 0 !important;
   }
   
+  /* Reduces empty space below header */
+  /* If .notion-header display is set to NONE*/
+.notion-header__title-wrapper {
+    display: none !important;
+  }
+
+    /* For a cover without a header title */
+    /* Set .notion-header (above) to BLOCK */
+    /* And set below to NONE */
+.notion-header .notion-header__title-wrapper {
+    display: block !important;
+  }
+
   /* Notion Header Icon*/
   /* Only works if .notion-header__title-wrapper is set to BLOCK */
 .notion-header__icon-wrapper { 
     display: none !important;
     /* was set to display: none */
+  }
+
+  /* ^Impacts Space beneath Header */
+.notion-header__content.has-cover.has-icon .notion-header__title-wrapper {
+    margin-top: 0 !important;
+  }
+
+
+  /* ^ Show/Hide Cover Image */
+.notion-header__cover {
+    display: block !important;
   }
   
   .super-content {
