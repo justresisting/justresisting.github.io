@@ -423,6 +423,18 @@
     border-radius: var(--element-radius) !important;
     min-width: var(--min-width) !important;
   }
+
+  /* !This is direct from Super Editor */
+  .notion-page {
+    display: inline-block !important;
+    background-color: transparent !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border-radius: var(--element-radius) !important;
+    line-height: 0.2em !important;
+    text-align: left !important;
+    align-items: stretch !important;
+  }
   
   .notion-page > div {
     border-radius: var(--element-radius) !important;
@@ -430,13 +442,49 @@
     transition: 300ms ease-in !important;
     padding: 0.5em !important;
   }
-  
+
+  .notion-page > div:hover {
+    background-color: transparent !important;
+  }
+
+    /* This is Notion page links within Words or other elements with words */
+    /* ^ Does NOT contain the full width of the page block */
+    /* !If you change the display you lose the underline */
+  .notion-page .notion-semantic-string {
+    background-color: transparent !important;
+    text-transform: capitalize !important;
+    display: inline-block !important;
+    color: white !important;
+    font-weight: 600 !important;
+    border-bottom: 1px solid var(--color-bg-yellow) !important;
+  }  
+
+  .notion-page .notion-semantic-string:hover {
+    background-color: transparent !important;
+    font-weight: bold !important;
+    border-bottom: 1px solid yellow !important;
+  }
+
+  /* ?Unclear of difference between this and .notion-page */
+  /* !This will revert yellow border-bottom to color-default */
   .notion-page__title .notion-semantic-string {
     border-bottom: 1px solid var(--color-border-default) !important;
   }
 
-  /*^ Property name in databases*/
-  .notion-page__property-name {
+    /* $Without this code Page Blocks hover*/
+    /* ^Pages WITHOUT icons OR Mentions */
+.notion-page:focus,
+.notion-page:hover,
+    /* ^Pages WITH icons OR Page Mentions */
+.notion-page.emoji:hover,
+    /* ^Not Sure Where these are yet*/
+.notion-link.notion-page:hover {
+    background-color: transparent !important;
+    border-radius: 5px !important;
+  }
+
+    /*^ Property name in databases*/
+.notion-page__property-name {
     display: flex;
     align-items: flex-start;
     white-space: nowrap;
@@ -445,6 +493,25 @@
     padding-top: 7px;
     color: white !important;
   }
+
+    /* ^Properties on a Page */
+    /* All Properties on a Page*/
+.notion-page__properties {
+    display: flex !important;
+    overflow: hidden !important;
+  }
+
+    /* !Direct from Super Editor */
+    /*^ Property name in databases*/
+.notion-page__property-name {
+    display: flex ;
+    align-items: flex-start;
+    white-space: nowrap;
+    flex: 0 0 auto;
+    min-width: 0;
+    padding: 0;
+    color: white !important;
+    }
   
   /* #Callout */
   
@@ -1675,130 +1742,91 @@ code.code {
   /* When using template, copy/paste these 
      values into Super's global code section */
   
+    /* #NOTION-HEADER */
+  
+    /* #Show/Hide Notion Header */
+    /* #(Page Title, Cover and Icon)*/
+    /* Set to NONE to hide all */
+    /* Set to BLOCK to show all*/
+.notion-header {
+    display: block !important;
+  }
+  
+    /* For a cover without a header title */
+    /* Set .notion-header (above) to BLOCK */
+    /* And set below to NONE */
+.notion-header .notion-header__title-wrapper {
+    display: block !important;
+  }
+  
+  /* Show/Hide Page Title */
+  /* Only work is .notion-header__title-wrapper is set to BLOCK */
+.notion-header__title {
+    display: none !important;
+    /* was set to display: none */
+  }
+  
+  /* Notion Header Icon*/
+  /* Only work is .notion-header__title-wrapper is set to BLOCK */
+.notion-header__icon-wrapper { 
+    display: none !important;
+    /* was set to display: none */
+  }
+  
+  .super-content {
+  padding-top: 0 !important;
+  }
+  
+    /* Show/Hide All Notion Page Block Icons  */
+.notion-icon {
+    display: block !important;
+  }
+    
+.notion-callout__icon {
+    display: none  !important;
+  }
+  
+  
+/* Reduces empty space below header */
+/* If header is off*/
+.notion-header__title-wrapper {
+    display: none !important;
+    /* was set to display: none */
+  }
+  
+  /* #TOGGLES */
     /*^ SHOW/Hide All Toggles*/
 .notion-toggle {
     display: block !important;
-    }
+  }
 
-    /*^ HIDE Toggles with Specific Color BG*/ 
+    /* #HIDE Toggles with Specific Color BG*/ 
     /*$ Toggle with BG color below won't appear on page */
     /** Replace brown with any color (optional) */ 
 .notion-toggle.bg-brown {
     display: none !important;
-    }
+  }
   
-    /* Show/Hide Notion-Navbar  */
-.notion-navbar {
-    display: none !important;
-    }
-  
-  
+
+  /* Show/Hide ALL Notion Page Blocks */
 .notion-page {
-    /* Show/Hide ALL Notion Page Blocks */
     display: block !important;
-    /* Set Page Block BG Color*/
-    background-color: var(--color-card-bg) !important;
-    }
-  
-    /* Show/Hide Notion Page Block Icons  */
-    /* Doesn't Work on Uploaded Images */
-    /* Leaves Icon Padding  */
-.notion-icon__page {
-    display: none !important;
-    } 
+  }
+    
     /* Remove ALL Notion Page Block Icons*/
     /* display: none */
     /* Show Uploaded Icons & Icon Padding */
     /* display: block*/
 .notion-page__icon {
     display: none !important;
-    }
-  
-    /* Increase/Decrease Opacity to change Page BG Color on Mouseover */
-.notion-page:focus,
-.notion-page:hover {
-    background-color: var(--color-ui-hover-bg) !important;
-    }
-  
-  /* #NOTION-HEADER */
-  
-  /* #Show/Hide Notion Header */
-  /* #(Page Title, Cover and Icon)*/
-  .notion-header {
-  display: none !important;
-  }
-  .super-content {
-  padding-top: 60px !important;
-  }
-  /* .super-content affects the header padding left behind*/
-  /* %END Show/Hide Notion Header*/
-  
-  
-  /* Show/Hide All Notion Page Block Icons  */
-  .notion-icon {
-    display: block !important;
   }
   
-  .notion-header__icon {
+    /* Show/Hide Notion Page Block Icons  */
+    /* Doesn't Work on Uploaded Images */
+    /* Leaves Icon Padding  */
+.notion-icon__page {
     display: none !important;
   }
-  .notion-header__icon-wrapper { 
-    display: block !important;
-  /* was set to display: none */
-  }
-  
-  /* Show/Hide Column Header for Board Database */
-  .notion-collection-board__column-header {
-    display: block !important;
-  /* was set to display: none */
-  }
-  
-  /* Show/Hide Database Name */
-  .notion-collection__header-wrapper {
-    display: block !important;
-  }
-  
-  /* Show/Hide Notion Database Header Icon */
-  .notion-collection__header-wrapper {
-  display: block !important;
-  /* was set to display: none */
-  }
-  
-  /* Show/Hide Icon on Database Card  */
-  .notion-property,
-  .notion-property__title,
-  .notion-property__title__icon-wrapper 
-  .notion-property .notion-property__title {
-  display: block !important;
-  }
-
-    .notion-property__title .notion-property__title__icon-wrapper {
-      display: block !important;
-  }
-  
-  /* Show/Hide Page Title */
-  .notion-header__title {
-  display: block !important;
-  /* was set to display: none */
-  }
-  
-  .notion-header__title-wrapper {
-  display: block !important;
-  /* was set to display: none */
-  }
-  
-  /* Show/Hide Page Icon image */
-  .notion-header__icon-wrapper,
-  .notion-header__icon {
-  display: none !important;
-  /* was set to display: none */
-  }
-  
-  .notion-callout__icon {
-  display: none  !important;
-  }
-
-
   
   /* Set Page Width */
   .super-content.max-width {
