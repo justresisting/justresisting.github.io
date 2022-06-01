@@ -271,7 +271,6 @@
   /* #NOTION HEADER */
 
   .notion-header {
-    display: block !important;
     margin-bottom: 2rem !important;
   }
 
@@ -289,11 +288,6 @@
     margin: auto !important;
     width: calc(100% - var(--column-spacing)) !important;
     border-radius: var(--element-radius) !important;
-  }
-  
-  .notion-header__cover.no-cover {
-    max-height: 4em !important;
-    height: 0 !important; 
   }
   
   .notion-heading {
