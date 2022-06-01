@@ -1756,18 +1756,18 @@ code.code {
     /* Set .notion-header (above) to BLOCK */
     /* And set below to NONE */
 .notion-header .notion-header__title-wrapper {
-    display: block !important;
+    display: none !important;
   }
   
   /* Show/Hide Page Title */
-  /* Only work is .notion-header__title-wrapper is set to BLOCK */
+  /* Only works if .notion-header__title-wrapper is set to BLOCK */
 .notion-header__title {
     display: none !important;
     /* was set to display: none */
   }
   
   /* Notion Header Icon*/
-  /* Only work is .notion-header__title-wrapper is set to BLOCK */
+  /* Only works if .notion-header__title-wrapper is set to BLOCK */
 .notion-header__icon-wrapper { 
     display: none !important;
     /* was set to display: none */
