@@ -269,7 +269,12 @@
   
   
   /* #NOTION HEADER */
-  
+
+  .notion-header {
+    display: block !important;
+    margin-bottom: 2rem !important;
+  }
+
   .notion-header__title-wrapper {
     max-width: var(--theme-width) !important;
   }
@@ -300,6 +305,9 @@
     padding: 0 !important;
   }
   
+  .notion-text {
+    min-height: calc(1rem + 10px) !important;
+  }
   
   /* #CTA */
   
@@ -538,7 +546,7 @@
   
   .notion-callout {
     border-radius: var(--element-radius) !important;
-    padding: .5rem .5rem .5rem .5rem !important;
+    padding: 0 2rem !important;
     overflow: hidden !important;
     margin-bottom: 1em !important;
     border: 2px solid var(--color-border-default) !important;
@@ -1173,7 +1181,8 @@ h1.notion-heading.toggle,
 .notion-toggle-heading-1 {
     color: var(--h1-text-color) !important;
     text-shadow: 3px 3px 3px var(--color-default) !important;
-    font-size: var(--h1-size) !important; 
+    font-size: var(--h1-size) !important;
+    margin: 0.5rem 0 !important;
 }
 
 /*$ Area under an open heading toggle */
@@ -1192,7 +1201,8 @@ h2.notion-heading.toggle,
 .notion-toggle-heading-2 {
     color: var(--h2-text-color) !important;
     text-shadow: 3px 3px 3px var(--color-default) !important;
-    font-size: var(--h2-size) !important; 
+    font-size: var(--h2-size) !important;
+    margin: 0.5rem 0 !important; 
 }
 
 /*$ Area under an open heading toggle */
@@ -1211,7 +1221,8 @@ h3.notion-heading.toggle,
 .notion-toggle-heading-3 {
     color: var(--h3-text-color) !important;
     text-shadow: 3px 3px 3px var(--color-default) !important;
-    font-size: var(--h3-size) !important; 
+    font-size: var(--h3-size) !important;
+    margin: 0.5rem 0 !important; 
 }
 
 /*$ Area under an open heading toggle */
