@@ -218,6 +218,10 @@
   .super-content {
     padding-bottom: 4em !important;
   }
+
+  .super-navbar_menu {
+    background-color: var(--color-default-hover) !important;
+  }
   
   
   
