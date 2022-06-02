@@ -272,6 +272,10 @@
 
   .notion-header {
     margin-bottom: 2rem !important;
+    /* The inputs below affect Header Cover image */
+    /* They are linked to .notion-header__cover */
+    max-height: 50vh !important;
+    height: 50vh !important;
   }
 
   .notion-header__title-wrapper {
@@ -288,8 +292,14 @@
     margin: auto !important;
     width: calc(100% - var(--column-spacing)) !important;
     border-radius: var(--element-radius) !important;
-  }
-  
+    /* !The Inputs below are linked to .notion-header */
+    max-height: 30vh;
+    height: 30vh;
+    /* !Has something to do with Notion Header Cover Image */
+    overflow: visible;
+    position: relative;
+    }
+    
   .notion-heading {
     padding: 0 !important;
   }
@@ -437,8 +447,6 @@
   /* #Page */
   
   .notion-page {
-    border-color: transparent !important;
-    border-radius: var(--element-radius) !important;
     min-width: var(--min-width) !important;
   }
 
@@ -540,7 +548,7 @@
   
   .notion-callout {
     border-radius: var(--element-radius) !important;
-    padding: 0 2rem !important;
+    padding: 2rem 2rem !important;
     overflow: hidden !important;
     margin-bottom: 1em !important;
     border: 2px solid var(--color-border-default) !important;
@@ -583,28 +591,6 @@
   position: relative!important;
 }
 
-/*.notion-callout .notion-callout__content:first-of-type > .notion-semantic-string span .notion-link  */
-.notion-callout.__content:first-of-type > .notion-semantic-string.span.notion-link {
-  /* Basic Button Style */
-  box-sizing: border-box !important;
-  appearance: none !important;
-  background-color: transparent !important;
-  border: 2px solid var(--color-border-default) !important;
-  border-radius: 0.6em !important;
-  color: white !important;
-  cursor: pointer !important;
-  display: flex !important;
-  margin: 20px !important;
-  padding: 1.2em 2.8em !important;
-  align-self: center !important;
-  text-align: center !important;
-  text-decoration: none !important;
-  text-transform: uppercase !important;
-  font-family: 'Montserrat', sans-serif !important;
-  font-weight: 700 !important;
-  font-size: 1rem !important;
-  line-height: 1 !important;
-}
 
   /** Default Callout Button */
 [class="notion-callout border"] {
@@ -768,17 +754,13 @@
   border-color: var(--color-border-red) !important;
 }
 
-
 /* $END Callout Button*/
-  
-  
-  
-/* #4-Callout-Borders
 
-/*$ #Callout Border Blocks */
-/*^ Set Notion FG Color */
 
-/*^ Default var(--color-card-bg) Callout Border - Notion FG Color */
+  
+/* #4-Callout-Borders - Set Notion FG Color */
+
+/*^ Default Callout Border - Notion FG Color */
 [class="notion-callout color-default-light border"] {
   border: 2px solid var(--color-card-bg) !important;
   background-color: transparent !important;
@@ -848,6 +830,28 @@
   color: var(--color-text-default) !important;
 }
 
+/*.notion-callout .notion-callout__content:first-of-type > .notion-semantic-string span .notion-link  */
+.notion-callout.__content:first-of-type > .notion-semantic-string.span.notion-link {
+  /* Basic Button Style */
+  box-sizing: border-box !important;
+  appearance: none !important;
+  background-color: transparent !important;
+  border: 2px solid var(--color-border-default) !important;
+  border-radius: 0.6em !important;
+  color: white !important;
+  cursor: pointer !important;
+  display: flex !important;
+  margin: 20px !important;
+  padding: 1.2em 2.8em !important;
+  align-self: center !important;
+  text-align: center !important;
+  text-decoration: none !important;
+  text-transform: uppercase !important;
+  font-family: 'Montserrat', sans-serif !important;
+  font-weight: 700 !important;
+  font-size: 1rem !important;
+  line-height: 1 !important;
+}
   
   /* #Pills */
   
