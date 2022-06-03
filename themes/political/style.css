@@ -549,10 +549,10 @@
   
   .notion-callout {
     border-radius: var(--element-radius) !important;
-    padding: 0.25em 0.25em 0 !important;
+    padding: 0.25rem 0.25rem 0 !important;
     padding-top: .5rem !important;
-    margin: 0.25em 0.25em 0 !important;
-    margin-top: 1em !important;
+    margin: 0.25rem 0.25rem 0 !important;
+    margin-top: 1rem !important;
     border: 3px solid var(--color-border-transparent) !important;
     overflow: hidden !important;
     width: 100% !important;
@@ -593,9 +593,9 @@
 /**  START #Callout Button */
 /** (Entire block is clickable) */
 /** Set Notion BG Color on Callout */
-.notion-callout {
+/*.notion-callout {
   position: relative !important;
-}
+}*/
   /* ^This may come in handy sometime*/
   /* ^Apparently anything with the class bg-<color>-light 
      ^has a BACKGROUND color selected from within Notion.
