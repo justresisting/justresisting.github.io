@@ -19,7 +19,7 @@
   --color-default: rgb(10, 49, 97) !important;
   /* rgb(10,49,97) */
   --color-default-light: rgba(10, 49, 97, 0.75) !important;
-  --color-default-hover: rgb(10, 49, 97) !important;
+  --color-default-hover: rgba(37, 77, 117, 0.5) !important;
   /* rgb(37,77,117) */
   /*^ global background color */
   --color-bg-default: rgb(51, 102, 153) !important;
@@ -1430,6 +1430,7 @@ h3.notion-heading.toggle,
 }
 
 .notion-collection-list__item {
+  display: inline-block !important;
   background-color: var(--color-bg-default) !important;
   padding: 1rem !important;
   transition: 0.3s !important;
@@ -1447,6 +1448,7 @@ h3.notion-heading.toggle,
 .notion-collection-list__item .notion-property__title .notion-semantic-string>span {
   border-bottom: none !important;
   white-space: normal !important;
+  word-break: normal !important;
 }
 
 .notion-collection-list__item-property .notion-property__date,
