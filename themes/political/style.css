@@ -549,9 +549,9 @@
   
   .notion-callout {
     border-radius: var(--element-radius) !important;
-    padding: 0.25rem 0.25rem 0 !important;
+    padding: 0.25em 0.25em 0 !important;
     padding-top: .5rem !important;
-    margin: 0.25rem 0.25rem 0 !important;
+    margin: 0.25em 0.25em 0 !important;
     margin-top: 1em !important;
     border: 3px solid var(--color-border-transparent) !important;
     overflow: hidden !important;
