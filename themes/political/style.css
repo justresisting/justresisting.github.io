@@ -222,6 +222,7 @@
    .super-navbar__menu {
     background-color: var(--color-default-light) !important;
     min-width: 200px !important;
+    -webkit-backdrop-filter: blur(16px);
     backdrop-filter: blur(16px) !important;
   }
 
@@ -557,35 +558,6 @@
     width: 100% !important;
   }
   
-  
-  /* ^This may come in handy sometime*/
-  /* ^Apparently anything with the class bg-<color>-light 
-     ^has a BACKGROUND color selected from within Notion.
-     ^Anything with the class bg-<color> has a FOREGROUND
-     ^color selected from within Notion.
-  /* ? Is this how it works?   
-  /**
-  /**.notion-callout.bg-gray-light, 
-  /**.notion-callout.bg-brown-light, 
-  /**.notion-callout.bg-orange-light, 
-  /**.notion-callout.bg-yellow-light, 
-  /**.notion-callout.bg-green-light, 
-  /**.notion-callout.bg-blue-light, 
-  /**.notion-callout.bg-purple-light, 
-  /**.notion-callout.bg-pink-light, 
-  /**.notion-callout.bg-red-light
-  /**
-  /**.notion-callout.bg-gray, 
-  /**.notion-callout.bg-brown, 
-  /**.notion-callout.bg-orange, 
-  /**.notion-callout.bg-yellow, 
-  /**.notion-callout.bg-green, 
-  /**.notion-callout.bg-blue, 
-  /**.notion-callout.bg-purple, 
-  /**.notion-callout.bg-pink, 
-  /**.notion-callout.bg-red,
-  */
-  
   /* #Single Line Callout Buttons */
   
 /*.notion-callout .notion-callout__content:first-of-type > .notion-semantic-string span .notion-link  */
@@ -624,8 +596,34 @@
 .notion-callout {
   position: relative !important;
 }
-
-
+  /* ^This may come in handy sometime*/
+  /* ^Apparently anything with the class bg-<color>-light 
+     ^has a BACKGROUND color selected from within Notion.
+     ^Anything with the class bg-<color> has a FOREGROUND
+     ^color selected from within Notion.
+  /* ? Is this how it works?   
+  /**
+  /**.notion-callout.bg-gray-light, 
+  /**.notion-callout.bg-brown-light, 
+  /**.notion-callout.bg-orange-light, 
+  /**.notion-callout.bg-yellow-light, 
+  /**.notion-callout.bg-green-light, 
+  /**.notion-callout.bg-blue-light, 
+  /**.notion-callout.bg-purple-light, 
+  /**.notion-callout.bg-pink-light, 
+  /**.notion-callout.bg-red-light
+  /**
+  /**.notion-callout.bg-gray, 
+  /**.notion-callout.bg-brown, 
+  /**.notion-callout.bg-orange, 
+  /**.notion-callout.bg-yellow, 
+  /**.notion-callout.bg-green, 
+  /**.notion-callout.bg-blue, 
+  /**.notion-callout.bg-purple, 
+  /**.notion-callout.bg-pink, 
+  /**.notion-callout.bg-red,
+  */
+  
   /*^ Default Callout Button */
 [class="notion-callout border"] {
   color: white !important;
