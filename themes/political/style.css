@@ -1864,6 +1864,7 @@ code.code {
   .super-content.max-width {
   max-width: var(--theme-width) !important;
   margin: auto !important;
+  margin-top: -5rem !important; 
   }
   
   
