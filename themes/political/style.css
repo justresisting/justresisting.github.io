@@ -594,7 +594,20 @@ p.notion-callout__content {
   word-wrap: normal !important;
 }
 
+/* ^Create single line callout button hover */
+.notion-callout .notion-semantic-string .notion-link {
+  color: white !important;
+  font-weight: bold !important;
+  border-bottom: 1px solid var(--color-text-gray) !important;
+}
 
+.notion-callout:hover .notion-semantic-string .notion-link {
+  border-bottom: 1px solid var(--color-text-white) !important;
+}
+
+.notion-callout:hover .notion-semantic-string .notion-link:hover {
+  border-bottom: 1px solid var(--color-text-yellow) !important;
+}
 
 /**  START #Callout Button */
 /** (Entire block is clickable) */
@@ -710,7 +723,7 @@ p.notion-callout__content {
 [class="notion-callout border"] {
   color: var(--color-text-white) !important;
   background-color: var(--color-bg-black-light) !important;
-  border-color: var(--color-bg-black) !important;
+  border-color: var(--color-border-black) !important;
 }
 
 /*^ Gray Callout Border - Notion FG Color */
@@ -759,7 +772,7 @@ p.notion-callout__content {
 [class="notion-callout color-purple-light border"] {
   color: var(--color-text-default) !important;
   background-color: var(--color-bg-purple-light) !important;
-  border-color: var(--color-bg-pink) !important;
+  border-color: var(--color-border-pink) !important;
 }
 
 /*^ Pink Callout Border - Notion FG Color */
