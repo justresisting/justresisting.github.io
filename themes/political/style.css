@@ -867,7 +867,7 @@ span.notion-pill.pill-red.first {
 [class="notion-quote bg-gray"] {
   color: var(--color-text-default-light) !important;
   background-color: var(--color-bg-gray-light) !important;
-  border: 3px solid rgb(var(--color-black)) !important;
+  border: 3px solid var(--color-border-gray) !important;
 }
 
 /*^ Brown Quoteblock Button */
