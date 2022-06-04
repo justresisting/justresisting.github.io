@@ -537,47 +537,54 @@ h3 {
 
 /* #Callout */
 
-p.notion-callout__content {
-  max-width: var(--theme-width) !important;
-  width: var(--theme-width) !important;
-}
-
 .notion-callout {
-  border-radius: var(--element-radius) !important;
-  padding: 0.25rem 0.25rem 0 !important;
-  padding-top: .5rem !important;
-  margin: 0.25rem 0.25rem 0 !important;
-  margin-top: 1rem !important;
-  overflow: hidden !important;
-  width: 100% !important;
-}
+    border-radius: var(--element-radius) !important;
+    padding: 1rem 0 !important;
+    padding-top: .25rem !important;
+    margin: 1rem 0 !important;
+    margin-top: .25rem !important;
+  }
 
 .notion-callout.border {
-  border-width: 3px !important;
-}
+    border-width: 3px !important;
+    padding: 0 !important;
+    color: var(--color-text-white) !important;
+  }
+
+.notion-callout_icon {
+    margin: 1rem .25rem !important;
+    padding: 0 !important;
+  }
+
+p.notion-callout__content {
+    max-width: var(--theme-width) !important;
+    width: var(--theme-width) !important;
+    margin: 1rem .25rem !important;
+  }
 
 /* #Single Line Callout Buttons */
 
 /*.notion-callout .notion-callout__content:first-of-type > .notion-semantic-string span .notion-link  */
+/*.notion-callout__content:first-of-type>.notion-semantic-string span */
 .notion-callout__content:first-of-type>.notion-semantic-string span {
   /* Basic Button Style */
+  /* Basic Button Style */
   box-sizing: border-box !important;
-  appearance: none !important;
-  border-radius: 0 !important;
   color: white !important;
   cursor: pointer !important;
   display: flex !important;
-  align-content: flex-start;
-  align-self: auto;
-  align-items: flex-start;
-  justify-content: flex-start;
+  flex-wrap: nowrap !important;
+  /* justify-contents centers text in callouts*/
+  justify-content: start !important;
   margin: 0 !important;
+  margin-top: .25rem !important;
   padding: 0 !important;
   text-decoration: none !important;
   font-family: 'Montserrat', sans-serif !important;
   font-weight: 400 !important;
   font-size: .9rem !important;
   line-height: 1 !important;
+  word-wrap: normal !important;
 }
 
 /* ^Create single line callout button hover */
@@ -588,8 +595,11 @@ p.notion-callout__content {
 }
 
 .notion-callout:hover .notion-semantic-string .notion-link {
+  border-bottom: 1px solid var(--color-text-white) !important;
+}
+
+.notion-callout:hover .notion-semantic-string .notion-link:hover {
   border-bottom: 1px solid var(--color-text-yellow) !important;
-  opacity: 1 !important;
 }
 
 /**  START #Callout Button */
@@ -1090,6 +1100,10 @@ span.notion-pill.pill-red.first {
   width: 24px;
   height: 24px;
   font-size: 24px;
+}
+
+.notion-toggle__content {
+    padding-inline-start: calc(1.5em - 5px);
 }
 
 
@@ -1757,7 +1771,7 @@ code.code {
 }
 
 .notion-callout__icon {
-  display: none !important;
+  display: block !important;
 }
 
 
