@@ -535,6 +535,9 @@ h3 {
   color: white !important;
 }
 
+
+
+
 /* #Callout */
 
 .notion-callout {
@@ -551,9 +554,14 @@ h3 {
     color: var(--color-text-white) !important;
   }
 
-.notion-callout_icon {
+.notion-callout__icon {
     margin: 1rem .25rem !important;
     padding: 0 !important;
+  }
+
+.notion-callout + .notion-callout__icon >.notion-semantic-string {
+    margin: 1rem !important;
+    display: block !important;
   }
 
 p.notion-callout__content {
@@ -566,8 +574,7 @@ p.notion-callout__content {
 
 /*.notion-callout .notion-callout__content:first-of-type > .notion-semantic-string span .notion-link  */
 /*.notion-callout__content:first-of-type>.notion-semantic-string span */
-.notion-callout__content:first-of-type>.notion-semantic-string span {
-  /* Basic Button Style */
+.notion-callout__content:first-of-type > .notion-semantic-string span {
   /* Basic Button Style */
   box-sizing: border-box !important;
   color: white !important;
@@ -575,7 +582,7 @@ p.notion-callout__content {
   display: flex !important;
   flex-wrap: nowrap !important;
   /* justify-contents centers text in callouts*/
-  justify-content: start !important;
+  justify-content: space-around !important;
   margin: 0 !important;
   margin-top: .25rem !important;
   padding: 0 !important;
