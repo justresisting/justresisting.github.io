@@ -6,6 +6,9 @@
 		{
 			"name": "Sandbox",
 			"uri": "sandbox:/"
+		},
+		{
+			"path": "../../political"
 		}
 	],
 	"settings": {}
