@@ -1,0 +1,139 @@
+/* #THEME: POLITICAL OVERWRITES */
+
+/* *These should be set to default values */
+/* *When using template, copy/paste these 
+   *values into Super's global code section */
+
+
+/* #Show/Hide Notion-Navbar  */
+.notion-navbar {
+  display: none !important;
+}
+
+/* #Show/Hide Notion Page Blocks */
+.notion-page {
+  display: block !important;
+}
+
+/* #Set Page Block BG Color*/
+.notion-page {  
+  background-color: rgba(var(--color-card-bg), .75) !important;
+}
+
+/* #Increase/Decrease Opacity to change Page BG Color on Mouseover */
+.notion-page:focus,
+.notion-page:hover {
+background-color: rgba(var(--color-card-bg), .90) !important;
+}
+
+/* #NOTION-HEADER */
+
+/* #Show/Hide Notion Header */
+/* *(Page Title, Cover and Icon) */
+.notion-header {
+display: none !important;
+}
+.super-content {
+padding-top: 60px !important;
+}
+/* !.super-content affects the header padding left behind*/
+/* *END Show/Hide Notion Header*/
+
+
+/* #Show/Hide All Notion Page Block Icons  */
+.notion-icon, 
+.notion-icon__page, 
+.notion-header__icon,
+.notion-page__icon,
+.notion-header__icon-wrapper { 
+  display: block !important;
+/* !was set to display: none */
+}
+
+/* #Show/Hide Column Header for Board Database */
+.notion-collection-board__column-header {
+  display: block !important;
+/* !was set to display: none */
+}
+
+/* #Show/Hide Database Name */
+.notion-collection__header-wrapper {
+  display: block !important;
+}
+
+/* #Show/Hide Notion Database Header Icon */
+.notion-collection__header-wrapper {
+display: block !important;
+/* !was set to display: none */
+}
+
+/* #Show/Hide Icon on Database Card  */
+.notion-property,
+.notion-property__title,
+.notion-property__title__icon-wrapper 
+.notion-property .notion-property__title {
+display: block !important;
+}
+
+/* #Show/Hide Page Title */
+.notion-header__title {
+display: block !important;
+/* !was set to display: none */
+}
+
+.notion-header__title-wrapper {
+display: block !important;
+/* !was set to display: none */
+}
+
+/* Show/Hide Page Icon image */
+.notion-header__icon-wrapper {
+display: block !important;
+/* !was set to display: none */
+}
+
+.notion-callout__icon {
+display: none  !important;
+}
+
+/* #SHOW/Hide All Toggles*/
+.notion-toggle {
+display: block !important;
+}
+/* #HIDE All Toggles with Brown Background */
+/* *Use these to hide page content*/
+.notion-toggle.bg-brown {
+display: none !important;
+}
+
+/* #Set Page Width */
+.super-content.max-width {
+max-width: var(--theme-width) !important;
+margin: auto !important;
+}
+
+
+
+/* #Global Variables */
+:root {
+/* *Global Border Radius [Rounding] */
+--element-radius: 15px !important;
+/* *Desktop Page Width */
+--theme-width: 1440px !important;
+/* *Site Font Size*/
+--body-font: 16px !important;
+/* *Site Column Spacing*/
+--column-spacing: 2em !important;
+/* *Site Background */
+--color-bg-default: rgb(10, 49, 97) !important; 
+/* *UI COLORS */
+--color-card-bg: rgb(37, 77, 117) !important;
+/* *Collection Card Size*/
+--collection-card-cover-size-small: calc(20%) !important;
+--collection-card-cover-size-medium: calc(30%) !important;
+--collection-card-cover-size-large: calc(45%) !important;
+}
+
+/* #END GLOBAL VARIABLES */
+
+/* #END THEME OVERWRITES */
