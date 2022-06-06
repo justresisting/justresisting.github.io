@@ -1,1 +1,0 @@
-# justresisting.github.io
