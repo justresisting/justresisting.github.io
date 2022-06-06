@@ -30,7 +30,7 @@ twitter_username: justresisting
 github_username:  justresisting
 
 # Build settings
-theme: minima
+theme: jekyll-theme-architect
 plugins:
   - jekyll-feed
 
