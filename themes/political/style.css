@@ -38,17 +38,18 @@
   --color-ui-hover-bg-light: rgba(var(--color-default-hover),0.125);
   /* #Colors */
   --color-white: 255, 255, 255; 
-  --color-gray: 100, 100, 100; 
   --color-black: 0, 0, 0; 
+  --color-gray: 100, 100, 100; 
   --color-brown: 67, 33, 0; 
-  --color-orange: 202, 75, 0; 
+  --color-orange: 202, 75, 0;
+  --color-yellow: 125,125,32;
   --color-green: 42, 95, 62; 
   --color-blue: 10, 49, 97; 
   --color-purple: 108, 51, 153; 
   --color-pink: 225, 108, 153; 
   --color-red: 153, 33, 67;
   /* #Text */
-  /*^ Site Foreground */
+  /*^ Site Foreground *//*
   --color-text-white: rgb(var(--color-white)) !important;
   --color-text-gray: rgb(var(--color-gray))  !important;
   --color-text-black: rgb(var(--color-black))  !important;
@@ -59,7 +60,16 @@
   --color-text-blue: rgb(var(--color-blue))  !important;
   --color-text-purple: rgb(var(--color-purple))  !important;
   --color-text-pink: rgb(var(--color-pink))  !important;
-  --color-text-red: rgb(var(--color-red))  !important;
+  --color-text-red: rgb(var(--color-red))  !important;*/ --color-text-black: rgba(0,0,0,1) !important;
+  --color-text-gray: rgba(128,128,128,1)  !important;
+  --color-text-brown: rgba(100,75,50,1)  !important;
+  --color-text-orange: rgba(175,50,0,1)  !important;
+  --color-text-yellow: rgba(175,175,0,1)  !important;
+  --color-text-green: rgba(75,175,75,1)  !important;
+  --color-text-blue: rgba(50,125,175,1)  !important;
+  --color-text-purple: rgba(175,50,175,1)  !important;
+  --color-text-pink: rgba(225,150,200,1)  !important;
+  --color-text-red: rgba(225,50,50,1)  !important;  
   /*^ Site Background = More Opacity*/
   --color-bg-gray: rgba(var(--color-gray),1)  !important;
   --color-bg-black: rgba(var(--color-black),1) !important;
