@@ -84,6 +84,7 @@
   --color-bg-red-light: rgba(var(--color-red),0.35)  !important;
   /*^ Site Border Colors */
   --color-border-dark: rgba(var(--color-black),1)  !important;
+  --color-border-black: rgba(var(--color-black),1) !important;
   --color-border-gray: rgba(128,128,128,1)  !important;
   --color-border-brown: rgba(100,75,50,1)  !important;
   --color-border-orange: rgba(175,50,0,1)  !important;
