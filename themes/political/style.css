@@ -606,8 +606,6 @@ h3 {
     border-width: 3px !important;
     padding: 0 !important;
     color: var(--color-text-white) !important;
-    background: var(--color-bg-default) !important;
-    border-color: var(--color-border-dark) !important;
   }
 
 .notion-callout__icon {
@@ -701,10 +699,10 @@ p.notion-callout__content {
 
 /*^ Default Callout Button */
 [class="notion-callout border"] {
-  color: var(--color-text-white) !important;
-  background-color: var(--color-bg-black-light) !important;
-  border-color: var(--color-border-default) !important;
-}
+    color: var(--color-text-white) !important;
+    background: var(--color-bg-default) !important;
+    border-color: var(--color-border-dark) !important;
+  }
 
 /* ^ Gray Callout Button */
 [class="notion-callout bg-gray-light border"] {
