@@ -295,7 +295,7 @@ body {
     padding-top: 4rem;
     padding-bottom: 4rem;
     margin: 1rem auto;
-    width: 100% !important;
+    width: var(--theme-width) !important;
     max-width: var(--theme-width) !important;
     position: relative;   
   /* !Should Get Rid Of These Below (?) */
