@@ -778,13 +778,6 @@ p.notion-callout__content {
 
 /* #4-Callout-Borders - Set Notion FG Color */
 
-/*^ Default Callout Border - Notion FG Color */
-[class="notion-callout border"] {
-  color: var(--color-text-white) !important;
-  background-color: var(--color-bg-black-light) !important;
-  border-color: var(--color-border-dark) !important;
-}
-
 /*^ Gray Callout Border - Notion FG Color */
 [class="notion-callout color-gray-light border"] {
   color: var(--color-text-white) !important;
