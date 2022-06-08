@@ -15,41 +15,38 @@
 /* #VARIABLES */
   /* #Global Colors */
   /*^ default theme color */
-  --color-default: rgb(10, 49, 97) !important; /* rgb(10,49,97) */
-  --color-default-light: rgba(10, 49, 97, 0.5) !important;
-  --color-default-hover: rgb(10, 49, 97) !important; /* rgb(37,77,117) */ 
+  --color-default: rgb(10, 49, 97);
+  --color-hover: rgb(10,49,97);
+  --color-default-light: rgba(var(--color-default),0.5);
+  --color-default-hover: rgba(var(--color-hover),1);
   /*^ global background color */
-  --color-bg-default: rgb(51, 102, 153) !important; /* rgb(51,102,153) */
+  --color-bg-default: rgb(51, 102, 153); /* rgb(51,102,153) */
   /*^ global foreground text color */
-  --color-text-default: rgb(255,255,255) !important;
+  --color-text-default: rgb(255,255,255) ;
   /*^ dimmer global foreground text color */
-  --color-text-default-light: rgb(200,200,200) !important;
+  --color-text-default-light: rgb(200,200,200);
   /*^ default border color for elements */
-  --color-border-default: var(--color-default) !important;
-  /*^ alt border color w/ transparency*/
-  --color-border-transparent: var(--color-default-light) !important;
+  --color-border-default: var(--color-default);
   /*^ accent color */
-  --color-accent-bg: rgb(0,128,128)  !important;
+  --color-accent-bg: rgb(101,153,202);
   /*^ alt accent color w/ transparency */
-  --color-accent-bg-light: rgb(75,175,225) !important;
+  --color-accent-bg-light: rgba(101,153,202,0.5);
   /*^ default color for block backgrounds */
-  --color-card-bg: var(--color-default) !important;
+  --color-card-bg: var(--color-default);
   /*^ default color for element :hover*/
-  --color-ui-hover-bg: rgba(10,49,97,0.25) !important;
-  --color-ui-hover-bg-light: rgba(10,49,97,0.125) !important;
-  --color-transparent: rgba(37,77,117,0.75) !important;
+  --color-ui-hover-bg: rgba(var(--color-default-hover),0.25);
+  --color-ui-hover-bg-light: rgba(var(--color-default-hover),0.125);
   /* #Colors */
-  --color-white: 255, 255, 255  !important; /* rgb(255,255,255) */
-  --color-gray: 151, 151, 151  !important; /* rgb(121,121,121) */
-  --color-black: 0, 0, 0  !important; /* rgb(0,0,0) */
-  --color-brown: 67, 33, 0  !important; /* rgb(101,67,33) */
-  --color-orange: 202, 75, 0  !important; /* rgb(255,119,0) */
-  --color-yellow: 151, 151, 0  !important; /* rgb(232,232,0) */
-  --color-green: 50, 151, 50  !important; /* rgb(0,202,0) */
-  --color-blue: 10, 49, 97  !important; /* rgb(37,77,117) */
-  --color-purple: 121, 0, 121  !important; /* rgb(121,85,121) */
-  --color-pink: 255, 141, 223  !important; /* rgb(255,141,223) */
-  --color-red: 179, 25, 66  !important; /* rgb(179,25,66) */
+  --color-white: 255, 255, 255; 
+  --color-gray: 100, 100, 100; 
+  --color-black: 0, 0, 0; 
+  --color-brown: 67, 33, 0; 
+  --color-orange: 202, 75, 0; 
+  --color-green: 42, 95, 62; 
+  --color-blue: 10, 49, 97; 
+  --color-purple: 108, 51, 153; 
+  --color-pink: 225, 108, 153; 
+  --color-red: 153, 33, 67;
   /* #Text */
   /*^ Site Foreground */
   --color-text-white: rgb(var(--color-white)) !important;
@@ -64,16 +61,16 @@
   --color-text-pink: rgb(var(--color-pink))  !important;
   --color-text-red: rgb(var(--color-red))  !important;
   /*^ Site Background = More Opacity*/
-  --color-bg-gray: rgba(var(--color-gray),0.65)  !important;
-  --color-bg-black: rgba(var(--color-black),0.65) !important;
-  --color-bg-brown: rgba(var(--color-brown),0.65)  !important;
-  --color-bg-orange: rgba(var(--color-orange),0.65)  !important;
-  --color-bg-yellow: rgba(var(--color-yellow),0.65)  !important;
-  --color-bg-green: rgba(var(--color-green),0.65)  !important;
-  --color-bg-blue: rgba(var(--color-blue),0.65)  !important;
-  --color-bg-purple: rgba(var(--color-purple),0.75)  !important;
-  --color-bg-pink: rgba(var(--color-pink),0.65)  !important;
-  --color-bg-red: rgba(var(--color-red),.65)  !important;
+  --color-bg-gray: rgba(var(--color-gray),1)  !important;
+  --color-bg-black: rgba(var(--color-black),1) !important;
+  --color-bg-brown: rgba(var(--color-brown),1)  !important;
+  --color-bg-orange: rgba(var(--color-orange),1)  !important;
+  --color-bg-yellow: rgba(var(--color-yellow),1)  !important;
+  --color-bg-green: rgba(var(--color-green),1)  !important;
+  --color-bg-blue: rgba(var(--color-blue),1)  !important;
+  --color-bg-purple: rgba(var(--color-purple),1)  !important;
+  --color-bg-pink: rgba(var(--color-pink),1)  !important;
+  --color-bg-red: rgba(var(--color-red),1)  !important;
   /*^ Site Background Light = More Transparency */
   --color-bg-gray-light: rgba(var(--color-gray),.35)  !important;
   --color-bg-black-light: rgba(var(--color-black),0.25) !important;
@@ -86,16 +83,16 @@
   --color-bg-pink-light: rgba(var(--color-pink),0.35)  !important;
   --color-bg-red-light: rgba(var(--color-red),0.35)  !important;
   /*^ Site Border Colors */
-  --color-border-gray: rgba(var(--color-gray),1)  !important;
-  --color-border-black: rgba(var(--color-black),1)  !important;
-  --color-border-brown: rgba(var(--color-brown),1)  !important;
-  --color-border-orange: rgba(var(--color-orange),1)  !important;
-  --color-border-yellow: rgba(var(--color-yellow),1)  !important;
-  --color-border-green: rgba(var(--color-green),1)  !important;
-  --color-border-blue: rgba(var(--color-blue),1)  !important;
-  --color-border-purple: rgba(var(--color-purple),1)  !important;
-  --color-border-pink: rgba(var(--color-pink),1)  !important;
-  --color-border-red: rgba(var(--color-red),1)  !important;
+  --color-border-dark: rgba(var(--color-black),1)  !important;
+  --color-border-gray: rgba(128,128,128,1)  !important;
+  --color-border-brown: rgba(100,75,50,1)  !important;
+  --color-border-orange: rgba(175,50,0,1)  !important;
+  --color-border-yellow: rgba(175,175,0,1)  !important;
+  --color-border-green: rgba(75,175,75,1)  !important;
+  --color-border-blue: rgba(50,125,175,1)  !important;
+  --color-border-purple: rgba(175,50,175,1)  !important;
+  --color-border-pink: rgba(225,150,200,1)  !important;
+  --color-border-red: rgba(225,50,50,1)  !important;  
   /*^ Pill */
   --color-pill-default: rgba(var(--color-default),.5)  !important;
   --color-pill-gray: rgba(var(--color-gray),.5)  !important;
