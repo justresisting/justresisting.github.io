@@ -64,7 +64,7 @@
   --color-text-gray: rgba(128,128,128,1)  !important;
   --color-text-brown: rgba(100,75,50,1)  !important;
   --color-text-orange: rgba(175,50,0,1)  !important;
-  --color-text-yellow: rgba(175,175,0,1)  !important;
+  --color-text-yellow: rgba(232,232,0,1)  !important;
   --color-text-green: rgba(75,175,75,1)  !important;
   --color-text-blue: rgba(50,125,175,1)  !important;
   --color-text-purple: rgba(175,50,175,1)  !important;
@@ -250,7 +250,7 @@ body {
 .super-navbar__item.active,
 .super-navbar__item:hover {
     opacity: 1;
-    color: yellow !important;
+    color: var(--color-text-yellow)!important;
   }
 
 .super-navbar__cta {
