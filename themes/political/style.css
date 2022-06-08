@@ -281,6 +281,7 @@ body {
     background-image: linear-gradient(to bottom, rgba(51,102,153,0), rgba(51,102,153,.1), rgba(51,102,153,1), rgba(51,102,153,1), rgba(51,102,153,1), rgba(51,102,153,1), rgba(51,102,153,1));
   }
 
+
 .super-footer.corners {
     padding: 0 1.5rem;
     margin: 0;
@@ -294,7 +295,7 @@ body {
     padding-top: 4rem;
     padding-bottom: 4rem;
     margin: 1rem auto;
-    width: var(--responsive-width) !important;
+    width: var() !important;
     max-width: var(--theme-width) !important;
     position: relative;   
   /* !Should Get Rid Of These Below (?) */
@@ -706,14 +707,14 @@ p.notion-callout__content {
 [class="notion-callout border"] {
     color: var(--color-text-white) !important;
     background: var(--color-bg-default) !important;
-    border-color: var(--color-border-dark) !important;
+    border-color: var(--color-border-black) !important;
   }
 
 /* ^ Gray Callout Button */
 [class="notion-callout bg-gray-light border"] {
   color: var(--color-text-white) !important;
   background-color: var(--color-bg-gray) !important;
-  border-color: var(--color-border-gray) !important;
+  border-color: var(--color-border-black) !important;
 }
 
 /*^ Brown Callout Button */
@@ -781,8 +782,8 @@ p.notion-callout__content {
 /*^ Gray Callout Border - Notion FG Color */
 [class="notion-callout color-gray-light border"] {
   color: var(--color-text-white) !important;
-  background-color: var(--color-bg-gray-light) !important;
-  border-color: var(--color-border-gray) !important;
+  background-color: var(--color-bg-black-light) !important;
+  border-color: var(--color-border-black) !important;
 }
 
 /*^ Brown Callout Border - Notion FG Color */
@@ -1872,10 +1873,11 @@ code.code {
 
 /* Set Page Width */
 .super-content.max-width {
-  max-width: var(--theme-width) !important;
+  max-width: var(--responsive-width) !important;
   margin: auto !important;
   margin-top: -5rem !important;
 }
+
 
 
 /* #MOBILE RESPONSIVE */
