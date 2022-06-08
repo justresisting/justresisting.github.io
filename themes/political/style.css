@@ -84,7 +84,7 @@
   --color-bg-red-light: rgba(var(--color-red),0.35)  !important;
   /*^ Site Border Colors */
   --color-border-dark: rgba(var(--color-black),1)  !important;
-  --color-border-black: rgba(var(--color-black),1) !important;
+  --color-border-black: rgba(0,0,0,1) !important;
   --color-border-gray: rgba(128,128,128,1)  !important;
   --color-border-brown: rgba(100,75,50,1)  !important;
   --color-border-orange: rgba(175,50,0,1)  !important;
@@ -777,7 +777,7 @@ p.notion-callout__content {
 [class="notion-callout border"] {
   color: var(--color-text-white) !important;
   background-color: var(--color-bg-black-light) !important;
-  border-color: var(--color-border-black) !important;
+  border-color: var(--color-border-dark) !important;
 }
 
 /*^ Gray Callout Border - Notion FG Color */
@@ -819,14 +819,14 @@ p.notion-callout__content {
 [class="notion-callout color-blue-light border"] {
   color: var(--color-text-default) !important;
   background-color: var(--color-bg-blue-light) !important;
-  border-color: var(--color-accent-bg-light) !important;
+  border-color: var(--color-accent-bg) !important;
 }
 
 /*^ Purple Callout Border - Notion FG Color */
 [class="notion-callout color-purple-light border"] {
   color: var(--color-text-default) !important;
   background-color: var(--color-bg-purple-light) !important;
-  border-color: var(--color-border-pink) !important;
+  border-color: var(--color-border-purple) !important;
 }
 
 /*^ Pink Callout Border - Notion FG Color */
