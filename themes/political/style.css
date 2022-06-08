@@ -606,6 +606,8 @@ h3 {
     border-width: 3px !important;
     padding: 0 !important;
     color: var(--color-text-white) !important;
+    background: var(--color-bg-default) !important;
+    border-color: var(--color-border-dark) !important;
   }
 
 .notion-callout__icon {
