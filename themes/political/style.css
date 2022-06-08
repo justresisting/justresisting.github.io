@@ -241,7 +241,7 @@ body {
     border-radius: var(--element-radius) !important;
     top: 1em !important;
     margin: -1em auto !important;
-    width: var(--theme-width) !important;
+    width: 100% !important;
     max-width: var(--responsive-width) !important;
     -webkit-backdrop-filter: blur(16px) !important;
     backdrop-filter: blur(16px) !important;
@@ -278,7 +278,7 @@ body {
     padding-top: 10rem;
     padding-bottom: 4em !important;
     margin-bottom: -1rem;
-    background-image: linear-gradient(to bottom, rgba(51,102,153,0), rgba(51,102,153,.25), rgba(51,102,153,1), rgba(51,102,153,1), rgba(51,102,153,1), rgba(51,102,153,1), rgba(51,102,153,1));
+    background-image: linear-gradient(to bottom, rgba(51,102,153,0), rgba(51,102,153,.1), rgba(51,102,153,1), rgba(51,102,153,1), rgba(51,102,153,1), rgba(51,102,153,1), rgba(51,102,153,1));
   }
 
 .super-footer.corners {
@@ -294,8 +294,8 @@ body {
     padding-top: 4rem;
     padding-bottom: 4rem;
     margin: 1rem auto;
-    width: var(--theme-width) !important;
-    max-width: var(--responsive-width) !important;
+    width: var(--responsive-width) !important;
+    max-width: var(--theme-width) !important;
     position: relative;   
   /* !Should Get Rid Of These Below (?) */
     max-height: 50vh !important;
@@ -317,7 +317,7 @@ body {
 .notion-header__cover {
     margin: 1em 1em 4em 1em !important;
     margin: auto !important;
-    width: var(--theme-width) !important;
+    width: 100% !important;
     max-width: var(--responsive-width) !important;
     border-radius: var(--element-radius) !important;
     /* !The Inputs below are linked to .notion-header */
@@ -344,8 +344,8 @@ img.notion-header__cover-image {
     border: medium none;
     padding: 0px;
     margin: 0 auto;
+    width: 100% !important;
     min-width: 100%;
-    width: var(--theme-width) !important;
     max-width: var(--responsive-width) !important;
     height: 100%;
     min-height: 100%;
