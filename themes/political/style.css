@@ -20,7 +20,8 @@
   --color-default-light: rgba(var(--color-default),0.5) !important;
   --color-default-hover: rgba(var(--color-hover),1) !important;
   /*^ global background color */
-  --color-bg-default: rgb(51, 102, 153) !important;
+  --site-background: 51, 102, 153 !important;
+  --color-bg-default: rgb(var(--site-background)) !important;
   /*^ global foreground text color */
   --color-text-default: rgb(255,255,255) !important;
   /*^ dimmer global foreground text color */
@@ -106,6 +107,10 @@
   --color-pill-purple: rgba(var(--color-purple),.75)  !important;
   --color-pill-pink: rgba(var(--color-pink),0.75)  !important;
   --color-pill-red: rgba(var(--color-red),0.5)  !important;
+  /* ^Gradient in Background */
+  --color-gradient-0: rgba(var(--site-background),0) !important;
+  --color-gradient-1: rgba(var(--site-background),1) !important;
+  --color-gradient-point-1: rgba(var(--site-background),0.1) !important;
   /* $Call to Actions */
   --cta-padding: 13px 14px !important;
   --cta-border-radius: 4px !important;
@@ -269,7 +274,7 @@ body {
     padding-top: 10rem;
     padding-bottom: 4em !important;
     margin-bottom: -1rem;
-    background-image: linear-gradient(to bottom, rgba(51,102,153,0), rgba(51,102,153,.1), rgba(51,102,153,1), rgba(51,102,153,1), rgba(51,102,153,1), rgba(51,102,153,1), rgba(51,102,153,1));
+    background-image: linear-gradient(to bottom, var(--color-gradient-0), var(--color-gradient-point-1), var(--color-gradient-1), var(--color-gradient-1), var(--color-gradient-1), var(--color-gradient-1), var(--color-gradient-1));
   }
 
 
