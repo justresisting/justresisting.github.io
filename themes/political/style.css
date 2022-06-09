@@ -60,7 +60,9 @@
   --color-text-blue: rgb(var(--color-blue))  !important;
   --color-text-purple: rgb(var(--color-purple))  !important;
   --color-text-pink: rgb(var(--color-pink))  !important;
-  --color-text-red: rgb(var(--color-red))  !important;*/ --color-text-black: rgba(0,0,0,1) !important;
+  --color-text-red: rgb(var(--color-red))  !important;*/
+  --color-text-white: rgb(var(--color-white)) !important; 
+  --color-text-black: rgba(0,0,0,1) !important;
   --color-text-gray: rgba(128,128,128,1)  !important;
   --color-text-brown: rgba(100,75,50,1)  !important;
   --color-text-orange: rgba(175,50,0,1)  !important;
