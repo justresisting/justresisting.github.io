@@ -15,39 +15,39 @@
 /* #VARIABLES */
   /* #Global Colors */
   /*^ default theme color */
-  --color-default: rgb(10, 49, 97);
-  --color-hover: rgb(10,49,97);
-  --color-default-light: rgba(var(--color-default),0.5);
-  --color-default-hover: rgba(var(--color-hover),1);
+  --color-default: rgb(10, 49, 97) !important;
+  --color-hover: rgb(10,49,97) !important;
+  --color-default-light: rgba(var(--color-default),0.5) !important;
+  --color-default-hover: rgba(var(--color-hover),1) !important;
   /*^ global background color */
-  --color-bg-default: rgb(51, 102, 153); /* rgb(51,102,153) */
+  --color-bg-default: rgb(51, 102, 153) !important;
   /*^ global foreground text color */
-  --color-text-default: rgb(255,255,255) ;
+  --color-text-default: rgb(255,255,255) !important;
   /*^ dimmer global foreground text color */
-  --color-text-default-light: rgb(200,200,200);
+  --color-text-default-light: rgb(200,200,200) !important;
   /*^ default border color for elements */
-  --color-border-default: var(--color-default);
+  --color-border-default: var(--color-default) !important;
   /*^ accent color */
-  --color-accent-bg: rgb(101,153,202);
+  --color-accent-bg: rgb(101,153,202) !important;
   /*^ alt accent color w/ transparency */
-  --color-accent-bg-light: rgba(101,153,202,0.5);
+  --color-accent-bg-light: rgba(101,153,202,0.5) !important;
   /*^ default color for block backgrounds */
-  --color-card-bg: var(--color-default);
+  --color-card-bg: var(--color-default) !important;
   /*^ default color for element :hover*/
-  --color-ui-hover-bg: rgba(var(--color-default-hover),0.25);
-  --color-ui-hover-bg-light: rgba(var(--color-default-hover),0.125);
+  --color-ui-hover-bg: rgba(var(--color-default-hover),0.25) !important;
+  --color-ui-hover-bg-light: rgba(var(--color-default-hover),0.125) !important;
   /* #Colors */
-  --color-white: 255, 255, 255; 
-  --color-black: 0, 0, 0; 
-  --color-gray: 96, 96, 96; 
-  --color-brown: 67, 33, 0; 
-  --color-orange: 153, 67, 10;
-  --color-yellow: 125,125,32;
-  --color-green: 42, 95, 62; 
-  --color-blue: 10, 49, 97; 
-  --color-purple: 108, 51, 153; 
-  --color-pink: 225, 108, 153; 
-  --color-red: 153, 33, 67;
+  --color-white: 255, 255, 255 !important; 
+  --color-black: 0, 0, 0 !important; 
+  --color-gray: 96, 96, 96 !important; 
+  --color-brown: 67, 33, 0 !important; 
+  --color-orange: 153, 67, 10 !important;
+  --color-yellow: 125,125,32 !important;
+  --color-green: 42, 95, 62 !important; 
+  --color-blue: 10, 49, 97 !important; 
+  --color-purple: 108, 51, 153 !important; 
+  --color-pink: 225, 108, 153 !important; 
+  --color-red: 153, 33, 67 !important;
   /* #Text */
   /*^ Site Foreground */
   --color-text-white: rgb(var(--color-white)) !important; 
