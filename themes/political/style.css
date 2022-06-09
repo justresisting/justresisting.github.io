@@ -49,18 +49,7 @@
   --color-pink: 225, 108, 153; 
   --color-red: 153, 33, 67;
   /* #Text */
-  /*^ Site Foreground *//*
-  --color-text-white: rgb(var(--color-white)) !important;
-  --color-text-gray: rgb(var(--color-gray))  !important;
-  --color-text-black: rgb(var(--color-black))  !important;
-  --color-text-brown: rgb(var(--color-brown))  !important;
-  --color-text-orange: rgb(var(--color-orange))  !important;
-  --color-text-yellow: rgb(var(--color-yellow))  !important;
-  --color-text-green: rgb(var(--color-green))  !important;
-  --color-text-blue: rgb(var(--color-blue))  !important;
-  --color-text-purple: rgb(var(--color-purple))  !important;
-  --color-text-pink: rgb(var(--color-pink))  !important;
-  --color-text-red: rgb(var(--color-red))  !important;*/
+  /*^ Site Foreground */
   --color-text-white: rgb(var(--color-white)) !important; 
   --color-text-black: rgba(0,0,0,1) !important;
   --color-text-gray: rgba(128,128,128,1)  !important;
