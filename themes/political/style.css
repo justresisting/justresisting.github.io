@@ -286,9 +286,9 @@ body {
   /* They are linked to .notion-header__cover */
     padding-top: 4rem;
     padding-bottom: 4rem;
-    margin: 0;
-    width: 100%;
-    max-width: 100%;
+    margin: 0 !important;
+    width: 100% !important;
+    max-width: 100% !important;
     position: relative;   
   /* !Should Get Rid Of These Below (?) */
     max-height: 50vh !important;
@@ -300,16 +300,16 @@ body {
   }
 
 .notion-header__title-wrapper {
-    max-width: 100%;
+    max-width: 100% !important;
   }
 
 .notion-header__content.max-width {
-    max-width: 100%;
+    max-width: 100% !important;
   }
 
 .notion-header__cover {
     margin: 0 !important;
-    width: 100%!important;
+    width: 100% !important;
     max-width: 100% !important;
     border-radius: 0px !important;
     /* !The Inputs below are linked to .notion-header */
@@ -335,10 +335,10 @@ img.notion-header__cover-image {
     box-sizing: border-box;
     border: medium none;
     padding: 0px;
-    margin: 0;
-    width: 100%;
-    min-width: 100%;
-    max-width: 100%;
+    margin: 0 !important;
+    width: 100% !important;
+    min-width: 100% !important;
+    max-width: 100% !important;
     height: 100%;
     min-height: 100%;
     max-height: 100%;
