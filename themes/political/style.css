@@ -685,14 +685,6 @@ p.notion-callout__content {
     margin: 0 !important;
     line-height: 1 !important;
   }
-  
-.notion-callout__content:first-of-type > .notion-semantic-string span a.notion-link.link {
-    border-bottom: 1px solid var(--color-text-yellow) !important;
-      
-  }
-.notion-callout__content:first-of-type > .notion-semantic-string span a.notion-link.link:hover {
-    color: yellow !important;
-  }
 
   /* %End Callout Titles */
 
