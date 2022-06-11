@@ -131,6 +131,7 @@
   --cta-shadow: none !important;
   /* #Callouts */
   --callout-padding: 15px 20px 15px 15px !important;
+  --callout-margin: 1rem 0 !important;
   --callout-border: 1px solid var(--color-border-default) !important;
   --callout-border-radius: 4px !important;
   --callout-shadow: none !important;
@@ -653,8 +654,11 @@ h3.notion-heading.toggle,
 .notion-callout.border {
     border-width: 3px !important;
     padding: 0 !important;
+    margin: var(--callout-margin) !important;
     color: var(--color-text-white) !important;
   }
+
+  
 
 .notion-callout__icon {
     margin: 1rem .25rem !important;
