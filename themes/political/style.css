@@ -677,6 +677,7 @@ p.notion-callout__content {
   /* #Callout Titles*/
   .notion-callout__content:first-of-type > .notion-semantic-string span {
     display: flex !important;
+    justify-content: center;
     color: var(--h1-text-color) !important;
     font-size: var(--h3-size) !important;
     font-weight: var(--h3-weight) !important;
