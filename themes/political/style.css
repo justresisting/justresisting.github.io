@@ -672,7 +672,7 @@ h3.notion-heading.toggle,
 p.notion-callout__content {
     max-width: var(--theme-width) !important;
     width: var(--theme-width) !important;
-    margin: 1rem .25rem !important;
+    margin: var(--callout-margin) !important;
   }
 
 /* #Single Line Callout Buttons */
