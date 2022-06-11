@@ -1839,6 +1839,38 @@ code.code {
 
 
 
+/* #Pages */
+
+
+/* #Home */
+
+
+/* #Political */
+
+
+/* #Activism */
+
+
+/* #Technology */
+
+
+/* #Blog */
+
+
+/* #About */
+
+/* ^Makes Personal Image centered */
+div#block-6a134fea5b744910a0675568027ff676.notion-image.normal {
+    justify-content: center !important;
+    display: flex;
+  }
+
+
+/* #Contact */
+
+
+
+
 /* #MOBILE RESPONSIVE */
 
 
