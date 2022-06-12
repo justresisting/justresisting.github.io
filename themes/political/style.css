@@ -197,6 +197,7 @@
   --header-hover: var(--color-text-gray) !important;
   /* #Toggles */
   --toggle-size: 32px !important;
+  --toggle-color: var(--color-text-yellow) !important;
   /* #Links */
   --link-border-width: 0px 0px 0px 0px !important;
   --link-border-style: none !important;
@@ -1202,9 +1203,15 @@ span.notion-pill.pill-red.first {
   position: relative !important;
 }
 
+div.notion-toggle__summary:hover {
+  color: var(--color-text-gray) !important;
+}
+
 .notion-toggle__trigger {
   font-size: var(--toggle-size) !important;
+  color: var(--toggle-color) !important;
 }
+
 
 .notion-toggle__content {
     padding-inline-start: calc(1.5em - 5px);
