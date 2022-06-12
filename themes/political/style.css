@@ -131,7 +131,7 @@
   --cta-shadow: none !important;
   /* #Callouts */
   --callout-padding: 15px 20px 15px 15px !important;
-  --callout-margin: 1rem 0 !important;
+  --callout-margin: 1rem .5rem !important;
   --callout-border: 1px solid var(--color-border-default) !important;
   --callout-border-radius: 4px !important;
   --callout-shadow: none !important;
@@ -667,6 +667,8 @@ h3.notion-heading.toggle:hover,
 
 /* #Callout */
 
+
+
 .notion-callout {
     border-radius: var(--element-radius) !important;
     padding: 1rem 0 !important;
@@ -688,10 +690,17 @@ h3.notion-heading.toggle:hover,
     padding: 0 !important;
   }
 
-.notion-callout + .notion-callout__icon >.notion-semantic-string {
-    margin: 1rem !important;
-    display: block !important;
-  }
+  div.notion-callout__icon {
+  display: none !important;
+}
+
+p.notion-callout__content {
+  margin: 1rem .5rem !important;
+
+}
+
+
+
 
 p.notion-callout__content {
     max-width: var(--theme-width) !important;
