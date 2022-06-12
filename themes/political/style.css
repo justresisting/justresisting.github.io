@@ -197,7 +197,7 @@
   --header-hover: var(--color-text-gray) !important;
   /* #Toggles */
   --toggle-size: 32px !important;
-  --toggle-color: var(--color-text-yellow) !important;
+  --toggle-color: var(--color-accent-bg) !important;
   /* #Links */
   --link-border-width: 0px 0px 0px 0px !important;
   --link-border-style: none !important;
@@ -353,7 +353,11 @@ div.notion-header__cover.has-cover {
     background-repeat: no-repeat;
     background-size: cover;
     position: fixed;
-    z-index: -100;
+    z-index: -100 !important;
+  }
+
+div.notion-header__cover {
+    z-index: -99 !important;
   }
 
 img.notion-header__cover-image {
@@ -606,6 +610,10 @@ h3.notion-heading.toggle:hover,
   transition: 300ms ease-in !important;
   padding: 0.5em !important;
 }
+
+.notion-page, .notion-page>div { 
+    z-index: 1 !important;
+  }
 
 .notion-page>div:hover {
   background-color: transparent !important;
@@ -1220,6 +1228,7 @@ div.notion-toggle__summary:hover {
 .notion-toggle__trigger {
   font-size: var(--toggle-size) !important;
   color: var(--toggle-color) !important;
+  z-index: 20 !important;
 }
 
 
@@ -1896,6 +1905,8 @@ div#block-6a134fea5b744910a0675568027ff676.notion-image.normal {
 
 
 /* #Contact */
+
+
 
 
 
