@@ -701,7 +701,7 @@ h3.notion-heading.toggle:hover,
 .notion-callout.border {
     border-width: .2rem !important;
     padding: 0 !important;
-    margin: var(--callout-margin) !important;
+    margin: .5rem 0 !important;
     color: var(--color-text-white) !important;
   }
   
@@ -716,6 +716,9 @@ p.notion-callout__content {
     width: var(--theme-width) !important;
     margin: var(--callout-margin) !important;
   }
+
+
+
 
 /* #Single Line Callout Buttons */
 
