@@ -193,6 +193,8 @@
   --h3-margin: 0.5rem 0 !important;
   --h3-line-height: 1.4 !important;
   --h3-text-shadow: 3px 3px 3px var(--color-default) !important;
+  /* #Header Hover */
+  --header-hover: var(--color-text-gray) !important;
   /* #Toggles */
   --toggle-size: 32px !important;
   /* #Links */
@@ -546,6 +548,27 @@ h3.notion-heading.toggle,
   color: var(--color-text-white) !important;
   text-shadow: var(--h3-text-shadow) !important;
   font-size: 1rem !important;
+}
+
+
+/* #Heading & Toggle :hover */
+
+h1:hover,
+h1.notion-heading:hover,
+h1.notion-heading.toggle:hover,
+/*$ Affects Toggle Glyphs   */
+.notion-toggle-heading-1:hover,
+h1:hover,
+h2.notion-heading:hover,
+h2.notion-heading.toggle:hover,
+/*$ Affects Toggle Glyphs   */
+.notion-toggle-heading-2:hover,
+h3:hover,
+h3.notion-heading:hover,
+h3.notion-heading.toggle:hover,
+/*$ Affects Toggle Glyphs   */
+.notion-toggle-heading-3:hover{
+  color: var(--header-hover) !important;
 }
 
 
