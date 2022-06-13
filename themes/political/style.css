@@ -206,7 +206,7 @@
   --link-border-style: none !important;
   --link-border-color: none !important;
   /* $Padding */
-  --footer-padding: 1rem 1rem !important;
+  --footer-padding: 0rem 2rem !important;
   /* $Margin */
 }
 
@@ -307,19 +307,19 @@ body {
 /* #Footer */
 
 .super-footer {
-  padding: 0 2rem !important;
+  padding: var(--footer-padding) !important;
   margin: 0 !important;
   }
 
  /* ^Full length footer  */
 .super-footer.corners {
-    padding: 0 2rem !important;
+    padding: var(--footer-padding) !important;
     margin: 0 !important;
   }
 
 /* ^Footer with margin */
 .super-footer.floating {
-  padding: 0 2rem !important;
+  padding: var(--footer-padding) !important;
   margin: 0 !important;
 }
 
