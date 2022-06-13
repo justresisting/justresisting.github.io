@@ -131,12 +131,14 @@
   --cta-shadow: none !important;
   /* $Callouts */
   --callout-padding: 15px 20px 15px 15px !important;
-  --callout-margin: 1rem .5rem !important;
+  --callout-content-margin: 1rem .5rem !important;
   --callout-border: 1px solid var(--color-border-default) !important;
   --callout-border-radius: 4px !important;
   --callout-shadow: none !important;
   --callout-icon-size: 20px !important;
   --callout-emoji-size: 18px !important;
+  /* Responsive typography */
+  --callout-font-size: 2.3vw !important;
   /* $Collections */
   --collection-property-text-size: 14px !important;
   --collection-list-item-border-radius: 0px !important;
@@ -731,10 +733,12 @@ h3.notion-heading.toggle:hover,
 
 .notion-callout.border {
     border-width: .2rem !important;
+    justify-content: center !important;
     padding: 0 !important;
     margin: .5rem 0 !important;
     color: var(--color-text-white) !important;
   }
+
   
 .notion-callout__icon {
     margin: 1rem .25rem !important;
@@ -744,23 +748,25 @@ h3.notion-heading.toggle:hover,
 p.notion-callout__content {
     max-width: var(--theme-width) !important;
     width: var(--theme-width) !important;
-    margin: var(--callout-margin) !important;
+    margin: var(--callout-content-margin) !important;
   }
 
-
-
-  /* $Callout Titles*/
-  .notion-callout__content:first-of-type > .notion-semantic-string span {
+ /* #Callout Titles*/
+  .notion-callout__content:first-of-type > .notion-semantic-string > span {
+    background-color: var(--color-bg-default);
+    border: 3px solid var(--color-default);
     display: flex !important;
     justify-content: center;
     color: var(--h1-text-color) !important;
-    font-size: var(--h3-size) !important;
+    font-size: 2.3vw !important;
     font-weight: var(--h1-weight) !important;
+    padding: .25rem 0 !important;
     letter-spacing: var(--h3-spacing) !important;
     text-shadow: var(--h3-text-shadow) !important;
     margin: 0 !important;
     line-height: 1 !important;
   }
+
 
   /* %End Callout Titles */
 
