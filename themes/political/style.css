@@ -208,6 +208,7 @@
   /* $Padding */
   --footer-padding: 0rem 2rem !important;
   /* $Margin */
+  --code-margin: 1rem 1rem !important;
 }
 
 /* %END VARIABLES */
@@ -1615,7 +1616,7 @@ img {
 /* Audio */
 
 
-/* Code */
+/* #Code */
 
 /* Affects Notion Code Markdown  */
 code.code {
@@ -1648,6 +1649,7 @@ code.code {
   margin: 10px 0;
   direction: ltr;
   overflow: auto;
+  margin: var(--code-margin) !important;
 }
 
 .notion-code code {
