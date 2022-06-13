@@ -245,12 +245,7 @@ body {
     backdrop-filter: blur(16px) !important;
   }
 
-.super-navbar__item.active,
-.super-navbar__item:hover {
-    opacity: 1;
-    color: var(--color-text-yellow)!important;
-  }
-
+/* $Call To Action Button */
 .super-navbar__cta {
     padding: 0.75em 2em !important;
     border-radius: var(--element-radius) !important;
@@ -275,35 +270,34 @@ body {
   backdrop-filter: blur(16px) !important;
 }
 
+/* ^Navbar Menu Items */
 .super-navbar__item {
   opacity: .85 !important;
 }
 
+/* ^Active Item & Hover On Menu  */
+.super-navbar__item.active,
+.super-navbar__item:hover{
+  opacity: 1 !important;
+  color: var(--color-text-white)  !important;
+  background-color: var(--color-bg-yellow-light) !important;
+}
+
+
 /* $Content */
-/* !Responsible for Parallax Effect */
-/* !The Gradient is the only solution available */
-/* !To cover over the notion-header__cover-image  */
-/* !was previously .super-content.has-footer */
-.super-content {
-    padding-top: 10rem;
-    padding-bottom: 4em !important;
-    margin-bottom: -1rem;
-    background-image: linear-gradient(to bottom, var(--color-gradient-0), var(--color-gradient-point-1), var(--color-gradient-1), var(--color-gradient-1), var(--color-gradient-1), var(--color-gradient-1), var(--color-gradient-1));
-  }
 
 /* This compenstates for setting display: BLOCK for */
 /* .notion-header .notion-header__title-wrapper */
 .super-content {
-  margin-top: -5rem !important;
+    background-image: none !important;
+    padding-top: 0 !important;
+  margin-top: -8rem !important;
+  margin-bottom: 8rem !important;
 }
-
     /* Set Page Width */
 .super-content.max-width {
   max-width: var(--responsive-width) !important;
-  margin: 0;
-  margin-top: -5rem !important;
 }
-
 
 /* #Footer */
 
