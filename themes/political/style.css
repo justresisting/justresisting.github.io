@@ -205,6 +205,9 @@
   --link-border-width: 0px 0px 0px 0px !important;
   --link-border-style: none !important;
   --link-border-color: none !important;
+  /* $Padding */
+  --footer-padding: 1rem 1rem !important;
+  /* $Margin */
 }
 
 /* %END VARIABLES */
@@ -302,23 +305,31 @@ body {
 
 
 /* #Footer */
+
+.super-footer {
+  margin: 0;
+  padding: 0 2rem;
+  }
+
+ /* ^Full length footer  */
 .super-footer.corners {
-    padding: 0 1.5rem;
+    padding: 0 2rem;
     margin: 0;
   }
 
-.super-footer {
-  margin: 0 !important;
-  padding: 0 2rem !important;
-  }
-    
+/* ^Footer with margin */
+.super-footer.floating {
+  padding: 0 2rem;
+  margin: 0;
+}
+
 .super-footer__link {
-  opacity: 0.7 !important;
+  opacity: 0.7;
   font-weight: bold;
 }
 
 .super-footer__link:hover {
-    opacity: 1 !important;
+    opacity: 1;
 }
 
 
