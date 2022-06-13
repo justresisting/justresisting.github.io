@@ -731,7 +731,7 @@ p.notion-callout__content {
     justify-content: center;
     color: var(--h1-text-color) !important;
     font-size: var(--h3-size) !important;
-    font-weight: var(--h3-weight) !important;
+    font-weight: var(--h1-weight) !important;
     letter-spacing: var(--h3-spacing) !important;
     text-shadow: var(--h3-text-shadow) !important;
     margin: 0 !important;
