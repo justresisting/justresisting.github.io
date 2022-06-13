@@ -307,20 +307,20 @@ body {
 /* #Footer */
 
 .super-footer {
-  margin: 0;
-  padding: 0 2rem;
+  padding: 0 2rem !important;
+  margin: 0 !important;
   }
 
  /* ^Full length footer  */
 .super-footer.corners {
-    padding: 0 2rem;
-    margin: 0;
+    padding: 0 2rem !important;
+    margin: 0 !important;
   }
 
 /* ^Footer with margin */
 .super-footer.floating {
-  padding: 0 2rem;
-  margin: 0;
+  padding: 0 2rem !important;
+  margin: 0 !important;
 }
 
 .super-footer__link {
