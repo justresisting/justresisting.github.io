@@ -13,21 +13,21 @@
 /* VARIABLES*/
 :root {
 /* #VARIABLES */
-  /* #Width */
-  /*^ Desktop Page Width */
+  /* $Width */
+  /* ^Page Width */
   --theme-width: 1440px !important;
   --responsive-width:  calc(100% - var(--column-spacing)) !important;
   --long-width: 800px !important;
   --mid-width: 400px !important;
   --short-width: 200px !important;
-  /* #UI */
+  /* $UI */
   /*^ Global Border Radius [Rounding] */
   --element-radius: 10px !important;
   /*^ Site Font Size*/
   --body-font: 16px !important;
   /*^ Site Column Spacing*/
   --column-spacing: 2em !important;
-  /* #Global Colors */
+  /* $Global Colors */
   /*^ default theme color */
   --color-default: rgb(10, 49, 97) !important;
   --color-hover: rgb(10,49,97) !important;
@@ -51,7 +51,7 @@
   /*^ default color for element :hover*/
   --color-ui-hover-bg: rgba(var(--color-default-hover),0.25) !important;
   --color-ui-hover-bg-light: rgba(var(--color-default-hover),0.125) !important;
-  /* #Colors */
+  /* $Colors */
   --color-white: 255, 255, 255 !important; 
   --color-black: 0, 0, 0 !important;
   --color-gray: 96, 96, 96 !important;
@@ -63,7 +63,7 @@
   --color-purple: 108, 51, 153 !important;
   --color-pink: 153, 108, 153 !important;
   --color-red: 153, 51, 102 !important;
-  /* #Text */
+  /* $Text */
   --color-text-white: rgb(var(--color-white)) !important; 
   --color-text-black: rgba(0,0,0,1) !important;
   --color-text-gray: rgba(192,192,192,1)  !important;
@@ -75,7 +75,7 @@
   --color-text-purple: rgba(175,50,175,1)  !important;
   --color-text-pink: rgba(225,150,200,1)  !important;
   --color-text-red: rgba(225,50,50,1)  !important;  
-  /* #Background = More Opacity */
+  /* $Background = More Opacity */
   --color-bg-gray: rgba(var(--color-gray),1)  !important;
   --color-bg-black: rgba(var(--color-black),1) !important;
   --color-bg-brown: rgba(var(--color-brown),1)  !important;
@@ -86,7 +86,7 @@
   --color-bg-purple: rgba(var(--color-purple),1)  !important;
   --color-bg-pink: rgba(var(--color-pink),1)  !important;
   --color-bg-red: rgba(var(--color-red),1)  !important;
-  /* #Background Light = More Transparency */
+  /* $Background Light = More Transparency */
   --color-bg-gray-light: rgba(var(--color-gray),0.5)  !important;
   --color-bg-black-light: rgba(var(--color-black),0.25) !important;
   --color-bg-brown-light: rgba(var(--color-brown),0.5)  !important;
@@ -97,7 +97,7 @@
   --color-bg-purple-light: rgba(var(--color-purple),0.5)  !important;
   --color-bg-pink-light: rgba(var(--color-pink),0.5)  !important;
   --color-bg-red-light: rgba(var(--color-red),0.5)  !important;
-  /* #Border Colors */
+  /* $Border Colors */
   --color-border-dark: rgba(var(--color-black),1)  !important;
   --color-border-black: rgba(0,0,0,1) !important;
   --color-border-gray: rgba(128,128,128,1)  !important;
@@ -109,11 +109,11 @@
   --color-border-purple: rgba(175,50,175,1)  !important;
   --color-border-pink: rgba(225,150,200,1)  !important;
   --color-border-red: rgba(225,50,50,1)  !important;  
-  /* #Background Gradient */
+  /* $Background Gradient */
   --color-gradient-0: rgba(var(--site-background),0) !important;
   --color-gradient-1: rgba(var(--site-background),1) !important;
   --color-gradient-point-1: rgba(var(--site-background),0.1) !important;
-  /* #Pill Colors */
+  /* $Pill Colors */
   --color-pill-default: rgba(var(--color-default),.5)  !important;
   --color-pill-gray: rgba(var(--color-gray),.5)  !important;
   --color-pill-brown: rgba(var(--color-brown),.5)  !important;
@@ -124,12 +124,12 @@
   --color-pill-purple: rgba(var(--color-purple),.75)  !important;
   --color-pill-pink: rgba(var(--color-pink),0.75)  !important;
   --color-pill-red: rgba(var(--color-red),0.5)  !important;
-  /* #Call to Actions */
+  /* $Call to Actions */
   --cta-padding: 13px 14px !important;
   --cta-border-radius: 4px !important;
   --cta-border: none !important;
   --cta-shadow: none !important;
-  /* #Callouts */
+  /* $Callouts */
   --callout-padding: 15px 20px 15px 15px !important;
   --callout-margin: 1rem .5rem !important;
   --callout-border: 1px solid var(--color-border-default) !important;
@@ -137,7 +137,7 @@
   --callout-shadow: none !important;
   --callout-icon-size: 20px !important;
   --callout-emoji-size: 18px !important;
-  /* #Collections */
+  /* $Collections */
   --collection-property-text-size: 14px !important;
   --collection-list-item-border-radius: 0px !important;
   --collection-list-item-padding: 5px 0px 5px 5px !important;
@@ -149,27 +149,27 @@
   --collection-card-cover-size-small: 172px !important;
   --collection-card-cover-size-medium: 260px !important;
   --collection-card-cover-size-large: 320px !important;
-  /* #Collection Card Size*/
+  /* $Collection Card Size*/
   --collection-card-cover-size-small: calc(20%) !important;
   --collection-card-cover-size-medium: calc(30%) !important;
   --collection-card-cover-size-large: calc(45%) !important;
-  /* #Pills */
+  /* $Pills */
   --notion-pill-padding: 2px 5px !important;
   --notion-pill-border-radius: 0px !important;
   --notion-pill-text-size: 12px !important;
   --notion-pill-text-weight: 500 !important;
   --notion-pill-text-transform: uppercase !important;
   --notion-pill-letter-spacing: 1px !important;
-  /* #Images */
+  /* $Images */
   --image-border-radius: 10px !important;
-  /* #Misc */
+  /* $Misc */
   --divider-margin: 15px 0px !important;
   --divider-opacity: 1 !important;
-  /* #Typography */
+  /* $Typography */
   --text-spacing: 1px !important;
   --secondary-font: 'Inter', sans-serif !important;
   --notion-text-margin: 0px 0px 0px 0px !important;
-  /* #h1 - Header 1 */
+  /* $h1 - Header 1 */
   --h1-text-color: rgb(255, 255, 255) !important;
   --h1-size: 2.5rem !important;
   --h1-weight: 800 !important;
@@ -178,7 +178,7 @@
   --h1-line-height: 1 !important;
   --h1-text-shadow: 0px 0px 0px transparent !important;
 /*  --h1-text-shadow: 3px 3px 3px var(--color-default) !important;*/
-  /* #h2 - Header 2 */
+  /* $h2 - Header 2 */
   --h2-text-color: rgb(255, 255, 255) !important;
   --h2-size: 1.75rem !important;
   --h2-weight: 700 !important;
@@ -187,7 +187,7 @@
   --h2-line-height: 100% !important;
   --h2-text-shadow: 0px 0px 0px transparent !important;
 /*  --h2-text-shadow: 3px 3px 3px var(--color-default) !important;*/
-  /* #h3 - Header 3 */
+  /* $h3 - Header 3 */
   --h3-text-color: rgb(255, 255, 255) !important;
   --h3-size: 1.375rem !important;
   --h3-weight: 600 !important;
@@ -196,12 +196,12 @@
   --h3-line-height: 1.4 !important;
   --h3-text-shadow: 0px 0px 0px transparent !important;
 /*  --h3-text-shadow: 3px 3px 3px var(--color-default) !important;*/
-  /* #Header Hover */
+  /* $Header Hover */
   --header-hover: var(--color-text-gray) !important;
-  /* #Toggles */
+  /* $Toggles */
   --toggle-size: 32px !important;
   --toggle-color: var(--color-accent-bg) !important;
-  /* #Links */
+  /* $Links */
   --link-border-width: 0px 0px 0px 0px !important;
   --link-border-style: none !important;
   --link-border-color: none !important;
@@ -229,20 +229,7 @@ body {
 /* #SUPER */
 
 
-.super-navbar__menu {
-  background-color: var(--color-default-light) !important;
-  min-width: 200px !important;
-  -webkit-backdrop-filter: blur(16px);
-  backdrop-filter: blur(16px) !important;
-}
-
-.super-navbar__item {
-  opacity: .85 !important;
-}
-
-
-/* #NAVBAR */
-
+/* $NAVBAR */
 
 .super-navbar {
     border-radius: var(--element-radius) !important;
@@ -277,6 +264,18 @@ body {
     padding: 0 !important;
   }
 
+.super-navbar__menu {
+  background-color: var(--color-default-light) !important;
+  min-width: 200px !important;
+  -webkit-backdrop-filter: blur(16px);
+  backdrop-filter: blur(16px) !important;
+}
+
+.super-navbar__item {
+  opacity: .85 !important;
+}
+
+/* $Content */
 /* !Responsible for Parallax Effect */
 /* !The Gradient is the only solution available */
 /* !To cover over the notion-header__cover-image  */
@@ -287,7 +286,6 @@ body {
     margin-bottom: -1rem;
     background-image: linear-gradient(to bottom, var(--color-gradient-0), var(--color-gradient-point-1), var(--color-gradient-1), var(--color-gradient-1), var(--color-gradient-1), var(--color-gradient-1), var(--color-gradient-1));
   }
-
 
 /* This compenstates for setting display: BLOCK for */
 /* .notion-header .notion-header__title-wrapper */
@@ -302,13 +300,31 @@ body {
   margin-top: -5rem !important;
 }
 
+
+/* #Footer */
 .super-footer.corners {
     padding: 0 1.5rem;
     margin: 0;
   }
 
+.super-footer {
+  margin: 0 !important;
+  padding: 0 2rem !important;
+  }
+    
+.super-footer__link {
+  opacity: 0.7 !important;
+  font-weight: bold;
+}
 
-/* #NOTION HEADER */
+.super-footer__link:hover {
+    opacity: 1 !important;
+}
+
+
+
+/* #NOTION */
+/* $NOTION HEADER */
 
 .notion-header {
   /* The inputs below affect Header Cover image */
@@ -454,10 +470,10 @@ img.notion-header__cover-image {
 
 /* #BLOCK CUSTOMIZATION */
 
-/* #Basic */
+/* $Basic */
 
 
-/* #Text */
+/* $Text */
 
 p {
   line-height: 100% !important;
@@ -471,8 +487,8 @@ p {
 }
 
 
-/* #Heading 1 & */
-/* #Toggle heading 1 */
+/* $Heading 1 & */
+/* $Toggle heading 1 */
 
 h1,
 h1.notion-heading,
@@ -505,8 +521,8 @@ h1.notion-heading.toggle,
 }
 
 
-/* #Heading 2 & */
-/* #Toggle heading 2 */
+/* $Heading 2 & */
+/* $Toggle heading 2 */
 
 h2,
 h2.notion-heading,
@@ -538,8 +554,8 @@ h2.notion-heading.toggle,
   font-size: 1rem !important;
 }
 
-/* #Heading 3 & */
-/* #Toggle heading 3 */
+/* $Heading 3 & */
+/* $Toggle heading 3 */
 
 h3,
 h3.notion-heading,
@@ -572,7 +588,7 @@ h3.notion-heading.toggle,
 }
 
 
-/* #Heading & Toggle :hover */
+/* $Heading & Toggle :hover */
 
 h1:hover,
 h1.notion-heading:hover,
@@ -587,7 +603,7 @@ h2.notion-heading.toggle:hover,
 h3:hover,
 h3.notion-heading:hover,
 h3.notion-heading.toggle:hover,
-/*$ Affects Toggle Glyphs   */
+/* $Affects Toggle Glyphs   */
 .notion-toggle-heading-3:hover{
   color: var(--header-hover) !important;
 }
@@ -691,8 +707,6 @@ h3.notion-heading.toggle:hover,
 
 /* #Callout */
 
-
-
 .notion-callout {
     border-radius: var(--element-radius) !important;
     padding: 1rem 0 !important;
@@ -708,7 +722,6 @@ h3.notion-heading.toggle:hover,
     color: var(--color-text-white) !important;
   }
   
-
 .notion-callout__icon {
     margin: 1rem .25rem !important;
     padding: 0 !important;
@@ -722,10 +735,7 @@ p.notion-callout__content {
 
 
 
-
-/* #Single Line Callout Buttons */
-
-  /* #Callout Titles*/
+  /* $Callout Titles*/
   .notion-callout__content:first-of-type > .notion-semantic-string span {
     display: flex !important;
     justify-content: center;
@@ -774,7 +784,9 @@ p.notion-callout__content {
   /**.notion-callout.bg-red,
   */
 
-/*^ Default Callout Button */
+
+/* $Callout Buttons */
+/* ^Default Callout Button */
 [class="notion-callout border"] {
     color: var(--color-text-white) !important;
     background: var(--color-bg-default) !important;
@@ -844,11 +856,11 @@ p.notion-callout__content {
   border-color: var(--color-border-red) !important;
 }
 
-/* $END Callout Button*/
+/* %END Callout Button*/
 
 
 
-/* #4-Callout-Borders - Set Notion FG Color */
+/* $Callout Borders - Set Notion FG Color */
 
 /*^ Gray Callout Border - Notion FG Color */
 [class="notion-callout color-gray-light border"] {
@@ -1243,7 +1255,7 @@ div.notion-toggle__summary:hover {
 }
 
 
-/*# Simple tables */
+/* #Simple tables */
 
 
 /* #Database */
@@ -1715,8 +1727,6 @@ code.code {
 /* #Advanced */
 
 
-/* #Table of Contents */
-
 /*  #TABLE OF CONTENTS  */
 
 .notion-table-of-contents {
@@ -1786,8 +1796,8 @@ code.code {
 
 /* #NOTION-HEADER */
 
-/* #Show/Hide Notion Header */
-/* #(Page Title, Cover and Icon)*/
+/* ^Show/Hide Notion Header */
+/* ^(Page Title, Cover and Icon)*/
 /* Set to NONE to hide all */
 /* Set to BLOCK to show all*/
 .notion-header {
@@ -1845,18 +1855,6 @@ div.notion-callout__icon {
 
 
 
-/* #TOGGLES */
-/*^ SHOW/Hide All Toggles*/
-.notion-toggle {
-  display: block !important;
-}
-
-/* #HIDE Toggles with Specific Color BG*/
-/*$ Toggle with BG color below won't appear on page */
-/** Replace brown with any color (optional) */
-.notion-toggle.bg-brown {
-  display: none !important;
-}
 
 
 /* Show/Hide ALL Notion Page Blocks */
@@ -1879,6 +1877,26 @@ div.notion-callout__icon {
   display: none !important;
 }
 
+/* $TOGGLES */
+/* ^SHOW/Hide All Toggles*/
+.notion-toggle {
+  display: block !important;
+}
+
+/* ^HIDE Toggles with Specific Color BG*/
+/*$ Toggle with BG color below won't appear on page */
+/** Replace brown with any color (optional) */
+.notion-toggle.bg-brown {
+  display: none !important;
+}
+
+/* $Footer - .super-footer */
+
+/* ^display: flex is default & goes across */
+/* ^display: block for top-down */
+.super-footer__links {
+  display: flex !important;
+}
 
 
 
@@ -1886,22 +1904,22 @@ div.notion-callout__icon {
 /* #Pages */
 
 
-/* #Home */
+/* $Home */
 
 
-/* #Political */
+/* $Political */
 
 
-/* #Activism */
+/* $Activism */
 
 
-/* #Technology */
+/* $Technology */
 
 
-/* #Blog */
+/* $Blog */
 
 
-/* #About */
+/* $About */
 
 /* ^Makes Personal Image centered */
 div#block-6a134fea5b744910a0675568027ff676.notion-image.normal {
