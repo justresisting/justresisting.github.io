@@ -231,7 +231,7 @@
   /* $Margin */
   --code-margin: 1rem 1rem !important;
   /* $Quotes */
-  --quote-font: 'Cedarville Cursive', cursive; 
+  --quote-font: 'Cedarville Cursive', cursive !important; 
   --quote-border-width: 1px !important;
   --quote-border-style: solid !important;
   --quote-border-color: var(--color-border-default) !important;
