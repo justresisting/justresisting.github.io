@@ -230,6 +230,13 @@
   --link-border-color: none !important;
   /* $Margin */
   --code-margin: 1rem 1rem !important;
+  /* $Quotes */
+  --quote-font: 'Cedarville Cursive', cursive; 
+  --quote-border-width: 1px !important;
+  --quote-border-style: solid !important;
+  --quote-border-color: var(--color-border-default) !important;
+  --quote-margin: 1rem auto !important;
+  --quote-padding: 1em 1em 2em 2em !important;
 }
 
 /* %END VARIABLES */
@@ -406,7 +413,7 @@ div.notion-header__cover.has-cover {
     position: fixed;
     z-index: -100 !important;
   }
-
+img.notion-header__cover-image:has
 div.notion-header__cover {
     z-index: -99 !important;
   }
@@ -785,7 +792,9 @@ p.notion-callout__content {
     text-shadow: var(--site-shadow) !important;
     letter-spacing: var(--h3-spacing) !important;
     line-height: 1 !important;
-    border: var(--callout-border);
+    border-width: var(--callout-border-width) !important;
+    border-style: var(--callout-border-style) !important;
+    border-color: var(--callout-border-color) !important;
     padding: var(--callout-padding) !important;
     margin: 0 !important;
     justify-content: var(--callout-justify);
@@ -840,7 +849,7 @@ p.notion-callout__content {
 [class="notion-callout bg-blue-light border"] {
   color: var(--color-text-white) !important;
   background-color: var(--color-bg-blue) !important;
-  border-color: var(--color-accent-bg) !important;
+  border-color: var(--color-border-blue) !important;
 }
 
 /* ^Purple Callout Button */
@@ -865,6 +874,8 @@ p.notion-callout__content {
 }
 
 /* %END Callout Button*/
+
+
 
 
 
@@ -984,95 +995,123 @@ span.notion-pill.pill-red.first {
 /* #Quote */
 
 .notion-quote {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  text-align: center !important;
+  font-style: italic !important;
+  font-size: 1em !important;
+  font-weight: 500 !important;
+  font-family: 'Cedarville Cursive', cursive;
+  width: 100% !important;
+  border-width: 1px; 
+  border-style: solid; 
+  margin: 1rem auto !important;
+  padding: 1em 1em 2em 2em !important;
+  border-radius: var(--element-radius) !important;
+}  
+
+.notion-quote {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  text-align: center !important;
   font-style: italic !important;
   font-size: 1em !important;
   font-weight: 500 !important;
   width: 100% !important;
-  margin: 1rem auto !important;
-  padding: 1em 1em 2em 2em !important;
-  border: 1px solid var(--color-white) !important;
-  text-align: center !important;
-  display: flex !important;
-  flex-direction: column !important;
-  align-items: center !important;
+  font-family: var(--quote-font) !important;
+  border-width: var(--quote-border-width) !important;
+  border-style: var(--quote-border-style) !important;
+  border-color: var(--quote-border-color) !important; 
+  margin: var(--quote-margin) !important;
+  padding: var(--quote-padding) !important;
   border-radius: var(--element-radius) !important;
 }
 
 /* $Quote Button */
 
+
+
 /* ^Default Quoteblock Button */
 [class="notion-quote"] {
   color: var(--color-text-default-light) !important;
-  border: 3px solid var(--color-border-default) !important;
-  background: transparent !important;
+  background-color: var(--color-bg-default) !important;
+  border-color: var(--color-border-default) !important;
 }
 
 /* ^Gray Quoteblock Button */
 [class="notion-quote bg-gray"] {
   color: var(--color-text-default-light) !important;
-  background-color: var(--color-bg-gray-light) !important;
-  border: 3px solid var(--color-border-gray) !important;
+  background-color: var(--color-bg-gray) !important;
+  border-color: var(--color-border-black) !important;
 }
 
 /* ^Brown Quoteblock Button */
 [class="notion-quote bg-brown"] {
   color: var(--color-text-default-light) !important;
   background-color: var(--color-bg-brown) !important;
-  border: 3px solid var(--color-border-default) !important;
+  border-color: var(--color-border-brown) !important;
 }
 
 /* ^Orange Quoteblock Button */
 [class="notion-quote bg-orange"] {
   color: var(--color-text-default-light) !important;
-  background-color: var(--color-bg-orange-light) !important;
-  border: 3px solid var(--color-border-default) !important;
+  background-color: var(--color-bg-orange) !important;
+  border-color: var(--color-border-orange) !important;
 }
 
 /* ^Yellow Quoteblock Button */
 [class="notion-quote bg-yellow"] {
   color: var(--color-text-default-light) !important;
-  background-color: var(--color-bg-yellow-light) !important;
-  border: 3px solid var(--color-border-default) !important;
+  background-color: var(--color-bg-yellow) !important;
+  border-color: var(--color-border-yellow) !important;
 }
 
 /* ^Green Quoteblock Button */
 [class="notion-quote bg-green"] {
   color: var(--color-text-default-light) !important;
-  background-color: var(--color-bg-green-light) !important;
-  border: 3px solid var(--color-border-default) !important;
+  background-color: var(--color-bg-green) !important;
+  border-color: var(--color-border-green) !important;
 }
 
 /* ^Blue Quoteblock Button */
 [class="notion-quote bg-blue"] {
   color: var(--color-text-default-light) !important;
-  background-color: var(--color-bg-blue-light) !important;
-  border: 3px solid var(--color-border-default) !important;
+  background-color: var(--color-bg-blue) !important;
+  border-color: var(--color-border-blue) !important;
 }
 
 
 /* ^Purple Quoteblock Button */
 [class="notion-quote bg-purple"] {
   color: var(--color-text-default-light) !important;
-  background-color: var(--color-bg-purple-light) !important;
-  border: 3px solid var(--color-border-default) !important;
+  background-color: var(--color-bg-purple) !important;
+  border-color: var(--color-border-purple) !important;
+
 }
 
 /* ^Pink Quoteblock Button  */
 [class="notion-quote bg-pink"] {
   color: var(--color-text-default-light) !important;
-  background-color: var(--color-bg-pink-light) !important;
-  border: 3px solid var(--color-border-default) !important;
+  background-color: var(--color-bg-pink) !important;
+  border-color: var(--color-border-pink) !important;
 }
 
 /* ^Red Quoteblock Button */
 [class="notion-quote bg-red"] {
   color: var(--color-text-default-light) !important;
-  background-color: var(--color-bg-red-light) !important;
-  border: 3px solid var(--color-border-default) !important;
+  background-color: var(--color-bg-red) !important;
+  border-color: var(--color-border-red) !important;
 }
 
 
+
+
+
 /* $Quote Border */
+
+
 
 /* ^Default Quoteblock Border */
 [class="notion-quote"] {
