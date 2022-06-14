@@ -1674,8 +1674,8 @@ img {
 /* Affects Notion Code Markdown  */
 code.code {
   border-radius: var(--element-radius) !important;
-  background-color: var(--color-bg-blue-light) !important;
-  color: var(--color-text-pink) !important;
+  background-color: var(--color-bg-black-light) !important;
+  color: var(--color-text-red) !important;
   text-shadow: 1px 1px 1px var(--color-default) !important;
   font-size: 0.9rem;
   padding: .2em .4em;
