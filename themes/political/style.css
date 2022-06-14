@@ -30,12 +30,12 @@
   /* ^Site Shadow */
   --site-shadow: 0px 0px 0px var(--color-default) !important;
   /* $Super Content */
-  --super-padding: 0 !important;
-  --super-padding-top: 0 !important;
-  --super-padding-bottom: 0 !important;
-  --super-margin: 0 !important;
-  --super-margin-top: -10rem !important;
-  --super-margin-bottom: 10rem !important;
+  --super-content-padding: 0 !important;
+  --super-content-padding-top: 0 !important;
+  --super-content-padding-bottom: 0 !important;
+  --super-content-margin: 0 !important;
+  --super-content-margin-top: 5vh !important;
+  --super-content-margin-bottom: 0 !important;
   --super-content-bg: none !important;
   --super-footer-padding: 0rem 2rem !important;
   /* $Global Colors */
@@ -291,7 +291,7 @@ body {
 
 .super-navbar__actions,
 .super-navbar__logo {
-    padding: var(--super-padding) !important;
+    padding: var(--super-content-padding) !important;
   }
 
 .super-navbar__menu {
@@ -322,9 +322,9 @@ body {
 .super-content {
   background: var(--super-content-bg) !important;
   background-image: var(--super-content-bg) !important;
-  padding-top: var(--super-padding-top) !important;
-  margin-top: var(--super-margin-top) !important;
-  margin-bottom: var(--super-margin-bottom) !important;
+  padding-top: var(--super-content-padding-top) !important;
+  margin-top: var(--super-content-margin-top) !important;
+  margin-bottom: var(--super-content-margin-bottom) !important;
 }
     /* Set Page Width */
 .super-content.max-width {
@@ -335,19 +335,19 @@ body {
 
 .super-footer {
   padding: var(--super-footer-padding) !important;
-  margin: var(--super-margin) !important;
+  margin: var(--super-content-margin) !important;
   }
 
  /* ^Full length footer  */
 .super-footer.corners {
     padding: var(--super-footer-padding) !important;
-    margin: var(--super-margin) !important;
+    margin: var(--super-content-margin) !important;
   }
 
 /* ^Footer with margin */
 .super-footer.floating {
   padding: var(--super-footer-padding) !important;
-  margin: var(--super-margin) !important;
+  margin: var(--super-content-margin) !important;
 }
 
 .super-footer__link {
