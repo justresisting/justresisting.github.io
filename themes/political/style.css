@@ -21,34 +21,36 @@
   --mid-width: 400px !important;
   --short-width: 200px !important;
   /* $UI */
-  /*^ Global Border Radius [Rounding] */
+  /* ^ Site Border Radius [Rounding] */
   --element-radius: 10px !important;
-  /*^ Site Font Size*/
+  /* ^Site Font Size*/
   --body-font: 16px !important;
-  /*^ Site Column Spacing*/
+  /* ^Site Column Spacing*/
   --column-spacing: 2em !important;
+  /* ^Site Shadow */
+  --site-shadow: 0px 0px 0px var(--color-default) !important;
   /* $Global Colors */
-  /*^ default theme color */
+  /* ^default theme color */
   --color-default: rgb(10, 49, 97) !important;
   --color-hover: rgb(10,49,97) !important;
   --color-default-light: rgba(var(--color-default),0.5) !important;
   --color-default-hover: rgba(var(--color-hover),1) !important;
-  /*^ global background color */
+  /* ^global background color */
   --site-background: 51, 102, 153 !important;
   --color-bg-default: rgb(var(--site-background)) !important;
-  /*^ global foreground text color */
+  /* ^global foreground text color */
   --color-text-default: rgb(255,255,255) !important;
-  /*^ dimmer global foreground text color */
+  /* ^dimmer global foreground text color */
   --color-text-default-light: rgb(200,200,200) !important;
-  /*^ default border color for elements */
+  /* ^default border color for elements */
   --color-border-default: var(--color-default) !important;
-  /*^ accent color */
+  /* ^accent color */
   --color-accent-bg: rgb(101,153,202) !important;
-  /*^ alt accent color w/ transparency */
+  /* ^alt accent color w/ transparency */
   --color-accent-bg-light: rgba(101,153,202,0.5) !important;
-  /*^ default color for block backgrounds */
+  /* ^default color for block backgrounds */
   --color-card-bg: var(--color-default) !important;
-  /*^ default color for element :hover*/
+  /* ^default color for element :hover*/
   --color-ui-hover-bg: rgba(var(--color-default-hover),0.25) !important;
   --color-ui-hover-bg-light: rgba(var(--color-default-hover),0.125) !important;
   /* $Colors */
@@ -130,15 +132,22 @@
   --cta-border: none !important;
   --cta-shadow: none !important;
   /* $Callouts */
-  --callout-padding: 15px 20px 15px 15px !important;
-  --callout-content-margin: 1rem .5rem !important;
-  --callout-border: 1px solid var(--color-border-default) !important;
-  --callout-border-radius: 4px !important;
+  --callout-padding: .25rem 0 .25rem 0 !important;
+  --callout-padding-top: .25rem !important;
+  --callout-margin: 1rem 0 !important;
+  --callout-margin-top: .25rem !important;
+  --callout-border: 3px solid var(--color-border-default) !important;
+  --callout-border-radius: var(--element-radius) !important;
+  --callout-justify: center !important;
   --callout-shadow: none !important;
   --callout-icon-size: 20px !important;
   --callout-emoji-size: 18px !important;
-  /* Responsive typography */
-  --callout-font-size: 2.3vw !important;
+  --callout-title-bg: var(--color-bg-default) !important;
+  /* !Responsive typography */
+  --callout-title-size: 2.3vw !important;
+  /* !--callout-font-size: !important; TO BE DECIDED */
+  /* ^p.notion-callout__content */
+  --callout-content-margin: 1rem .5rem !important;
   /* $Collections */
   --collection-property-text-size: 14px !important;
   --collection-list-item-border-radius: 0px !important;
@@ -178,7 +187,7 @@
   --h1-spacing: -0.04em !important;
   --h1-margin: 5px 0px 5px 0px !important;
   --h1-line-height: 1 !important;
-  --h1-text-shadow: 0px 0px 0px transparent !important;
+  --h1-text-shadow: var(--site-shadow) !important;
 /*  --h1-text-shadow: 3px 3px 3px var(--color-default) !important;*/
   /* $h2 - Header 2 */
   --h2-text-color: rgb(255, 255, 255) !important;
@@ -187,7 +196,7 @@
   --h2-spacing: -0.03em !important;
   --h2-margin: 0.5rem 0 !important;
   --h2-line-height: 100% !important;
-  --h2-text-shadow: 0px 0px 0px transparent !important;
+  --h2-text-shadow: var(--site-shadow) !important;
 /*  --h2-text-shadow: 3px 3px 3px var(--color-default) !important;*/
   /* $h3 - Header 3 */
   --h3-text-color: rgb(255, 255, 255) !important;
@@ -196,7 +205,7 @@
   --h3-spacing: -0.02em !important;
   --h3-margin: 0.5rem 0 !important;
   --h3-line-height: 1.4 !important;
-  --h3-text-shadow: 0px 0px 0px transparent !important;
+  --h3-text-shadow: var(--site-shadow) !important;
 /*  --h3-text-shadow: 3px 3px 3px var(--color-default) !important;*/
   /* $Header Hover */
   --header-hover: var(--color-text-gray) !important;
@@ -291,8 +300,8 @@ body {
 /* This compenstates for setting display: BLOCK for */
 /* .notion-header .notion-header__title-wrapper */
 .super-content {
-    background-image: none !important;
-    padding-top: 0 !important;
+  background-image: none !important;
+  padding-top: 0 !important;
   margin-top: -10rem !important;
   margin-bottom: 10rem !important;
 }
@@ -516,7 +525,7 @@ h1.notion-heading.toggle,
   font-weight: var(--h1-weight) !important;
   font-style: normal !important;
   line-height: var(--h1-line-height) !important;
-  text-shadow: var(--h1-text-shadow) !important;
+  text-shadow: var(--site-shadow) !important;
   letter-spacing: var(--h1-spacing) !important;
   margin: var(--h1-margin) !important;
   margin-bottom: 0.5em !important;
@@ -532,7 +541,7 @@ h1.notion-heading.toggle,
 /*$ Affects Toggle Glyphs   */
 .notion-toggle.open.notion-toggle-heading-1 {
   color: var(--color-text-white) !important;
-  text-shadow: var(--h1-text-shadow) !important;
+  text-shadow: var(--site-shadow) !important;
   font-size: 1rem !important;
 }
 
@@ -550,7 +559,7 @@ h2.notion-heading.toggle,
   font-weight: var(--h2-weight) !important;
   font-style: normal !important;
   line-height: var(--h2-line-height) !important;
-  text-shadow: var(--h2-text-shadow) !important;
+  text-shadow: var(--site-shadow) !important;
   letter-spacing: var(--h2-spacing) !important;
   margin: var(--h2-margin) !important;
   margin-bottom: 0.5em !important;
@@ -566,7 +575,7 @@ h2.notion-heading.toggle,
 /*$ Affects Toggle Glyphs   */
 .notion-toggle.open.notion-toggle-heading-2 {
   color: var(--color-text-white) !important;
-  text-shadow: var(--h2-text-shadow) !important;
+  text-shadow: var(--site-shadow) !important;
   font-size: 1rem !important;
 }
 
@@ -583,7 +592,7 @@ h3.notion-heading.toggle,
   font-weight: var(--h3-weight) !important;
   font-style: normal !important;
   line-height: var(--h3-line-height) !important;
-  text-shadow: var(--h3-text-shadow) !important;
+  text-shadow: var(--site-shadow) !important;
   letter-spacing: var(--h3-spacing) !important;
   margin: var(--h3-margin) !important;
   margin-bottom: 0.5em !important;
@@ -599,7 +608,7 @@ h3.notion-heading.toggle,
 /*$ Affects Toggle Glyphs   */
 .notion-toggle.open.notion-toggle-heading-3 {
   color: var(--color-text-white) !important;
-  text-shadow: var(--h3-text-shadow) !important;
+  text-shadow: var(--site-shadow) !important;
   font-size: 1rem !important;
 }
 
@@ -690,7 +699,7 @@ h3.notion-heading.toggle:hover,
   border-radius: 5px !important;
 }
 
-/*^ Property name in databases*/
+/* ^Property name in databases*/
 .notion-page__property-name {
   display: flex;
   align-items: flex-start;
@@ -709,7 +718,7 @@ h3.notion-heading.toggle:hover,
 }
 
 /* !Direct from Super Editor */
-/*^ Property name in databases*/
+/* ^Property name in databases*/
 .notion-page__property-name {
   display: flex;
   align-items: flex-start;
@@ -724,85 +733,44 @@ h3.notion-heading.toggle:hover,
 /* #Callout */
 
 .notion-callout {
-    border-radius: var(--element-radius) !important;
-    padding: 1rem 0 !important;
-    padding-top: .25rem !important;
-    margin: 1rem 0 !important;
-    margin-top: .25rem !important;
+    padding: var(--callout-padding) !important;
+    margin: var(--callout-margin) !important;
   }
 
-.notion-callout.border {
-    border-width: .2rem !important;
-    justify-content: center !important;
-    padding: 0 !important;
-    margin: .5rem 0 !important;
+div.notion-callout.border {
     color: var(--color-text-white) !important;
+    border: var(--callout-border) !important;
+    border-radius: var(--element-radius) !important;
+    padding: var(--callout-padding) !important;
+    padding-top: var(--callout-padding-top) !important;
+    margin: var(--callout-margin) !important;
+    margin-top: var(--callout-margin-top) !important;
+    justify-content: var(--callout-justify) !important;
   }
-
   
-.notion-callout__icon {
-    margin: 1rem .25rem !important;
-    padding: 0 !important;
-  }
 
 p.notion-callout__content {
-    max-width: var(--theme-width) !important;
     width: var(--theme-width) !important;
+    max-width: var(--theme-width) !important;
     margin: var(--callout-content-margin) !important;
   }
 
- /* #Callout Titles*/
+ /* $Callout Titles*/
   .notion-callout__content:first-of-type > .notion-semantic-string > span {
-    background-color: var(--color-bg-default);
-    border: 3px solid var(--color-default);
+    background-color: var(--callout-title-bg);
     display: flex !important;
-    justify-content: center;
     color: var(--h1-text-color) !important;
-    font-size: 2.3vw !important;
+    font-size: var(--callout-title-size) !important;
     font-weight: var(--h1-weight) !important;
-    padding: .25rem 0 !important;
+    text-shadow: var(--site-shadow) !important;
     letter-spacing: var(--h3-spacing) !important;
-    text-shadow: var(--h3-text-shadow) !important;
-    margin: 0 !important;
     line-height: 1 !important;
+    border: var(--callout-border);
+    padding: var(--callout-padding) !important;
+    margin: 0 !important;
+    justify-content: var(--callout-justify);
   }
-
-
   /* %End Callout Titles */
-
-/**  START #Callout Button */
-/** (Entire block is clickable) */
-/** Set Notion BG Color on Callout */
-/*.notion-callout {
-  position: relative !important;
-}*/
-/* ^This may come in handy sometime*/
-/* ^Apparently anything with the class bg-<color>-light 
-     ^has a BACKGROUND color selected from within Notion.
-     ^Anything with the class bg-<color> has a FOREGROUND
-     ^color selected from within Notion.
-  /* ? Is this how it works?   
-  /**
-  /**.notion-callout.bg-gray-light, 
-  /**.notion-callout.bg-brown-light, 
-  /**.notion-callout.bg-orange-light, 
-  /**.notion-callout.bg-yellow-light, 
-  /**.notion-callout.bg-green-light, 
-  /**.notion-callout.bg-blue-light, 
-  /**.notion-callout.bg-purple-light, 
-  /**.notion-callout.bg-pink-light, 
-  /**.notion-callout.bg-red-light
-  /**
-  /**.notion-callout.bg-gray, 
-  /**.notion-callout.bg-brown, 
-  /**.notion-callout.bg-orange, 
-  /**.notion-callout.bg-yellow, 
-  /**.notion-callout.bg-green, 
-  /**.notion-callout.bg-blue, 
-  /**.notion-callout.bg-purple, 
-  /**.notion-callout.bg-pink, 
-  /**.notion-callout.bg-red,
-  */
 
 
 /* $Callout Buttons */
@@ -820,56 +788,56 @@ p.notion-callout__content {
   border-color: var(--color-border-black) !important;
 }
 
-/*^ Brown Callout Button */
+/* ^Brown Callout Button */
 [class="notion-callout bg-brown-light border"] {
   color: var(--color-text-white) !important;
   background-color: var(--color-bg-brown) !important;
   border-color: var(--color-border-brown) !important;
 }
 
-/*^ Orange Callout Button */
+/* ^Orange Callout Button */
 [class="notion-callout bg-orange-light border"] {
   color: var(--color-text-white) !important;
   background-color: var(--color-bg-orange) !important;
   border-color: var(--color-border-orange) !important;
 }
 
-/*^ Yellow Callout Button */
+/* ^Yellow Callout Button */
 [class="notion-callout bg-yellow-light border"] {
   color: var(--color-text-white) !important;
   background-color: var(--color-bg-yellow) !important;
   border-color: var(--color-border-yellow) !important;
 }
 
-/*^ Green Callout Button */
+/* ^Green Callout Button */
 [class="notion-callout bg-green-light border"] {
   color: var(--color-text-white) !important;
   background-color: var(--color-bg-green) !important;
   border-color: var(--color-border-green) !important;
 }
 
-/*^ Blue Callout Button */
+/* ^Blue Callout Button */
 [class="notion-callout bg-blue-light border"] {
   color: var(--color-text-white) !important;
   background-color: var(--color-bg-blue) !important;
   border-color: var(--color-accent-bg) !important;
 }
 
-/*^ Purple Callout Button */
+/* ^Purple Callout Button */
 [class="notion-callout bg-purple-light border"] {
   color: var(--color-text-white) !important;
   background-color: var(--color-bg-purple) !important;
   border-color: var(--color-border-purple) !important;
 }
 
-/*^ Pink Callout Button */
+/* ^Pink Callout Button */
 [class="notion-callout bg-pink-light border"] {
   color: var(--color-text-white) !important;
   background-color: var(--color-bg-pink) !important;
   border-color: var(--color-border-pink) !important;
 }
 
-/*^ Red Callout Button */
+/* ^Red Callout Button */
 [class="notion-callout bg-red-light border"] {
   color: var(--color-text-white) !important;
   background-color: var(--color-bg-red) !important;
@@ -882,63 +850,63 @@ p.notion-callout__content {
 
 /* $Callout Borders - Set Notion FG Color */
 
-/*^ Gray Callout Border - Notion FG Color */
+/* ^Gray Callout Border - Notion FG Color */
 [class="notion-callout color-gray-light border"] {
   color: var(--color-text-white) !important;
   background-color: var(--color-bg-black-light) !important;
   border-color: var(--color-border-black) !important;
 }
 
-/*^ Brown Callout Border - Notion FG Color */
+/* ^Brown Callout Border - Notion FG Color */
 [class="notion-callout color-brown-light border"] {
   color: var(--color-text-default) !important;
   background-color: var(--color-bg-brown-light) !important;
   border-color: var(--color-border-brown) !important;
 }
 
-/*^ Orange Callout Border - Notion FG Color */
+/* ^Orange Callout Border - Notion FG Color */
 [class="notion-callout color-orange-light border"] {
   color: var(--color-text-default) !important;
   background-color: var(--color-bg-orange-light)  !important;
   border-color: var(--color-border-orange) !important;
 }
 
-/*^ Yellow Callout Border - Notion FG Color */
+/* ^Yellow Callout Border - Notion FG Color */
 [class="notion-callout color-yellow-light border"] {
   color: var(--color-text-default) !important;
   background-color: var(--color-bg-yellow-light) !important;
   border-color: var(--color-border-yellow) !important;
 }
 
-/*^ Green Callout Border - Notion FG Color */
+/* ^Green Callout Border - Notion FG Color */
 [class="notion-callout color-green-light border"] {
   color: var(--color-text-default) !important;
   background-color: var(--color-bg-green-light) !important;
   border-color: var(--color-border-green) !important;
 }
 
-/*^ Blue Callout Border - Notion FG Color */
+/* ^Blue Callout Border - Notion FG Color */
 [class="notion-callout color-blue-light border"] {
   color: var(--color-text-default) !important;
   background-color: var(--color-bg-blue-light) !important;
   border-color: var(--color-accent-bg) !important;
 }
 
-/*^ Purple Callout Border - Notion FG Color */
+/* ^Purple Callout Border - Notion FG Color */
 [class="notion-callout color-purple-light border"] {
   color: var(--color-text-default) !important;
   background-color: var(--color-bg-purple-light) !important;
   border-color: var(--color-border-purple) !important;
 }
 
-/*^ Pink Callout Border - Notion FG Color */
+/* ^Pink Callout Border - Notion FG Color */
 [class="notion-callout color-pink-light border"] {
   color: var(--color-text-default) !important;
   background-color: var(--color-bg-pink-light) !important;
   border-color: var(--color-border-pink) !important;
 }
 
-/*^ Red Callout Border - Notion FG Color */
+/* ^Red Callout Border - Notion FG Color */
 [class="notion-callout color-red-light border"] {
   color: var(--color-text-default) !important;
   background-color: var(--color-bg-red-light) !important;
@@ -1012,49 +980,49 @@ span.notion-pill.pill-red.first {
 
 /* $Quote Button */
 
-/*^ Default Quoteblock Button */
+/* ^Default Quoteblock Button */
 [class="notion-quote"] {
   color: var(--color-text-default-light) !important;
   border: 3px solid var(--color-border-default) !important;
   background: transparent !important;
 }
 
-/*^ Gray Quoteblock Button */
+/* ^Gray Quoteblock Button */
 [class="notion-quote bg-gray"] {
   color: var(--color-text-default-light) !important;
   background-color: var(--color-bg-gray-light) !important;
   border: 3px solid var(--color-border-gray) !important;
 }
 
-/*^ Brown Quoteblock Button */
+/* ^Brown Quoteblock Button */
 [class="notion-quote bg-brown"] {
   color: var(--color-text-default-light) !important;
   background-color: var(--color-bg-brown) !important;
   border: 3px solid var(--color-border-default) !important;
 }
 
-/*^ Orange Quoteblock Button */
+/* ^Orange Quoteblock Button */
 [class="notion-quote bg-orange"] {
   color: var(--color-text-default-light) !important;
   background-color: var(--color-bg-orange-light) !important;
   border: 3px solid var(--color-border-default) !important;
 }
 
-/*^ Yellow Quoteblock Button */
+/* ^Yellow Quoteblock Button */
 [class="notion-quote bg-yellow"] {
   color: var(--color-text-default-light) !important;
   background-color: var(--color-bg-yellow-light) !important;
   border: 3px solid var(--color-border-default) !important;
 }
 
-/*^ Green Quoteblock Button */
+/* ^Green Quoteblock Button */
 [class="notion-quote bg-green"] {
   color: var(--color-text-default-light) !important;
   background-color: var(--color-bg-green-light) !important;
   border: 3px solid var(--color-border-default) !important;
 }
 
-/*^ Blue Quoteblock Button */
+/* ^Blue Quoteblock Button */
 [class="notion-quote bg-blue"] {
   color: var(--color-text-default-light) !important;
   background-color: var(--color-bg-blue-light) !important;
@@ -1062,21 +1030,21 @@ span.notion-pill.pill-red.first {
 }
 
 
-/*^ Purple Quoteblock Button */
+/* ^Purple Quoteblock Button */
 [class="notion-quote bg-purple"] {
   color: var(--color-text-default-light) !important;
   background-color: var(--color-bg-purple-light) !important;
   border: 3px solid var(--color-border-default) !important;
 }
 
-/*^ Pink Quoteblock Button  */
+/* ^Pink Quoteblock Button  */
 [class="notion-quote bg-pink"] {
   color: var(--color-text-default-light) !important;
   background-color: var(--color-bg-pink-light) !important;
   border: 3px solid var(--color-border-default) !important;
 }
 
-/*^ Red Quoteblock Button */
+/* ^Red Quoteblock Button */
 [class="notion-quote bg-red"] {
   color: var(--color-text-default-light) !important;
   background-color: var(--color-bg-red-light) !important;
@@ -1086,61 +1054,61 @@ span.notion-pill.pill-red.first {
 
 /* $Quote Border */
 
-/*^ Default Quoteblock Border */
+/* ^Default Quoteblock Border */
 [class="notion-quote"] {
   color: var(--color-text-default-light) !important;
   border: 4px solid var(--color-card-bg) !important;
 }
 
-/*^ Gray Quoteblock Border */
+/* ^Gray Quoteblock Border */
 [class="notion-quote color-gray"] {
   color: var(--color-text-default-light) !important;
   border: 4px solid rgb(var(--color-gray)) !important;
 }
 
-/*^ Brown Quoteblock Border */
+/* ^Brown Quoteblock Border */
 [class="notion-quote color-brown"] {
   color: var(--color-text-default-light) !important;
   border: 3px solid rgb(var(--color-brown)) !important;
 }
 
-/*^ Orange Quoteblock Border */
+/* ^Orange Quoteblock Border */
 [class="notion-quote color-orange"] {
   color: var(--color-text-default-light) !important;
   border: 3px solid rgb(var(--color-orange)) !important;
 }
 
-/*^ Yellow Quoteblock Border */
+/* ^Yellow Quoteblock Border */
 [class="notion-quote color-yellow"] {
   color: var(--color-text-default-light) !important;
   border: 3px solid rgb(var(--color-yellow)) !important;
 }
 
-/*^ Green Quoteblock Border */
+/* ^Green Quoteblock Border */
 [class="notion-quote color-green"] {
   color: var(--color-text-default-light) !important;
   border: 3px solid rgb(var(--color-green)) !important;
 }
 
-/*^ Blue Quoteblock Border */
+/* ^Blue Quoteblock Border */
 [class="notion-quote color-blue"] {
   color: var(--color-text-default-light) !important;
   border: 5px solid rgb(var(--color-blue)) !important;
 }
 
-/*^ Purple Quoteblock Border */
+/* ^Purple Quoteblock Border */
 [class="notion-quote color-purple"] {
   color: var(--color-text-default-light) !important;
   border: 4px solid rgba(var(--color-purple), 1) !important;
 }
 
-/*^ Pink Quoteblock Border */
+/* ^Pink Quoteblock Border */
 [class="notion-quote color-pink"] {
   color: var(--color-text-default-light) !important;
   border: 3px solid rgb(var(--color-pink)) !important;
 }
 
-/*^ Red Quoteblock Border */
+/* ^Red Quoteblock Border */
 [class="notion-quote color-red"] {
   color: var(--color-text-default-light) !important;
   border: 3px solid rgb(var(--color-red)) !important;
@@ -1244,7 +1212,7 @@ span.notion-pill.pill-red.first {
 
 .notion-toggle.open {
   margin-bottom: 0 !important;
-  text-shadow: 1px 1px 1px var(--color-default) !important;
+  text-shadow: var(--site-shadow) !important;
 }
 
 .notion-toggle__summary {
