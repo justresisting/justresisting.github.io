@@ -375,10 +375,6 @@ body {
     height: 50vh !important;
   }
 
-.notion-header.page {
-    padding-bottom: 25rem;
-  }
-
 .notion-header__title-wrapper {
     max-width: 100% !important;
   }
@@ -386,8 +382,6 @@ body {
 .notion-header__content.max-width {
     max-width: 100% !important;
   }
-
-
 
 .notion-header__cover {
     margin: 0 !important;
