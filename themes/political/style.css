@@ -307,6 +307,7 @@ body {
 /* This compenstates for setting display: BLOCK for */
 /* .notion-header .notion-header__title-wrapper */
 .super-content {
+  background: var(--super-content-bg) !important;
   background-image: var(--super-content-bg) !important;
   padding-top: var(--super-padding-top) !important;
   margin-top: var(--super-margin-top) !important;
