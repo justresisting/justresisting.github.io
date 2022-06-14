@@ -508,7 +508,7 @@ img.notion-header__cover-image {
 }
 
 .highlighted-background.bg-red a {
-  background-color: rgb(var(--color-red)) !important;
+  background-color: var(--color-bg-red-light) !important;
 }
 
 
@@ -778,7 +778,7 @@ p.notion-callout__content {
 
  /* $Callout Titles*/
   .notion-callout__content:first-of-type > .notion-semantic-string > span {
-    background-color: var(--callout-title-bg);
+    background-color: var(--callout-title-bg) !important;
     display: flex !important;
     color: var(--h1-text-color) !important;
     font-size: var(--callout-title-size) !important;
