@@ -231,7 +231,10 @@
   /* $Margin */
   --code-margin: 1rem 1rem !important;
   /* $Quotes */
-  --quote-font: 'Caveat', cursive !important; 
+  --quote-font-style: italic !important;
+  --quote-font-size: 1.75em !important;
+  --quote-font-weight: bold !important;
+  --quote-font-family: 'Caveat', cursive !important; 
   --quote-border-width: 1px !important;
   --quote-border-style: solid !important;
   --quote-border-color: var(--color-border-default) !important;
@@ -1010,11 +1013,11 @@ span.notion-pill.pill-red.first {
   flex-direction: column !important;
   align-items: center !important;
   text-align: center !important;
-  font-style: italic !important;
-  font-size: 1em !important;
-  font-weight: 500 !important;
   width: 100% !important;
-  font-family: var(--quote-font) !important;
+  font-style: var(--quote-font-style) !important;
+  font-size: var(--quote-font-size) !important;
+  font-weight: var(--quote-font-weight) !important;
+  font-family: var(--quote-font-family) !important;
   border-width: var(--quote-border-width) !important;
   border-style: var(--quote-border-style) !important;
   border-color: var(--quote-border-color) !important; 
