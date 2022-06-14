@@ -394,7 +394,8 @@ body {
 
 
 div.notion-header__cover.has-cover {
-    height: 30rem;
+    inset: 0px;
+    height: 100% !important;
     max-height: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -426,6 +427,12 @@ img.notion-header__cover-image {
     transform: translateZ(0);
     border-radius: 0px !important;
   }
+
+  .notion-header__cover.has-cover {
+    inset: 0px;
+    height: 100% !important;
+  }
+  
 
     .notion-header__cover.has-cover {
     inset: 0px !important;
