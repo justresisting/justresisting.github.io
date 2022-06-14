@@ -146,7 +146,7 @@
   --callout-padding-top: .25rem !important;
   --callout-margin: 1rem 0 !important;
   --callout-margin-top: .25rem !important;
-  --callout-border-width: 3px !important;
+  --callout-border-width: 1px !important;
   --callout-border-style: solid !important;
   --callout-border-color: var(--color-border-default) !important;
   --callout-border-radius: var(--element-radius) !important;
@@ -154,7 +154,7 @@
   --callout-shadow: none !important;
   --callout-icon-size: 20px !important;
   --callout-emoji-size: 18px !important;
-  --callout-title-bg: var(--color-bg-default) !important;
+  --callout-title-bg: var(--color-bg-black-light) !important;
   /* !Responsive typography */
   --callout-title-size: 2.3vw !important;
   /* !--callout-font-size: !important; TO BE DECIDED */
