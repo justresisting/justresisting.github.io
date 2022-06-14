@@ -235,7 +235,7 @@
   --quote-font-size: 1.75em !important;
   --quote-font-weight: bold !important;
   --quote-font-family: 'McLaren', cursive !important; 
-  --quote-border-width: 1px !important;
+  --quote-border-width: 5px !important;
   --quote-border-style: solid !important;
   --quote-border-color: var(--color-border-default) !important;
   --quote-margin: 1rem auto !important;
