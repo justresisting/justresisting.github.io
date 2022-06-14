@@ -29,6 +29,15 @@
   --column-spacing: 2em !important;
   /* ^Site Shadow */
   --site-shadow: 0px 0px 0px var(--color-default) !important;
+  /* $Super Content */
+  --super-padding: 0 !important;
+  --super-padding-top: 0 !important;
+  --super-padding-bottom: 0 !important;
+  --super-margin: 0 !important;
+  --super-margin-top: -10rem !important;
+  --super-margin-bottom: 10rem !important;
+  --super-content-bg: none !important;
+  --super-footer-padding: 0rem 2rem !important;
   /* $Global Colors */
   /* ^default theme color */
   --color-default: rgb(10, 49, 97) !important;
@@ -216,8 +225,6 @@
   --link-border-width: 0px 0px 0px 0px !important;
   --link-border-style: none !important;
   --link-border-color: none !important;
-  /* $Padding */
-  --footer-padding: 0rem 2rem !important;
   /* $Margin */
   --code-margin: 1rem 1rem !important;
 }
@@ -271,7 +278,7 @@ body {
 
 .super-navbar__actions,
 .super-navbar__logo {
-    padding: 0 !important;
+    padding: var(--super-padding) !important;
   }
 
 .super-navbar__menu {
@@ -300,10 +307,10 @@ body {
 /* This compenstates for setting display: BLOCK for */
 /* .notion-header .notion-header__title-wrapper */
 .super-content {
-  background-image: none !important;
-  padding-top: 0 !important;
-  margin-top: -10rem !important;
-  margin-bottom: 10rem !important;
+  background-image: var(--super-content-bg) !important;
+  padding-top: var(--super-padding-top) !important;
+  margin-top: var(--super-margin-top) !important;
+  margin-bottom: var(--super-margin-bottom) !important;
 }
     /* Set Page Width */
 .super-content.max-width {
@@ -313,20 +320,20 @@ body {
 /* #Footer */
 
 .super-footer {
-  padding: var(--footer-padding) !important;
-  margin: 0 !important;
+  padding: var(--super-footer-padding) !important;
+  margin: var(--super-margin) !important;
   }
 
  /* ^Full length footer  */
 .super-footer.corners {
-    padding: var(--footer-padding) !important;
-    margin: 0 !important;
+    padding: var(--super-footer-padding) !important;
+    margin: var(--super-margin) !important;
   }
 
 /* ^Footer with margin */
 .super-footer.floating {
-  padding: var(--footer-padding) !important;
-  margin: 0 !important;
+  padding: var(--super-footer-padding) !important;
+  margin: var(--super-margin) !important;
 }
 
 .super-footer__link {
