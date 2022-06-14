@@ -147,7 +147,7 @@
   --callout-margin-top: .25rem !important;
   --callout-border-width: 3px !important;
   --callout-border-style: solid !important;
-  --color-border-default: var(--color-border-default) !important;
+  --callout-border-color: var(--color-border-default) !important;
   --callout-border-radius: var(--element-radius) !important;
   --callout-justify: center !important;
   --callout-shadow: none !important;
@@ -758,7 +758,7 @@ div.notion-callout.border {
     color: var(--color-text-white) !important;
     border-width: var(--callout-border-width) !important;
     border-style: var(--callout-border-style) !important;
-    border-color: var(--color-border-default) !important;
+    border-color: var(--callout-border-color) !important;
     border-radius: var(--element-radius) !important;
     padding: var(--callout-padding) !important;
     padding-top: var(--callout-padding-top) !important;
