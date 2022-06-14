@@ -41,9 +41,9 @@
   /* $Global Colors */
   /* ^default theme color */
   --color-default: rgb(10, 49, 97) !important;
-  --color-hover: rgb(10,49,97) !important;
   --color-default-light: rgba(var(--color-default),0.5) !important;
   --color-default-hover: rgba(var(--color-hover),1) !important;
+  --color-hover: rgb(10,49,97) !important;
   /* ^global background color */
   --site-background: 51, 102, 153 !important;
   --color-bg-default: rgb(var(--site-background)) !important;
@@ -55,8 +55,9 @@
   --color-border-default: var(--color-default) !important;
   /* ^accent color */
   --color-accent-bg: rgb(101,153,202) !important;
+  --color-accent-bg: var(--color-border-yellow) !important;
   /* ^alt accent color w/ transparency */
-  --color-accent-bg-light: rgba(101,153,202,0.5) !important;
+  --color-accent-bg-light: var(--color-bg-yellow) !important;
   /* ^default color for block backgrounds */
   --color-card-bg: var(--color-default) !important;
   /* ^default color for element :hover*/
