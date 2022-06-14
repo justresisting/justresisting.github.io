@@ -1096,7 +1096,7 @@ span.notion-pill.pill-red.first {
 
 /* ^Default Quoteblock Border */
 [class="notion-quote"] {
-  color: var(--color-text-default-light) !important;
+  color: var(--color-text-default) !important;
   background-color: var(--color-bg-black-light) !important;
   border-width: var(--quote-border-width) !important;
   border-style: var(--quote-border-style) !important;
@@ -1105,7 +1105,7 @@ span.notion-pill.pill-red.first {
 
 /* ^Gray Quoteblock Border */
 [class="notion-quote color-gray"] {
-  color: var(--color-text-gray) !important;
+  color: var(--color-text-default) !important;
   background-color: var(--color-bg-black-light) !important;
   border-width: var(--quote-border-width) !important;
   border-style: var(--quote-border-style) !important;
@@ -1114,7 +1114,7 @@ span.notion-pill.pill-red.first {
 
 /* ^Brown Quoteblock Border */
 [class="notion-quote color-brown"] {
-  color: var(--color-text-brown) !important;
+  color: var(--color-text-default) !important;
   background-color: var(--color-bg-black-light) !important;
   border-width: var(--quote-border-width) !important;
   border-style: var(--quote-border-style) !important;
@@ -1123,7 +1123,7 @@ span.notion-pill.pill-red.first {
 
 /* ^Orange Quoteblock Border */
 [class="notion-quote color-orange"] {
-  color: var(--color-text-orange) !important;
+  color: var(--color-text-default) !important;
   background-color: var(--color-bg-black-light) !important;
   border-width: var(--quote-border-width) !important;
   border-style: var(--quote-border-style) !important;
@@ -1133,7 +1133,7 @@ span.notion-pill.pill-red.first {
 
 /* ^Yellow Quoteblock Border */
 [class="notion-quote color-yellow"] {
-  color: var(--color-text-yellow) !important;
+  color: var(--color-text-default) !important;
   background-color: var(--color-bg-black-light) !important;
   border-width: var(--quote-border-width) !important;
   border-style: var(--quote-border-style) !important;
@@ -1143,7 +1143,7 @@ span.notion-pill.pill-red.first {
 
 /* ^Green Quoteblock Border */
 [class="notion-quote color-green"] {
-  color: var(--color-text-green) !important;
+  color: var(--color-text-default) !important;
   background-color: var(--color-bg-black-light) !important;
   border-width: var(--quote-border-width) !important;
   border-style: var(--quote-border-style) !important;
@@ -1153,7 +1153,7 @@ span.notion-pill.pill-red.first {
 
 /* ^Blue Quoteblock Border */
 [class="notion-quote color-blue"] {
-  color: var(--color-text-blue) !important;
+  color: var(--color-text-default) !important;
   background-color: var(--color-bg-black-light) !important;
   border-width: var(--quote-border-width) !important;
   border-style: var(--quote-border-style) !important;
@@ -1163,7 +1163,7 @@ span.notion-pill.pill-red.first {
 
 /* ^Purple Quoteblock Border */
 [class="notion-quote color-purple"] {
-  color: var(--color-text-purple) !important;
+  color: var(--color-text-default) !important;
   background-color: var(--color-bg-black-light) !important;
   border-width: var(--quote-border-width) !important;
   border-style: var(--quote-border-style) !important;
@@ -1173,7 +1173,7 @@ span.notion-pill.pill-red.first {
 
 /* ^Pink Quoteblock Border */
 [class="notion-quote color-pink"] {
-  color: var(--color-text-pink) !important;
+  color: var(--color-text-default) !important;
   background-color: var(--color-bg-black-light) !important;
   border-width: var(--quote-border-width) !important;
   border-style: var(--quote-border-style) !important;
@@ -1183,7 +1183,7 @@ span.notion-pill.pill-red.first {
 
 /* ^Red Quoteblock Border */
 [class="notion-quote color-red"] {
-  color: var(--color-text-red) !important;
+  color: var(--color-text-default) !important;
   background-color: var(--color-bg-black-light) !important;
   border-width: var(--quote-border-width) !important;
   border-style: var(--quote-border-style) !important;
