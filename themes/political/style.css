@@ -786,7 +786,9 @@ div.notion-page__property {
 
 
 
+
 /* #Callout */
+
 .notion-callout {
     padding: var(--callout-padding) !important;
     margin: var(--callout-margin) !important;
@@ -803,8 +805,8 @@ div.notion-callout.border {
     margin: var(--callout-margin) !important;
     margin-top: var(--callout-margin-top) !important;
     justify-content: var(--callout-justify) !important;
+    align-self: center !important;
   }
-  
 
 p.notion-callout__content {
     width: var(--theme-width) !important;
@@ -817,18 +819,25 @@ p.notion-callout__content {
     background-color: var(--callout-title-bg) !important;
     display: flex !important;
     color: var(--h1-text-color) !important;
-    font-size: var(--callout-title-size) !important;
+    font-size: var(--h1-size) !important;
     font-weight: var(--h1-weight) !important;
     text-shadow: var(--site-shadow) !important;
-    letter-spacing: var(--h3-spacing) !important;
+    letter-spacing: var(--h1-spacing) !important;
     line-height: 1 !important;
     border-width: 0 !important;
     border-style: solid !important;
     border-color: transparent !important;
+    border-radius: var(--element-radius) !important;
     padding: var(--callout-padding) !important;
     margin: 0 !important;
-    justify-content: var(--callout-justify);
+    justify-content: var(--callout-justify) !important;
+    align-self: center !important;
   }
+
+ span.notion-callout__content:nth-child(n+1) > .notion-semantic-string > span {
+    font-size: var(--h3-size) !important; 
+ }
+  
   /* %End Callout Titles */
 
 
