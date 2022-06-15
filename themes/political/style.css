@@ -11,6 +11,7 @@
 /* %variables */
 
 /* VARIABLES*/
+/*  */
 :root {
 /* #VARIABLES */
   /* $Width */
@@ -160,7 +161,8 @@
   /* !--callout-font-size: !important; TO BE DECIDED */
   /* ^p.notion-callout__content */
   --callout-content-margin: 0rem .5rem !important;
-  /* $Collections */
+  /* $Collections */ 
+  --collection-padding: .5rem !important;
   --collection-property-text-size: 14px !important;
   --collection-list-item-border-radius: 0px !important;
   --collection-list-item-padding: 5px 0px 5px 5px !important;
@@ -1466,12 +1468,12 @@ div.notion-toggle__summary:hover {
   border: 1px solid var(--color-border-default) !important;
   border-radius: var(--element-radius) !important;
   overflow: hidden !important;
-  padding: 1em !important;
+  padding: var(--collection-padding) !important;
 }
 
 .notion-collection-table__wrapper {
   background-color: var(--color-border-default) !important;
-  padding: 1em !important;
+  padding: var(--collection-padding) !important;
   border-radius: var(--element-radius) !important;
 }
 
@@ -1565,7 +1567,7 @@ div.notion-toggle__summary:hover {
 
 .notion-collection-list {
   border: none !important;
-  padding: 1rem !important;
+  padding: var(--collection-padding) !important;
   background-color: var(--color-card-bg) !important;
   border-radius: var(--element-radius) !important;
 }
@@ -1617,7 +1619,7 @@ div.notion-toggle__summary:hover {
 
 .notion-collection-calendar {
   border: none !important;
-  padding: 1rem !important;
+  padding: var(--collection-padding) !important;
   background-color: var(--color-border-default) !important;
   border-radius: var(--element-radius) !important;
 }
