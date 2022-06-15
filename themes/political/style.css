@@ -2051,21 +2051,24 @@ div.notion-callout__icon {
 
 
 /* $Home */
+/* ^ */
 
+/* $Politics */
+/* ^#page-politics, #page-politics- */
 
-/* $Political */
 
 
 /* $Activism */
-
+/* ^page-activism, #page-activism- */
 
 /* $Technology */
-
+/* ^page-technology, #page-technology- */
 
 /* $Blog */
-
+/* ^page-blog, #page-blog- */
 
 /* $About */
+/* ^page-about, #page-about- */
 
 /* ^Makes Personal Image centered */
 div#block-6a134fea5b744910a0675568027ff676.notion-image.normal {
@@ -2076,7 +2079,7 @@ div#block-6a134fea5b744910a0675568027ff676.notion-image.normal {
 
 
 /* #Contact */
-
+/* ^page-contact, #page-contact- */
 
 
 
