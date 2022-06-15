@@ -2057,8 +2057,9 @@ div.notion-callout__icon {
 
 /* ^Makes Personal Image centered */
 div#block-6a134fea5b744910a0675568027ff676.notion-image.normal {
-    justify-content: center !important;
     display: flex;
+    justify-content: center !important;
+    align-self: center !important;
   }
 
 
