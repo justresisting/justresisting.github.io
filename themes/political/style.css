@@ -834,9 +834,20 @@ p.notion-callout__content {
     align-self: center !important;
   }
 
- span.notion-callout__content:nth-child(n+1) > .notion-semantic-string > span {
-    font-size: var(--h3-size) !important; 
- }
+/* Notion Blue Background Callouts are HEADERS */
+/* Gets rid of the border */
+.notion-callout.bg-blue-light.border {
+  background-color: var(--color-bg-default) !important;
+}
+
+/* Notion Callouts Blue Background are Headers! */
+.notion-callout.bg-blue-light.border .notion-callout__content:first-of-type > .notion-semantic-string > span {  
+   font-size: var(--h1-size) !important;
+   justify-content: center !important;
+   align-self: center !important;
+   align-content: center !important;
+   text-align: center !important;
+}
   
   /* %End Callout Titles */
 
@@ -887,7 +898,7 @@ p.notion-callout__content {
 /* ^Blue Callout Button */
 [class="notion-callout bg-blue-light border"] {
   color: var(--color-text-white) !important;
-  background-color: var(--color-bg-blue) !important;
+  background-color: var(--color-bg-default) !important;
   border-color: var(--color-border-blue) !important;
 }
 
