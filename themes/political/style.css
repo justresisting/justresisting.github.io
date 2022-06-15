@@ -159,7 +159,7 @@
   --callout-title-size: 1.25rem !important;
   /* !--callout-font-size: !important; TO BE DECIDED */
   /* ^p.notion-callout__content */
-  --callout-content-margin: 1rem .5rem !important;
+  --callout-content-margin: 0rem .5rem !important;
   /* $Collections */
   --collection-property-text-size: 14px !important;
   --collection-list-item-border-radius: 0px !important;
