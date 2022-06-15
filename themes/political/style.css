@@ -830,7 +830,6 @@ p.notion-callout__content {
     padding: var(--callout-padding) !important;
     margin: 0 !important;
     justify-content: var(--callout-justify) !important;
-    align-self: center !important;
   }
 
 /* Notion Blue Background Callouts are HEADERS */
@@ -843,9 +842,6 @@ p.notion-callout__content {
 .notion-callout.bg-blue-light.border .notion-callout__content:first-of-type > .notion-semantic-string > span {  
    background-color: var(--color-bg-default) !important;
    font-size: var(--h1-size) !important;
-   justify-content: center !important;
-   align-self: center !important;
-   align-content: center !important;
    text-align: center !important;
 }
   
