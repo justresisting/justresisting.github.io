@@ -156,7 +156,7 @@
   --callout-emoji-size: 18px !important;
   --callout-title-bg: var(--color-bg-default) !important;
   /* !Responsive typography */
-  --callout-title-size: 2.3vw !important;
+  --callout-title-size: 1.25rem !important;
   /* !--callout-font-size: !important; TO BE DECIDED */
   /* ^p.notion-callout__content */
   --callout-content-margin: 1rem .5rem !important;
@@ -805,7 +805,6 @@ div.notion-callout.border {
     margin: var(--callout-margin) !important;
     margin-top: var(--callout-margin-top) !important;
     justify-content: var(--callout-justify) !important;
-    align-self: center !important;
   }
 
 p.notion-callout__content {
@@ -819,7 +818,7 @@ p.notion-callout__content {
     background-color: var(--callout-title-bg) !important;
     display: flex !important;
     color: var(--h1-text-color) !important;
-    font-size: var(--h1-size) !important;
+    font-size: var(--h3-size) !important;
     font-weight: var(--h1-weight) !important;
     text-shadow: var(--site-shadow) !important;
     letter-spacing: var(--h1-spacing) !important;
@@ -842,6 +841,7 @@ p.notion-callout__content {
 
 /* Notion Callouts Blue Background are Headers! */
 .notion-callout.bg-blue-light.border .notion-callout__content:first-of-type > .notion-semantic-string > span {  
+   background-color: var(--color-bg-default) !important;
    font-size: var(--h1-size) !important;
    justify-content: center !important;
    align-self: center !important;
