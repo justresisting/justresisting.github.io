@@ -1253,20 +1253,22 @@ span.notion-pill.pill-red.first {
 
 /* ^Left Quotation Mark at Front */
 .notion-quote span.notion-semantic-string:before {
-font-family: McLaren;
+font-family: McLaren !important;
 content: "\201C" !important;
 }
 
 /* ^Right Quotation Mark at End */
 .notion-quote span.notion-semantic-string:after {
-  font-family: McLaren;
-  content: "\201D";
+  font-family: McLaren !important;
+  content: "\201D" !important;
 }
+
 .notion-quote {
-  position: relative;
+  position: relative !important;
 }
+
 .notion-quote span.semantic-string span {
-  position: absolute;
+  position: absolute !important;
 }
 
 /* #Divider */
