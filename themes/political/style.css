@@ -154,7 +154,7 @@
   --callout-shadow: none !important;
   --callout-icon-size: 20px !important;
   --callout-emoji-size: 18px !important;
-  --callout-title-bg: var(--color-bg-black-light) !important;
+  --callout-title-bg: var(--color-bg-default) !important;
   /* !Responsive typography */
   --callout-title-size: 2.3vw !important;
   /* !--callout-font-size: !important; TO BE DECIDED */
@@ -733,6 +733,73 @@ h3.notion-heading.toggle:hover,
   color: white !important;
 }
 
+
+/* !PAGE PROPERTIES FROM SUPER EDITOR */
+div.notion-page__properties {
+  display: grid !important;
+  color: white !important;
+  opacity: 1 !important;
+  font-weight: 400 !important;
+  background-color: var(--color-bg-default);
+  overflow: visible !important;
+}
+
+div.notion-page__property {
+  font-size: 24px !important;
+  color: white !important;
+  font-weight: 500 !important;
+  opacity: 1 !important;
+  background-color: var(--color-bg-black-light);
+  overflow: visible !important;
+}
+
+.notion-page__property-name {
+    font-size: 24px !important;
+    font-weight: 800 !important;
+    color: var(--color-text-default) !important;
+    opacity: 1 !important;
+    display: flex;
+    align-items: flex-start;
+    white-space: nowrap;
+    flex: 0 0 auto;
+    min-width: 0px;
+    padding: 0 1rem;
+    padding-top: 1rem;
+    margin: 0;
+    background-color: var(--color-bg-black-light);
+  
+}
+
+/* div.notion-property
+  .notion-property__file
+  .notion-property__file.property-undefinied
+  a.notion-link
+  div
+  picture
+  img
+  
+  */
+  
+  .notion-property__file.property-undefined img {
+    display: block !important;
+    max-width: 100% !important;
+    max-height: 100% !important;
+    
+  }
+  
+  .notion-property__file.property-undefined > a.notion-link > div {
+    width: auto !important;
+    height: auto !important;
+    display: block !important;
+  }
+    
+    
+span.notion-pill,
+.notion-pill.first {
+  border: 1px solid var(--color-border-yellow) !important;
+}
+/* !END PAGE PROPERTIES FROM SUPER EDITOR */
+
 /* ^Properties on a Page */
 /* All Properties on a Page*/
 .notion-page__properties {
@@ -790,9 +857,9 @@ p.notion-callout__content {
     text-shadow: var(--site-shadow) !important;
     letter-spacing: var(--h3-spacing) !important;
     line-height: 1 !important;
-    border-width: var(--callout-border-width) !important;
-    border-style: var(--callout-border-style) !important;
-    border-color: var(--callout-border-color) !important;
+    border-width: 0 !important;
+    border-style: solid !important;
+    border-color: transparent !important;
     padding: var(--callout-padding) !important;
     margin: 0 !important;
     justify-content: var(--callout-justify);
