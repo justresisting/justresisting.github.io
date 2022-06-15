@@ -722,18 +722,10 @@ h3.notion-heading.toggle:hover,
   border-radius: 5px !important;
 }
 
-/* ^Property name in databases*/
-.notion-page__property-name {
-  display: flex;
-  align-items: flex-start;
-  white-space: nowrap;
-  flex: 0 0 auto;
-  min-width: 0;
-  padding-top: 7px;
-  color: white !important;
-}
 
 
+/* #Page Properties*/
+/* ^Properties on a Page */
 /* !PAGE PROPERTIES FROM SUPER EDITOR */
 div.notion-page__properties {
   display: grid !important;
@@ -753,7 +745,9 @@ div.notion-page__property {
   overflow: visible !important;
 }
 
+/* ^Property name in databases*/
 .notion-page__property-name {
+    color: white !important;
     font-size: 24px !important;
     font-weight: 800 !important;
     color: var(--color-text-default) !important;
@@ -766,8 +760,7 @@ div.notion-page__property {
     padding: 0 1rem;
     padding-top: 1rem;
     margin: 0;
-    background-color: var(--color-bg-black-light);
-  
+    background-color: var(--color-bg-black-light);  
 }
 
 /* div.notion-property
@@ -777,14 +770,12 @@ div.notion-page__property {
   div
   picture
   img
-  
   */
   
   .notion-property__file.property-undefined img {
     display: block !important;
     max-width: 100% !important;
     max-height: 100% !important;
-    
   }
   
   .notion-property__file.property-undefined > a.notion-link > div {
@@ -792,32 +783,10 @@ div.notion-page__property {
     height: auto !important;
     display: block !important;
   }
-    
-    
-/* !END PAGE PROPERTIES FROM SUPER EDITOR */
 
-/* ^Properties on a Page */
-/* All Properties on a Page*/
-.notion-page__properties {
-  display: flex !important;
-  overflow: hidden !important;
-}
-
-/* !Direct from Super Editor */
-/* ^Property name in databases*/
-.notion-page__property-name {
-  display: flex;
-  align-items: flex-start;
-  white-space: nowrap;
-  flex: 0 0 auto;
-  min-width: 0;
-  padding: 0;
-  color: white !important;
-}
 
 
 /* #Callout */
-
 .notion-callout {
     padding: var(--callout-padding) !important;
     margin: var(--callout-margin) !important;
