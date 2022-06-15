@@ -806,7 +806,7 @@ div.notion-callout.border {
     margin-top: var(--callout-margin-top) !important;
     justify-content: var(--callout-justify) !important;
   }
-
+/* Callout Paragraph */
 p.notion-callout__content {
     width: var(--theme-width) !important;
     max-width: var(--theme-width) !important;
@@ -815,7 +815,6 @@ p.notion-callout__content {
 
  /* $Callout Titles*/
   .notion-callout__content:first-of-type > .notion-semantic-string > span {
-    background-color: var(--callout-title-bg) !important;
     display: flex !important;
     color: var(--h1-text-color) !important;
     font-size: var(--h3-size) !important;
@@ -839,8 +838,7 @@ p.notion-callout__content {
 }
 
 /* Notion Callouts Blue Background are Headers! */
-.notion-callout.bg-blue-light.border .notion-callout__content:first-of-type > .notion-semantic-string > span {  
-   background-color: var(--color-bg-default) !important;
+.notion-callout.bg-blue-light.border .notion-callout__content > .notion-semantic-string > span {  
    font-size: var(--h1-size) !important;
    text-align: center !important;
 }
