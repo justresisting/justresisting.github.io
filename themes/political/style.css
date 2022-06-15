@@ -155,7 +155,7 @@
   --callout-emoji-size: 18px !important;
   --callout-title-bg: var(--color-bg-default) !important;
   /* !Responsive typography */
-  --callout-title-size: 1.25rem !important;
+  --callout-title-size: 2rem !important;
   /* !--callout-font-size: !important; TO BE DECIDED */
   /* ^p.notion-callout__content */
   --callout-content-margin: 0rem .5rem !important;
