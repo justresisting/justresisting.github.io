@@ -303,7 +303,6 @@ body {
 
 /* ^Navbar Menu Items */
 .super-navbar__item {
-  opacity: .85 !important;
   border-radius: var(--element-radius) !important;
 }
 
@@ -312,7 +311,7 @@ body {
 .super-navbar__item:hover{
   opacity: 1 !important;
   color: var(--color-text-white)  !important;
-  background-color: var(--color-bg-yellow-light) !important;
+  background-color: var(--color-bg-yellow) !important;
 }
 
 
