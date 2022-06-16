@@ -1274,7 +1274,7 @@ content: "\201C" !important;
 /* #Divider */
 
 .notion-divider {
-  border-bottom: 3px solid var(--color-default) !important;
+  border-bottom: .5rem double var(--color-default) !important;
   margin: 1rem 0 !important;
 }
 
