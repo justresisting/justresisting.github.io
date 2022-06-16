@@ -312,6 +312,7 @@ body {
   opacity: 1 !important;
   color: var(--color-text-white)  !important;
   background-color: var(--color-bg-yellow) !important;
+  font-weight: bold !important;
 }
 
 
