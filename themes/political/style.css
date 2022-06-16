@@ -1765,7 +1765,7 @@ code.code {
 /* Affects BACKGROUND of Codeblock */
 .notion-code pre {
   border-radius: var(--element-radius) !important;
-  background-color: var(--color-bg-black-light) !important;
+  background-color: rgba(0,0,0,0.85) !important;
   padding: 17px 8px 16px 16px;
   /* color: #fff; */
   /* text-shadow: white 20px 18px; */
