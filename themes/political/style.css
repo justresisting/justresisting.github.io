@@ -311,7 +311,7 @@ body {
 .super-navbar__item:hover{
   opacity: 1 !important;
   color: var(--color-text-white)  !important;
-  background-color: var(--color-bg-yellow) !important;
+  background-color: var(--color-bg-yellow-light) !important;
   font-weight: bold !important;
 }
 
