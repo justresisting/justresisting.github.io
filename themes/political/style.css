@@ -295,7 +295,7 @@ body {
   }
 
 .super-navbar__menu {
-  background-color: var(--color-default-light) !important;
+  background-color: var(--color-default) !important;
   min-width: 200px !important;
   -webkit-backdrop-filter: blur(16px);
   backdrop-filter: blur(16px) !important;
