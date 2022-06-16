@@ -1601,7 +1601,7 @@ div.notion-toggle__summary:hover {
 }
 
 .notion-collection-list__item:hover {
-  background-color: var(--color-accent-bg) !important;
+  background-color: var(--color-accent-bg-light) !important;
   box-shadow: 0px 24px 16px 0px rgba(0, 0, 0, 0.05) !important;
   -webkit-box-shadow: 1px 17px 23px 0px rgba(0, 0, 0, 0.05) !important;
   -moz-box-shadow: 1px 17px 23px 0px rgba(0, 0, 0, 0.05) !important;
