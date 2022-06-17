@@ -129,7 +129,7 @@
   --super-content-padding-top: 0 !important;
   --super-content-padding-bottom: 0 !important;
   --super-content-margin: 0 !important;
-  --super-content-margin-top: 5vh !important;
+  --super-content-margin-top: -25vh !important;
   --super-content-margin-bottom: 0 !important;
   --super-content-bg: none !important;
   --super-footer-padding: 0rem 2rem !important;
@@ -1738,6 +1738,8 @@ img {
 .notion-bookmark__content {
   padding: 1rem !important;
 }
+
+
 
 
 /* Video */
