@@ -36,7 +36,7 @@
   --color-default: rgb(10, 49, 97) !important;
   --color-default-light: rgba(var(--color-default),0.5) !important;
   --color-default-hover: rgba(var(--color-hover),1) !important;
-  --color-hover: rgb(10,49,97) !important;
+  --color-hover: rgb(37,77,117) !important;
   /* ^global background color */
   --site-background: 51, 102, 153 !important;
   --color-bg-default: rgb(var(--site-background)) !important;
@@ -1717,7 +1717,7 @@ img {
 }
 
 .notion-bookmark:hover {
-  background-color: var(--color-ui-hover-bg) !important;
+  background-color: var(--color-default-hover) !important;
 }
 
 .notion-bookmark__title {
