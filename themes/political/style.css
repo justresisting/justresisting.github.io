@@ -1717,20 +1717,26 @@ img {
 }
 
 .notion-bookmark:hover {
-  background-color: var(--color-default-hover) !important;
+  background-color: var(--color-ui-hover-bg) !important;
 }
 
 .notion-bookmark__title {
-  color: var(--color-accent-bg);
+  color: var(--color-accent-bg) !important;
+  font-weight: bold !important; 
+
 }
 
 .notion-bookmark__description {
-  margin: 0.2rem !important;
+  margin: 0.5rem !important;
   margin-bottom: 0px !important;
   font-size: 14px !important;
   line-height: 1rem !important;
   height: fit-content !important;
   overflow: hidden !important;
+}
+
+.notion-bookmark__content {
+  padding: 1rem !important;
 }
 
 
