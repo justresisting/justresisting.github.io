@@ -41,8 +41,8 @@
   --color-hover: 37,77,117 !important;
   --color-default-hover: rgba(var(--color-hover),1) !important;
   /* ^default color for element :hover*/
-  --color-ui-hover-bg: rgba(var(--color-default-hover),0.25) !important;
-  --color-ui-hover-bg-light: rgba(var(--color-default-hover),0.125) !important;
+  --color-ui-hover-bg: rgba(var(--color-hover),0.25) !important;
+  --color-ui-hover-bg-light: rgba(var(--color-hover),0.125) !important;
   /* ^global foreground text color */
   --color-text-default: rgb(255,255,255) !important;
   /* ^dimmer global foreground text color */
@@ -1727,6 +1727,10 @@ img {
 
 .notion-bookmark {
   background-color: var(--color-card-bg) !important;
+  margin: 4px 0;
+border: 3px solid var(--color-border-default);
+border-radius: var(--element-radius) !important;
+transition: background .12s ease-in 0s;
 }
 
 .notion-bookmark:hover {
