@@ -769,10 +769,11 @@ div.notion-page__property {
   /* ^Images within page properties (in databases) are reduced by 50% */
   div > div:nth-child(1) > div.notion-property.notion-property__file.property-undefined > a > div > picture > img {
     display: block !important;
-    max-height: 50% !important;
-    max-width: 50% !important;
-  
-}
+    height: 100% !important;
+    max-height: 100% !important;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
 
 
 
