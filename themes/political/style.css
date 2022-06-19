@@ -754,16 +754,7 @@ div.notion-page__property {
     background-color: var(--color-bg-black-light);  
 }
 
-/* div.notion-property
-  .notion-property__file
-  .notion-property__file.property-undefinied
-  a.notion-link
-  div
-  picture
-  img
-  */
-  
-  .notion-property__file.property-undefined img {
+  /* .notion-property__file.property-undefined img {
     display: block !important;
     max-width: 100% !important;
     max-height: 100% !important;
@@ -773,7 +764,15 @@ div.notion-page__property {
     width: auto !important;
     height: auto !important;
     display: block !important;
-  }
+  } */
+  
+  /* ^Images within page properties (in databases) are reduced by 50% */
+  div > div:nth-child(1) > div.notion-property.notion-property__file.property-undefined > a > div > picture > img {
+    display: block !important;
+    max-height: 50% !important;
+    max-width: 50% !important;
+  
+}
 
 
 
