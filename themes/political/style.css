@@ -36,7 +36,7 @@
   --color-default: rgb(10, 49, 97) !important;
   --color-default-light: rgba(var(--color-default),0.5) !important;
   --color-default-hover: rgba(var(--color-hover),1) !important;
-  --color-hover: rgb(37,77,117) !important;
+  --color-hover: 37,77,117 !important;
   /* ^global background color */
   --site-background: 51, 102, 153 !important;
   --color-bg-default: rgb(var(--site-background)) !important;
@@ -765,7 +765,7 @@ div.notion-page__property {
     height: auto !important;
     display: block !important;
   } */
-  
+
   /* ^Images within page properties (in databases) are reduced by 50% */
   div > div:nth-child(1) > div.notion-property.notion-property__file.property-undefined > a > div > picture > img {
     display: block !important;
