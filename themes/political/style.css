@@ -2037,14 +2037,14 @@ code.code {
 /* Reduces empty space below header */
 /* If .notion-header display is set to NONE*/
 .notion-header__title-wrapper {
-  display: none !important;
+  display: block !important;
 }
 
 /* Show/Hide Page Title */
 /* Only works if .notion-header__title-wrapper is set to BLOCK */
 .notion-header__title {
   display: flex !important;
-  margin-top: -3rem !important;
+  margin-top: -10rem !important;
   margin-bottom: 0 !important;
 }
 
