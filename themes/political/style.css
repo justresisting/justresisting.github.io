@@ -654,20 +654,11 @@ h3.notion-heading.toggle,
 
 /* $Heading & Toggle :hover */
 
-h1:hover,
-h1.notion-heading:hover,
 h1.notion-heading.toggle:hover,
-/*$ Affects Toggle Glyphs   */
 .notion-toggle-heading-1:hover,
-h1:hover,
-h2.notion-heading:hover,
 h2.notion-heading.toggle:hover,
-/*$ Affects Toggle Glyphs   */
 .notion-toggle-heading-2:hover,
-h3:hover,
-h3.notion-heading:hover,
 h3.notion-heading.toggle:hover,
-/* $Affects Toggle Glyphs   */
 .notion-toggle-heading-3:hover{
   color: var(--header-hover) !important;
 }
