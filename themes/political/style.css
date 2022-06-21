@@ -2054,8 +2054,12 @@ code.code {
 }
 
 /* ^Impacts Space beneath Header */
-.notion-header__content.has-cover.has-icon .notion-header__title-wrapper {
+/* .notion-header__content.has-cover.has-icon .notion-header__title-wrapper {
   margin-top: 0 !important;
+} */
+
+.notion-header__content {
+  margin-top: 1.5rem !important;
 }
 
 /* For a cover without a header title */
