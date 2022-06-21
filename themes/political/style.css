@@ -2043,7 +2043,7 @@ code.code {
 /* Show/Hide Page Title */
 /* Only works if .notion-header__title-wrapper is set to BLOCK */
 .notion-header__title {
-  display: block !important;
+  display: flex !important;
   margin-bottom: 0 !important;
 }
 
