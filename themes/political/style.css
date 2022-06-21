@@ -2044,6 +2044,7 @@ code.code {
 /* Only works if .notion-header__title-wrapper is set to BLOCK */
 .notion-header__title {
   display: flex !important;
+  margin-top: -3rem !important;
   margin-bottom: 0 !important;
 }
 
