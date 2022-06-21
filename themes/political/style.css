@@ -1279,8 +1279,13 @@ content: "\201C" !important;
 /* #Divider */
 
 .notion-divider {
-  border-bottom: 5px double var(--color-default) !important;
-  margin: 1rem !important;
+  border-bottom: 5px double var(--color-border-yellow) !important;
+  margin: 0 !important;
+}
+
+#block-root-divider.notion-divider {
+  border-bottom: 5px solid var(--color-border-yellow) !important;
+  margin: 0 !important;
 }
 
 
@@ -1961,7 +1966,7 @@ code.code {
 
 /* #Divider on Database Pages */
 #block-root-divider {
-  display: none !important;
+  display: block !important;
 }
 
 
