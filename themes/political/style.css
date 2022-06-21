@@ -1958,6 +1958,13 @@ code.code {
 /* When using template, copy/paste these 
      values into Super's global code section */
 
+
+/* #Divider on Database Pages */
+#block-root-divider {
+  display: none !important;
+}
+
+
 /* #NOTION-HEADER */
 
 /* ^Show/Hide Notion Header */
