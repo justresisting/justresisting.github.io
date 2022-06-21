@@ -1297,6 +1297,7 @@ content: "\201C" !important;
 
 
 #block-root-divider.notion-divider {
+  display: block !important;
   width: 100% !important;
   margin: 0 auto !important;
   justify-content: center !important;
@@ -2044,7 +2045,8 @@ code.code {
 /* Only works if .notion-header__title-wrapper is set to BLOCK */
 .notion-header__title {
   display: flex !important;
-  margin-top: -10rem !important;
+  /* margin-top: -10rem !important; */
+  margin-top: -3rem !important;
   margin-bottom: 0 !important;
 }
 
