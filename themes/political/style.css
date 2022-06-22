@@ -537,11 +537,6 @@ p {
   line-height: 100% !important;
   margin-bottom: 1rem !important;
   max-width: var(--theme-width) !important;
-  -webkit-animation: fadeIn 1.25s !important;
-  -moz-animation: fadeIn 1.25s !important;
-  -ms-animation: fadeIn 1.25s !important;
-  -o-animation: fadeIn 1.25s !important;
-  animation: fadeIn 1.25s !important;
 }
 
 
@@ -563,11 +558,6 @@ h1.notion-heading.toggle,
   margin: var(--h1-margin) !important;
   margin-bottom: 0.5em !important;
   max-width: var(--theme-width) !important;
-  -webkit-animation: fadeIn 0.5s !important;
-  -moz-animation: fadeIn 0.5s !important;
-  -ms-animation: fadeIn 0.5s !important;
-  -o-animation: fadeIn 0.5s !important;
-  animation: fadeIn 0.5s !important;
 }
 
 /*$ Area under an open heading toggle */
@@ -597,11 +587,6 @@ h2.notion-heading.toggle,
   margin: var(--h2-margin) !important;
   margin-bottom: 0.5em !important;
   max-width: var(--theme-width) !important;
-  -webkit-animation: fadeIn 0.75s !important;
-  -moz-animation: fadeIn 0.75s !important;
-  -ms-animation: fadeIn 0.75s !important;
-  -o-animation: fadeIn 0.75s !important;
-  animation: fadeIn 0.75s !important;
 }
 
 /*$ Area under an open heading toggle */
@@ -630,11 +615,6 @@ h3.notion-heading.toggle,
   margin: var(--h3-margin) !important;
   margin-bottom: 0.5em !important;
   max-width: var(--theme-width) !important;
-  -webkit-animation: fadeIn 1s !important;
-  -moz-animation: fadeIn 1s !important;
-  -ms-animation: fadeIn 1s !important;
-  -o-animation: fadeIn 1s !important;
-  animation: fadeIn 1s !important;
 }
 
 /*$ Area under an open heading toggle */
@@ -1741,11 +1721,6 @@ div.notion-toggle__summary:hover {
 
 img {
   border-radius: var(--element-radius) !important;
-  -webkit-animation: fadeIn 1.5s !important;
-  -moz-animation: fadeIn 1.5s !important;
-  -ms-animation: fadeIn 1.5s !important;
-  -o-animation: fadeIn 1.5s !important;
-  animation: fadeIn 1.5s !important;
 }
 
 .notion-image {
