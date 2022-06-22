@@ -1727,31 +1727,6 @@ div.notion-toggle__summary:hover {
 
 
 
-/* View switcher (Dropdowns for Views in Databases) */
-/* ^ View selection at top of database */
-.notion-dropdown__button p,
-.notion-dropdown__option p {
-  margin: 0px 1rem !important;
-}
-
-/* ^ Dropdown that lists Views */
-div.notion-dropdown__option,
-.notion-dropdown__option,
-.notion-dropdown__option p,
-.notion-dropdown__option-list,
-.notion-dropdown__menu-header {
-  background-color: var(--color-bg-default) !important;
-  margin: auto !important;
-  padding-left: auto !important;
-}
-
-.notion-dropdown__option:hover p,
-.notion-dropdown__option-list:hover,
-.notion-dropdown__menu-header:hover {
-  background-color: var(--color-default-hover) !important;
-}
-
-
 
 /* Database grouping */
 
