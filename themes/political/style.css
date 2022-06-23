@@ -1443,7 +1443,6 @@ div.notion-toggle__summary:hover {
 }
 
 .open .notion-toggle__trigger .notion-toggle__trigger_icon > span {
-    transform: rotate(90deg) !important;
     color: var(--toggle-open) !important;
 }
 
