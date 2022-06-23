@@ -1485,6 +1485,11 @@ div.notion-toggle__summary:hover {
   transform: scale(1.05) !important;
 }
 
+/* #Collection Groups */
+
+.notion-collection-group__section-header:not(.no-border) {
+    border-top: 1px solid var(--color-default) !important;
+}
 
 
 /* #Simple Table */
