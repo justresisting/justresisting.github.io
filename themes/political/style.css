@@ -2049,37 +2049,28 @@ code.code {
   margin-bottom: 0 !important;
 }
 
-.notion-dropdown__menu,
 .notion-dropdown__menu-header {
   background-color: var(--color-default) !important;
 }
+  
+.notion-dropdown__menu {
+  border-radius: var(--element-radius) !important;
+}
+
 .notion-dropdown__menu p {
   background-color: transparent !important;
 }
 
-.notion-dropdown__option {
-  margin: 0 !important;
-}
-/* View switcher (Dropdowns for Views in Databases) */
-/* ^ View selection at top of database */
-.notion-dropdown__option p {
-  margin: 0  !important;
-  padding: 0 !important;
-  background-color: var(--color-bg-default) !important;
-}
-
-div.notion-dropdown__option-list, 
-.notion-dropdown__option {
+div.notion-dropdown__option-list, .notion-dropdown__option-list {
   background-color: var(--color-default) !important;
-  padding: .75rem .25rem !important;
 }
 
 /* ^ Dropdown that lists Views */
-div.notion-dropdown__option,
-.notion-dropdown__option {
+div.notion-dropdown__option {
   margin: 0 !important;
   border: 1px solid var(--color-default) !important;
   background-color: var(--color-bg-default) !important;
+  border-radius: var(--element-radius) !important;
 }
 
 .notion-dropdown__option:hover {
@@ -2087,10 +2078,15 @@ div.notion-dropdown__option,
   color: var(--color-text-default) !important;
 }
 
+/* View switcher (Dropdowns for Views in Databases) */
+/* ^ View selection at top of database */
+.notion-dropdown__option p {
+  background-color: transparent !important;
+}
 .notion-dropdown__option-icon {
   color: var(--color-accent-bg) !important;
+  align-self: baseline !important;
 }
-
 
 
 
