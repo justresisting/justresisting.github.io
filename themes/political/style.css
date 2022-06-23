@@ -997,8 +997,8 @@ span.notion-pill {
 
 span.notion-pill.pill-default,
 span.notion-pill.pill-default.first {
-  border: 2px solid var(--color-border-default) !important;
-  background-color: var(--color-bg-default) !important;
+  border: 2px solid var(--color-border-dark) !important;
+  background-color: var(--color-default) !important;
 }
 
 span.notion-pill.pill-gray,
