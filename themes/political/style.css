@@ -72,7 +72,7 @@
   --color-blue: 10, 49, 97 !important;
   --color-purple: 108, 51, 153 !important;
   --color-pink: 153, 108, 153 !important;
-  --color-red: rgb(153, 51, 102) !important;
+  --color-red: 153, 51, 102 !important;
   /* $Text */
   --color-text-white: rgb(var(--color-white)) !important; 
   --color-text-black: rgba(0,0,0,1) !important;
