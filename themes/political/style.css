@@ -1719,7 +1719,7 @@ div.notion-toggle__summary:hover {
 .notion-dropdown {
   color: var(--color-text-default) !important;
   background-color: var(--color-default) !important;
-  border: 2px solid var(--color-border-red) !important;
+  border: 2px solid var(--color-border-yellow) !important;
   border-radius: var(--element-radius) !important;
   padding: 0 .25rem !important;
   z-index: 10 !important;
@@ -1766,7 +1766,7 @@ div.notion-toggle__summary:hover {
 
 .notion-dropdown__option:hover {
   background-color: var(--color-hover) !important;
-  color: yellow !important;
+  color: var(--color-text-yellow) !important;
   z-index: 25 !important;
 }
 
