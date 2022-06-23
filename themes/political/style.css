@@ -1759,7 +1759,7 @@ div.notion-toggle__summary:hover {
 /* ^ View selection at top of database */
 .notion-dropdown__option p {
   margin: 0px 1rem !important;
-  background-color: var(--color-bg-default) !important;
+  background-color: transparent !important;
   z-index: 25 !important;
 }
 
