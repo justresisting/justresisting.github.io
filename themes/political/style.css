@@ -1483,6 +1483,11 @@ div.notion-toggle__summary:hover {
   padding: 0em 1rem 1rem 1rem !important;
 }
 
+.notion-collection-card__cover {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
 .notion-collection-card__cover.large {
   height: 18rem !important;
   max-height: 18rem !important;
@@ -1496,6 +1501,8 @@ div.notion-toggle__summary:hover {
 .notion-collection-card__cover.small {
   height: 9rem !important;
   max-height: 9rem !important;
+  width: 100% !important;
+  max-width: 100% !important;
 }
 
 .notion-collection-card img {
@@ -1517,6 +1524,7 @@ div.notion-toggle__summary:hover {
 .notion-collection-group__section-header:not(.no-border) {
     border-top: 1px solid var(--color-default) !important;
 }
+
 
 
 /* #Simple Table */
