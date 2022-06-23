@@ -55,9 +55,9 @@
   --color-accent-bg-light: var(--color-bg-yellow) !important;
   /* #Accent */
   --accent: var(--color-text-yellow) !important;
-  --accent-color: rgb(var(--accent)) !important;
+  --accent-color: var(--accent) !important;
   --accent-light: rgba(var(--accent),.75) !important;
-  --toggle-closed: rgb(var(--accent)) !important;
+  --toggle-closed: var(--accent) !important;
   --toggle-open: var(--accent-light) !important;
   /* ^default color for block backgrounds */
   --color-card-bg: var(--color-default) !important;
