@@ -1470,10 +1470,8 @@ div.notion-toggle__summary:hover {
 }
 
 .notion-collection-card__cover.small {
-  height: 8rem !important;
-  max-height: 8rem !important;
-  width: 8rem !important;
-  max-width: 8rem !important;
+  height: 9rem !important;
+  max-height: 9rem !important;
 }
 
 .notion-collection-card img {
