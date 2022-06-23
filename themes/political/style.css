@@ -51,8 +51,13 @@
   --color-border-default: var(--color-default) !important;
   /* ^accent color */
   --color-accent-bg: var(--color-border-yellow) !important;
+  --accent: var(--color-text-yellow) !important;
+  --accent-color: rgb(var(--accent)) !important;
+  --accent-light: rgba(var(--accent),.75) !important;
+  --toggle-closed: rgb(var(--accent)) !important;
+  --toggle-open: var(--accent-light) !important;
   /* ^alt accent color w/ transparency */
-  --color-accent-bg-light: var(--color-bg-yellow-light) !important;
+  --color-accent-bg-light: var(--color-bg-yellow) !important;
   /* ^default color for block backgrounds */
   --color-card-bg: var(--color-default) !important;
   /* $Colors */
@@ -1429,6 +1434,15 @@ div.notion-toggle__summary:hover {
     padding-inline-start: calc(1.5em - 5px);
 }
 
+.notion-toggle__trigger .notion-toggle__trigger_icon > span {
+    transition: 250ms;
+    color: var(--toggle-closed) !important;
+}
+
+.open .notion-toggle__trigger .notion-toggle__trigger_icon > span {
+    transform: rotate(90deg);
+    color: var(--toggle-open) !important;
+}
 
 /* #Simple tables */
 
