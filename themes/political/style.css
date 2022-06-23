@@ -1419,6 +1419,8 @@ div.notion-toggle__summary:hover {
   color: var(--color-text-gray) !important;
 }
 
+
+/* $Toggle Trigger */
 .notion-toggle__trigger {
   font-size: var(--toggle-size) !important;
   color: var(--toggle-color) !important;
@@ -1432,7 +1434,7 @@ div.notion-toggle__summary:hover {
 }
 
 .notion-toggle__content {
-    padding-inline-start: calc(1.5em - 5px);
+    padding-inline-start: calc(1.5em - 5px) !important;
 }
 
 .notion-toggle__trigger .notion-toggle__trigger_icon > span {
@@ -1441,7 +1443,7 @@ div.notion-toggle__summary:hover {
 }
 
 .open .notion-toggle__trigger .notion-toggle__trigger_icon > span {
-    transform: rotate(90deg);
+    transform: rotate(90deg) !important;
     color: var(--toggle-open) !important;
 }
 
