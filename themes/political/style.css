@@ -781,6 +781,8 @@ div.notion-page__property {
 
 
 
+
+
 /* #Callout */
 
 .notion-callout {
@@ -1481,6 +1483,11 @@ div.notion-toggle__summary:hover {
 
 .notion-collection-card:hover img {
   transform: scale(1.05) !important;
+}
+
+/* ^Makes Property Tags Display Properly */
+.notion-collection-card__content .notion-property__select {
+  display: block !important;
 }
 
 /* #Collection Groups */
