@@ -1414,7 +1414,7 @@ div.notion-toggle__summary:hover {
 .notion-toggle__trigger {
   font-size: var(--toggle-size) !important;
   color: var(--toggle-color) !important;
-  z-index: 0 !important;
+  z-index: 10 !important;
 }
 
 .notion-toggle__content {
