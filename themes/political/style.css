@@ -15,120 +15,121 @@
 /* #VARIABLES */
   /* $Width */
   /* ^Page Width */
-  --theme-width: 1200px !important;
-  --responsive-width:  calc(100% - var(--column-spacing)) !important;
-  --long-width: 800px !important;
-  --mid-width: 400px !important;
-  --short-width: 200px !important;
+  --theme-width: 1200px;
+  --responsive-width:  calc(100% - var(--column-spacing));
+  --long-width: 800px;
+  --mid-width: 400px;
+  --short-width: 200px;
   /* $UI */
   /* ^ Site Border Radius [Rounding] */
-  --element-radius: 10px !important;
+  --element-radius: 10px;
   /* ^Site Font Size*/
-  --body-font: 16px !important;
+  --body-font: 16px;
   /* ^Site Column Spacing*/
-  --column-spacing: 2em !important;
+  --column-spacing: 2em;
   /* ^Site Shadow */
-  --site-shadow: 0px 0px 0px var(--color-default) !important;
+  --site-shadow: 0px 0px 0px var(--color-default);
   /* ^Site Border */
-  --default-border: 3px solid var(--color-border-default) !important;
+  --default-border: 3px solid var(--color-border-default);
   /* $Global Colors */
   /* ^global background color */
-  --site-background: 51, 102, 153 !important;
-  --color-bg-default: rgb(var(--site-background)) !important;
+  --site-background: 51, 102, 153;
+  --color-bg-default: rgb(var(--site-background));
   /* ^default theme color */
-  --color-default: rgb(10, 49, 97) !important;
-  --color-default-light: rgba(var(--color-default),0.5) !important;
-  --color-hover: rgb(37,77,117) !important;
-  --color-default-hover: rgba(var(--color-hover),0.5) !important;
+  --color-default: rgb(10, 49, 97);
+  --color-default-light: rgba(var(--color-default),0.5);
+  --color-hover: rgb(37,77,117);
+  --color-default-hover: rgba(var(--color-hover),0.5);
   /* ^default color for element :hover*/
-  --color-ui-hover-bg: rgba(var(--color-hover),0.25) !important;
-  --color-ui-hover-bg-light: rgba(var(--color-hover),0.125) !important;
+  --color-ui-hover-bg: rgba(var(--color-hover),0.25);
+  --color-ui-hover-bg-light: rgba(var(--color-hover),0.125);
   /* ^global foreground text color */
-  --color-text-default: rgb(255,255,255) !important;
+  --color-text-default: rgb(255,255,255);
   /* ^dimmer global foreground text color */
-  --color-text-default-light: rgb(200,200,200) !important;
+  --color-text-default-light: rgb(200,200,200);
   /* ^default border color for elements */
-  --color-border-default: var(--color-default) !important;
+  --color-border-default: var(--color-default);
   /* ^accent color */
-  --color-accent-bg: var(--color-border-yellow) !important;
-  --accent: var(--color-text-yellow) !important;
-  --accent-color: rgb(var(--accent)) !important;
-  --accent-light: rgba(var(--accent),.75) !important;
-  --toggle-closed: rgb(var(--accent)) !important;
-  --toggle-open: var(--accent-light) !important;
+  --color-accent-bg: var(--color-border-yellow);
   /* ^alt accent color w/ transparency */
-  --color-accent-bg-light: var(--color-bg-yellow) !important;
+  --color-accent-bg-light: var(--color-bg-yellow);
+  /* #Accent */
+  --accent: var(--color-text-yellow);
+  --accent-color: rgb(var(--accent));
+  --accent-light: rgba(var(--accent),.75);
+  --toggle-closed: rgb(var(--accent));
+  --toggle-open: var(--accent-light);
   /* ^default color for block backgrounds */
-  --color-card-bg: var(--color-default) !important;
+  --color-card-bg: var(--color-default);
   /* $Colors */
-  --color-white: 255, 255, 255 !important; 
-  --color-black: 0, 0, 0 !important;
-  --color-gray: 96, 96, 96 !important;
-  --color-brown: 67, 33, 0 !important;
-  --color-orange: 153, 67, 10 !important;
-  --color-yellow: 125, 125, 32 !important;
-  --color-green: 51, 97, 67 !important;
-  --color-blue: 10, 49, 97 !important;
-  --color-purple: 108, 51, 153 !important;
-  --color-pink: 153, 108, 153 !important;
-  --color-red: 153, 51, 102 !important;
+  --color-white: 255, 255, 255; 
+  --color-black: 0, 0, 0;
+  --color-gray: 96, 96, 96;
+  --color-brown: 67, 33, 0;
+  --color-orange: 153, 67, 10;
+  --color-yellow: 125, 125, 32;
+  --color-green: 51, 97, 67;
+  --color-blue: 10, 49, 97;
+  --color-purple: 108, 51, 153;
+  --color-pink: 153, 108, 153;
+  --color-red: 153, 51, 102;
   /* $Text */
-  --color-text-white: rgb(var(--color-white)) !important; 
-  --color-text-black: rgba(0,0,0,1) !important;
-  --color-text-gray: rgba(192,192,192,1)  !important;
-  --color-text-brown: rgba(100,75,50,1)  !important;
-  --color-text-orange: rgba(175,50,0,1)  !important;
-  --color-text-yellow: rgba(232,232,0,1)  !important;
-  --color-text-green: rgba(75,175,75,1)  !important;
-  --color-text-blue: rgba(50,125,175,1)  !important;
-  --color-text-purple: rgba(175,50,175,1)  !important;
-  --color-text-pink: rgba(225,150,200,1)  !important;
-  --color-text-red: rgba(225,50,50,1)  !important;  
+  --color-text-white: rgb(var(--color-white)); 
+  --color-text-black: rgba(0,0,0,1);
+  --color-text-gray: rgba(192,192,192,1);
+  --color-text-brown: rgba(100,75,50,1);
+  --color-text-orange: rgba(175,50,0,1);
+  --color-text-yellow: rgba(232,232,0,1);
+  --color-text-green: rgba(75,175,75,1);
+  --color-text-blue: rgba(50,125,175,1);
+  --color-text-purple: rgba(175,50,175,1);
+  --color-text-pink: rgba(225,150,200,1);
+  --color-text-red: rgba(225,50,50,1);  
   /* $Background = More Opacity */
-  --color-bg-gray: rgba(var(--color-gray),1)  !important;
-  --color-bg-black: rgba(var(--color-black),1) !important;
-  --color-bg-brown: rgba(var(--color-brown),1)  !important;
-  --color-bg-orange: rgba(var(--color-orange),1)  !important;
-  --color-bg-yellow: rgba(var(--color-yellow),1)  !important;
-  --color-bg-green: rgba(var(--color-green),1)  !important;
-  --color-bg-blue: rgba(var(--color-blue),1)  !important;
-  --color-bg-purple: rgba(var(--color-purple),1)  !important;
-  --color-bg-pink: rgba(var(--color-pink),1)  !important;
-  --color-bg-red: rgba(var(--color-red),1)  !important;
+  --color-bg-gray: rgba(var(--color-gray),1);
+  --color-bg-black: rgba(var(--color-black),1);
+  --color-bg-brown: rgba(var(--color-brown),1);
+  --color-bg-orange: rgba(var(--color-orange),1);
+  --color-bg-yellow: rgba(var(--color-yellow),1);
+  --color-bg-green: rgba(var(--color-green),1);
+  --color-bg-blue: rgba(var(--color-blue),1);
+  --color-bg-purple: rgba(var(--color-purple),1);
+  --color-bg-pink: rgba(var(--color-pink),1);
+  --color-bg-red: rgba(var(--color-red),1);
   /* $Background Light = More Transparency */
-  --color-bg-gray-light: rgba(var(--color-gray),0.5)  !important;
-  --color-bg-black-light: rgba(var(--color-black),0.25) !important;
-  --color-bg-brown-light: rgba(var(--color-brown),0.5)  !important;
-  --color-bg-orange-light: rgba(var(--color-orange),0.5)  !important;
-  --color-bg-yellow-light: rgba(var(--color-yellow),0.5)  !important;
-  --color-bg-green-light: rgba(var(--color-green),0.5)  !important;
-  --color-bg-blue-light: rgba(var(--color-blue),0.5)  !important;
-  --color-bg-purple-light: rgba(var(--color-purple),0.5)  !important;
-  --color-bg-pink-light: rgba(var(--color-pink),0.5)  !important;
-  --color-bg-red-light: rgba(var(--color-red),0.5)  !important;
+  --color-bg-gray-light: rgba(var(--color-gray),0.5);
+  --color-bg-black-light: rgba(var(--color-black),0.25);
+  --color-bg-brown-light: rgba(var(--color-brown),0.5);
+  --color-bg-orange-light: rgba(var(--color-orange),0.5);
+  --color-bg-yellow-light: rgba(var(--color-yellow),0.5);
+  --color-bg-green-light: rgba(var(--color-green),0.5);
+  --color-bg-blue-light: rgba(var(--color-blue),0.5);
+  --color-bg-purple-light: rgba(var(--color-purple),0.5);
+  --color-bg-pink-light: rgba(var(--color-pink),0.5);
+  --color-bg-red-light: rgba(var(--color-red),0.5);
   /* $Border Colors */
-  --color-border-dark: rgba(var(--color-black),1)  !important;
-  --color-border-black: rgba(0,0,0,1) !important;
-  --color-border-gray: rgba(128,128,128,1)  !important;
-  --color-border-brown: rgba(100,75,50,1)  !important;
-  --color-border-orange: rgba(175,50,0,1)  !important;
-  --color-border-yellow: rgba(175,175,0,1)  !important;
-  --color-border-green: rgba(75,175,75,1)  !important;
-  --color-border-blue: rgba(50,125,175,1)  !important;
-  --color-border-purple: rgba(175,50,175,1)  !important;
-  --color-border-pink: rgba(225,150,200,1)  !important;
-  --color-border-red: rgba(225,50,50,1)  !important;  
+  --color-border-dark: rgba(var(--color-black),1);
+  --color-border-black: rgba(0,0,0,1);
+  --color-border-gray: rgba(128,128,128,1);
+  --color-border-brown: rgba(100,75,50,1);
+  --color-border-orange: rgba(175,50,0,1);
+  --color-border-yellow: rgba(175,175,0,1);
+  --color-border-green: rgba(75,175,75,1);
+  --color-border-blue: rgba(50,125,175,1);
+  --color-border-purple: rgba(175,50,175,1);
+  --color-border-pink: rgba(225,150,200,1);
+  --color-border-red: rgba(225,50,50,1);  
   /* $Pill Colors */
-  --color-pill-default: rgba(var(--color-default),0.5)  !important;
-  --color-pill-gray: rgba(var(--color-gray),0.5)  !important;
-  --color-pill-brown: rgba(var(--color-brown),0.5)  !important;
-  --color-pill-orange: rgba(var(--color-orange),0.5)  !important;
-  --color-pill-yellow: rgba(var(--color-yellow),0.75)  !important;
-  --color-pill-green: rgba(var(--color-green),0.5)  !important;
-  --color-pill-blue: rgba(var(--color-blue),0.5)  !important;
-  --color-pill-purple: rgba(var(--color-purple),0.75)  !important;
-  --color-pill-pink: rgba(var(--color-pink),0.75)  !important;
-  --color-pill-red: rgba(var(--color-red),0.5)  !important;
+  --color-pill-default: rgba(var(--color-default),0.5);
+  --color-pill-gray: rgba(var(--color-gray),0.5);
+  --color-pill-brown: rgba(var(--color-brown),0.5);
+  --color-pill-orange: rgba(var(--color-orange),0.5);
+  --color-pill-yellow: rgba(var(--color-yellow),0.75);
+  --color-pill-green: rgba(var(--color-green),0.5);
+  --color-pill-blue: rgba(var(--color-blue),0.5);
+  --color-pill-purple: rgba(var(--color-purple),0.75);
+  --color-pill-pink: rgba(var(--color-pink),0.75);
+  --color-pill-red: rgba(var(--color-red),0.5);
   /* $Super Content */
   --super-content-bg: none !important;
   --super-footer-padding: 0rem 2rem !important;
