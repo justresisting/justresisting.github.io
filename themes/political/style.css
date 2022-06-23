@@ -54,11 +54,11 @@
   /* ^alt accent color w/ transparency */
   --color-accent-bg-light: var(--color-bg-yellow) !important;
   /* #Accent */
-  --accent: rgb(232,232,0);
-  --accent-color: rgb(var(--accent));
-  --accent-light: rgba(var(--accent),.25);
-  --toggle-closed: var(--accent);
-  --toggle-open: var(--accent-light);
+  --accent: rgb(232,232,0) !important;
+  --accent-color: rgb(var(--accent)) !important;
+  --accent-light: rgba(var(--accent),.5) !important;
+  --toggle-closed: var(--accent) !important;
+  --toggle-open: rgba(var(--accent),.75) !important;
   /* ^default color for block backgrounds */
   --color-card-bg: var(--color-default) !important;
   /* $Colors */
@@ -72,7 +72,7 @@
   --color-blue: 10, 49, 97 !important;
   --color-purple: 108, 51, 153 !important;
   --color-pink: 153, 108, 153 !important;
-  --color-red: 153, 51, 102 !important;
+  --color-red: rgb(153, 51, 102) !important;
   /* $Text */
   --color-text-white: rgb(var(--color-white)) !important; 
   --color-text-black: rgba(0,0,0,1) !important;
@@ -109,16 +109,16 @@
   --color-bg-red-light: rgba(var(--color-red),0.5) !important;
   /* $Border Colors */
   --color-border-dark: rgba(var(--color-black),1) !important;
-  --color-border-black: rgba(0,0,0,1) !important;
+  --color-border-black: rgba(var(--color-black),1) !important;
   --color-border-gray: rgba(128,128,128,1) !important;
-  --color-border-brown: rgba(100,75,50,1) !important;
-  --color-border-orange: rgba(175,50,0,1) !important;
+  --color-border-brown: var(--color-text-brown) !important;
+  --color-border-orange: var(--color-text-orange) !important;
   --color-border-yellow: rgba(175,175,0,1) !important;
-  --color-border-green: rgba(75,175,75,1) !important;
-  --color-border-blue: rgba(50,125,175,1) !important;
-  --color-border-purple: rgba(175,50,175,1) !important;
-  --color-border-pink: rgba(225,150,200,1) !important;
-  --color-border-red: rgba(225,50,50,1) !important;  
+  --color-border-green: var(--color-text-green) !important;
+  --color-border-blue: var(--color-text-blue) !important;
+  --color-border-purple: var(--color-text-purple) !important;
+  --color-border-pink: var(--color-text-pink) !important;
+  --color-border-red: var(--color-text-red) !important;  
   /* $Pill Colors */
   --color-pill-default: rgba(var(--color-default),0.5) !important;
   --color-pill-gray: rgba(var(--color-gray),0.5) !important;
