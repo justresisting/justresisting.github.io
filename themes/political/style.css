@@ -1751,7 +1751,6 @@ div.notion-toggle__summary:hover {
 .notion-dropdown__menu,
 .notion-dropdown__menu-header,
 .notion-dropdown__menu p {
-    background-color: var(--color-default) !important;
     margin-bottom: 0 !important;
     z-index: 25 !important;
 }
