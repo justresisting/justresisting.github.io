@@ -1722,6 +1722,7 @@ div.notion-toggle__summary:hover {
 }
 
 
+/* #Dropdowns */
 
 .notion-dropdown {
   color: var(--color-text-default) !important;
@@ -1742,10 +1743,12 @@ div.notion-toggle__summary:hover {
   padding: 0rem .5rem 0 !important;
   margin-top: -.25rem !important;
   margin-bottom: -.5rem !important;
+  z-index: 100 !important;
 }
 
 .notion-dropdown__button-title {
   margin-bottom: 1rem !important;
+  z-index: 100 !important;
 }
 
 .notion-dropdown .notion-dropdown__button svg,
@@ -1753,17 +1756,19 @@ div.notion-toggle__summary:hover {
   color: var(--color-accent-bg) !important;
   margin: 0 .25rem !important;
   align-self: baseline !important;
+  z-index: 100 !important;
 } 
 
 .notion-dropdown__menu,
 .notion-dropdown__menu-header,
 .notion-dropdown__menu p {
-    margin-bottom: 0 !important;
-    z-index: 100 !important;
+  margin-bottom: 0 !important;
+  z-index: 100 !important;
 }
 
 .notion-dropdown__menu p {
   background-color: transparent !important;
+  z-index: 100 !important;
 }
 
 /* View switcher (Dropdowns for Views in Databases) */
@@ -1777,7 +1782,7 @@ div.notion-toggle__summary:hover {
 .notion-dropdown__option:hover {
   background-color: var(--color-hover) !important;
   color: var(--color-text-yellow) !important;
-  z-index: 25 !important;
+  z-index: 100 !important;
 }
 
 /*.notion-dropdown__option,*/
@@ -1790,6 +1795,7 @@ div.notion-toggle__summary:hover {
 
 .notion-dropdown__option-icon {
   color: var(--color-accent-bg) !important;
+  z-index: 100 !important;
 }
 
 
