@@ -153,22 +153,22 @@
   --callout-margin: 1rem 0 !important;
   --callout-margin-top: .25rem !important;
   --callout-content-margin: 0rem .5rem !important;
-  /* $Collections */ 
+ /* $Collections */ 
   --collection-padding: .5rem !important;
   --collection-property-text-size: 14px !important;
   --collection-list-item-border-radius: 0px !important;
   --collection-list-item-padding: 5px 0px 5px 5px !important;
   --collection-title-text-size: 16px !important;
   --collection-gallery-gap: 30px !important;
-  --collection-card-padding: 20px !important;
+  --collection-card-padding: 1px !important;
   --collection-card-border: 1px solid var(--color-border-default) !important;
   --collection-card-border-radius: 5px !important;
   --collection-card-cover-size-small: 172px !important;
   --collection-card-cover-size-medium: 260px !important;
   --collection-card-cover-size-large: 320px !important;
   /* $Collection Card Size*/
-  --collection-card-cover-size-small: calc(20%) !important;
-  --collection-card-cover-size-medium: calc(30%) !important;
+  --collection-card-cover-size-small: calc(30%) !important;
+  --collection-card-cover-size-medium: calc(40%) !important;
   --collection-card-cover-size-large: calc(45%) !important;
   /* $Pills */
   --notion-pill-padding: 2px 5px !important;
