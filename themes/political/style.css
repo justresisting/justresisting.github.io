@@ -312,7 +312,7 @@ body {
   background-color: var(--color-bg-yellow) !important;
 }
 .super-navbar__item:hover{
-  background-color: var(--color-bg-yellow-light) !important;
+  color: var(--color-text-yellow) !important;
   font-weight: 500 !important;
 }
 
