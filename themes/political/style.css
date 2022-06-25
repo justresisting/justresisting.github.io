@@ -135,7 +135,8 @@
   /* --super-content-padding-top: 0 !important; */
   /* --super-content-padding-bottom: 0 !important; */
   /* --super-content-margin: 0 !important; */
-  --super-content-margin-top: -25vh !important;
+  /* --super-content-margin-top: -25vh !important; */
+  --super-content-margin-top: 0 !important;
   /* --super-content-margin-bottom: 0 !important; */
   /* $Call to Actions */
   --cta-padding: 13px 14px !important;
