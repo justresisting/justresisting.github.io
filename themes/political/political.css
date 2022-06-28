@@ -426,7 +426,7 @@ body {
   }
 
 .notion-header__title-wrapper div div {
-  display: none !important;
+  display: block !important;
 }
 
 .notion-header__content.max-width {
