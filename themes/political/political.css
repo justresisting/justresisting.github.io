@@ -456,7 +456,7 @@ div.notion-header__cover.has-cover {
   background-repeat: no-repeat;
   background-size: cover;
   position: fixed !important;
-  z-index: 10 !important;
+  z-index: 1 !important;
   top: 0 !important;
 }
 /* img.notion-header__cover-image:has
@@ -2273,7 +2273,7 @@ div.notion-header.page {
   height: 50vh !important;
   max-height: 75vh !important;
   background-color: transparent !important;
-  z-index: 0 !important;
+  z-index: 1 !important;
 }
 
 
@@ -2449,7 +2449,7 @@ div#block-6a134fea5b744910a0675568027ff676.notion-image.normal {
     flex-wrap: nowrap !important;
     margin-top: 10rem !important;
     background-color: var(--color-bg-default) !important;
-    z-index: 0 !important;
+    z-index: 10 !important;
 }
 
   .notion-quote {
