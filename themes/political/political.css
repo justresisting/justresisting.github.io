@@ -1681,7 +1681,7 @@ div.notion-toggle__summary:hover {
     margin-top: 10px !important;
 }
 .gallery .notion-property__title .notion-property__title__icon-wrapper {
-    display: none !important;
+    display: block !important;
 }
 .gallery .notion-collection-card__content {
     display: flex !important;
@@ -2245,7 +2245,7 @@ div.notion-dropdown__option {
     position: -webkit-sticky!important;
     top: 70px !important;
     overflow: auto !important;
-    display: none !important;
+    display: block !important;
 }
 
 .notion-root > .notion-column-list > .notion-column:nth-child(3) strong {
