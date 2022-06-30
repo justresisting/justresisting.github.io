@@ -2267,13 +2267,14 @@ div.notion-dropdown__option {
 /* ^(Page Title, Cover and Icon)*/
 /* Set to NONE to hide all */
 /* Set to BLOCK to show all*/
+/* HAD SOMETHING TO DO WITH Z-INDEX ISSUES */
 div.notion-header.page {
   display: block !important;
   min-height: 25vh !important;
   height: 50vh !important;
   max-height: 75vh !important;
   background-color: transparent !important;
-  z-index: 1 !important;
+  z-index: -10 !important;
 }
 
 
