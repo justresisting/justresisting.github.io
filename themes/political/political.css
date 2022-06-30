@@ -456,7 +456,7 @@ div.notion-header__cover.has-cover {
   background-repeat: no-repeat;
   background-size: cover;
   position: fixed !important;
-  z-index: 1 !important;
+  z-index: -1 !important;
   top: 0 !important;
 }
 /* img.notion-header__cover-image:has
@@ -480,7 +480,7 @@ img.notion-header__cover-image {
     object-fit: cover !important;
     object-position: center 25% !important;
     position: absolute !important;
-    z-index: 1 !important;
+    z-index: -1 !important;
 }
 
 .notion-heading {
