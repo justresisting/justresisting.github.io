@@ -875,7 +875,7 @@ p.notion-callout__content {
   }
 
 /* Notion Blue Background Callouts are HEADERS */
-/* Gets rid of the border */
+/* Gets rid of the border    */
 .notion-callout.bg-blue-light.border {
   background-color: var(--color-bg-default) !important;
 }
