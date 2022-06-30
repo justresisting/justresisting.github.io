@@ -2448,7 +2448,7 @@ div#block-6a134fea5b744910a0675568027ff676.notion-image.normal {
     display: flex !important;
     flex-direction: row !important;
     flex-wrap: nowrap !important;
-    margin-top: 10rem !important;
+    margin-top: 0 !important;
     background-color: var(--color-bg-default) !important;
     z-index: 10 !important;
 }
