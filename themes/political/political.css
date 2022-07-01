@@ -53,11 +53,11 @@
   --color-bg: rgb(var(--site-bg)) !important;
   --color-bg-default: rgb(var(--site-bg)) !important;
   /* ^default theme color */
+  --color-primary: rgb(var(--site-primary)) !important;
   --color-default: rgb(var(--site-primary)) !important;
   --color-default-light: rgba(var(--site-primary), 0.5) !important;
   --color-hover: rgb(var(--site-hover)) !important;
   --color-default-hover: rgb(var(--site-hover)) !important;
-  /* ^default color for element :hover*/
   --color-ui-hover-bg: rgba(var(--site-hover), 0.25) !important;
   --color-ui-hover-bg-light: rgba(var(--site-hover), 0.125) !important;
   /* ^accent */
@@ -1484,8 +1484,6 @@ div.notion-toggle__summary:hover {
 .notion-collection-card__cover.small {
   height: 9rem !important;
   max-height: 9rem !important;
-  width: 100% !important;
-  max-width: 100% !important;
 }
 
 .notion-collection-card img {
@@ -1625,9 +1623,12 @@ div.notion-toggle__summary:hover {
   font-size: 16px !important;
   margin-top: 10px !important;
 }
+
+.notion-collection-card .notion-property__title .notion-property__title__icon-wrapper,
 .gallery .notion-property__title .notion-property__title__icon-wrapper {
-  display: block !important;
+  display: none !important;
 }
+
 .gallery .notion-collection-card__content {
   display: flex !important;
   align-items: center !important;
@@ -1661,7 +1662,8 @@ div.notion-toggle__summary:hover {
   align-items: center;
   padding: 1px 0px;
   margin: 1px 0px;
-  border-radius: 24px !important;
+  border-radius: var(--element-radius) !important;
+  background-color: var(--color-bg-default) !important;
   cursor: pointer;
   color: inherit;
   text-decoration: none;
@@ -1685,7 +1687,7 @@ div.notion-toggle__summary:hover {
   z-index: 10;
   padding: 0 !important;
   margin: 0 !important;
-  border-radius: 24px;
+  border-radius: var(--element-radius);
 }
 
 .notion-collection-list__item
