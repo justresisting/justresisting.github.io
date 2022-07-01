@@ -272,12 +272,15 @@ body {
   opacity: 1 !important;
   -webkit-backdrop-filter: blur(16px) !important;
   backdrop-filter: blur(16px) !important;
+  background-color: var(--color-default-light) !important;
 }
+
+
 
 /* $Call To Action Button */
 .super-navbar__cta {
   padding: 12px 15px !important;
-  border-radius: 7px !important;
+  border-radius: var(--element-radius) !important;
   font-weight: 600 !important;
 }
 
@@ -318,6 +321,10 @@ body {
 .super-navbar__item:hover {
   color: var(--color-text-yellow) !important;
   font-weight: 500 !important;
+}
+
+.notion-navbar__search {
+  right: 15px !important;
 }
 
 /* $Content */
@@ -2282,28 +2289,6 @@ div.notion-callout__icon {
 }
 
 /* #COLUMNS */
-
-.super-navbar {
-  height: 64px !important;
-}
-
-.notion-navbar__search {
-  right: 15px !important;
-}
-
-.super-navbar__menu {
-  margin-top: 4rem !important;
-}
-
-.super-navbar__item {
-  padding: 7px 10px !important;
-}
-
-.super-navbar__cta {
-  padding: 12px 15px !important;
-  border-radius: var(--element-radius) !important;
-  font-weight: 600 !important;
-}
 
 .notion-navbar__title {
   font-size: 16px !important;
