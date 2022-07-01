@@ -114,7 +114,7 @@
   --color-border-gray: var(--color-text-gray) !important;
   --color-border-brown: var(--color-text-brown) !important;
   --color-border-orange: var(--color-text-orange) !important;
-  --color-border-yellow: rvar(--color-text-yellow) !important;
+  --color-border-yellow: var(--color-text-yellow) !important;
   --color-border-green: var(--color-text-green) !important;
   --color-border-blue: var(--color-text-blue) !important;
   --color-border-purple: var(--color-text-purple) !important;
@@ -2369,8 +2369,14 @@ div.notion-callout__icon {
 }
 
 .notion-bookmark__cover {
-  height: 125px !important;
-}
+   min-width: 128px !important;
+   width: 256px !important;
+   max-width: 512px !important;
+    min-height: 128px !important;
+    height: 256px !important;
+    max-height: 512px !important;
+} 
+
 
 .super-content-wrapper {
   margin-top: 0 !important;
