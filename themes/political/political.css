@@ -2282,9 +2282,6 @@ div.notion-callout__icon {
 }
 
 /* #COLUMNS */
-#block-root-divider.notion-divider {
-  display: none !important;
-}
 
 .super-navbar {
   height: 64px !important;
