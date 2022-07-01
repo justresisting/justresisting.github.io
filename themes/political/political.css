@@ -30,7 +30,7 @@
   /* ^Site Shadow */
   --site-shadow: 0px 0px 0px var(--color-default) !important;
   /* ^Site Border */
-  --default-border: 3px solid var(--color-border-default) !important;
+  --default-border: 1px solid var(--accent-bg-light) !important;
   /* $Colors */
   --color-white: 255, 255, 255 !important;
   --color-black: 0, 0, 0 !important;
@@ -51,18 +51,18 @@
   /* $Global Colors */
   /* ^global background color */
   --color-bg: rgb(var(--site-bg)) !important;
-  --color-bg-default: rgb(var(--site-bg)) !important;
+  --color-bg-default: var(--color-bg) !important;
   /* ^default theme color */
-  --color-primary: rgb(var(--site-primary)) !important;
   --color-default: rgb(var(--site-primary)) !important;
   --color-default-light: rgba(var(--site-primary), 0.5) !important;
   --color-hover: rgb(var(--site-hover)) !important;
   --color-default-hover: rgb(var(--site-hover)) !important;
+  /* ^default color for element :hover*/
   --color-ui-hover-bg: rgba(var(--site-hover), 0.25) !important;
   --color-ui-hover-bg-light: rgba(var(--site-hover), 0.125) !important;
   /* ^accent */
-  --accent: rgba(var(--site-accent),0.5) !important;
-  --accent-light: rgba(var(--accent), 0.5) !important;
+  --accent: rgb(var(--site-accent)) !important;
+  --accent-light: rgba(var(--site-accent), 0.5) !important;
   /* ^accent color */
   --accent-bg: rgb(var(--site-accent-bg)) !important;
   --accent-bg-light: rgba(var(--site-accent-bg),0.5) !important;
@@ -171,13 +171,13 @@
   --collection-card-padding: 1px !important;
   --collection-card-border: 1px solid var(--color-border-default) !important;
   --collection-card-border-radius: 5px !important;
-  --collection-card-cover-size-small: 172px !important;
-  --collection-card-cover-size-medium: 260px !important;
-  --collection-card-cover-size-large: 320px !important;
-  /* $Collection Card Size*/
+  /* $Collection Card Size */
+  --collection-card-cover-size-static-small: 172px !important;
+  --collection-card-cover-size-static-medium: 260px !important;
+  --collection-card-cover-size-static-large: 320px !important;
   --collection-card-cover-size-small: calc(30%) !important;
   --collection-card-cover-size-medium: calc(40%) !important;
-  --collection-card-cover-size-large: calc(45%) !important;
+  --collection-card-cover-size-large: calc(50%) !important;
   /* $Pills */
   --notion-pill-padding: 2px 5px !important;
   --notion-pill-border-radius: 0px !important;
@@ -2584,6 +2584,8 @@ div.notion-callout__icon {
 .super-content {
   background-color: var(--color-bg-default) !important;
 }
+
+
 
 .notion-toggle__summary {
   margin: 0 !important;
