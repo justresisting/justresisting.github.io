@@ -2181,12 +2181,13 @@ div.notion-dropdown__option {
 /* HAD SOMETHING TO DO WITH Z-INDEX ISSUES */
  div.notion-header.page {
   display: block !important;
-  min-height: 25vh !important;
-  height: 50vh !important;
-  max-height: 75vh !important;
+  min-height: 50vh !important;
+  height: 75vh !important;
+  max-height: 100vh !important;
   background-color: transparent !important;
   z-index: -10 !important;
 } 
+
 
 
  .notion-header {
