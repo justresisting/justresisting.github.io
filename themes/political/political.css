@@ -447,7 +447,7 @@ img.notion-header__cover-image {
   border: none;
   margin: auto;
   margin-top: 0 !important;
-  display: block !important;
+  display: block;
   min-width: 100%;
   width: 0px;
   max-width: 100%;
@@ -2643,7 +2643,7 @@ img.notion-header__cover-image {
   border: none;
   margin: auto;
   margin-top: 0 !important;
-  display: block !important;
+  display: block;
   min-width: 100%;
   width: 0px;
   max-width: 100%;
@@ -2673,9 +2673,6 @@ div.notion-header__cover.has-cover {
   top: 0 !important;
 }
 
-img.notion-header__cover-image {
-  display: none !important;
-}
 
 /* #Pages */
 
@@ -2686,7 +2683,8 @@ img.notion-header__cover-image {
 #page-services img.notion-header__cover-image,
 #page-portfolio img.notion-header__cover-image,
 #page-blog img.notion-header__cover-image,
-#page-resources img.notion-header__cover-image {
+#page-resources img.notion-header__cover-image,
+#page-resources-tech img.notion-header__cover-image {
     box-sizing: border-box;
     display: block !important;
     min-width: 100%;
@@ -2698,7 +2696,13 @@ img.notion-header__cover-image {
     object-fit: cover !important;
     object-position: center 50% !important;
     position: relative !important;
-} 
+}
+
+
+img.notion-header__cover-image {
+  display: none !important;
+}
+
 /* $Home */
 /* ^ #page-index, #page-index- */
 
