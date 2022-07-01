@@ -377,25 +377,12 @@ body {
 .notion-header {
   /* The inputs below affect Header Cover image */
   /* They are linked to .notion-header__cover */
-  /* padding-top: 4rem; */
-  /* padding-bottom: 4rem; */
-  /* margin: 0 !important; */
   margin: 0 !important;
   padding: 0 !important;
   position: relative;
   width: 100% !important;
   max-width: 100% !important;
-  height: 1rem !important;
-  /* height: 40vh !important;
-    max-height: 50vh !important; */
 }
-
- .notion-header {
-  margin: 0 !important;
-  padding: 0 !important;
-  height: 1rem !important;
-} 
-
 
 
 .notion-header__title {
@@ -2190,11 +2177,7 @@ div.notion-dropdown__option {
 
 
 
- .notion-header {
-  margin: 0 !important;
-  padding: 0 !important;
-  height: 1rem !important;
-} 
+
 
 
 
@@ -2592,12 +2575,6 @@ div.notion-callout__icon {
   margin: 0 !important;
   padding: 0 !important;
   line-height: 1 !important;
-}
-
-.notion-header {
-  margin: 0 !important;
-  padding: 0 !important;
-  height: 1rem !important;
 }
 
 .notion-header__title {
