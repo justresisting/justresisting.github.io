@@ -389,6 +389,14 @@ body {
     max-height: 50vh !important; */
 }
 
+ .notion-header {
+  margin: 0 !important;
+  padding: 0 !important;
+  height: 1rem !important;
+} 
+
+
+
 .notion-header__title {
   display: flex !important;
   background-color: transparent !important;
@@ -2059,7 +2067,7 @@ div.notion-dropdown__option {
 /* #NOTION-ROOT */
 
 .notion-root {
-  margin-top: 3rem !important;
+  margin-top: 8rem !important;
   border-top: 1px solid var(--color-bg-yellow-light);
 }
 
@@ -2178,6 +2186,14 @@ div.notion-dropdown__option {
   background-color: transparent !important;
   z-index: -10 !important;
 } 
+
+
+ .notion-header {
+  margin: 0 !important;
+  padding: 0 !important;
+  height: 1rem !important;
+} 
+
 
 
 /* Reduces empty space below header */
