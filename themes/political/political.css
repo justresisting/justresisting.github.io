@@ -1682,6 +1682,7 @@ div.notion-toggle__summary:hover {
     border-radius: var(--element-radius) !important;
     font-family: var(--secondary-font) !important;
     box-shadow: none !important;
+    display: block !important;
 }
 
 .notion-collection-card:hover {
