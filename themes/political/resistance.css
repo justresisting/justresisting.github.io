@@ -1,232 +1,230 @@
 :root {
-/* #VARIABLES */
-  /* $Width */
-  /* ^Page Width */
-  --theme-width: 1200px !important;
-  --responsive-width:  calc(100% - var(--column-spacing)) !important;
-  --long-width: 800px !important;
-  --mid-width: 400px !important;
-  --short-width: 200px !important;
-  /* $UI */
-  /* ^ Site Border Radius [Rounding] */
-  --element-radius: 10px !important;
-  /* ^Site Font Size*/
-  --body-font: 18px !important;
-  /* ^Site Column Spacing*/
-  --column-spacing: 2em !important;
-  /* ^Site Shadow */
-  --site-shadow: 0px 0px 0px var(--color-default) !important;
-  /* ^Site Border */
-  --default-border: 3px solid var(--color-border-default) !important;
-  /* $Global Colors */
-  /* ^global background color */
-  --site-background: 51, 102, 153 !important;
-  --color-bg-default: rgb(var(--site-background)) !important;
-  --color-bg: rgb(51,102,153) !important;
-  /* ^default theme color */
-  --color-default: rgb(10, 49, 97) !important;
-  --color-default-light: rgba(var(--color-default),0.5) !important;
-  --color-hover: rgb(37,77,117) !important;
-  --color-default-hover: rgba(var(--color-hover),0.5) !important;
-  /* ^default color for element :hover*/
-  --color-ui-hover-bg: rgba(var(--color-hover),0.25) !important;
-  --color-ui-hover-bg-light: rgba(var(--color-hover),0.125) !important;
-  /* ^global foreground text color */
-  --color-text-default: rgb(255,255,255) !important;
-  /* ^dimmer global foreground text color */
-  --color-text-default-light: rgb(200,200,200) !important;
-  /* ^default border color for elements */
-  --color-border-default: var(--color-default) !important;
-  /* ^accent color */
-  --color-accent-bg: var(--color-border-yellow) !important;
-  /* ^alt accent color w/ transparency */
-  --color-accent-bg-light: var(--color-bg-yellow) !important;
-  /* #Accent */
-  --accent: rgb(232,232,0) !important;
-  --accent-color: rgb(var(--accent)) !important;
-  --accent-light: rgba(var(--accent),.5) !important;
-  /* ^default color for block backgrounds */
-  --color-card-bg: var(--color-default) !important;
-  /* $Colors */
-  --color-white: 255, 255, 255 !important; 
-  --color-black: 0, 0, 0 !important;
-  --color-gray: 96, 96, 96 !important;
-  --color-brown: 67, 33, 0 !important;
-  --color-orange: 153, 67, 10 !important;
-  --color-yellow: 125, 125, 32 !important;
-  --color-green: 51, 97, 67 !important;
-  --color-blue: 10, 49, 97 !important;
-  --color-purple: 108, 51, 153 !important;
-  --color-pink: 153, 108, 153 !important;
-  --color-red: 153, 51, 102 !important;
-  /* $Text */
-  --color-text-white: rgb(var(--color-white)) !important; 
-  --color-text-black: rgba(0,0,0,1) !important;
-  --color-text-gray: rgba(192,192,192,1) !important;
-  --color-text-brown: rgba(100,75,50,1) !important;
-  --color-text-orange: rgba(175,50,0,1) !important;
-  --color-text-yellow: rgba(232,232,0,1) !important;
-  --color-text-green: rgba(75,175,75,1) !important;
-  --color-text-blue: rgba(50,125,175,1) !important;
-  --color-text-purple: rgba(175,50,175,1) !important;
-  --color-text-pink: rgba(225,150,200,1) !important;
-  --color-text-red: rgba(225,50,50,1) !important;  
-  /* $Background = More Opacity */
-  --color-bg-gray: rgba(var(--color-gray),1) !important;
-  --color-bg-black: rgba(var(--color-black),1) !important;
-  --color-bg-brown: rgba(var(--color-brown),1) !important;
-  --color-bg-orange: rgba(var(--color-orange),1) !important;
-  --color-bg-yellow: rgba(var(--color-yellow),1) !important;
-  --color-bg-green: rgba(var(--color-green),1) !important;
-  --color-bg-blue: rgba(var(--color-blue),1) !important;
-  --color-bg-purple: rgba(var(--color-purple),1) !important;
-  --color-bg-pink: rgba(var(--color-pink),1) !important;
-  --color-bg-red: rgba(var(--color-red),1) !important;
-  /* $Background Light = More Transparency */
-  --color-bg-gray-light: rgba(var(--color-gray),0.5) !important;
-  --color-bg-black-light: rgba(var(--color-black),0.25) !important;
-  --color-bg-brown-light: rgba(var(--color-brown),0.5) !important;
-  --color-bg-orange-light: rgba(var(--color-orange),0.5) !important;
-  --color-bg-yellow-light: rgba(var(--color-yellow),0.5) !important;
-  --color-bg-green-light: rgba(var(--color-green),0.5) !important;
-  --color-bg-blue-light: rgba(var(--color-blue),0.5) !important;
-  --color-bg-purple-light: rgba(var(--color-purple),0.5) !important;
-  --color-bg-pink-light: rgba(var(--color-pink),0.5) !important;
-  --color-bg-red-light: rgba(var(--color-red),0.5) !important;
-  /* $Border Colors */
-  --color-border-dark: rgba(var(--color-black),1) !important;
-  --color-border-black: rgba(var(--color-black),1) !important;
-  --color-border-gray: rgba(128,128,128,1) !important;
-  --color-border-brown: var(--color-text-brown) !important;
-  --color-border-orange: var(--color-text-orange) !important;
-  --color-border-yellow: rgba(175,175,0,1) !important;
-  --color-border-green: var(--color-text-green) !important;
-  --color-border-blue: var(--color-text-blue) !important;
-  --color-border-purple: var(--color-text-purple) !important;
-  --color-border-pink: var(--color-text-pink) !important;
-  --color-border-red: var(--color-text-red) !important;  
-  /* $Pill Colors */
-  --color-pill-default: rgba(var(--color-default),0.5) !important;
-  --color-pill-gray: rgba(var(--color-gray),0.5) !important;
-  --color-pill-brown: rgba(var(--color-brown),0.5) !important;
-  --color-pill-orange: rgba(var(--color-orange),0.5) !important;
-  --color-pill-yellow: rgba(var(--color-yellow),0.75) !important;
-  --color-pill-green: rgba(var(--color-green),0.5) !important;
-  --color-pill-blue: rgba(var(--color-blue),0.5) !important;
-  --color-pill-purple: rgba(var(--color-purple),0.75) !important;
-  --color-pill-pink: rgba(var(--color-pink),0.75) !important;
-  --color-pill-red: rgba(var(--color-red),0.5) !important;
-  /* $Super Content */
-  --super-content-bg: var(--color-bg) !important;
-  --super-footer-padding: 0rem 2rem !important;
-  --super-content-padding: 0 !important;
-  /* --super-content-padding-top: 0 !important; */
-  /* --super-content-padding-bottom: 0 !important; */
-  /* --super-content-margin: 0 !important; */
-  /* --super-content-margin-top: -25vh !important; */
-  --super-content-margin-top: 0 !important;
-  /* --super-content-margin-bottom: 0 !important; */
-  /* $Call to Actions */
-  --cta-padding: 13px 14px !important;
-  --cta-border-radius: 4px !important;
-  --cta-border: none !important;
-  --cta-shadow: none !important;
-  /* $Callouts */
-  --callout-padding: .25rem 0 .25rem 0 !important;
-  --callout-padding-top: .25rem !important;
-  --callout-title-bg: var(--color-bg-default) !important;
-  --callout-title-size: 2rem !important;
-  --callout-border-width: 1px !important;
-  --callout-border-style: solid !important;
-  --callout-border-color: var(--color-border-default) !important;
-  --callout-border-radius: var(--element-radius) !important;
-  --callout-justify: center !important;
-  --callout-icon-size: 20px !important;
-  --callout-emoji-size: 18px !important;
-  --callout-margin: 1rem 0 !important;
-  --callout-margin-top: .25rem !important;
-  --callout-content-margin: 0rem .5rem !important;
- /* $Collections */ 
-  --collection-padding: .5rem !important;
-  --collection-property-text-size: 14px !important;
-  --collection-list-item-border-radius: 0px !important;
-  --collection-list-item-padding: 5px 0px 5px 5px !important;
-  --collection-title-text-size: 16px !important;
-  --collection-gallery-gap: 30px !important;
-  --collection-card-padding: 1px !important;
-  --collection-card-border: 1px solid var(--color-border-default) !important;
-  --collection-card-border-radius: 5px !important;
-  --collection-card-cover-size-small: 172px !important;
-  --collection-card-cover-size-medium: 260px !important;
-  --collection-card-cover-size-large: 320px !important;
-  /* $Collection Card Size*/
-  --collection-card-cover-size-small: calc(30%) !important;
-  --collection-card-cover-size-medium: calc(40%) !important;
-  --collection-card-cover-size-large: calc(45%) !important;
-  /* $Pills */
-  --notion-pill-padding: 2px 5px !important;
-  --notion-pill-border-radius: 0px !important;
-  --notion-pill-text-size: 12px !important;
-  --notion-pill-text-weight: 500 !important;
-  --notion-pill-text-transform: uppercase !important;
-  --notion-pill-letter-spacing: 1px !important;
-  /* $Images */
-  --image-border-radius: 10px !important;
-  /* $Misc */
-  --divider-margin: 15px 0px !important;
-  --divider-opacity: 1 !important;
-  /* $Typography */
-  --text-spacing: 1px !important;
-  --secondary-font: 'Inter', sans-serif !important;
-  --notion-text-margin: 0px 0px 0px 0px !important;
-  /* $h1 - Header 1 */
-  --h1-text-color: rgb(255, 255, 255) !important;
-  --h1-size: 2.5rem !important;
-  --h1-weight: 800 !important;
-  --h1-spacing: -0.04em !important;
-  --h1-margin: 0 .25rem !important;
-  --h1-line-height: 1 !important;
-  --h1-text-shadow: var(--site-shadow) !important;
-  /* $h2 - Header 2 */
-  --h2-text-color: rgb(255, 255, 255) !important;
-  --h2-size: 1.75rem !important;
-  --h2-weight: 700 !important;
-  --h2-spacing: -0.03em !important;
-  --h2-margin: 0 .1875rem !important;
-  --h2-line-height: 100% !important;
-  --h2-text-shadow: var(--site-shadow) !important;
-  /* $h3 - Header 3 */
-  --h3-text-color: rgb(255, 255, 255) !important;
-  --h3-size: 1.375rem !important;
-  --h3-weight: 600 !important;
-  --h3-spacing: -0.02em !important;
-  --h3-margin: 0 .125rem !important;
-  --h3-line-height: 1.4 !important;
-  --h3-text-shadow: var(--site-shadow) !important;
-  /* $Toggles */
-  --toggle-size: 32px !important;
-  /* --toggle-color: var(--color-accent-bg) !important; */
-  --toggle-closed: var(--accent) !important;
-  --toggle-open: rgba(var(--accent),.75) !important;
-  /* $Header Hover */
-  --header-hover: var(--color-text-gray) !important;
-  /* $Links */
-  --link-border-width: 0px 0px 0px 0px !important;
-  --link-border-style: none !important;
-  --link-border-color: none !important;
-  /* $Margin */
-  --code-margin: 1rem 1rem !important;
-  /* $Quotes */
-  --quote-font-style: italic !important;
-  --quote-font-size: 1.75em !important;
-  --quote-font-weight: bold !important;
-  --quote-font-family: 'McLaren', cursive !important; 
-  --quote-border-width: 5px !important;
-  --quote-border-style: solid !important;
-  --quote-border-color: var(--color-border-default) !important;
-  --quote-margin: 1rem auto !important;
-  --quote-padding: 1em 1em 2em 2em !important;
+    /* #VARIABLES */
+    /* $Width */
+    /* ^Page Width */
+    --theme-width: 1200px !important;
+    --responsive-width: calc(100% - var(--column-spacing)) !important;
+    --long-width: 800px !important;
+    --mid-width: 400px !important;
+    --short-width: 200px !important;
+    /* $UI */
+    /* ^ Site Border Radius [Rounding] */
+    --element-radius: 10px !important;
+    /* ^Site Font Size*/
+    --body-font: 18px !important;
+    /* ^Site Column Spacing*/
+    --column-spacing: 2em !important;
+    /* ^Site Shadow */
+    --site-shadow: 0px 0px 0px var(--color-default) !important;
+    /* ^Site Border */
+    --default-border: 3px solid var(--color-border-default) !important;
+    /* $Global Colors */
+    /* ^global background color */
+    --site-background: 51, 102, 153 !important;
+    --color-bg-default: rgb(var(--site-background)) !important;
+    --color-bg: rgb(51, 102, 153) !important;
+    /* ^default theme color */
+    --color-default: rgb(10, 49, 97) !important;
+    --color-default-light: rgba(var(--color-default), 0.5) !important;
+    --color-hover: rgb(37, 77, 117) !important;
+    --color-default-hover: rgba(var(--color-hover), 0.5) !important;
+    /* ^default color for element :hover*/
+    --color-ui-hover-bg: rgba(var(--color-hover), 0.25) !important;
+    --color-ui-hover-bg-light: rgba(var(--color-hover), 0.125) !important;
+    /* ^global foreground text color */
+    --color-text-default: rgb(255, 255, 255) !important;
+    /* ^dimmer global foreground text color */
+    --color-text-default-light: rgb(200, 200, 200) !important;
+    /* ^default border color for elements */
+    --color-border-default: var(--color-default) !important;
+    /* ^accent color */
+    --color-accent-bg: var(--color-border-yellow) !important;
+    /* ^alt accent color w/ transparency */
+    --color-accent-bg-light: var(--color-bg-yellow) !important;
+    /* #Accent */
+    --accent: rgb(232, 232, 0) !important;
+    --accent-color: rgb(var(--accent)) !important;
+    --accent-light: rgba(var(--accent), .5) !important;
+    /* ^default color for block backgrounds */
+    --color-card-bg: var(--color-default) !important;
+    /* $Colors */
+    --color-white: 255, 255, 255 !important;
+    --color-black: 0, 0, 0 !important;
+    --color-gray: 96, 96, 96 !important;
+    --color-brown: 67, 33, 0 !important;
+    --color-orange: 153, 67, 10 !important;
+    --color-yellow: 125, 125, 32 !important;
+    --color-green: 51, 97, 67 !important;
+    --color-blue: 10, 49, 97 !important;
+    --color-purple: 108, 51, 153 !important;
+    --color-pink: 153, 108, 153 !important;
+    --color-red: 153, 51, 102 !important;
+    /* $Text */
+    --color-text-white: rgb(var(--color-white)) !important;
+    --color-text-black: rgba(0, 0, 0, 1) !important;
+    --color-text-gray: rgba(192, 192, 192, 1) !important;
+    --color-text-brown: rgba(100, 75, 50, 1) !important;
+    --color-text-orange: rgba(175, 50, 0, 1) !important;
+    --color-text-yellow: rgba(232, 232, 0, 1) !important;
+    --color-text-green: rgba(75, 175, 75, 1) !important;
+    --color-text-blue: rgba(50, 125, 175, 1) !important;
+    --color-text-purple: rgba(175, 50, 175, 1) !important;
+    --color-text-pink: rgba(225, 150, 200, 1) !important;
+    --color-text-red: rgba(225, 50, 50, 1) !important;
+    /* $Background = More Opacity */
+    --color-bg-gray: rgba(var(--color-gray), 1) !important;
+    --color-bg-black: rgba(var(--color-black), 1) !important;
+    --color-bg-brown: rgba(var(--color-brown), 1) !important;
+    --color-bg-orange: rgba(var(--color-orange), 1) !important;
+    --color-bg-yellow: rgba(var(--color-yellow), 1) !important;
+    --color-bg-green: rgba(var(--color-green), 1) !important;
+    --color-bg-blue: rgba(var(--color-blue), 1) !important;
+    --color-bg-purple: rgba(var(--color-purple), 1) !important;
+    --color-bg-pink: rgba(var(--color-pink), 1) !important;
+    --color-bg-red: rgba(var(--color-red), 1) !important;
+    /* $Background Light = More Transparency */
+    --color-bg-gray-light: rgba(var(--color-gray), 0.5) !important;
+    --color-bg-black-light: rgba(var(--color-black), 0.25) !important;
+    --color-bg-brown-light: rgba(var(--color-brown), 0.5) !important;
+    --color-bg-orange-light: rgba(var(--color-orange), 0.5) !important;
+    --color-bg-yellow-light: rgba(var(--color-yellow), 0.5) !important;
+    --color-bg-green-light: rgba(var(--color-green), 0.5) !important;
+    --color-bg-blue-light: rgba(var(--color-blue), 0.5) !important;
+    --color-bg-purple-light: rgba(var(--color-purple), 0.5) !important;
+    --color-bg-pink-light: rgba(var(--color-pink), 0.5) !important;
+    --color-bg-red-light: rgba(var(--color-red), 0.5) !important;
+    /* $Border Colors */
+    --color-border-dark: rgba(var(--color-black), 1) !important;
+    --color-border-black: rgba(var(--color-black), 1) !important;
+    --color-border-gray: rgba(128, 128, 128, 1) !important;
+    --color-border-brown: var(--color-text-brown) !important;
+    --color-border-orange: var(--color-text-orange) !important;
+    --color-border-yellow: rgba(175, 175, 0, 1) !important;
+    --color-border-green: var(--color-text-green) !important;
+    --color-border-blue: var(--color-text-blue) !important;
+    --color-border-purple: var(--color-text-purple) !important;
+    --color-border-pink: var(--color-text-pink) !important;
+    --color-border-red: var(--color-text-red) !important;
+    /* $Pill Colors */
+    --color-pill-default: rgba(var(--color-default), 0.5) !important;
+    --color-pill-gray: rgba(var(--color-gray), 0.5) !important;
+    --color-pill-brown: rgba(var(--color-brown), 0.5) !important;
+    --color-pill-orange: rgba(var(--color-orange), 0.5) !important;
+    --color-pill-yellow: rgba(var(--color-yellow), 0.75) !important;
+    --color-pill-green: rgba(var(--color-green), 0.5) !important;
+    --color-pill-blue: rgba(var(--color-blue), 0.5) !important;
+    --color-pill-purple: rgba(var(--color-purple), 0.75) !important;
+    --color-pill-pink: rgba(var(--color-pink), 0.75) !important;
+    --color-pill-red: rgba(var(--color-red), 0.5) !important;
+    /* $Super Content */
+    --super-content-bg: var(--color-bg) !important;
+    --super-footer-padding: 0rem 2rem !important;
+    --super-content-padding: 0 !important;
+    /* --super-content-padding-top: 0 !important; */
+    /* --super-content-padding-bottom: 0 !important; */
+    /* --super-content-margin: 0 !important; */
+    /* --super-content-margin-top: -25vh !important; */
+    --super-content-margin-top: 0 !important;
+    /* --super-content-margin-bottom: 0 !important; */
+    /* $Call to Actions */
+    --cta-padding: 13px 14px !important;
+    --cta-border-radius: 4px !important;
+    --cta-border: none !important;
+    --cta-shadow: none !important;
+    /* $Callouts */
+    --callout-padding: .25rem 0 .25rem 0 !important;
+    --callout-padding-top: .25rem !important;
+    --callout-title-bg: var(--color-bg-default) !important;
+    --callout-title-size: 2rem !important;
+    --callout-border-width: 1px !important;
+    --callout-border-style: solid !important;
+    --callout-border-color: var(--color-border-default) !important;
+    --callout-border-radius: var(--element-radius) !important;
+    --callout-justify: center !important;
+    --callout-icon-size: 20px !important;
+    --callout-emoji-size: 18px !important;
+    --callout-margin: 1rem 0 !important;
+    --callout-margin-top: .25rem !important;
+    --callout-content-margin: 0rem .5rem !important;
+    /* $Collections */
+    --collection-padding: .5rem !important;
+    --collection-property-text-size: 14px !important;
+    --collection-list-item-border-radius: 0px !important;
+    --collection-list-item-padding: 5px 0px 5px 5px !important;
+    --collection-title-text-size: 16px !important;
+    --collection-gallery-gap: 30px !important;
+    --collection-card-padding: 1px !important;
+    --collection-card-border: 1px solid var(--color-border-default) !important;
+    --collection-card-border-radius: 5px !important;
+    /* $Collection Card Size*/
+    --collection-card-cover-size-small: calc(30%) !important;
+    --collection-card-cover-size-medium: calc(40%) !important;
+    --collection-card-cover-size-large: calc(45%) !important;
+    /* $Pills */
+    --notion-pill-padding: 2px 5px !important;
+    --notion-pill-border-radius: 0px !important;
+    --notion-pill-text-size: 12px !important;
+    --notion-pill-text-weight: 500 !important;
+    --notion-pill-text-transform: uppercase !important;
+    --notion-pill-letter-spacing: 1px !important;
+    /* $Images */
+    --image-border-radius: 10px !important;
+    /* $Misc */
+    --divider-margin: 15px 0px !important;
+    --divider-opacity: 1 !important;
+    /* $Typography */
+    --text-spacing: 1px !important;
+    --secondary-font: 'Inter', sans-serif !important;
+    --notion-text-margin: 0px 0px 0px 0px !important;
+    /* $h1 - Header 1 */
+    --h1-text-color: rgb(255, 255, 255) !important;
+    --h1-size: 2.5rem !important;
+    --h1-weight: 800 !important;
+    --h1-spacing: -0.04em !important;
+    --h1-margin: 0 .25rem !important;
+    --h1-line-height: 1 !important;
+    --h1-text-shadow: var(--site-shadow) !important;
+    /* $h2 - Header 2 */
+    --h2-text-color: rgb(255, 255, 255) !important;
+    --h2-size: 1.75rem !important;
+    --h2-weight: 700 !important;
+    --h2-spacing: -0.03em !important;
+    --h2-margin: 0 .1875rem !important;
+    --h2-line-height: 100% !important;
+    --h2-text-shadow: var(--site-shadow) !important;
+    /* $h3 - Header 3 */
+    --h3-text-color: rgb(255, 255, 255) !important;
+    --h3-size: 1.375rem !important;
+    --h3-weight: 600 !important;
+    --h3-spacing: -0.02em !important;
+    --h3-margin: 0 .125rem !important;
+    --h3-line-height: 1.4 !important;
+    --h3-text-shadow: var(--site-shadow) !important;
+    /* $Toggles */
+    --toggle-size: 32px !important;
+    /* --toggle-color: var(--color-accent-bg) !important; */
+    --toggle-closed: var(--accent) !important;
+    --toggle-open: rgba(var(--accent), .75) !important;
+    /* $Header Hover */
+    --header-hover: var(--color-text-gray) !important;
+    /* $Links */
+    --link-border-width: 0px 0px 0px 0px !important;
+    --link-border-style: none !important;
+    --link-border-color: none !important;
+    /* $Margin */
+    --code-margin: 1rem 1rem !important;
+    /* $Quotes */
+    --quote-font-style: italic !important;
+    --quote-font-size: 1.75em !important;
+    --quote-font-weight: bold !important;
+    --quote-font-family: 'McLaren', cursive !important;
+    --quote-border-width: 5px !important;
+    --quote-border-style: solid !important;
+    --quote-border-color: var(--color-border-default) !important;
+    --quote-margin: 1rem auto !important;
+    --quote-padding: 1em 1em 2em 2em !important;
 }
+
 
 /* %END VARIABLES */
 
@@ -243,13 +241,14 @@
     width: 100% !important;
     max-width: 100% !important;
     height: 64px !important;
-    border-radius: 0 !important;
     opacity: 1 !important;
     -webkit-backdrop-filter: blur(16px) !important;
     backdrop-filter: blur(16px) !important;
-  }
+}
+
 
 /* $Call To Action Button */
+
 .super-navbar__cta {
     padding: 12px 15px !important;
     border-radius: 7px!important;
@@ -259,127 +258,145 @@
 .super-navbar__content {
     padding-left: 1em !important;
     padding-right: 1em !important;
-  }
+}
 
 .super-navbar__actions,
 .super-navbar__logo {
     padding: var(--super-content-padding) !important;
-  }
+}
 
 .super-navbar__menu {
-  background-color: var(--color-default) !important;
-  min-width: 200px !important;
-  opacity: 1 !important;
-  margin-top: 4rem !important;
-  -webkit-backdrop-filter: blur(16px);
-  backdrop-filter: blur(16px) !important;
+    background-color: var(--color-default) !important;
+    min-width: 200px !important;
+    opacity: 1 !important;
+    margin-top: 4rem !important;
+    -webkit-backdrop-filter: blur(16px);
+    backdrop-filter: blur(16px) !important;
 }
 
 .super-navbar__menu-open {
     display: flex !important;
 }
 
+
 /* ^Navbar Menu Items */
+
 .super-navbar__item {
-  border-radius: var(--element-radius) !important;
-  font-size: 18px !important;
-  padding: 7px 10px !important;
+    border-radius: var(--element-radius) !important;
+    font-size: 18px !important;
+    padding: 7px 10px !important;
 }
 
+
 /* ^Active Item & Hover On Menu  */
+
 .super-navbar__item.active {
-  background-color: var(--color-bg-yellow) !important;
+    background-color: var(--color-bg-yellow) !important;
 }
-.super-navbar__item:hover{
-  color: var(--color-text-yellow) !important;
-  font-weight: 500 !important;
+
+.super-navbar__item:hover {
+    color: var(--color-text-yellow) !important;
+    font-weight: 500 !important;
 }
 
 
 /* $Content */
 
+
 /* This compenstates for setting display: BLOCK for */
+
+
 /* .notion-header .notion-header__title-wrapper */
+
 .super-content {
-  background: var(--super-content-bg) !important;
-  background-image: var(--super-content-bg) !important;
-  padding: var(--super-content-padding) !important;
-  margin-top: var(--super-content-margin-top) !important;
-  margin-bottom:0 !important;
+    background: var(--super-content-bg) !important;
+    background-image: var(--super-content-bg) !important;
+    padding: var(--super-content-padding) !important;
+    margin-top: var(--super-content-margin-top) !important;
+    margin-bottom: 0 !important;
 }
-
-
 
 .super-content-wrapper {
-  margin-top: 0 !important;
+    margin-top: 0 !important;
 }
-    /* Set Page Width */
+
+
+/* Set Page Width */
+
 .super-content.max-width {
-  max-width: var(--responsive-width) !important;
+    max-width: var(--responsive-width) !important;
 }
+
 
 /* #Footer */
 
 .super-footer {
-  z-index: 0 !important;
-  padding: 0 2rem !important;
-  margin: 0 !important;
-  }
+    z-index: 0 !important;
+    padding: 0 2rem !important;
+    margin: 0 !important;
+}
 
- /* ^Full length footer  */
+
+/* ^Full length footer  */
+
 .super-footer.corners {
     padding: 0 2rem !important;
     margin: 0 !important;
-  }
+}
+
 
 /* ^Footer with margin */
+
 .super-footer.floating {
-  padding: 0 2rem !important;
-  margin: 0 !important;
+    padding: 0 2rem !important;
+    margin: 0 !important;
 }
 
 .super-footer__link {
-  opacity: 0.7;
-  font-weight: bold;
+    opacity: 0.7;
+    font-weight: bold;
 }
 
 .super-footer__link:hover {
     opacity: 1;
 }
 
+
 /* #NOTION */
+
+
 /* $NOTION HEADER */
 
 .notion-header {
-  /* The inputs below affect Header Cover image */
-  /* They are linked to .notion-header__cover */
+    /* The inputs below affect Header Cover image */
+    /* They are linked to .notion-header__cover */
     /* padding-top: 4rem; */
     /* padding-bottom: 4rem; */
     /* margin: 0 !important; */
     margin: 0 !important;
     padding: 0 !important;
-    position: relative;   
+    position: relative;
     width: 100% !important;
     max-width: 100% !important;
     height: 1rem !important;
     /* height: 40vh !important;
     max-height: 50vh !important; */
-  }
-  
-  .notion-header__title {
-  display: flex !important;
-  color: var(--color-text-white) !important;
-  background-color: var(--color-bg-black-light) !important;
-  padding: 1rem !important;
-  margin: 0rem !important;
-  margin-top: 4rem !important;
-  width: 100% !important;
-  justify-content: flex-start !important;
-  border-radius: 8px !important;
-  z-index: 10 !important;
-  position: fixed !important;
-  top: 0 !important;
-  left: 0 !important;
+}
+
+.notion-header__title {
+    display: flex !important;
+    color: var(--color-text-white) !important;
+    background-color: var(--color-bg-black-light) !important;
+    padding: 1rem !important;
+    margin: 0 !important;
+    margin-top: 4rem !important;
+    width: 100% !important;
+    justify-content: flex-start !important;
+    border-radius: 8px !important;
+    z-index: 10 !important;
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
 }
 
 .notion-header__title-wrapper {
@@ -392,42 +409,46 @@
     margin-top: 5rem !important;
     /* margin-top: -3rem !important; */
     z-index: 10 !important;
-  }
+}
 
 .notion-header__title-wrapper div div {
-  display: block !important;
+    display: block !important;
 }
 
 .notion-header__content.max-width {
     max-width: 100% !important;
     /* margin-top: -11rem !important; */
     margin-top: 0 !important;
-  }
+}
+
 
 /* !Get rid of? */
+
 .notion-header__cover {
     margin: 0 !important;
     width: 100% !important;
     max-width: 100% !important;
-    border-radius: 0px !important;
+    border-radius: 0 !important;
     /* !The Inputs below are linked to .notion-header */
     max-height: 30vh;
     height: 30vh;
     /* !Has something to do with Notion Header Cover Image */
     overflow: visible;
     position: relative;
-  }
+}
 
 div.notion-header__cover.has-cover {
-  height: 100vh !important;
-  max-height: 100vh !important;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: fixed !important;
-  z-index: 10 !important;
-  top: 0 !important;
+    height: 100vh !important;
+    max-height: 100vh !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed !important;
+    z-index: 10 !important;
+    top: 0 !important;
 }
+
+
 /* img.notion-header__cover-image:has
 div.notion-header__cover {
     z-index: -99 !important;
@@ -435,13 +456,13 @@ div.notion-header__cover {
 
 img.notion-header__cover-image {
     box-sizing: border-box;
-    padding: 0px;
+    padding: 0;
     border: none;
     margin: auto;
     margin-top: 0 !important;
     display: block !important;
     min-width: 100%;
-    width: 0px;
+    width: 0;
     max-width: 100%;
     min-height: 50vh !important;
     height: 100vh !important;
@@ -456,21 +477,21 @@ img.notion-header__cover-image {
     padding: 0 !important;
     margin-bottom: 3rem !important;
     margin-top: -1rem !important;
-  }
+}
 
 .notion-column {
     margin-bottom: 0 !important;
     padding: 0 !important;
-  }
+}
 
 .notion-text {
     min-height: calc(1rem + 10px) !important;
-  }
+}
 
-  p {
-  line-height: 100% !important;
-  margin-bottom: 1rem !important;
-  max-width: var(--theme-width) !important;
+p {
+    line-height: 100% !important;
+    margin-bottom: 1rem !important;
+    max-width: var(--theme-width) !important;
 }
 
 .notion-text__content {
@@ -479,7 +500,7 @@ img.notion-header__cover-image {
 }
 
 .notion-semantic-string {
-  line-height: 1 !important;
+    line-height: 1 !important;
 }
 
 .notion-semantic-string .link {
@@ -488,88 +509,113 @@ img.notion-header__cover-image {
 
 
 /* $Heading 1 & */
+
+
 /* $Toggle heading 1 */
 
 h1,
 h1.notion-heading,
 h1.notion-heading.toggle,
+
 /*$ Affects Toggle Glyphs   */
+
 .notion-toggle-heading-1 {
-  color: var(--h1-text-color) !important;
-  font-size: var(--h1-size) !important;
-  font-weight: var(--h1-weight) !important;
-  font-style: normal !important;
-  line-height: var(--h1-line-height) !important;
-  text-shadow: var(--site-shadow) !important;
-  letter-spacing: var(--h1-spacing) !important;
-  margin: var(--h1-margin) !important;
-  margin-bottom: 0.5em !important;
-  max-width: var(--theme-width) !important;
+    color: var(--h1-text-color) !important;
+    font-size: var(--h1-size) !important;
+    font-weight: var(--h1-weight) !important;
+    font-style: normal !important;
+    line-height: var(--h1-line-height) !important;
+    text-shadow: var(--site-shadow) !important;
+    letter-spacing: var(--h1-spacing) !important;
+    margin: var(--h1-margin) !important;
+    margin-bottom: 0.5em !important;
+    max-width: var(--theme-width) !important;
 }
 
+
 /*$ Area under an open heading toggle */
+
+
 /*$ Affects Toggle Glyphs   */
+
 .notion-toggle.open.notion-toggle-heading-1 {
-  color: var(--color-text-white) !important;
-  text-shadow: var(--site-shadow) !important;
-  font-size: 1rem !important;
+    color: var(--color-text-white) !important;
+    text-shadow: var(--site-shadow) !important;
+    font-size: 1rem !important;
 }
 
 
 /* $Heading 2 & */
+
+
 /* $Toggle heading 2 */
 
 h2,
 h2.notion-heading,
 h2.notion-heading.toggle,
+
 /*$ Affects Toggle Glyphs   */
+
 .notion-toggle-heading-2 {
-  color: var(--h2-text-color) !important;
-  font-size: var(--h2-size) !important;
-  font-weight: var(--h2-weight) !important;
-  font-style: normal !important;
-  line-height: var(--h2-line-height) !important;
-  text-shadow: var(--site-shadow) !important;
-  letter-spacing: var(--h2-spacing) !important;
-  margin: var(--h2-margin) !important;
-  margin-bottom: 0.5em !important;
-  max-width: var(--theme-width) !important;
+    color: var(--h2-text-color) !important;
+    font-size: var(--h2-size) !important;
+    font-weight: var(--h2-weight) !important;
+    font-style: normal !important;
+    line-height: var(--h2-line-height) !important;
+    text-shadow: var(--site-shadow) !important;
+    letter-spacing: var(--h2-spacing) !important;
+    margin: var(--h2-margin) !important;
+    margin-bottom: 0.5em !important;
+    max-width: var(--theme-width) !important;
 }
+
 
 /*$ Area under an open heading toggle */
+
+
 /*$ Affects Toggle Glyphs   */
+
 .notion-toggle.open.notion-toggle-heading-2 {
-  color: var(--color-text-white) !important;
-  text-shadow: var(--site-shadow) !important;
-  font-size: 1rem !important;
+    color: var(--color-text-white) !important;
+    text-shadow: var(--site-shadow) !important;
+    font-size: 1rem !important;
 }
 
+
 /* $Heading 3 & */
+
+
 /* $Toggle heading 3 */
 
 h3,
 h3.notion-heading,
 h3.notion-heading.toggle,
+
 /*$ Affects Toggle Glyphs   */
+
 .notion-toggle-heading-3 {
-  color: var(--h3-text-color) !important;
-  font-size: var(--h3-size) !important;
-  font-weight: var(--h3-weight) !important;
-  font-style: normal !important;
-  line-height: var(--h3-line-height) !important;
-  text-shadow: var(--site-shadow) !important;
-  letter-spacing: var(--h3-spacing) !important;
-  margin: var(--h3-margin) !important;
-  margin-bottom: 0.5em !important;
-  max-width: var(--theme-width) !important;
+    color: var(--h3-text-color) !important;
+    font-size: var(--h3-size) !important;
+    font-weight: var(--h3-weight) !important;
+    font-style: normal !important;
+    line-height: var(--h3-line-height) !important;
+    text-shadow: var(--site-shadow) !important;
+    letter-spacing: var(--h3-spacing) !important;
+    margin: var(--h3-margin) !important;
+    margin-bottom: 0.5em !important;
+    max-width: var(--theme-width) !important;
 }
 
+
 /*$ Area under an open heading toggle */
+
+
 /*$ Affects Toggle Glyphs   */
+
 .notion-toggle.open.notion-toggle-heading-3 {
-  color: var(--color-text-white) !important;
-  text-shadow: var(--site-shadow) !important;
-  font-size: 1rem !important;
+    color: var(--color-text-white) !important;
+    text-shadow: var(--site-shadow) !important;
+    font-size: 1rem !important;
 }
 
 
@@ -580,6 +626,6 @@ h1.notion-heading.toggle:hover,
 h2.notion-heading.toggle:hover,
 .notion-toggle-heading-2:hover,
 h3.notion-heading.toggle:hover,
-.notion-toggle-heading-3:hover{
-  color: var(--header-hover) !important;
+.notion-toggle-heading-3:hover {
+    color: var(--header-hover) !important;
 }
