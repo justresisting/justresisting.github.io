@@ -194,9 +194,9 @@
     --collection-card-cover-size-static-small: 172px !important;
     --collection-card-cover-size-static-medium: 260px !important;
     --collection-card-cover-size-static-large: 320px !important;
-    --collection-card-cover-size-small: calc(30%) !important;
-    --collection-card-cover-size-medium: calc(40%) !important;
-    --collection-card-cover-size-large: calc(50%) !important;
+    --collection-card-cover-size-small: 128px !important;
+    --collection-card-cover-size-medium: 256px !important;
+    --collection-card-cover-size-large: 512px !important;
     /* $Pills */
     --notion-pill-padding: 2px 5px !important;
     --notion-pill-border-radius: 0px !important;
