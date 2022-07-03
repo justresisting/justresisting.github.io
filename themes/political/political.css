@@ -181,6 +181,7 @@
     --callout-margin-top: 0.25rem !important;
     --callout-content-margin: 0 0.5rem !important;
     /* $Collections */
+    --collection-margin: 0.25rem 0 !important;
     --collection-padding: 0.5rem !important;
     --collection-property-text-size: 14px !important;
     --collection-list-item-border-radius: 0 !important;
@@ -1690,18 +1691,11 @@ div.notion-toggle__summary:hover {
     transform: scale(1.05) !important;
 }
 
-.notion-collection-card__cover img {
-    border-radius: var(--element-radius) !important;
-}
-
-.notion-collection-card__content {
-    padding: 0 1rem 1rem 1rem !important;
-}
-
 .notion-collection-card__cover {
     min-width: 100% !important;
     width: 100% !important;
     max-width: 100% !important;
+    position: relative !important;
 }
 
 .notion-collection-card__cover.large {
@@ -1729,6 +1723,14 @@ div.notion-toggle__summary:hover {
 
 .notion-collection-card:hover img {
     transform: scale(1.05) !important;
+}
+
+.notion-collection-card__cover img {
+    border-radius: var(--element-radius) !important;
+}
+
+.notion-collection-card__content {
+    padding: 0 1rem 1rem 1rem !important;
 }
 
 
@@ -1902,7 +1904,6 @@ div.notion-toggle__summary:hover {
     border-radius: var(--element-radius) !important;
     background-color: var(--color-card-bg) !important;
     margin: 0 !important;
-    margin-top: 0 !important;
     padding: var(--collection-padding) !important;
     padding-top: 0.5rem !important;
 }
