@@ -1318,17 +1318,6 @@ img {
     font-weight: 700!important
 }
 
-.example-selector {
-    display: flex!important;
-    position: sticky!important;
-    content: "content"!important;
-    margin: 1rem auto!important;
-    border: 5px solid #ff0!important;
-    padding: 5rem!important;
-    width: 50%!important;
-    height: 50%!important
-}
-
 .notion-bookmark__description {
     margin: .5rem!important;
     margin-bottom: 0!important;
