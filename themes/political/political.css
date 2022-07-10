@@ -1152,69 +1152,69 @@ p.notion-callout__content {
 .notion-pill,
 .notion-pill.first,
 span.notion-pill {
-    padding: 0.25em 0.75em !important;
-    border: 2px solid var(--color-border-default) !important;
+    padding: 0.1em 0.25em !important;
+    border: 1px solid var(--color-border-default) !important;
     border-radius: var(--element-radius) !important;
     color: var(--color-text-default) !important;
 }
 
 span.notion-pill.pill-default,
 span.notion-pill.pill-default.first {
-    border: 2px solid var(--color-border-dark) !important;
-    background-color: var(--color-default) !important;
+    border: 1px solid var(--color-bg-yellow) !important;
+    background-color: var(--color-bg-gray) !important;
 }
 
 span.notion-pill.pill-gray,
 span.notion-pill.pill-gray.first {
-    border: 2px solid var(--color-border-gray) !important;
+    border: 1px solid var(--color-border-gray) !important;
     background-color: var(--color-bg-gray) !important;
 }
 
 span.notion-pill.pill-brown,
 span.notion-pill.pill-brown.first {
-    border: 2px solid var(--color-border-brown) !important;
+    border: 1px solid var(--color-border-brown) !important;
     background-color: var(--color-bg-brown) !important;
 }
 
 span.notion-pill.pill-orange,
 span.notion-pill.pill-orange.first {
-    border: 2px solid var(--color-border-orange) !important;
+    border: 1px solid var(--color-border-orange) !important;
     background-color: var(--color-bg-orange) !important;
 }
 
 span.notion-pill.pill-yellow,
 span.notion-pill.pill-yellow.first {
-    border: 2px solid var(--color-border-yellow) !important;
+    border: 1px solid var(--color-border-yellow) !important;
     background-color: var(--color-bg-yellow) !important;
 }
 
 span.notion-pill.pill-green,
 span.notion-pill.pill-green.first {
-    border: 2px solid var(--color-border-green) !important;
+    border: 1px solid var(--color-border-green) !important;
     background-color: var(--color-bg-green) !important;
 }
 
 span.notion-pill.pill-blue,
 span.notion-pill.pill-blue.first {
-    border: 2px solid var(--color-border-blue) !important;
+    border: 1px solid var(--color-border-blue) !important;
     background-color: var(--color-bg-blue) !important;
 }
 
 span.notion-pill.pill-purple,
 span.notion-pill.pill-purple.first {
-    border: 2px solid var(--color-border-purple) !important;
+    border: 1px solid var(--color-border-purple) !important;
     background-color: var(--color-bg-purple) !important;
 }
 
 span.notion-pill.pill-pink,
 span.notion-pill.pill-pink.first {
-    border: 2px solid var(--color-border-pink) !important;
+    border: 1px solid var(--color-border-pink) !important;
     background-color: var(--color-bg-pink) !important;
 }
 
 span.notion-pill.pill-red,
 span.notion-pill.pill-red.first {
-    border: 2px solid var(--color-border-red) !important;
+    border: 1px solid var(--color-border-red) !important;
     background-color: var(--color-bg-red) !important;
 }
 
