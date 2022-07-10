@@ -1153,15 +1153,15 @@ p.notion-callout__content {
 .notion-pill.first,
 span.notion-pill {
     padding: 0.1em 0.25em !important;
-    border: 1px solid var(--color-border-default) !important;
+    border: 1px solid var(--color-bg-yellow-light) !important;
     border-radius: var(--element-radius) !important;
     color: var(--color-text-default) !important;
 }
 
 span.notion-pill.pill-default,
 span.notion-pill.pill-default.first {
-    border: 1px solid var(--color-bg-yellow) !important;
-    background-color: var(--color-bg-gray) !important;
+    border: 1px solid var(--color-bg-yellow-light) !important;
+    background-color: var(--color-bg-black) !important;
 }
 
 span.notion-pill.pill-gray,
