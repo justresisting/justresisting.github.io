@@ -1672,6 +1672,7 @@ div.notion-toggle__summary:hover {
     width: 100%;
     max-width: 100%;
     position: relative;
+    border-radius: 0;
 }
 
 .notion-collection-card__cover.large {
