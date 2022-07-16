@@ -1153,68 +1153,67 @@ p.notion-callout__content {
 .notion-pill.first,
 span.notion-pill {
     padding: 0.1em 0.25em !important;
-    border: 1px solid var(--color-bg-yellow-light) !important;
     border-radius: var(--element-radius) !important;
     color: var(--color-text-default) !important;
 }
 
 span.notion-pill.pill-default,
 span.notion-pill.pill-default.first {
-    border: 1px solid var(--color-bg-yellow-light) !important;
-    background-color: var(--color-bg-black) !important;
+    border: 5px solid var(--color-bg-yellow-light) !important;
+    background-color: var(--color-bg-yellow-light) !important;
 }
 
 span.notion-pill.pill-gray,
 span.notion-pill.pill-gray.first {
-    border: 1px solid var(--color-border-gray) !important;
+    border: 5px solid var(--color-bg-gray) !important;
     background-color: var(--color-bg-gray) !important;
 }
 
 span.notion-pill.pill-brown,
 span.notion-pill.pill-brown.first {
-    border: 1px solid var(--color-border-brown) !important;
+    border: 5px solid var(--color-bg-brown) !important;
     background-color: var(--color-bg-brown) !important;
 }
 
 span.notion-pill.pill-orange,
 span.notion-pill.pill-orange.first {
-    border: 1px solid var(--color-border-orange) !important;
+    border: 5px solid var(--color-bg-orange) !important;
     background-color: var(--color-bg-orange) !important;
 }
 
 span.notion-pill.pill-yellow,
 span.notion-pill.pill-yellow.first {
-    border: 1px solid var(--color-border-yellow) !important;
+    border: 5px solid var(--color-bg-yellow) !important;
     background-color: var(--color-bg-yellow) !important;
 }
 
 span.notion-pill.pill-green,
 span.notion-pill.pill-green.first {
-    border: 1px solid var(--color-border-green) !important;
+    border: 5px solid var(--color-bg-green) !important;
     background-color: var(--color-bg-green) !important;
 }
 
 span.notion-pill.pill-blue,
 span.notion-pill.pill-blue.first {
-    border: 1px solid var(--color-border-blue) !important;
+    border: 5px solid var(--color-bg-blue) !important;
     background-color: var(--color-bg-blue) !important;
 }
 
 span.notion-pill.pill-purple,
 span.notion-pill.pill-purple.first {
-    border: 1px solid var(--color-border-purple) !important;
+    border: 5px solid var(--color-bg-purple) !important;
     background-color: var(--color-bg-purple) !important;
 }
 
 span.notion-pill.pill-pink,
 span.notion-pill.pill-pink.first {
-    border: 1px solid var(--color-border-pink) !important;
+    border: 5px solid var(--color-bg-pink) !important;
     background-color: var(--color-bg-pink) !important;
 }
 
 span.notion-pill.pill-red,
 span.notion-pill.pill-red.first {
-    border: 1px solid var(--color-border-red) !important;
+    border: 5px solid var(--color-bg-red) !important;
     background-color: var(--color-bg-red) !important;
 }
 
@@ -1246,102 +1245,92 @@ span.notion-pill.pill-red.first {
 
 /* ^Default Quoteblock Button - Notion BG */
 
-
-/* [class="notion-quote"] {
-  color: var(--color-text-default-light) !important;
-  background-color: var(--color-bg-default-light) !important;
-  border-color: var(--color-border-default) !important;
-} */
+[class="notion-quote"] {
+    color: var(--color-text-default-light) !important;
+    background-color: var(--color-bg-default-light) !important;
+    border-color: var(--color-border-default) !important;
+}
 
 
 /* ^Gray Quoteblock Button - Notion BG */
 
-
-/* [class="notion-quote bg-gray"] {
-  color: var(--color-text-default-light) !important;
-  background-color: var(--color-bg-gray-light) !important;
-  border-color: var(--color-border-black) !important;
-} */
+[class="notion-quote bg-gray"] {
+    color: var(--color-text-default-light) !important;
+    background-color: var(--color-bg-gray-light) !important;
+    border-color: var(--color-border-black) !important;
+}
 
 
 /* ^Brown Quoteblock Button - Notion BG */
 
-
-/* [class="notion-quote bg-brown"] {
-  color: var(--color-text-default-light) !important;
-  background-color: var(--color-bg-brown-light) !important;
-  border-color: var(--color-border-brown) !important;
-} */
+[class="notion-quote bg-brown"] {
+    color: var(--color-text-default-light) !important;
+    background-color: var(--color-bg-brown-light) !important;
+    border-color: var(--color-border-brown) !important;
+}
 
 
 /* ^Orange Quoteblock Button - Notion BG */
 
-
-/* [class="notion-quote bg-orange"] {
-  color: var(--color-text-default-light) !important;
-  background-color: var(--color-bg-orange-light) !important;
-  border-color: var(--color-border-orange) !important;
-} */
+[class="notion-quote bg-orange"] {
+    color: var(--color-text-default-light) !important;
+    background-color: var(--color-bg-orange-light) !important;
+    border-color: var(--color-bg-orange-light) !important;
+}
 
 
 /* ^Yellow Quoteblock Button - Notion BG */
 
-
-/* [class="notion-quote bg-yellow"] {
-  color: var(--color-text-default-light) !important;
-  background-color: var(--color-bg-yellow-light) !important;
-  border-color: var(--color-border-yellow) !important;
-} */
+[class="notion-quote bg-yellow"] {
+    color: var(--color-text-default-light) !important;
+    background-color: var(--color-bg-yellow-light) !important;
+    border-color: var(--color-bg-yellow-light) !important;
+}
 
 
 /* ^Green Quoteblock Button - Notion BG */
 
-
-/* [class="notion-quote bg-green"] {
-  color: var(--color-text-default-light) !important;
-  background-color: var(--color-bg-green-light) !important;
-  border-color: var(--color-border-green) !important;
-} */
+[class="notion-quote bg-green"] {
+    color: var(--color-text-default-light) !important;
+    background-color: var(--color-bg-green-light) !important;
+    border-color: var(--color-bg-green-light) !important;
+}
 
 
 /* ^Blue Quoteblock Button - Notion BG */
 
-
-/* [class="notion-quote bg-blue"] {
-  color: var(--color-text-default-light) !important;
-  background-color: var(--color-bg-blue-light) !important;
-  border-color: var(--color-border-blue) !important;
-} */
+[class="notion-quote bg-blue"] {
+    color: var(--color-text-default-light) !important;
+    background-color: var(--color-bg-blue-light) !important;
+    border-color: var(--color-bg-blue-light) !important;
+}
 
 
 /* ^Purple Quoteblock Button - Notion BG */
 
-
-/* [class="notion-quote bg-purple"] {
-  color: var(--color-text-default-light) !important;
-  background-color: var(--color-bg-purple-light) !important;
-  border-color: var(--color-border-purple) !important;
-} */
+[class="notion-quote bg-purple"] {
+    color: var(--color-text-default-light) !important;
+    background-color: var(--color-bg-purple-light) !important;
+    border-color: var(--color-bg-purple-light) !important;
+}
 
 
 /* ^Pink Quoteblock Button - Notion BG  */
 
-
-/* [class="notion-quote bg-pink"] {
-  color: var(--color-text-default-light) !important;
-  background-color: var(--color-bg-pink-light) !important;
-  border-color: var(--color-border-pink) !important;
-} */
+[class="notion-quote bg-pink"] {
+    color: var(--color-text-default-light) !important;
+    background-color: var(--color-bg-pink-light) !important;
+    border-color: var(--color-bg-pink-light) !important;
+}
 
 
 /* ^Red Quoteblock Button - Notion BG */
 
-
-/* [class="notion-quote bg-red"] {
-  color: var(--color-text-default-light) !important;
-  background-color: var(--color-bg-red-light) !important;
-  border-color: var(--color-border-red) !important;
-} */
+[class="notion-quote bg-red"] {
+    color: var(--color-text-default-light) !important;
+    background-color: var(--color-bg-red-light) !important;
+    border-color: var(--color-bg-red-light) !important;
+}
 
 
 /* $Quote Border */
@@ -1349,122 +1338,112 @@ span.notion-pill.pill-red.first {
 
 /* ^Default Quoteblock Border */
 
-
-/* [class="notion-quote"] {
-  color: var(--color-text-default) !important;
-  background-color: var(--color-bg-black-light) !important;
-  border-width: var(--quote-border-width) !important;
-  border-style: var(--quote-border-style) !important;
-  border-color: var(--color-border-default) !important;
-} */
+[class="notion-quote"] {
+    color: var(--color-text-default) !important;
+    background-color: var(--color-bg-black-light) !important;
+    border-width: var(--quote-border-width) !important;
+    border-style: var(--quote-border-style) !important;
+    border-color: var(--color-border-default) !important;
+}
 
 
 /* ^Gray Quoteblock Border */
 
-
-/* [class="notion-quote color-gray"] {
-  color: var(--color-text-default) !important;
-  background-color: var(--color-bg-black-light) !important;
-  border-width: var(--quote-border-width) !important;
-  border-style: var(--quote-border-style) !important;
-  border-color: var(--color-border-gray) !important;
-} */
+[class="notion-quote color-gray"] {
+    color: var(--color-text-default) !important;
+    background-color: var(--color-bg-black-light) !important;
+    border-width: var(--quote-border-width) !important;
+    border-style: var(--quote-border-style) !important;
+    border-color: var(--color-border-gray) !important;
+}
 
 
 /* ^Brown Quoteblock Border */
 
-
-/* [class="notion-quote color-brown"] {
-  color: var(--color-text-default) !important;
-  background-color: var(--color-bg-black-light) !important;
-  border-width: var(--quote-border-width) !important;
-  border-style: var(--quote-border-style) !important;
-  border-color: var(--color-border-brown) !important;
-} */
+[class="notion-quote color-brown"] {
+    color: var(--color-text-default) !important;
+    background-color: var(--color-bg-black-light) !important;
+    border-width: var(--quote-border-width) !important;
+    border-style: var(--quote-border-style) !important;
+    border-color: var(--color-border-brown) !important;
+}
 
 
 /* ^Orange Quoteblock Border */
 
-
-/* [class="notion-quote color-orange"] {
-  color: var(--color-text-default) !important;
-  background-color: var(--color-bg-black-light) !important;
-  border-width: var(--quote-border-width) !important;
-  border-style: var(--quote-border-style) !important;
-  border-color: var(--color-border-orange) !important;
-} */
+[class="notion-quote color-orange"] {
+    color: var(--color-text-default) !important;
+    background-color: var(--color-bg-black-light) !important;
+    border-width: var(--quote-border-width) !important;
+    border-style: var(--quote-border-style) !important;
+    border-color: var(--color-border-orange) !important;
+}
 
 
 /* ^Yellow Quoteblock Border */
 
-
-/* [class="notion-quote color-yellow"] {
-  color: var(--color-text-default) !important;
-  background-color: var(--color-bg-black-light) !important;
-  border-width: var(--quote-border-width) !important;
-  border-style: var(--quote-border-style) !important;
-  border-color: var(--color-border-yellow) !important;
-} */
+[class="notion-quote color-yellow"] {
+    color: var(--color-text-default) !important;
+    background-color: var(--color-bg-black-light) !important;
+    border-width: var(--quote-border-width) !important;
+    border-style: var(--quote-border-style) !important;
+    border-color: var(--color-border-yellow) !important;
+}
 
 
 /* ^Green Quoteblock Border */
 
-
-/* [class="notion-quote color-green"] {
-  color: var(--color-text-default) !important;
-  background-color: var(--color-bg-black-light) !important;
-  border-width: var(--quote-border-width) !important;
-  border-style: var(--quote-border-style) !important;
-  border-color: var(--color-border-green) !important;
-} */
+[class="notion-quote color-green"] {
+    color: var(--color-text-default) !important;
+    background-color: var(--color-bg-black-light) !important;
+    border-width: var(--quote-border-width) !important;
+    border-style: var(--quote-border-style) !important;
+    border-color: var(--color-border-green) !important;
+}
 
 
 /* ^Blue Quoteblock Border */
 
-
-/* [class="notion-quote color-blue"] {
-  color: var(--color-text-default) !important;
-  background-color: var(--color-bg-black-light) !important;
-  border-width: var(--quote-border-width) !important;
-  border-style: var(--quote-border-style) !important;
-  border-color: var(--color-border-blue) !important;
-} */
+[class="notion-quote color-blue"] {
+    color: var(--color-text-default) !important;
+    background-color: var(--color-bg-black-light) !important;
+    border-width: var(--quote-border-width) !important;
+    border-style: var(--quote-border-style) !important;
+    border-color: var(--color-border-blue) !important;
+}
 
 
 /* ^Purple Quoteblock Border */
 
-
-/* [class="notion-quote color-purple"] {
-  color: var(--color-text-default) !important;
-  background-color: var(--color-bg-black-light) !important;
-  border-width: var(--quote-border-width) !important;
-  border-style: var(--quote-border-style) !important;
-  border-color: var(--color-border-purple) !important;
-} */
+[class="notion-quote color-purple"] {
+    color: var(--color-text-default) !important;
+    background-color: var(--color-bg-black-light) !important;
+    border-width: var(--quote-border-width) !important;
+    border-style: var(--quote-border-style) !important;
+    border-color: var(--color-border-purple) !important;
+}
 
 
 /* ^Pink Quoteblock Border */
 
-
-/* [class="notion-quote color-pink"] {
-  color: var(--color-text-default) !important;
-  background-color: var(--color-bg-black-light) !important;
-  border-width: var(--quote-border-width) !important;
-  border-style: var(--quote-border-style) !important;
-  border-color: var(--color-border-pink) !important;
-} */
+[class="notion-quote color-pink"] {
+    color: var(--color-text-default) !important;
+    background-color: var(--color-bg-black-light) !important;
+    border-width: var(--quote-border-width) !important;
+    border-style: var(--quote-border-style) !important;
+    border-color: var(--color-border-pink) !important;
+}
 
 
 /* ^Red Quoteblock Border */
 
-
-/* [class="notion-quote color-red"] {
-  color: var(--color-text-default) !important;
-  background-color: var(--color-bg-black-light) !important;
-  border-width: var(--quote-border-width) !important;
-  border-style: var(--quote-border-style) !important;
-  border-color: var(--color-border-red) !important;
-} */
+[class="notion-quote color-red"] {
+    color: var(--color-text-default) !important;
+    background-color: var(--color-bg-black-light) !important;
+    border-width: var(--quote-border-width) !important;
+    border-style: var(--quote-border-style) !important;
+    border-color: var(--color-border-red) !important;
+}
 
 
 /* $Quotations Around Quote Block Words */
@@ -1472,29 +1451,26 @@ span.notion-pill.pill-red.first {
 
 /* ^Left Quotation Mark at Front */
 
-
-/* .notion-quote span.notion-semantic-string:before {
-font-family: McLaren !important;
-content: "\201C" !important;
-} */
+.notion-quote span.notion-semantic-string:before {
+    font-family: McLaren !important;
+    content: "\201C" !important;
+}
 
 
 /* ^Right Quotation Mark at End */
 
+.notion-quote span.notion-semantic-string:after {
+    font-family: McLaren !important;
+    content: "\201D" !important;
+}
 
-/* .notion-quote span.notion-semantic-string:after {
-  font-family: McLaren !important;
-  content: "\201D" !important;
-} */
-
-
-/* .notion-quote {
-  position: relative !important;
+.notion-quote {
+    position: relative !important;
 }
 
 .notion-quote span.semantic-string span {
-  position: absolute !important;
-} */
+    position: absolute !important;
+}
 
 
 /* #Divider */
