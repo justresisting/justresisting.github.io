@@ -2258,13 +2258,23 @@ code.code {
 
 /* #Dropdowns */
 
-.notion-dropdown {
+
+/* .notion-dropdown {
     display: flex;
     color: var(--color-text-default);
     background-color: var(--color-default);
     border: 2px solid var(--color-border-yellow);
     border-radius: var(--element-radius);
     padding: 0 0.25rem;
+} */
+
+.notion-dropdown {
+    display: flex;
+    color: var(--color-text-default);
+    background-color: var(--color-bg-yellow-light);
+    border: 5px solid var(--color-bg-yellow-light);
+    border-radius: var(--element-radius);
+    padding: 10px;
 }
 
 .notion-dropdown:hover {
@@ -2273,10 +2283,10 @@ code.code {
 
 .notion-dropdown__button {
     color: var(--color-text-default);
-    align-items: baseline;
-    padding: 0 0.5rem 0;
+    align-items: center;
+    /* padding: 0 0.5rem 0;
     margin-top: -0.25rem;
-    margin-bottom: -0.5rem;
+    margin-bottom: -0.5rem; */
 }
 
 .notion-dropdown__button-title {
@@ -2286,8 +2296,6 @@ code.code {
 .notion-dropdown .notion-dropdown__button svg,
 .notion-dropdown .notion-dropdown__button svg polygon {
     color: var(--accent-bg);
-    margin: 0 0.25rem;
-    align-self: baseline;
 }
 
 
