@@ -2274,7 +2274,6 @@ code.code {
     background-color: var(--color-bg-yellow-light);
     border: 5px solid var(--color-bg-yellow-light);
     border-radius: var(--element-radius);
-    padding: 10px;
 }
 
 .notion-dropdown:hover {
