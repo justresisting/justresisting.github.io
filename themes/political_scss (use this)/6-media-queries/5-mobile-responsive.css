@@ -1,0 +1,58 @@
+/* #MOBILE RESPONSIVE */
+
+
+@media screen and (max-width: 880px) {
+
+
+  h1 {
+     font-size: 2rem !important;
+ }
+  h2 {
+     font-size: 1.5rem !important;
+ }
+  h3 {
+     font-size: 1.25rem !important;
+ }
+
+
+.notion-divider {
+ border-bottom: none !important;
+ margin: 2em 0 !important;
+}
+
+.notion-column {
+ margin-bottom: 0 !important;
+ padding: 0 !important;
+}
+
+.notion-quote {
+ padding: 2em !important;
+}
+
+.notion-collection-list__item-content {
+ flex-direction: column !important;
+ align-items: flex-start !important;
+}
+
+.notion-collection-list__item-property .notion-property__select{
+ display: block !important;
+}
+
+.notion-collection-list__item-property .notion-property__select .notion-pill {
+margin-bottom: 0.5rem !important;
+}
+
+.notion-collection-list__item-property {
+ margin-left: 0rem !important;
+ font-size: 0.75rem !important;
+}
+
+:root {
+ /* #Mobile Body Font Size */
+ --body-font: 16px !important;
+ /* #Mobile Collection Card Cover Size*/
+ --collection-card-cover-size-small: 100% !important;
+ --collection-card-cover-size-medium: 100% !important;
+ --collection-card-cover-size-large:  100% !important;
+}
+}

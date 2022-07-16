@@ -1,0 +1,225 @@
+/**  START #Callout Button */
+/** (Entire block is clickable) */
+/** Set Notion BG Color on Callout */
+.notion-callout {
+  position: relative!important;
+}
+
+/*.notion-callout .notion-callout__content:first-of-type > .notion-semantic-string span .notion-link  */
+.notion-callout.__content:first-of-type > .notion-semantic-string.span.notion-link {
+  /* Basic Button Style */
+  box-sizing: border-box !important;
+  appearance: none !important;
+  background-color: transparent !important;
+  border: 2px solid var(--color-accent-bg) !important;
+  border-radius: 0.6em !important;
+  color: white !important;
+  cursor: pointer !important;
+  display: flex !important;
+  margin: 20px !important;
+  padding: 1.2em 2.8em !important;
+  align-self: center !important;
+  text-align: center !important;
+  text-decoration: none !important;
+  text-transform: uppercase !important;
+  font-family: 'Montserrat', sans-serif !important;
+  font-weight: 700 !important;
+  font-size: 1rem !important;
+  line-height: 1 !important;
+}
+
+/** Default Callout Button */
+[class="notion-callout border"] {
+  /*! max-width: 250px !important; */
+  color: white !important;
+  background-color: var(--color-default) !important;
+  border: 3px solid var(--color-border-default) !important;
+  box-shadow: 0 0 0 0  var(--color-border-default) inset, 0 0 0 0 var(--color-border-default) !important;
+  transition: all 500ms ease-in-out !important;
+}
+
+/** Default Callout Button :HOVER */
+[class="notion-callout border"]:hover {
+  /*! max-width: 250px !important; */
+  color: white !important;
+  background-color: var(--color-default) !important;
+  border: 3px solid var(--color-border-default) !important;
+  box-shadow: 0 0 0 0 var(--color-default-hover) inset, 0 0 0 0 var(--color-default-hover) !important;
+}
+
+/* ^ Gray Callout Button */
+[class="notion-callout bg-gray-light border"] {
+  /*! max-width: 250px !important; */
+  color: white !important;
+  background-color: var(--color-bg-black) !important;
+  border-color: var(--color-border-default) !important;
+  box-shadow: 0 0 0 0 rgba(var(--color-black),0.75) inset, 0 0 0 0 rgba(var(--color-black),0.75) !important;
+  transition: all 500ms ease-in-out !important;
+}
+
+/*^ Gray Callout Button :HOVER */
+[class="notion-callout bg-gray-light border"]:hover {
+  /*! max-width: 250px !important; */
+  color: white !important;
+  background-color: var(--color-bg-black) !important;
+  border-color: var(--color-border-black) !important;
+  box-shadow: 0 0 0 0  rgba(var(--color-black),0.75) inset, 0 0 0 0 rgba(var(--color-black),0.75) !important;
+}
+
+
+/** Brown Callout Button */
+[class="notion-callout bg-brown-light border"] {
+  /*! max-width: 250px !important; */
+  color: white !important;
+  font-weight: bold!important;
+  background-color: var(--color-bg-brown) !important;
+  border-color: var(--color-border-default) !important;
+  box-shadow: 0 0 0 0 rgba(var(--color-brown),0.75) inset, 0 0 0 0 rgba(var(--color-brown),0.75) !important;
+  transition: all 500ms ease-in-out !important;
+}
+
+/** Brown Callout Button :HOVER */
+[class="notion-callout bg-brown-light border"]:hover {
+  /*! max-width: 250px !important; */
+  color: white !important;
+  background-color: var(--color-bg-brown) !important;
+  border-color: var(--color-border-brown) !important;
+  box-shadow: 0 0 0 0 rgba(var(--color-brown),0.75) inset, 0 0 0 0 rgba(var(--color-brown),0.75) !important;
+}
+
+/** Orange Callout Button */
+[class="notion-callout bg-orange-light border"] {
+  /*! max-width: 250px !important; */
+  color: black !important;
+  background-color: var(--color-bg-orange) !important;
+  border-color: var(--color-border-default) !important;
+  box-shadow: 0 0 0 0 rgba(var(--color-orange),0.5) inset, 0 0 0 0 rgb(var(--color-orange)) !important;
+  transition: all 500ms ease-in-out !important;
+}
+
+/** Orange Callout Button :HOVER */
+[class="notion-callout bg-orange-light border"]:hover {
+  /*! max-width: 250px !important; */
+  color: black !important;
+  background-color: var(--color-bg-orange) !important;
+  border-color: var(--color-border-orange) !important;
+  box-shadow: 0 0 0 0 rgb(var(--color-orange),0.75) inset, 0 0 0 0 rgba(var(--color-orange),0.75) !important;
+}
+
+/** Yellow Callout Button */
+[class="notion-callout bg-yellow-light border"] {
+  /*! max-width: 250px !important; */
+  color: black !important;
+  background-color: var(--color-bg-yellow) !important;
+  border-color: var(--color-border-default) !important;
+  box-shadow: 0 0 0 0 rgba(var(--color-yellow),0.5) inset, 0 0 0 0 rgba(var(--color-yellow),0.5) !important;
+  transition: all 500ms ease-in-out !important;
+}
+
+/** Yellow Callout Button :HOVER */
+[class="notion-callout bg-yellow-light border"]:hover {
+  /*! max-width: 250px !important; */
+  color: black !important;
+  background-color: var(--color-bg-yellow) !important;
+  border-color: var(--color-border-yellow) !important;
+  box-shadow: 0 0 0 0 rgba(var(--color-yellow),0.5) inset, 0 0 0 0 rgba(var(--color-yellow),0.5) !important;
+}
+
+/** Green Callout Button */
+[class="notion-callout bg-green-light border"] {
+  /*! max-width: 250px !important; */
+  color: white !important;
+  background-color: var(--color-bg-green);
+  border-color: var(--color-border-default) !important;
+  box-shadow: 0 0 0 0 rgba(var(--color-green),0.5) inset, 0 0 0 0 rgba(var(--color-green),0.5) !important;
+  transition: all 500ms ease-in-out !important;
+}
+
+/** Green Callout Button :HOVER */
+[class="notion-callout bg-green-light border"]:hover {
+  /*! max-width: 250px !important; */
+  color: white !important;
+  background-color: var(--color-bg-green) !important;
+  border-color: var(--color-border-green) !important;
+  box-shadow: 0 0 0 0 rgba(var(--color-green),0.75) inset, 0 0 0 0 rgba(var(--color-green),0.75) !important;
+}
+
+/** Blue Callout Button */
+[class="notion-callout bg-blue-light border"] {
+  /*! max-width: 250px !important; */
+  color: white !important;
+  background-color: var(--color-bg-blue);
+  border-color: var(--color-border-default) !important;
+  box-shadow: 0 0 0 0 rgba(var(--color-blue),1) inset, 0 0 0 0 rgb(var(--color-blue)) !important;
+  transition: all 500ms ease-in-out !important;
+}
+
+/** Blue Callout Button :HOVER */
+[class="notion-callout bg-blue-light border"]:hover {
+  /*! max-width: 250px !important; */
+  color: white !important;
+  background-color: var(--color-bg-blue) !important;
+  border-color: var(--color-border-blue) !important;
+  box-shadow: 0 0 0 0 rgba(var(--color-blue),1) inset, 0 0 0 0 rgba(var(--color-blue),1) !important;
+}
+
+/** Purple Callout Button */
+[class="notion-callout bg-purple-light border"] {
+  /*! max-width: 250px !important; */
+  color: white !important;
+  background-color: var(--color-bg-purple) !important;
+  border-color: var(--color-border-default) !important;
+  box-shadow: 0 0 0 0 rgba(var(--color-purple),0.75) inset, 0 0 0 0 rgba(var(--color-purple),0.75) !important;
+  transition: all 500ms ease-in-out !important;
+}
+
+/** Purple Callout Button :HOVER */
+[class="notion-callout bg-purple-light border"]:hover {
+  /*! max-width: 250px !important; */
+  color: white !important;
+  background-color: var(--color-bg-purple) !important;
+  border-color: var(--color-border-purple) !important;
+  box-shadow: 0 0 0 0 rgba(var(--color-purple),0.75) inset, 0 0 0 0 rgba(var(--color-purple),0.75) !important;
+}
+
+/** Pink Callout Button */
+[class="notion-callout bg-pink-light border"] {
+  /*! max-width: 250px !important; */
+  color: white !important;
+  background-color: var(--color-bg-pink) !important;
+  border-color: var(--color-border-default) !important;
+  box-shadow: 0 0 0 0 rgba(var(--color-pink),.75) inset, 0 0 0 0 rgba(var(--color-pink),0.75) !important;
+  transition: all 500ms ease-in-out !important;
+}
+
+/** Pink Callout Button :HOVER */
+[class="notion-callout bg-pink-light border"]:hover {
+  /*! max-width: 250px !important; */
+  color: white !important;
+  background-color: var(--color-bg-pink) !important;
+  border-color: var(--color-border-pink) !important;
+  box-shadow: 0 0 0 0 rgba(var(--color-pink),0.75) inset, 0 0 0 0 rgba(var(--color-pink),0.75) !important;
+}
+
+
+/** Red Callout Button */
+[class="notion-callout bg-red-light border"] {
+  /*! max-width: 250px !important; */
+  color: white !important;
+  background-color: var(--color-bg-red) !important;
+  border-color: var(--color-border-default) !important;
+  box-shadow: 0 0 0 0 rgba(var(--color-red),0.75) inset, 0 0 0 0 rgba(var(--color-red),0.75) !important;
+  transition: all 500ms ease-in-out !important;
+}
+
+/** Red Callout Button :HOVER */
+[class="notion-callout bg-red-light border"]:hover {
+  /*! max-width: 250px !important; */
+  color: white !important;
+  background-color: var(--color-bg-red) !important;
+  border-color: var(--color-border-red) !important;
+  box-shadow: 0 0 0 0 rgba(var(--color-red),0.75) inset, 0 0 0 0 rgba(var(--color-red),0.75) !important;
+}
+
+
+/* END Callout Button*/

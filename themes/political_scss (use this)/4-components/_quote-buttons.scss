@@ -1,0 +1,71 @@
+// #Quote Button 
+
+    //^Default Quoteblock Button 
+    [class="notion-quote"] {
+      color: white !important;
+      border: 3px solid var(--color-border-default) !important;
+      background: transparent !important;
+    }
+    
+    //^Gray Quoteblock Button 
+    [class="notion-quote bg-gray"] {
+      background-color: var(--color-bg-gray-light);
+      border: 3px solid rgb(var(--color-black)) !important;
+    }
+    
+    //^Brown Quoteblock Button 
+    [class="notion-quote bg-brown"] {
+      color: black !important;
+      background-color: var(--color-bg-brown);
+      border: 3px solid var(--color-border-default) !important;
+    } 
+
+    //^Orange Quoteblock Button 
+    [class="notion-quote bg-orange"] {
+      color: black !important;
+      background-color: var(--color-bg-orange-light);
+      border: 3px solid var(--color-border-default) !important;
+    }
+    
+    //^Yellow Quoteblock Button 
+    [class="notion-quote bg-yellow"] {
+      color: black !important;
+      background-color: var(--color-bg-yellow-light);
+      border: 3px solid var(--color-border-default) !important;
+    }
+    
+    //^Green Quoteblock Button 
+    [class="notion-quote bg-green"] {
+      color: black !important;
+      background-color: var(--color-bg-green-light) !important;
+      border: 3px solid var(--color-border-default) !important;
+    }
+    
+    //^Blue Quoteblock Button  
+    [class="notion-quote bg-blue"] {
+      color: black !important;
+      background-color: var(--color-bg-blue-light);
+      border: 3px solid var(--color-border-default) !important;
+    }
+
+    
+    //^Purple Quoteblock Button  
+    [class="notion-quote bg-purple"] {
+      color: black !important;
+      background-color: var(--color-bg-purple-light) !important;
+      border: 3px solid var(--color-border-default) !important;
+    }
+
+    //^Pink Quoteblock Button   
+    [class="notion-quote bg-pink"] {
+      color: black !important;
+      background-color: var(--color-bg-pink-light) !important;
+      border: 3px solid var(--color-border-default) !important;
+    }
+    
+    //^Red Quoteblock Button 
+    [class="notion-quote bg-red"] {
+      color: black !important;
+      background-color: var(--color-bg-red-light) !important;
+      border: 3px solid var(--color-border-default) !important;
+    }

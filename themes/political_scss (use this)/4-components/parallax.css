@@ -1,0 +1,95 @@
+parallax
+
+.notion-header {
+   max-height: 90vh !important;
+   height: 75vh !important;
+   position: relative !important;
+   background-image: url(https://images.pexels.com/photos/221183/pexels-photo-221183.jpeg?cs=srgb&dl=4k-abstract-art-221183.jpg&fm=jpg);
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+ }
+ 
+  .notion-header__cover {
+    display: none !important;
+    max-height: 25vh!important;
+    height: 25vh!important;
+    top: 3em !important;
+    overflow: visible !important;
+    position: relative !important;
+    }
+
+/*    parallax
+    background-image: url(https://i.ibb.co/7vnxBfj/front-page.png) !important;
+    min-height: 100%!important;
+    height: 100% !important;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;*/
+    
+    /* parallax
+    background-image: url(https://i.ibb.co/7vnxBfj/front-page.png) !important;
+    min-height: 100%!important;
+    height: 100% !important;
+    */
+    
+  /*  .parallax {
+  /* The image used
+  background-image: url("https://images.unsplash.com/photo-1597733336794-12d05021d510);
+
+  /* Set a specific height
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}*/
+
+ 
+    /* #NOTION-HEADER */
+  
+    /* #Show/Hide Notion Header */
+    /* #(Page Title, Cover and Icon)*/
+    /* Set to NONE to hide all */
+    /* Set to BLOCK to show all*/
+.notion-header {
+    display: block !important;
+    margin: 0!important;
+  }
+  
+  /* Show/Hide Page Title */
+  /* Only works if .notion-header__title-wrapper is set to BLOCK */
+.notion-header__title {
+    display: block !important;
+    margin-bottom: 0 !important;
+  }
+  
+  /* Reduces empty space below header */
+  /* If .notion-header display is set to NONE*/
+.notion-header__title-wrapper {
+    display: block !important;
+  }
+
+    /* For a cover without a header title */
+    /* Set .notion-header (above) to BLOCK */
+    /* And set below to NONE */
+.notion-header .notion-header__title-wrapper {
+    display: none !important;
+  }
+
+  /* Notion Header Icon*/
+  /* Only works if .notion-header__title-wrapper is set to BLOCK */
+.notion-header__icon-wrapper { 
+    display: none !important;
+    /* was set to display: none */
+  }
+
+  /* ^Impacts Space beneath Header */
+.notion-header__content.has-cover.has-icon .notion-header__title-wrapper {
+    display: block !important;
+    margin-top: 0 !important;
+  }
