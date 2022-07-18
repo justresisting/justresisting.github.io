@@ -2573,9 +2573,8 @@ div.notion-header.page {
     line-height: 64px;
     position: relative;
     padding: 0;
-    bottom: 40px !important;
+    bottom: 40px;
     display: var(--header-display);
-    margin: -25px !important;
 }
 
 
