@@ -344,7 +344,7 @@ body {
 /* ^Active Item & Hover On Menu  */
 
 .super-navbar__item.active {
-    background-color: var(--color-bg-yellow);
+    background-color: var(--color-bg-black);
 }
 
 .super-navbar__item:hover {
