@@ -345,6 +345,7 @@ body {
 
 .super-navbar__item.active {
     background-color: var(--color-bg-black);
+    color: var(--color-text-yellow);
 }
 
 .super-navbar__item:hover {
