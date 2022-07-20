@@ -863,6 +863,13 @@ div.notion-page__property {
     background-color: var(--color-bg-black-light);
 }
 
+.notion-page__properties .notion-property .notion-semantic-string {
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: block;
+}
+
 
 /* .notion-property__file.property-undefined img {
     display: block;
