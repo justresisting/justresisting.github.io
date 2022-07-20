@@ -444,23 +444,25 @@ div.notion-header.page {
     display: block;
 }
 
-.notion-header__title-wrapper {
+
+/* .notion-header__title-wrapper {
     display: block;
     position: relative;
     margin-top: -2rem;
     width: 100%;
     max-width: 100%;
     z-index: 0;
-}
+} */
 
-.notion-header__icon-wrapper {
+
+/* .notion-header__icon-wrapper {
     font-size: 64px;
     line-height: 64px;
     position: relative;
     padding: 0;
     bottom: 40px;
     display: var(--header-display);
-}
+} */
 
 
 /* .notion-header__title {
@@ -481,7 +483,7 @@ div.notion-header.page {
     display: block;
     background-color: var(--color-default);
     border-radius: var(--element-radius);
-    margin-top: -25vh;
+    /* margin-top: -25vh; */
 }
 
 .notion-header__content.max-width {
