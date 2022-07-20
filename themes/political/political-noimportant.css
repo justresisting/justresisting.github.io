@@ -444,15 +444,14 @@ div.notion-header.page {
     display: block;
 }
 
-
-/* .notion-header__title-wrapper {
+.notion-header__title-wrapper {
     display: block;
     position: relative;
     margin-top: -2rem;
     width: 100%;
     max-width: 100%;
     z-index: 0;
-} */
+}
 
 
 /* .notion-header__icon-wrapper {
