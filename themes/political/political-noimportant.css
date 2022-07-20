@@ -360,12 +360,6 @@ body {
 
 /* $Content */
 
-
-/* This compenstates for setting display: BLOCK for */
-
-
-/* .notion-header .notion-header__title-wrapper */
-
 .super-content {
     background: var(--super-content-bg);
     background-image: var(--super-content-bg);
@@ -427,6 +421,15 @@ body {
 
 /* $NOTION HEADER */
 
+div.notion-header.page {
+    display: block;
+    min-height: 50vh;
+    height: 75vh;
+    max-height: 100vh;
+    background-color: transparent;
+    z-index: -10;
+}
+
 .notion-header {
     /* The inputs below affect Header Cover image */
     /* They are linked to .notion-header__cover */
@@ -437,7 +440,30 @@ body {
     max-width: 100%;
 }
 
-.notion-header__title {
+.notion-header__cover {
+    display: block;
+}
+
+.notion-header__title-wrapper {
+    display: block;
+    position: relative;
+    margin-top: -2rem;
+    width: 100%;
+    max-width: 100%;
+    z-index: 0;
+}
+
+.notion-header__icon-wrapper {
+    font-size: 64px;
+    line-height: 64px;
+    position: relative;
+    padding: 0;
+    bottom: 40px;
+    display: var(--header-display);
+}
+
+
+/* .notion-header__title {
     display: flex;
     background-color: transparent;
     border-radius: var(--element-radius);
@@ -448,16 +474,14 @@ body {
     top: 4rem;
     left: 0;
     z-index: 0;
-}
+} */
 
-.notion-header__title-wrapper {
-    border-radius: 0;
-    width: 100%;
-    max-width: 100%;
-    padding: 0;
-    margin: 0;
-    margin-top: 5rem;
-    z-index: 0;
+.notion-header__title {
+    color: var(--color-text-default);
+    display: block;
+    background-color: var(--color-default);
+    border-radius: var(--element-radius);
+    margin-top: -25vh;
 }
 
 .notion-header__content.max-width {
@@ -2492,107 +2516,6 @@ div.notion-dropdown__option {
 } */
 
 
-/* #NOTION-HEADER */
-
-
-/* ^Show/Hide Notion Header */
-
-
-/* ^(Page Title, Cover and Icon)*/
-
-
-/* Set to NONE to hide all */
-
-
-/* Set to BLOCK to show all*/
-
-
-/* HAD SOMETHING TO DO WITH Z-INDEX ISSUES */
-
-div.notion-header.page {
-    display: block;
-    min-height: 50vh;
-    height: 75vh;
-    max-height: 100vh;
-    background-color: transparent;
-    z-index: -10;
-}
-
-
-/* Reduces empty space below header */
-
-
-/* If .notion-header display is set to NONE*/
-
-.notion-header__title-wrapper {
-    display: block;
-}
-
-
-/* Show/Hide Page Title */
-
-
-/* Only works if .notion-header__title-wrapper is set to BLOCK */
-
-.notion-header__title {
-    display: flex;
-}
-
-
-/* ^Impacts Space beneath Header */
-
-
-/* .notion-header__content.has-cover.has-icon .notion-header__title-wrapper {
-  margin-top: 0;
-} */
-
-
-/* .notion-header__content {
-  margin-top: 2rem;
-  margin-top: 0;
-} */
-
-
-/* For a cover without a header title */
-
-
-/* Set .notion-header (above) to BLOCK */
-
-
-/* And set below to NONE */
-
-.notion-header .notion-header__title-wrapper {
-    display: block;
-}
-
-
-/* Notion Header Icon*/
-
-
-/* Only works if .notion-header__title-wrapper is set to BLOCK */
-
-.notion-header__icon-wrapper {
-    display: none;
-    /* was set to display: none */
-}
-
-.notion-header__icon-wrapper {
-    font-size: 64px;
-    line-height: 64px;
-    position: relative;
-    padding: 0;
-    bottom: 40px;
-    display: var(--header-display);
-}
-
-
-/* ^ Show/Hide Cover Image */
-
-.notion-header__cover {
-    display: block;
-}
-
-
 /* Show/Hide All Notion Page Block Icons  */
 
 .notion-icon {
@@ -2938,30 +2861,6 @@ div.notion-callout__icon {
     line-height: 1;
 }
 
-.notion-header__title {
-    display: flex;
-    background-color: transparent;
-    border-radius: var(--element-radius);
-    justify-content: flex-start;
-    padding: 1rem;
-    margin: 0 1rem 0 0;
-    width: 100%;
-    position: fixed;
-    top: 4rem;
-    left: 0;
-    z-index: 0;
-}
-
-.notion-header__title-wrapper {
-    border-radius: 0;
-    width: 100%;
-    max-width: 100%;
-    padding: 0;
-    margin: 0;
-    margin-top: 5rem;
-    z-index: 0;
-}
-
 .notion-column-list {
     width: 100%;
     display: flex;
@@ -3043,25 +2942,6 @@ div.notion-header__cover.has-cover {
     z-index: -10;
     top: 0;
 }
-
-
-/* Turn off all Notion Cover Images */
-
-
-/* Leaves a Blank Spot */
-
-
-/* img.notion-header__cover-image {
-    display: none;
-} */
-
-
-/* Removes Blank Spot */
-
-
-/* div.notion-header.page { 
-    display: none
-} */
 
 
 /* $Home */
