@@ -839,7 +839,7 @@ div.notion-page__properties {
     display: -webkit-inline-box;
     display: -webkit-inline-flex;
     display: -ms-inline-flexbox;
-    display: block;
+    display: block !important;
 }
 
 div.notion-page__property {
