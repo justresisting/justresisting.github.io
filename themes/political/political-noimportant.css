@@ -899,6 +899,12 @@ div.notion-page__property {
     background-color: var(--color-bg-black-light);
 }
 
+.gallery .notion-collection-card__property .notion-semantic-string {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: normal;
+}
+
 
 /* .notion-property__file.property-undefined img {
     display: block;
