@@ -905,6 +905,10 @@ div.notion-page__property {
     white-space: normal !important;
 }
 
+.gallery .notion-collection-card__content {
+    opacity: 1 !important;
+}
+
 
 /* .notion-property__file.property-undefined img {
     display: block;
