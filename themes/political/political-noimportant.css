@@ -902,7 +902,7 @@ div.notion-page__property {
 .gallery .notion-collection-card__property .notion-semantic-string {
     text-overflow: ellipsis;
     overflow: hidden;
-    white-space: normal;
+    white-space: normal !important;
 }
 
 
