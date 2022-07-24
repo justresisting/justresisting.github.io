@@ -465,6 +465,7 @@ div.notion-header.page {
 
 .notion-header__title {
     margin-top: -20vh !important;
+    width: 100% !important;
 }
 
 
