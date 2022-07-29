@@ -2374,26 +2374,29 @@ code.code {
 
 /* ^Active BG Color */
 
-.notion-dropdown__menu-wrapper .notion-dropdown__menu .notion-dropdown__option {
+
+/* .notion-dropdown__menu-wrapper .notion-dropdown__menu .notion-dropdown__option {
     background-color: var(--picker-active-bg-color);
-}
+} */
 
 
 /* ^Dropdown Text Color */
 
-.notion-dropdown__menu .notion-dropdown__option p {
+
+/* .notion-dropdown__menu .notion-dropdown__option p {
     font-size: 1rem !important;
     color: var(--picker-active-text-color);
-}
+} */
 
 
 /* ^Hover */
 
-div.notion-dropdown__option:hover {
+
+/* div.notion-dropdown__option:hover {
     background-color: var(--picker-hover-bg-color);
     color: var(--picker-hover-text-color);
     border-color: var(--picker-hover-border-color);
-}
+} */
 
 
 /* .notion-dropdown__menu p {
