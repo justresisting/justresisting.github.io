@@ -2372,6 +2372,21 @@ code.code {
 }
 
 
+/* ^Active BG Color */
+
+.notion-dropdown__menu-wrapper .notion-dropdown__menu .notion-dropdown__option {
+    background-color: var(--picker-active-bg-color);
+}
+
+
+/* ^Dropdown Text Color */
+
+.notion-dropdown__menu .notion-dropdown__option p {
+    font-size: 1rem !important;
+    color: var(--picker-active-text-color);
+}
+
+
 /* .notion-dropdown__menu p {
     background-color: transparent;
 } */
