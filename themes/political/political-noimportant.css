@@ -991,7 +991,7 @@ p.notion-callout__content {
     border-radius: var(--element-radius);
     padding: var(--callout-padding);
     margin: 0;
-    justify-content: var(--callout-justify);
+    justify-content: var(--callout-justify) !important;
 }
 
 
