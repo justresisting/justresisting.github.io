@@ -2391,12 +2391,11 @@ code.code {
 
 /* ^Hover */
 
-
-/* div.notion-dropdown__option:hover {
+div.notion-dropdown__option:hover {
     background-color: var(--picker-hover-bg-color);
     color: var(--picker-hover-text-color);
     border-color: var(--picker-hover-border-color);
-} */
+}
 
 
 /* .notion-dropdown__menu p {
