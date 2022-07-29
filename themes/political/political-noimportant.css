@@ -2388,10 +2388,11 @@ code.code {
     color: var(--picker-active-text-color);
 } */
 
-.notion-dropdown__menu-wrapper .notion-dropdown__menu .notion-dropdown__option:active {
-    background-color: var(--picker-active-bg-color);
-    color: var(--picker-active-text-color);
-    border-color: var(--picker-active-border-color);
+.notion-dropdown__menu-wrapper .notion-dropdown__menu .notion-dropdown__option:active,
+.notion-dropdown__option:active {
+    background-color: var(--picker-active-bg-color) !important;
+    color: var(--picker-active-text-color) !important;
+    border-color: var(--picker-active-border-color) !important;
 }
 
 
