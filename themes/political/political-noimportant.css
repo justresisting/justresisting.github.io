@@ -2382,8 +2382,8 @@ div.notion-dropdown__option-list,
 
 div.notion-dropdown__option {
     margin: 0;
-    border: 1px solid var(--color-default);
-    background-color: var(--color-bg-default);
+    /* border: 1px solid var(--color-default);
+    background-color: var(--color-bg-default); */
     border-radius: var(--element-radius);
 }
 
