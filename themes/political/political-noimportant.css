@@ -2322,17 +2322,19 @@ code.code {
     padding: 0 0.25rem;
 } */
 
-.notion-dropdown {
+
+/* .notion-dropdown {
     display: flex;
     color: var(--color-text-default);
     background-color: var(--color-bg-yellow-light);
     border: 5px solid var(--color-bg-yellow-light);
     border-radius: var(--element-radius);
-}
+} */
 
-.notion-dropdown:hover {
+
+/* .notion-dropdown:hover {
     background-color: var(--color-hover);
-}
+} */
 
 .notion-dropdown__button {
     color: var(--color-text-default);
@@ -2360,22 +2362,25 @@ code.code {
     margin-bottom: 0;
 }
 
-.notion-dropdown__menu-header {
+
+/* .notion-dropdown__menu-header {
     background-color: var(--color-default);
-}
+} */
 
 .notion-dropdown__menu {
     border-radius: var(--element-radius);
 }
 
-.notion-dropdown__menu p {
-    background-color: transparent;
-}
 
-div.notion-dropdown__option-list,
+/* .notion-dropdown__menu p {
+    background-color: transparent;
+} */
+
+
+/* div.notion-dropdown__option-list,
 .notion-dropdown__option-list {
     background-color: var(--color-default);
-}
+} */
 
 
 /* ^ Dropdown that lists Views */
