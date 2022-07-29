@@ -1984,6 +1984,10 @@ div.notion-toggle__summary:hover {
     font-size: 1em;
 }
 
+#block-about-justin-russell .notion-collection-list__item .notion-property__title .notion-icon {
+    display: block !important;
+}
+
 .notion-collection-list__item-property {
     margin-left: 0.5rem;
     font-size: 0.75rem;
