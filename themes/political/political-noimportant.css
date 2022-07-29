@@ -2391,6 +2391,7 @@ code.code {
 
 /* ^Hover */
 
+div.notion-dropdown__option:active,
 div.notion-dropdown__option:hover {
     background-color: var(--picker-hover-bg-color);
     color: var(--picker-hover-text-color);
