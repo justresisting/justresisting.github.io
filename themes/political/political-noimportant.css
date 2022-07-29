@@ -2420,15 +2420,16 @@ div.notion-dropdown__option:hover {
 
 div.notion-dropdown__option {
     margin: 0;
-    /* border: 1px solid var(--color-default);
-    background-color: var(--color-bg-default); */
+    /* border: 1px solid var(--color-default); */
+    background-color: var(--accent-bg);
     border-radius: var(--element-radius);
 }
 
-.notion-dropdown__option:hover {
+
+/* .notion-dropdown__option:hover {
     background-color: var(--color-hover);
     color: var(--color-text-default);
-}
+} */
 
 
 /* View switcher (Dropdowns for Views in Databases) */
