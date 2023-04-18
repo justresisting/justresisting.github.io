@@ -182,7 +182,8 @@ div.notion-header.page {
     min-height: 25vh;
     height: 75vh;
     max-height: 100vh;
-    background-color: transparent;
+    /* background-color: transparent; */
+    background-color: var(--site-primary);
 /*    z-index: -10;*/
 }
 /* Header Turned: *OFF* */

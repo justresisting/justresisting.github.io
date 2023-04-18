@@ -423,15 +423,18 @@ body {
 
 
 /* $NOTION HEADER */
-
+/* #transparent here effs entire site */
 div.notion-header.page {
     display: block;
     min-height: 50vh;
     height: 75vh;
     max-height: 100vh;
-    background-color: transparent;
+    background-color: var(site-primary);
+    /* background-color: transparent; */
     /* z-index: -10; */
 }
+
+
 
 .notion-header {
     /* The inputs below affect Header Cover image */
