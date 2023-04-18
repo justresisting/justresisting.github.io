@@ -184,7 +184,7 @@ div.notion-header.page {
     max-height: 100vh;
     /* background-color: transparent; */
     background-color: var(--site-primary);
-/*    z-index: -10;*/
+    /* z-index: -10; */
 }
 /* Header Turned: *OFF* */
 /* UNDER ALL ? */ /*
