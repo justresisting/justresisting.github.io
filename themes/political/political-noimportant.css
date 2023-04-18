@@ -3,32 +3,19 @@
 
 /* #COMMENT SYSTEM */
 
-
-/* ! - fix this */
-
-
-/* todo - do this */
-
-
-/* ? - wut dis */
-
-
-/* * lookit this */
-
-
-/* // this done */
-
-
 /* #section */
-
-
 /* $subsection*/
-
-
 /* %variables */
 
+/* ^    - say this */
+/* !    - fix this */
+/* @    - do this */
+/* ?    - wut dis */
+/* *    - lookit this */
+/* /    - done this */
 
-/* VARIABLES*/
+
+/* %VARIABLES*/
 
 :root {
     /* #VARIABLES */
@@ -261,6 +248,22 @@
     --quote-border-color: var(--color-border-default) !important;
     --quote-margin: 1rem auto !important;
     --quote-padding: 1em 1em 2em 2em !important;
+    /* $Database View Picker */
+	/* $Spacing */
+    --picker-margin: var(--collection-margin) !important;
+    --picker-padding: var(--collection-padding) !important;
+    --picker-border-radius: var(--element-radius) !important;
+    /* $Active colors */
+    --picker-active-bg-color: var(--color-bg-yellow) !important;
+    --picker-active-text-color: var(--color-text-default) !important;
+    /* $Default colors */
+    --picker-border-color: var(--color-bg-yellow)  !important;
+    --picker-text-color: var(--color-text-default) !important;
+    /* $Hover colors */
+    --picker-hover-bg-color: var(--color-bg-yellow-light) !important;
+    --picker-hover-text-color: var(--color-text-default) !important;
+    --picker-hover-border-color: var(--color-text-yellow) !important;
+    /* $END Database View Picker */
 }
 
 
@@ -917,7 +920,7 @@ div.notion-page__property {
     max-width: 100%;
     max-height: 100%;
   }
-  
+
   .notion-property__file.property-undefined > a.notion-link > div {
     width: auto;
     height: auto;
@@ -1282,7 +1285,7 @@ span.notion-pill.pill-red.first {
   font-family: var(--quote-font-family);
   border-width: var(--quote-border-width);
   border-style: var(--quote-border-style);
-  border-color: var(--quote-border-color); 
+  border-color: var(--quote-border-color);
   margin: var(--quote-margin);
   padding: var(--quote-padding);
   border-radius: var(--element-radius);
@@ -2395,6 +2398,10 @@ code.code {
     border-color: var(--picker-active-border-color) !important;
 }
 
+.notion-collection__header-wrapper .notion-dropdown__menu-wrapper .notion-dropdown__menu .notion-dropdown__option {
+    padding: var(--picker-padding);
+    height: var(--picker-height);
+}
 
 /* ^Hover */
 
@@ -2456,7 +2463,7 @@ div.notion-dropdown__option {
 /* These should be set to default values */
 
 
-/* When using template, copy/paste these 
+/* When using template, copy/paste these
      values into Super's global code section */
 
 
@@ -2475,7 +2482,7 @@ div.notion-dropdown__option {
 }
 
 
-/* 
+/*
 .notion-root > .notion-column-list > .notion-column:first-child {
   background: var(--color-bg-default);
   border-radius: var(--element-radius);

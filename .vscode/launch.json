@@ -9,26 +9,19 @@
             "webRoot": "m"
         },
         {
-            "type": "firefox",
-            "request": "attach",
-            "name": "Attach"
-        },
-        {
             "type": "vscode-edge-devtools.debug",
             "request": "launch",
             "name": "Launch Microsoft Edge and open the Edge DevTools",
             "url": "http://localhost:8080",
             "webRoot": "${workspaceFolder}"
-            
         },
-    {
-        "type": "vscode-edge-devtools.debug",
-        "request": "attach",
-        "name": "Attach to Microsoft Edge and open the Edge DevTools",
-        "url": "http://localhost:8080",
-        "webRoot": "${workspaceFolder}"
-    },
-        
+        {
+            "type": "vscode-edge-devtools.debug",
+            "request": "attach",
+            "name": "Attach to Microsoft Edge and open the Edge DevTools",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}"
+        },
         {
             "type": "pwa-msedge",
             "name": "Launch Microsoft Edge",
@@ -64,7 +57,7 @@
             }
         },
         {
-            "type": "pwa-msedge",
+            "type": "msedge",
             "request": "launch",
             "name": "Launch Edge against localhost",
             "url": "http://localhost:8080",

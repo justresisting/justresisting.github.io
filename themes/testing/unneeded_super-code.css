@@ -1,0 +1,116 @@
+UNNEEDED SUPER Code
+{@media all and (max-width: 764px) {
+    .notion-root > .notion-column-list > .notion-column:nth-child(3) {
+        display: none !important;
+    }
+}
+/*#region "my region"*/
+@media all and (max-width:512px) {
+    /*#region "green region"*/
+    .notion-navbar {
+        /*#region "blue region"*/
+        justify-content: space-between !important;
+        height: 60px !important;
+    }
+        /*#endregion*/
+    /*#endregion*/
+    #nav-toggle {
+        display: block !important;
+        height: 30px !important;
+    }
+    
+/*#endregion*/
+    /* command */
+    .notion-root > .notion-column-list > .notion-column:nth-child(1) {
+        position: fixed !important;
+        z-index: 300 !important;
+        display: inline !important;
+        opacity: 0 !important;
+        height: 100vh !important;
+        top: 60px!important;
+    }
+    
+    .notion-root > .notion-column-list > .notion-column:nth-child(1).show-nav {
+        opacity: 1 !important;
+        display: block !important;
+    }
+    
+    .notion-root > .notion-column-list > .notion-column:nth-child(2) {
+        width: 100% !important;
+        min-width: 100% !important;
+        max-width: 100% !important;
+        padding: 0 20px !important;
+        margin-top: 10px !important;
+        margin-bottom: 40px !important;
+        z-index: 0 !important;
+    }
+    
+    .notion-column-list {
+        flex-direction: column !important;
+    }
+    
+    .notion-navbar__search {
+        margin-right: 40px !important;
+        right: 10px !important;
+    }
+}
+}
+.notion-search__clear svg {
+    display: none!important;
+}
+
+.notion-search__clear:before {
+    content: 'clear'!important;
+    text-transform: uppercase!important;
+    font-size: 12px!important;
+    font-weight: 500!important;
+    padding: 5px!important;
+    color: #878683!important;
+}
+
+/* 
+37  73  110 148 184 220
+
+rgb(37,37,37)    = #252525
+rgb(73,73,73)    = #494949
+rgb(110,110,110) = #6E6E6E
+rgb(148,148,148) = #949494
+rgb(184,184,184) = #B8B8B8 
+rgb(220,220,220) = #DCDCDC
+
+/* #region red */
+rgb(73,37,37)           = #492525
+rgb(110,37,37)          = #6E2525
+rgb(220,37,37)          = #DC2525
+/* #endregion */
+/* #region green */
+rgb(37,73,37)           = #254925
+rgb(37,110,37)          = #256E25
+rgb(37,220,37)          = #25DC25
+/* #endregion */
+/* #region blue */
+rgb(37,37,73)           = #252549
+rgb(37,37,110)          = #25256E
+rgb(37,37,220)          = #2525DC
+/* #endregion */
+rgb(37,73,73)           = #254949
+rgb(37,110,110)         = #256E6E
+rgb(37,220,220)         = #25DCDC
+rgb(73,37,73)           = #492549
+rgb(110,37,110)         = #6E256E
+rgb(220,37,220)         = #DC25DC
+rgb(73,73,37)           = #494925
+rgb(110,110,37)         = #6E6E25
+rgb(220,220,37)         = #DCDC25
+rgb()           =
+rgb()           =
+rgb()           =
+rgb()           =
+rgb()           =
+rgb()           =
+rgb()           =
+rgb()           =
+
+background-color: brown;
+
+*/
