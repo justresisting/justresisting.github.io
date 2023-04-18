@@ -779,10 +779,10 @@ h3.notion-heading.toggle:hover,
     padding-inline-end: 0;
 }
 
-.notion-page,
+/* .notion-page,
 .notion-page>div {
-    /* z-index: 1; */
-}
+    z-index: 1;
+}  */
 
 .notion-page>div:hover {
     background-color: transparent;
