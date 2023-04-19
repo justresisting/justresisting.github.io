@@ -135,6 +135,7 @@
 --text-spacing: 1px !important;
 --secondary-font: "Inter", sans-serif !important;
 --notion-text-margin: 0 0 0 0 !important;
+--heading-weight: 800;
 /* $Links */
 --link-border-width: 0 0 0 0 !important;
 --link-border-style: none !important;
