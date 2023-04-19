@@ -147,6 +147,7 @@
     /* --super-content-margin-top: -25vh !important; */
     --super-content-margin-top: 0 !important;
     /* --super-content-margin-bottom: 0 !important; */
+    
     /* $Call to Actions */
     --cta-padding: 13px 14px !important;
     --cta-border-radius: 4px !important;
@@ -2172,7 +2173,7 @@ code.code {
 
 .notion-semantic-string .code {
     background: 0 0;
-    color: var(--color-primary);
+    color: var(--color-text-default);
     font-size: 0.9em;
     white-space: pre-wrap;
     padding: 0;
