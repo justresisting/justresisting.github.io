@@ -2,25 +2,24 @@
  /* $QUICK COLORS  */
  /* CHANGE COLORS ACROSS THEME */
  /* NEED RGB() IN VARIABLES */
---site-bg: 37, 37, 37;
---site-accent: 173, 173, 37;
---site-accent-bg: 73, 73, 37;
---site-hover: 73, 73, 73;
---site-primary: 51, 51, 51;
+--site-bg: 37, 37, 37 !important;
+--site-accent: 173, 173, 37 !important;
+--site-accent-bg: 73, 73, 37 !important;
+--site-hover: 73, 73, 73 !important;
+--site-primary: 51, 51, 51 !important;
 /* $Global Colors */
 /* $Colors */
---color-white: 255, 255, 255;
---color-black: 0, 0, 0;
---color-gray: 73, 73, 73;
---color-brown: 67, 33, 0;
---color-orange: 153, 67, 10;
---color-yellow: 125, 125, 32;
---color-green: 0, 102, 0;
---color-blue: 10, 49, 97;
---color-purple: 108, 51, 153;
---color-pink: 153, 108, 153;
---color-red: 153, 0, 0;
-
+--color-white: 255, 255, 255 !important;
+--color-black: 0, 0, 0 !important;
+--color-gray: 73, 73, 73 !important;
+--color-brown: 67, 33, 0 !important;
+--color-orange: 153, 67, 10 !important;
+--color-yellow: 125, 125, 32 !important;
+--color-green: 0, 102, 0 !important;
+--color-blue: 10, 49, 97 !important;
+--color-purple: 108, 51, 153 !important;
+--color-pink: 153, 108, 153 !important;
+--color-red: 153, 0, 0 !important;
 /* ^GLOBAL THEME COLORS */
 /* DEPEND ON QUICK COLORS */
 /* DONT NEED RGB() IN VARIABLES */
