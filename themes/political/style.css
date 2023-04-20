@@ -769,6 +769,12 @@ div#block-fad8cd2cf13d4097a3e7b6702abf1b03 .notion-callout {
 
 /* COLLECTION CARD IMG */
 /* *COVER* TURNED *ON* FOR: */
+.page__index .notion-collection-card__cover img, 
+.parent-page__index .notion-collection-card__cover img, 
+.parent-page__states .notion-collection-card img, 
+.parent-page__categories .notion-collection-card__cover img {
+      object-fit: cover !important;
+}
 img.notion-header__cover-image,
 .page__index img.notion-header__cover-image,
 .parent-page__index img.notion-header__cover-image,
@@ -781,7 +787,12 @@ img.notion-header__cover-image,
     margin-top: 64px !important;
 }
 
+
+
 /* *CONTAIN* TURNED *ON* FOR: */
+.parent-page__elected-officials .notion-collection-card__cover img {
+      object-fit: contain !important;
+}
 .parent-page__elected-officials img.notion-header__cover-image {
     transition: 0.3s ease-in-out;
     object-fit: contain !important;
