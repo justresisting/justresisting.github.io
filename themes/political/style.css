@@ -395,6 +395,7 @@ img.notion-header__icon {
 .parent-page__states .notion-header__icon {
   display: block !important;
 }
+/* END HEADER ICONS */
 
 /* NOTION HEADER PAGE CONTENT */
 /*.notion-property__title .notion-property__title__icon-wrapper {*/
@@ -449,8 +450,8 @@ div.notion-property__url {
 
 
 /* Database View Picker Left Margin */
-.notion-dropdown__menu-wrapper {
-    left: 0;
+.notion-collection__header-wrapper .notion-dropdown__menu-wrapper {
+    left: 0 !important;
     margin-top: 1rem;
 }
 
