@@ -629,7 +629,7 @@ a.notion-link.super-navbar.simple .super-navbar__logo {
     /*bottom: 0;*/
     /*right: 0;*/
     /*left: 0;*/
-    z-index: -1 !important;
+    z-index: unset !important;
     /*color: transparent !important;*/
     -webkit-user-select: all !important;
     -moz-user-select: all !important;
