@@ -401,17 +401,15 @@ img.notion-header__icon {
 
 .notion-property__title .notion-semantic-string {
     font-weight: 500;
-    font-size: var(--font-fluid);
+    font-size: var(--font-title-fluid);
     line-height: 1.5;
     word-break: normal;
-}
+} 
 
-/*div.notion-property__url {*/
-/*  font-size: 16px;*/
-/*  font-weight: 100;*/
-/*  padding: 0;*/
-/*  white-space: nowrap;*/
-/*}*/
+div.notion-property__url {
+  font-size: 14px;
+  white-space: nowrap;
+}
 
 /*.notion-collection-card__property-list {*/
 /*  display: inline-grid;*/
