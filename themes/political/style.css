@@ -125,6 +125,9 @@
 --super-footer-padding: 0 2rem !important;
 --super-content-padding: 0 !important;
 --super-content-margin-top: 0 !important;
+/* $ PILLS */
+--color-pill-default: var(--color-bg-gray) !important;
+--color-pill-text-default: var(--color-text-default) !important;
 /* $Callouts */
 --callout-padding: 0.25rem 0 0.25rem 0 !important;
 --callout-padding-top: 0.25rem !important;
