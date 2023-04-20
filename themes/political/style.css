@@ -403,7 +403,7 @@ img.notion-header__icon {
 
 .notion-property__title .notion-semantic-string {
     font-weight: 500;
-    font-size: var(--font-title-fluid);
+    font-size: var(--title-font);
     line-height: 1.5;
     word-break: normal;
 } 
