@@ -805,7 +805,7 @@ img.notion-header__cover-image,
   max-height: 100%;
   position: relative;
 }
-
+/* What is this? */
 .notion-collection-card__cover img {
     object-fit: contain !important;
     object-position: center center ;
@@ -852,17 +852,27 @@ img.notion-header__cover-image,
 /*  display: inline-grid;*/
 /*}*/
 
-
+/* COLLECTION CARD TITLE FONT */
 .notion-collection-card .notion-property__title {
     font-size: var(--font-title-fluid);
 }
-
+/* COLLECTION CARD TITLE FONT */
 .notion-property__title {
     display: flex;
     align-items: center;
     justify-content: center;
     font-family: var(--primary-font);
 }
+/* COLLECTION CARD ICON REMOVAL & TITLE PADDING */
+/* Turn OFF Notion Page Icons in Collection Card Titles */
+.notion-collection-card__content .notion-property__title .notion-semantic-string .notion-page__icon {
+    display: none;
+}
+/* Add Extra Margin to Top of Notion Page Titles */
+.notion-collection-card__content .notion-property__title .notion-semantic-string .notion-page__title {
+    padding-top: 1rem;
+}
+/* END COLLECTION CARD ICON REMOVAL & TITLE PADDING */
 /* !END COLLECTION CARDS */
 
 
