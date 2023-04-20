@@ -762,7 +762,7 @@ div#block-fad8cd2cf13d4097a3e7b6702abf1b03 .notion-callout {
 /*}*/
 
 
-notion-collection-card.gallery {
+.notion-collection-card.gallery {
     border: 1px solid var(--color-border-default);
     transition: 0.3s ease-in-out;
 }
@@ -774,21 +774,21 @@ notion-collection-card.gallery {
 
 /* COLLECTION CARD IMG */
 /* *COVER* TURNED *ON* FOR: */
-.page__index .notion-collection-card img,
-.parent-page__index .notion-collection-card img,
-.parent-page__states .notion-collection-card img,
-.parent-page__categories .notion-collection-card img,
-.parent-page__elected-officials .notion-collection-card img {
+.page__index .notion-collection-card__cover img,
+.parent-page__index .notion-collection-card__cover img,
+.parent-page__states .notion-collection-card__cover img,
+.parent-page__categories .notion-collection-card__cover img,
+.parent-page__elected-officials .notion-collection-card__cover img {
     transition: 0.3s ease-in-out;
     object-fit: cover !important;
 }
 
-/* *COVER* TURNED *OFF* FOR: */
-.page__index .notion-collection-card img,
-.parent-page__index .notion-collection-card img,
+/* *CONTAINED* TURNED *ON* FOR: */
+.page__index .notion-collection-card__cover img,
+.parent-page__index .notion-collection-card__cover img,
 .parent-page__states .notion-collection-card img,
-.parent-page__categories .notion-collection-card img,
-.parent-page__elected-officials .notion-collection-card img {
+.parent-page__categories .notion-collection-card__cover img,
+.parent-page__elected-officials .notion-collection-card__cover img {
     transition: 0.3s ease-in-out;
     object-fit: contain !important;
 }
@@ -806,8 +806,8 @@ notion-collection-card.gallery {
 }
 
 .notion-collection-card__cover img {
-   object-fit: cover;
-   object-position: center center ;
+    object-fit: contain !important;
+    object-position: center center ;
 }
 
 /*.notion-card-gallery {*/
