@@ -254,3 +254,32 @@
 --collection-card-cover-height-medium: 200px;
 --collection-card-cover-height-large: 420px;
 }
+
+/* #BEGIN THEME CSS */
+
+/* WIDGETS */
+/* Gumroad Shopping Cart */
+/* Default Display: *none* */
+/* Only on Front Page, Sometimes */
+.gumroad .cart-button {
+    display: none;
+    position: fixed;
+    left: 18px;
+    bottom: 18px;
+    width: 64px;
+    height: 64px;
+    border-radius: 32px;
+    background-color: yellow;
+    color: black;
+    border-color: transparent;
+}
+
+/* SUPER NAVBAR */
+
+/* Super Navbar BLUR */
+/* background-color: opacity must be <1 */
+.super-navbar {
+    -webkit-backdrop-filter: blur(16px);
+    backdrop-filter: blur(16px);
+    background-color: var(--color-bg-light) !important;
+}
