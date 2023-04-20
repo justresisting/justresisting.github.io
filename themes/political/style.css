@@ -126,7 +126,7 @@
 --super-content-padding: 0 !important;
 --super-content-margin-top: 0 !important;
 /* $ PILLS */
---color-pill-default: var(--color-bg-gray) !important;
+--color-pill-default: var(--color-bg-black) !important;
 --color-pill-text-default: var(--color-text-default) !important;
 /* $Callouts */
 --callout-padding: 0.25rem 0 0.25rem 0 !important;
@@ -279,6 +279,7 @@
     backdrop-filter: blur(16px);
     background-color: var(--color-bg-light) !important;
 }
+/* END SUPER NAVBAR */
 
 /* #SUPER CONTENT */
 /* background-color MUST BE SET */
@@ -319,6 +320,7 @@
   margin-top: 0!important;
 }
 .notion-header__title {
+    width: fit-content;
     background-color: var(--color-bg);
     border: var(--border-default);
     border-radius: var(--element-radius);
@@ -327,7 +329,7 @@
     
 }
 
-------------------------------- NOT CHECKED YET
+
 /*.notion-page__title {*/
     /*align-content: baseline;*/
     /*align-items: baseline;*/
@@ -353,7 +355,7 @@
 /* object-position: *CENTER* */
 img.notion-header__cover-image {
     position: var(--parallax-effect) !important;
-    /*object-fit: contain !important;*/
+    object-fit: contain !important;
     /*object-position: center;*/
     z-index: -1;
 }
