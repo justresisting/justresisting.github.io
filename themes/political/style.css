@@ -510,7 +510,9 @@ img.notion-header__cover-image {
     white-space: pre-wrap;
     padding: var(--collection-padding) !important;
     background-color: var(--color-bg-black) !important;
-    padding-top: 8px !important;  
+    padding-top: 8px !important;
+    align-items: center;
+  
 }
 
 /* CENTER ALIGNS ALL PAGE PROPERTIES */
