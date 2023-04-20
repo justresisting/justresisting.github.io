@@ -620,24 +620,18 @@ div.notion-property__file a.notion-link div span img {
 /* !END ENLARGE IMAGES ON COLLECTION CARDS */
 
 /* PROBLEM AREAS */
-a.notion-link.super-navbar.simple .super-navbar__logo {
+/* a.notion-link.super-navbar.simple .super-navbar__logo {
     flex-grow: unset !important;
 }
 .super-navbar.simple .super-navbar__logo {
     flex-grow: unset !important;
 }
 .notion-collection-card a.notion-collection-card__anchor {
-    /*position: absolute;*/
-    /*top: 0;*/
-    /*bottom: 0;*/
-    /*right: 0;*/
-    /*left: 0;*/
     z-index: unset !important;
-    /*color: transparent !important;*/
     -webkit-user-select: all !important;
     -moz-user-select: all !important;
     user-select: all !important;
-}
+} */
 /* END PROBLEM AREAS */
 
  /* #HEADINGS */
