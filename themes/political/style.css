@@ -802,8 +802,6 @@ div#block-fad8cd2cf13d4097a3e7b6702abf1b03 .notion-callout {
 
 .notion-collection-card.gallery {
     border: 1px solid var(--color-border-default);
-    border-radius: var(--element-radius);
-    padding: 0;
     transition: 0.3s ease-in-out;
 }
 
