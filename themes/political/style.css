@@ -509,6 +509,11 @@ img.notion-header__cover-image {
     background-color: var(--color-bg-black) !important;
 }
 
+/* CENTER ALIGNS ALL PAGE PROPERTIES */
+.notion-page__properties .notion-page__property .notion-page__property-name + .notion-property {
+    align-self: center;
+}
+
 .notion-property.notion-property__select.property-undefined {
     border: 0px none var(--color-bg-gray-light);
     border-radius: var(--element-radius);
