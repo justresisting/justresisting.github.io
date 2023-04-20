@@ -630,7 +630,7 @@ div.notion-property__file a.notion-link div span img {
 
 
 a.notion-link.super-navbar .super-navbar__logo {
-    flex-grow: unset;
+    flex-grow: unset !important;
 }
 .notion-collection-card a.notion-collection-card__anchor {
     /*position: absolute;*/
