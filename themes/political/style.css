@@ -651,7 +651,8 @@ h3.notion-heading.toggle {
     width: 100% !important;
     line-height: 1;
     word-break: keep-all;
-    font-size: var(--font-title-fluid) ;
+    font-size: var(--font-title-fluid);
+    color: var(--h1-text-color);
 }
 
 h1.notion-heading .resource .notion-page__title .notion-semantic-string,
