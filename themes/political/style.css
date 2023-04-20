@@ -771,17 +771,12 @@ div#block-fad8cd2cf13d4097a3e7b6702abf1b03 .notion-callout {
 .page__index img.notion-header__cover-image,
 .parent-page__index img.notion-header__cover-image,
 .parent-page__states img.notion-header__cover-image,
-.parent-page__categories img.notion-header__cover-image,
-.parent-page__elected-officials img.notion-header__cover-image {
+.parent-page__categories img.notion-header__cover-image {
     transition: 0.3s ease-in-out;
     object-fit: cover !important;
 }
 
 /* *CONTAINED* TURNED *ON* FOR: */
-.page__index img.notion-header__cover-image,
-.parent-page__index img.notion-header__cover-image,
-.parent-page__states img.notion-header__cover-image,
-.parent-page__categories img.notion-header__cover-image,
 .parent-page__elected-officials img.notion-header__cover-image {
     transition: 0.3s ease-in-out;
     object-fit: contain !important;
