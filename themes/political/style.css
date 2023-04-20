@@ -628,7 +628,7 @@ div.notion-property__file a.notion-link div span img {
 }
 /* END ENLARGE IMAGES ON COLLECTION CARDS */
 
-
+a.notion-link.super-navbar__logo,
 .notion-collection-card a.notion-collection-card__anchor {
     /*position: absolute;*/
     /*top: 0;*/
