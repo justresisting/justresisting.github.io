@@ -373,28 +373,26 @@ img.notion-header__cover-image {
 /* HEADER ICON */
 /* Header Icons Turned: *OFF*  */
 /* By Default */
-/*img.notion-header__icon {*/
-/*  display: none !important;*/
-/*  height: 64px !important;*/
-/*  width: 64px !important;*/
-/*}*/
+img.notion-header__icon {
+  display: none !important;
+  height: 64px !important;
+  width: 64px !important;
+}
 /* IF NO COVER IMAGE */
 /* Remove Header Icon */
-/*.notion-header__icon-wrapper.no-cover.has-icon-image img.notion-header__icon {*/
-/*    display: none !important;*/
-/*}*/
+.notion-header__icon-wrapper.no-cover.has-icon-image img.notion-header__icon {
+    display: none !important;
+}
 
 /* Header Icons turned: *ON* */
 /* UNDER ALL INDEX PAGES */
 /* UNDER ALL CATEGORIES */
-/**/
-/**/
-/*.page__index .notion-header__icon,*/
-/*.parent-page__index .notion-header__icon,*/
-/*.parent-page__categories .notion-header__icon {*/
-/*  display: block !important;*/
-/*}*/
-/* END HEADER ICONS */
+.page__index .notion-header__icon,
+.parent-page__index .notion-header__icon,
+.parent-page__categories .notion-header__icon,
+.parent-page__states .notion-header__icon {
+  display: block !important;
+}
 
 /* NOTION HEADER PAGE CONTENT */
 /*.notion-property__title .notion-property__title__icon-wrapper {*/
@@ -630,7 +628,7 @@ div.notion-property__file a.notion-link div picture img, div.notion-property__fi
     height: 35.7% !important;
     max-height: 50% !important;
     margin: 0 !important;
-    z-index: 10;
+    z-index: 1;
     justify-content: center;
     justify-items: center;
     justify-self: center;
