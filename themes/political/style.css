@@ -122,9 +122,49 @@
 --notion-header-page-title: 75vh !important;
 /* $SUPER CONTENT  */
 --super-content-bg: var(--color-bg) !important;
-  --super-footer-padding: 0 2rem !important;
-  --super-content-padding: 0 !important;
-  --super-content-margin-top: 0 !important;
+--super-footer-padding: 0 2rem !important;
+--super-content-padding: 0 !important;
+--super-content-margin-top: 0 !important;
+/* $Callouts */
+--callout-padding: 0.25rem 0 0.25rem 0 !important;
+--callout-padding-top: 0.25rem !important;
+--callout-title-bg: var(--color-bg-default) !important;
+--callout-title-size: 2rem !important;
+--callout-border-width: 1px !important;
+--callout-border-style: solid !important;
+--callout-border-color: var(--color-border-default) !important;
+--callout-border-radius: var(--element-radius) !important;
+--callout-justify: center !important;
+--callout-icon-size: 20px !important;
+--callout-emoji-size: 18px !important;
+--callout-margin: 1rem 0 !important;
+--callout-margin-top: 0.25rem !important;
+--callout-content-margin: 0 0.5rem !important;
+/* $Collections */
+--collection-margin: 0.25rem 0 !important;
+--collection-padding: 0.5rem !important;
+--collection-property-text-size: 14px !important;
+--collection-list-item-border-radius: 0 !important;
+--collection-list-item-padding: 5px 0 5px 5px !important;
+--collection-title-text-size: 16px !important;
+--collection-gallery-gap: 30px !important;
+--collection-card-padding: 1px !important;
+--collection-card-border: 1px solid var(--color-border-default) !important;
+--collection-card-border-radius: 5px !important;
+/* $Collection Card Size */
+--collection-card-cover-size-static-small: 172px !important;
+--collection-card-cover-size-static-medium: 260px !important;
+--collection-card-cover-size-static-large: 320px !important;
+--collection-card-cover-size-small: 128px !important;
+--collection-card-cover-size-medium: 256px !important;
+--collection-card-cover-size-large: 512px !important;
+/* $Pills */
+--notion-pill-padding: 2px 5px !important;
+--notion-pill-border-radius: 0 !important;
+--notion-pill-text-size: 12px !important;
+--notion-pill-text-weight: 500 !important;
+--notion-pill-text-transform: uppercase !important;
+--notion-pill-letter-spacing: 1px !important;
 /* $Images */
 --image-border-radius: 10px !important;
 /* $DIVIDERS */
@@ -135,6 +175,35 @@
 --secondary-font: "Inter", sans-serif !important;
 --notion-text-margin: 0 0 0 0 !important;
 --heading-weight: 800;
+/* $h1 - Header 1 */
+--h1-text-color: rgb(255, 255, 255) !important;
+--h1-size: 2rem !important;
+--h1-weight: 800 !important;
+--h1-spacing: -0.04em !important;
+--h1-margin: 0 0.25rem !important;
+--h1-line-height: 1 !important;
+--h1-text-shadow: var(--site-shadow) !important;
+/* $h2 - Header 2 */
+--h2-text-color: rgb(255, 255, 255) !important;
+--h2-size: 1.75rem !important;
+--h2-weight: 700 !important;
+--h2-spacing: -0.03em !important;
+--h2-margin: 0 0.1875rem !important;
+--h2-line-height: 100% !important;
+--h2-text-shadow: var(--site-shadow) !important;
+/* $h3 - Header 3 */
+--h3-text-color: rgb(255, 255, 255) !important;
+--h3-size: 1.375rem !important;
+--h3-weight: 600 !important;
+--h3-spacing: -0.02em !important;
+--h3-margin: 0 0.125rem !important;
+--h3-line-height: 1.4 !important;
+--h3-text-shadow: var(--site-shadow) !important;
+/* $Toggles */
+--toggle-size: 32px !important;
+/* --toggle-color: var(--accent-bg) !important; */
+--toggle-closed: var(--accent) !important;
+--toggle-open: rgba(var(--site-accent), 0.75) !important;
 /* $Links */
 --link-border-width: 0 0 0 0 !important;
 --link-border-style: none !important;
@@ -150,12 +219,12 @@
 --picker-active-bg-color: var(--color-bg-yellow) !important;
 --picker-active-text-color: var(--color-text-default) !important;
 /* $Default colors */
---picker-border-color: var(--color-bg-yellow)  !important;
+--picker-border-color: var(--color-bg-yellow-light) !important;
 --picker-text-color: var(--color-text-default) !important;
 /* $Hover colors */
 --picker-hover-bg-color: var(--color-bg-yellow-light) !important;
 --picker-hover-text-color: var(--color-text-default) !important;
---picker-hover-border-color: var(--color-text-yellow) !important;
+--picker-hover-border-color: var(--color-bg-yellow) !important;
 /* $END Database View Picker */
 /* ^Site Hero Image Parralax Effect /fixed/ */
 --parallax-effect: fixed !important;
