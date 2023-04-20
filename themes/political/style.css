@@ -641,9 +641,9 @@ div.notion-property__file a.notion-link div span img {
     /*left: 0;*/
     z-index: 0;
     /*color: transparent !important;*/
-    -webkit-user-select: all;
-    -moz-user-select: all;
-    user-select: all;
+    -webkit-user-select: all !important;
+    -moz-user-select: all !important;
+    user-select: all !important;
 }
 
 /* END ENLARGE IMAGES ON COLLECTION CARDS */
