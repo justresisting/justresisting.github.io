@@ -117,7 +117,7 @@
 /* ^Site Border */
 /* Border */
 --border-default: 1px solid var(--color-border-default) !important;
---color-border-default: rgb(var(--site-primary)) !important;
+--color-border-default: var(--accent-bg) !important;
 /* ^Site Header Level */
 --notion-header-page-title: 75vh !important;
 /* $SUPER CONTENT  */
@@ -142,7 +142,7 @@
 --callout-content-margin: 0 0.5rem !important;
 /* $Collections */
 --collection-margin: 0.25rem 0 !important;
---collection-padding: 0.5rem !important;
+--collection-padding: 0 0.5rem !important;
 --collection-property-text-size: 14px !important;
 --collection-list-item-border-radius: 0 !important;
 --collection-list-item-padding: 5px 0 5px 5px !important;
@@ -150,7 +150,7 @@
 --collection-gallery-gap: 30px !important;
 --collection-card-padding: 1px !important;
 --collection-card-border: 1px solid var(--color-border-default) !important;
---collection-card-border-radius: 5px !important;
+--collection-card-border-radius: var(--element-radius) !important;
 /* $Collection Card Size */
 --collection-card-cover-size-static-small: 172px !important;
 --collection-card-cover-size-static-medium: 260px !important;
@@ -158,15 +158,8 @@
 --collection-card-cover-size-small: 128px !important;
 --collection-card-cover-size-medium: 256px !important;
 --collection-card-cover-size-large: 512px !important;
-/* $Pills */
---notion-pill-padding: 2px 5px !important;
---notion-pill-border-radius: 0 !important;
---notion-pill-text-size: 12px !important;
---notion-pill-text-weight: 500 !important;
---notion-pill-text-transform: uppercase !important;
---notion-pill-letter-spacing: 1px !important;
 /* $Images */
---image-border-radius: 10px !important;
+--image-border-radius: var(--element-radius) !important;
 /* $DIVIDERS */
 --divider-margin: 15px 0 !important;
 --divider-opacity: 1 !important;
@@ -491,12 +484,11 @@ img.notion-header__cover-image {
 /* gap: 8px; */
 /* min-height: 36px;*/
 .notion-properties .notion-page__property {
-    font-size: var(--body-font) !important;
+    font-size: var(--body-font);
     grid-template-columns: 192px 1fr !important;
     gap: 64px !important;
     /*background-color: var(--color-bg) !important;*/
     padding: 6px 8px 7px ;
-    font-size: 14px;
     overflow: hidden;
     display: flex;
     flex-wrap: wrap;
@@ -539,27 +531,12 @@ img.notion-header__cover-image {
 /*    height: 100%;*/
 /*    max-height: 16rem;*/
 /*}*/
-/* PROPERTY: *Pills* */
-span.notion-pill{
-  border: 1px solid red;
-}
+
 .notion-pill {
   margin: 0 8px 0 0;
   padding: 0 8px;
   border: var(--border-default);
-  border: 2px solid yellow;
   border-radius: 4px;
-}
-.notion-pill {
-    /*display: inline-block;*/
-    /*font-size: .875rem;*/
-    /*line-height: 1.125rem;*/
-    /*white-space: nowrap;*/
-    /*margin: 3px 0;*/
-    /*padding: 0 6px;*/
-    /*border-radius: 3px;*/
-    /*-webkit-margin-end: 6px;*/
-    /*margin-inline-end: 6px;*/
 }
 
 .pill-default {
