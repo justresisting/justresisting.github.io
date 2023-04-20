@@ -679,6 +679,11 @@ h3.notion-heading.toggle {
 /*}*/
 /* END HEADINGS */
 
+.notion-toggle.bg-brown {
+  display: none;
+}
+
+
 /* DEMOS */
 /* DEMO: CALLOUTS OF A CERTAIN SIZE*/
 div#block-237b9a4d4a4c40e3982ab88abe797a64 .notion-callout,
