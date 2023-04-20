@@ -283,3 +283,14 @@
     backdrop-filter: blur(16px);
     background-color: var(--color-bg-light) !important;
 }
+
+/* SUPER CONTENT */
+/* background-color MUST BE SET */
+/* for Parralax effect */
+/* img.notion-header__cover-image {
+  position: var(--parralax-effect);
+  z-index: -10;} */
+.super-content {
+    background-color: var(--color-bg);
+}
+/* END SUPER CONTENT */
