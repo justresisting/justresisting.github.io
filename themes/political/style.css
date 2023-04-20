@@ -108,7 +108,7 @@
 --property-image-radius: 24px !important;
 /* ^Site Font Size*/
 --body-font: 14px !important;
---title-font: 18px !important;
+--title-font: large !important;
 --title-size: xxx-large !important;
 /* ^Site Column Spacing*/
 --column-spacing: 2em !important;
