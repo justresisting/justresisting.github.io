@@ -473,7 +473,7 @@ img.notion-header__cover-image {
 /* Content -property */
 /* margin-left: -10%; = closer to left */
 .notion-page__properties {
-    margin-left: -10% !important;
+    /* margin-left: -10% !important; */
     background-color: var(--color-bg) !important;
 }
 
