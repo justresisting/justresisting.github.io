@@ -788,7 +788,8 @@ img.notion-header__cover-image,
 }
 /* ^COLLECTION CARD IMG */
 /* *CONTAIN* ENABLED FOR: */
-.parent-page__elected-officials .notion-collection-card__cover img {
+.parent-page__elected-officials .notion-collection-card__cover img,
+.parent-page__places-states .notion-collection-card img {
       object-fit: contain !important;
 }
 
