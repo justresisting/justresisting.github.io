@@ -621,18 +621,6 @@ div.notion-property.notion-property__file a.notion-link div picture {
     max-height: 100% !important;
 }
 
-div.notion-property__file a.notion-link div picture img, 
-div.notion-property__file a.notion-link div span img {
-    position: relative !important;
-    min-width: 25% !important;
-    width: 35.7% !important;
-    max-width: 50% !important;
-    min-height: 25% !important;
-    height: 35.7% !important;
-    max-height: 50% !important;
-    margin: 1% 0 0 1% !important;
-}
-
 div.notion-property__file a.notion-link div picture img, div.notion-property__file a.notion-link div span img {
     position: relative !important;
     min-width: 25% !important;
@@ -642,9 +630,10 @@ div.notion-property__file a.notion-link div picture img, div.notion-property__fi
     height: 35.7% !important;
     max-height: 50% !important;
     margin: 0 !important;
-    /* justify-content: center;
+    z-index: 10;
+    justify-content: center;
     justify-items: center;
-    justify-self: center; */
+    justify-self: center;
 }
 
 /* END ENLARGE IMAGES ON COLLECTION CARDS */
