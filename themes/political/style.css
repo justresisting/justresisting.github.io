@@ -641,10 +641,10 @@ div.notion-property__file a.notion-link div picture img, div.notion-property__fi
     min-height: 25% !important;
     height: 35.7% !important;
     max-height: 50% !important;
-    margin: 0;
-    justify-content: center;
+    margin: 0 !important;
+    /* justify-content: center;
     justify-items: center;
-    justify-self: center;
+    justify-self: center; */
 }
 
 /* END ENLARGE IMAGES ON COLLECTION CARDS */
