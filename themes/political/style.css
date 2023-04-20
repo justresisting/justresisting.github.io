@@ -239,7 +239,7 @@
 --font-fluid: clamp(var(--font-min), var(--font-preferred), var(--font-max)) !important;
 /* COLLECTION CARDS */
 /* Grid Layout */
---grid-layout: auto-fit;
+--grid-layout: auto-fit !important;
 /*--collection-card-cover-size-larger: 24rem !important;*/
 /*--collection-card-cover-size-large: 16rem !important;*/
 /*--collection-card-cover-size-medium: 12rem !important;*/
