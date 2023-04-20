@@ -590,9 +590,9 @@ div.notion-property__url {
 /*}*/
 
 /* ENLARGE IMAGES ON COLLECTION CARDS */
+/* div.notion-property.notion-property__file a.notion-link div picture { */
 div.notion-property.notion-property__file a.notion-link div,
-div.notion-property.notion-property__file a.notion-link div span,
-div.notion-property.notion-property__file a.notion-link div picture {
+div.notion-property.notion-property__file a.notion-link div span {
     position: relative !important;
     min-width: 100% !important;
     width: 100% !important;
