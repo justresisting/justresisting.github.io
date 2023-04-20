@@ -642,7 +642,7 @@ div.notion-property__file a.notion-link div span img {
     /*bottom: 0;*/
     /*right: 0;*/
     /*left: 0;*/
-    z-index: 0;
+    z-index: -1 !important;
     /*color: transparent !important;*/
     -webkit-user-select: all !important;
     -moz-user-select: all !important;
@@ -805,10 +805,10 @@ notion-collection-card.gallery {
   position: relative;
 }
 
-/*.notion-collection-card__cover img {*/
-/*    object-fit: cover;*/
-/*    object-position: center center ;*/
-/*}*/
+.notion-collection-card__cover img {
+   object-fit: cover;
+   object-position: center center ;
+}
 
 /*.notion-card-gallery {*/
 /*  height: 100%;*/
