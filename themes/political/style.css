@@ -655,7 +655,7 @@ h3.notion-heading.toggle {
     color: var(--h1-text-color);
 }
 
-h1.notion-heading .resource .notion-page__title .notion-semantic-string,
+/* h1.notion-heading .resource .notion-page__title .notion-semantic-string,
 h1.notion-heading .notion-semantic-string .resource div.notion-page__title .notion-semantic-string span {
     font-size: var(--heading1-size) !important;
     font-weight: var(--h1-weight) !important;
@@ -673,7 +673,7 @@ h3.notion-heading .notion-semantic-string .resource div.notion-page__title .noti
 
 .bg-yellow {
   background-color: var(--color-bg-yellow-light);
-}
+} */
 /* END HEADINGS */
 
 /* DEMOS */
