@@ -365,7 +365,7 @@ img.notion-header__cover-image {
     object-fit: cover !important;
     /* object-position: center; */
     z-index: -1;
-    margin-top: 64px !important;
+    /* margin-top: 64px !important; */
 }
 /* #Cover Image: *Contain* */
 /* @For the Following Places */
