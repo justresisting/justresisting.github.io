@@ -316,7 +316,7 @@ img.notion-header__cover-image,
 .parent-page__categories img.notion-header__cover-image {
     position: var(--parallax-effect) !important;
     object-fit: cover !important;
-    margin-top: 64px !important;
+    /* margin-top: 64px !important; */
 }
 /* @CONTAIN ENABLED FOR: */
 .parent-page__elected-officials img.notion-header__cover-image {
