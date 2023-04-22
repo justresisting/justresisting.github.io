@@ -666,7 +666,7 @@ h3.notion-heading.toggle {
 /* ^ENLARGE IMAGES ON COLLECTION CARDS */
 /* div.notion-property.notion-property__file a.notion-link div picture, */
 /* div.notion-property.notion-property__file a.notion-link div span, */
-div.notion-property.notion-property__file a.notion-link div {
+/* div.notion-property.notion-property__file a.notion-link div {
     position: relative !important;
     min-width: 100% !important;
     width: 100% !important;
@@ -674,9 +674,9 @@ div.notion-property.notion-property__file a.notion-link div {
     min-height: 100% !important;
     height: 100% !important;
     max-height: 100% !important;
-}
+} */
 
-div.notion-property__file a.notion-link div picture img, 
+/* div.notion-property__file a.notion-link div picture img, 
 div.notion-property__file a.notion-link div span img {
     position: relative !important;
     min-width: 25% !important;
@@ -686,11 +686,11 @@ div.notion-property__file a.notion-link div span img {
     height: 35.7% !important;
     max-height: 50% !important;
     margin: auto !important;
-    /* z-index: 0; */
     justify-content: center;
     justify-items: center;
-    justify-self: center;
-}
+    justify-self: center; */
+    /* z-index: 0; */
+/* } */
 
 /* ^COLLECTION CARD TITLE FONT */
 .notion-collection-card .notion-property__title {
