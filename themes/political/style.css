@@ -813,7 +813,12 @@ h3.notion-heading.toggle {
     grid-template-columns: repeat(var(--grid-layout), minmax(var(--collection-card-cover-size-smaller), 1fr)) !important;
 }
 /* !END COLLECTION CARD GRID COLUMN SIZE */
-
+.resource .notion-link.notion-page,
+.notion-semantic-string .link {
+    z-index: unset !important;
+    position: relative;
+}
+/* !END COLLECTION GALLERY */
 
 /* #COLLECTION BOARDS */
 /*.notion-collection-board, .notion-collection-board.small, .notion-collection-board.medium, .notion-collection-board.large {*/
