@@ -626,6 +626,7 @@ h3.notion-heading.toggle {
     position: relative;
 }
 
+
 /* ^COLLECTION CARD IMG */
 /* *OBJECT-FIT: *COVER* */
 .notion-collection-card__cover img {
@@ -672,7 +673,14 @@ h3.notion-heading.toggle {
 .notion-collection-card__content .notion-property__title .notion-semantic-string .notion-page__title {
     padding-top: 1rem;
 }
+
 /* ^COLLECTION CARD GRID COLUMN SIZE */
+/* @grid-auto-rows: auto */
+/* Makes each row the size of the min-content */
+.notion-collection-gallery {
+    grid-auto-rows: auto;
+}
+
 .notion-collection-gallery.large,
 .notion-collection-gallery.grouped.large {
    grid-template-columns: repeat(var(--grid-layout), minmax(var(--collection-card-cover-size-medium), 1fr)) !important;
