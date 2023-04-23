@@ -466,13 +466,13 @@ div.notion-property__url {
 
  /* ^PROPERTY: *TITLE* */
 .notion-page__property-name {
-    border: var(--border-default);
-    white-space: pre-wrap;
-    padding: var(--collection-padding) !important;
     background-color: var(--color-bg-black) !important;
-    padding-top: 8px !important; 
-    align-items: center;
-
+    border-radius: var(--element-radius);
+    border: var(--border-default);
+    align-items: center !important;
+    white-space: pre-wrap !important;
+    /* padding-top: 8px !important;  */
+    padding: var(--collection-padding) !important;
 }
 
 /* @CENTER ALIGNS ALL PAGE PROPERTIES */
