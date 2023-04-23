@@ -626,17 +626,16 @@ h3.notion-heading.toggle {
 }
 
 /* ^COLLECTION CARD IMG */
-/* *OBJECT-FIT *COVER* */
+/* *OBJECT-FIT: *COVER* */
 .notion-collection-card__cover img {
     object-fit: cover !important;
 }
 
 /* ^COLLECTION CARD IMG */
-/* *OBJECT-FIT *CONTAIN* ENABLED FOR: */
-.parent-page__government .notion-collection-card__cover img,
-.parent-page__places-states .notion-collection-card__cover img {
+/* *OBJECT-FIT: *CONTAIN* ENABLED FOR: */
+/* .parent-page__places-states .notion-collection-card__cover img {
       object-fit: contain !important;
-}
+} */
 
 /* ^ENLARGE IMAGES ON COLLECTION CARDS */
 /* @ENLARGE FLAGS ON STATE COLLECTION CARDS */
