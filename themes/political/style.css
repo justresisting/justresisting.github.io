@@ -613,39 +613,31 @@ h3.notion-heading.toggle {
     transform: scale(1.025);
 }
 
-
-/* ^COLLECTION CARD IMG */
-/* # *COVER* ENABLED FOR: */
-.page__index .notion-collection-card__cover img, 
-.parent-page__index .notion-collection-card__cover img, 
-.parent-page__states .notion-collection-card img, 
-.parent-page__categories .notion-collection-card__cover img {
-      object-fit: cover !important;
-}
-/* ^COLLECTION CARD IMG */
-/* *CONTAIN* ENABLED FOR: */
-.parent-page__elected-officials .notion-collection-card__cover img,
-.parent-page__places-states .notion-collection-card img {
-      object-fit: contain !important;
-}
-
-
 .notion-collection-card:hover img {
     transform: scale(1.0);
 }
 
 .notion-collection-card__cover {
-  border-radius: var(--element-radius);
-  min-height: 100%;
-  height: 100%;
-  max-height: 100%;
-  position: relative;
+    border-radius: var(--element-radius);
+    min-height: 100%;
+    height: 100%;
+    max-height: 100%;
+    position: relative;
 }
-/* What is this? */
+
+/* ^COLLECTION CARD IMG */
+/* *OBJECT-FIT *COVER* */
 .notion-collection-card__cover img {
-    object-fit: contain !important;
-    object-position: center center ;
+    object-fit: cover !important;
 }
+
+/* ^COLLECTION CARD IMG */
+/* *OBJECT-FIT *CONTAIN* ENABLED FOR: */
+.parent-page__government .notion-collection-card__cover img,
+.parent-page__places-states .notion-collection-card__cover img {
+      object-fit: contain !important;
+}
+
 /* ^ENLARGE IMAGES ON COLLECTION CARDS */
 /* @ENLARGE FLAGS ON STATE COLLECTION CARDS */
 .notion-collection-card__property:has(.notion-property.notion-property__file.property-71435e6f) div {
