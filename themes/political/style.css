@@ -317,18 +317,18 @@ img.notion-header__cover-image {
     object-fit: cover !important;
     z-index: -1;
 }
-.page__index img.notion-header__cover-image,
+/* .page__index img.notion-header__cover-image,
 .parent-page__index img.notion-header__cover-image,
 .parent-page__states img.notion-header__cover-image,
 .parent-page__categories img.notion-header__cover-image {
-    /* position: var(--parallax-effect) !important; */
-    object-fit: cover !important;
+    position: var(--parallax-effect) !important;
+    object-fit: cover !important; */
     /* margin-top: 64px !important; */
-}
-/* @CONTAIN ENABLED FOR: */
+/* } */
+/* @OBJECT-FIT: CONTAIN ENABLED FOR: */
 .parent-page__places-states img.notion-header__cover-image,
 .parent-page__elected-officials img.notion-header__cover-image {
-    /* transition: 0.3s ease-in-out; */
+    position: absolute !important;
     object-fit: contain !important;
 }
 /* @Header Turned: *OFF* */
