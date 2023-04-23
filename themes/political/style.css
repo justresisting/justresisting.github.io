@@ -676,8 +676,8 @@ h3.notion-heading.toggle {
 
 /* ^COLLECTION CARD GRID COLUMN SIZE */
 /* @grid-auto-rows: auto */
-/* Makes each row the size of the min-content */
-.notion-collection-gallery {
+/* @Makes each row the size of the min-content */
+.parent-page__directory .notion-collection-gallery {
     grid-auto-rows: auto;
 }
 
