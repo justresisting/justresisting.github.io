@@ -245,9 +245,12 @@
 /*--collection-card-cover-size-small: 8rem !important;*/
 /*--collection-card-cover-size-smaller: 6rem !important;*/
 /*--collection-card-cover-size-tiny: 4rem !important;*/
---collection-card-cover-height-small: 128px;
+/* --collection-card-cover-height-small: 128px;
 --collection-card-cover-height-medium: 200px;
---collection-card-cover-height-large: 420px;
+--collection-card-cover-height-large: 420px; */
+--collection-card-cover-height-small: 4rem;
+--collection-card-cover-height-medium: 8rem;
+--collection-card-cover-height-large: 12rem;
 }
 
 /* #BEGIN THEME CSS */
