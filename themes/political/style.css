@@ -618,6 +618,14 @@ h3.notion-heading.toggle {
     position: relative;
 }
 
+/* ^CONTACT PAGE COLLECTION CARD COVER SIZE */
+.page__contact .notion-collection-card__cover {
+    min-height: var(--collection-card-cover-size-static-small);
+    height: 100%;
+    width: var(--collection-card-cover-size-static-small);
+    margin: 0 auto;
+}
+
 
 /* ^COLLECTION CARD IMG */
 /* *OBJECT-FIT: *COVER* */
