@@ -664,33 +664,13 @@ h3.notion-heading.toggle {
     object-position: center center ;
 }
 /* ^ENLARGE IMAGES ON COLLECTION CARDS */
-/* div.notion-property.notion-property__file a.notion-link div picture, */
-/* div.notion-property.notion-property__file a.notion-link div span, */
-/* div.notion-property.notion-property__file a.notion-link div {
-    position: relative !important;
-    min-width: 100% !important;
-    width: 100% !important;
-    max-width: 100% !important;
-    min-height: 100% !important;
-    height: 100% !important;
-    max-height: 100% !important;
-} */
-
-/* div.notion-property__file a.notion-link div picture img, 
-div.notion-property__file a.notion-link div span img {
-    position: relative !important;
-    min-width: 25% !important;
-    width: 35.7% !important;
-    max-width: 50% !important;
-    min-height: 25% !important;
-    height: 35.7% !important;
-    max-height: 50% !important;
-    margin: auto !important;
-    justify-content: center;
-    justify-items: center;
-    justify-self: center; */
-    /* z-index: 0; */
-/* } */
+/* @ENLARGE FLAGS ON STATE COLLECTION CARDS */
+.notion-collection-card__property:has(.notion-property.notion-property__file.property-71435e6f) div {
+    width: 128px !important;
+    height: 128px !important;
+    margin: 0 auto !important;
+}
+/* !END ENLARGE IMAGES ON COLLECTION CARDS */
 
 /* ^COLLECTION CARD TITLE FONT */
 .notion-collection-card .notion-property__title {
