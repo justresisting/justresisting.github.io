@@ -308,19 +308,27 @@ a.notion-link.super-navbar__item.active {
 
 /* #HEADER */
 /* ^HEADER COVER IMAGES */
-/* @COVER TURNED *ON* FOR: */
-img.notion-header__cover-image,
+/* @POSITION: FIXED */
+/* @OBJECT-FIT: COVER */
+/* @Z-INDEX: -1 */
+/* @all for parallax effect */
+img.notion-header__cover-image {
+    position: var(--parallax-effect) !important;
+    object-fit: cover !important;
+    z-index: -1;
+}
 .page__index img.notion-header__cover-image,
 .parent-page__index img.notion-header__cover-image,
 .parent-page__states img.notion-header__cover-image,
 .parent-page__categories img.notion-header__cover-image {
-    position: var(--parallax-effect) !important;
+    /* position: var(--parallax-effect) !important; */
     object-fit: cover !important;
     /* margin-top: 64px !important; */
 }
 /* @CONTAIN ENABLED FOR: */
+.parent-page__places-states img.notion-header__cover-image,
 .parent-page__elected-officials img.notion-header__cover-image {
-    transition: 0.3s ease-in-out;
+    /* transition: 0.3s ease-in-out; */
     object-fit: contain !important;
 }
 /* @Header Turned: *OFF* */
@@ -353,32 +361,7 @@ img.notion-header__cover-image,
 }
 
 
-/* #HEADER COVER IMAGE  */
-/* @Header Cover Images Turned: *ON*  */
-/* @Defaults: */
-/* @position: *FIXED* FOR PARRALAX */
-/* @z-index: * -1 or lower * FOR PARRALAX */
-/* @object-fit: *COVER* */
-/* @object-position: *CENTER* */
-img.notion-header__cover-image {
-    position: var(--parallax-effect) !important;
-    object-fit: cover !important;
-    /* object-position: center; */
-    z-index: -1;
-    /* margin-top: 64px !important; */
-}
-/* #Cover Image: *Contain* */
-/* @For the Following Places */
-/* $Elected Officials, */
-/*.parent-page__elected-officials img.notion-header__cover-image {*/
-/*    object-fit: contain !important;*/
-/*}*/
-/* @IF NO COVER IMAGE */
-/* @Reduce Page Height: *-15%* */
-/* !THIS WAS REALLY HARD TO FIGURE OUT!!! */
-/*.notion-header.page:has(.no-cover) ~ .super-content {*/
-/*    margin-top: -25% !important;*/
-/*}*/
+
 
 /* #HEADER ICON */
 /* @Header Icons Turned: *OFF*  */
@@ -668,6 +651,12 @@ h3.notion-heading.toggle {
 .notion-collection-card__property:has(.notion-property.notion-property__file.property-71435e6f) div {
     width: 128px !important;
     height: 128px !important;
+    margin: 0 auto !important;
+}
+
+.notion-property.notion-property__file.property-undefined div {
+    width: 100% !important;
+    height: 100% !important;
     margin: 0 auto !important;
 }
 /* !END ENLARGE IMAGES ON COLLECTION CARDS */
