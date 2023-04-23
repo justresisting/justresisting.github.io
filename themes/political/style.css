@@ -355,9 +355,10 @@ img.notion-header__cover-image {
 
 
 /* @Page Height with *.no-cover* */
-/* @margin-top: *192px* PUSHES DOWN */
+.notion-header__content.no-cover.no-icon-image .notion-header__title-wrapper,
 .notion-header__content.no-cover.has-icon-image .notion-header__title-wrapper {
-  margin-top: 192px !important;
+    margin-top: -96px !important;
+    /* margin-top: 192px !important; */
 }
 
 
