@@ -481,11 +481,11 @@ div.notion-property__url {
 }
 
 /* ^Property: *Images* */
-.notion-page__properties .notion-property img {
+.notion-property.notion-property__file.property-undefined img {
     /* min-height: 8rem; */
     /* min-height made SVG icons in properties act crazy */
     height: 100%;
-    max-height: 16rem;
+    max-height: 16rem !important;
 }
 
 /* ^PROPERTY: *Pills* */
