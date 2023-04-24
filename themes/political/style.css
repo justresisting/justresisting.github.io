@@ -507,13 +507,17 @@ div.notion-property__url {
 /*  display: block !important;*/
 /*}*/
 
-/* #Relation Property Icons */
+/* #Relation Property */
 /* Default: *block* */
 /*div.notion-property.notion-property__relation .notion-link.notion-page div.notion-page__icon {*/
 /*    display: block !important;*/
 /*    height: 32px !important;*/
 /*    width: 32px !important;*/
 /*}*/
+/* @Relation Properties Stack */
+.notion-property.notion-property__relation .notion-semantic-string span.resource div {
+    display: flex;
+}
 
 
 /* #HEADINGS */
