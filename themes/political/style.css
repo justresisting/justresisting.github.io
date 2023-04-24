@@ -565,10 +565,12 @@ h3.notion-heading.toggle {
 /* #COLLECTION GALLERY  */
 /* ^Collection Card Cover On Left */
 /* @ENABLED ON */
-/* $Elected Officials  */
+/* $Elected Officials, 2022 (Children)  */
+.parent-page__2022 .notion-collection-card.gallery,
 .page__government-elected-officials .notion-collection-card.gallery {
     display: flex;
 }
+.parent-page__2022 .notion-collection-card__cover,
 .page__government-elected-officials .notion-collection-card__cover {
     position: relative;
     min-height: 115px;
@@ -576,12 +578,14 @@ h3.notion-heading.toggle {
     width: 12rem;
     overflow: hidden;
 }
+.parent-page__2022 .notion-collection-card__cover img,
 .page__government-elected-officials .notion-collection-card__cover img {
     min-height: 256px;
     height: 100%;
     min-width: 100%;
     width: 100%;
 }
+.parent-page__2022 .super-content,
 .page__government-elected-officials .super-content {
     padding-left: 1rem;
     padding-right: 1rem;
