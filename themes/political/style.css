@@ -549,6 +549,15 @@ h3.notion-heading.toggle {
 /* !END TOGGLES */
 /* !END NOTION PAGES */
 
+/* #COLLECTION GROUP */
+.notion-collection-group__section-header .notion-property__title .notion-semantic-string {
+    background-color: var(--color-bg-yellow-light);
+    border-radius: var(--element-radius);
+    padding: .125rem .5rem;
+    font-size: var(--font-title-fluid);
+}
+/* !END COLLECTION GROUP */
+
 
 /* #COLLECTION GALLERY  */
 /*.notion-collection-card.gallery {*/
