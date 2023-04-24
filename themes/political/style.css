@@ -583,6 +583,10 @@ h3.notion-heading.toggle {
     padding-left: 1rem;
     padding-right: 1rem;
 }
+/* @property select pills stack */
+.page__government-elected-officials .notion-collection-card__content .notion-property__select {
+    display: inline;
+}
 
 /* !END COLLECTION CARD ON LEFT */
 /*.notion-collection-card.gallery {*/
