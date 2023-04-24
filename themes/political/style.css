@@ -560,6 +560,20 @@ h3.notion-heading.toggle {
 
 
 /* #COLLECTION GALLERY  */
+/* ^Collection Card Cover On Left */
+/* @ENABLED ON */
+/* $Government,  */
+.parent-page__government .notion-collection-card.gallery {
+    display: flex;
+}
+.parent-page__government .notion-collection-card__cover {
+    position: relative;
+    min-height: 115px;
+    height: 100%;
+    width: 12rem;
+    overflow: hidden;
+}
+/* !END COLLECTION CARD ON LEFT */
 /*.notion-collection-card.gallery {*/
 /*  min-height: 100%;*/
 /*  height: 100%;*/
@@ -593,6 +607,8 @@ h3.notion-heading.toggle {
 /*.notion-collection-card__property {*/
 /*  display: inline-grid;*/
 /*}*/
+/* !END COLLECTION GALLERY */
+
 
 /* #COLLECTION CARDS */
 .notion-collection-card {
