@@ -573,6 +573,12 @@ h3.notion-heading.toggle {
     width: 12rem;
     overflow: hidden;
 }
+.parent-page__government .notion-collection-card__cover img {
+    min-height: 256px;
+    height: 100%;
+    min-width: 100%;
+    width: 100%;
+}
 /* !END COLLECTION CARD ON LEFT */
 /*.notion-collection-card.gallery {*/
 /*  min-height: 100%;*/
