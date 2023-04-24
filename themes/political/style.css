@@ -407,12 +407,14 @@ div.notion-property__url {
 /* ^Page Properties */
 /* @Adds Page Properties Bottom-Border */
 /* @Adds Link Bottom-Border :hover */
-.notion-property__relation .resource .notion-link.notion-page {
-    border-bottom: 1px solid var(--color-bg-yellow-light);
+/* .notion-property__relation .resource .notion-link.notion-page, */
+.notion-property__relation .resource .notion-link.notion-page .notion-page__title .notion-semantic-string {
+    border-bottom: 1px solid var(--color-bg-yellow);
     border-radius: 0;
 }
-.notion-property__relation .resource .notion-link.notion-page:hover {
-    border-bottom: 1px solid var(--color-bg-yellow);
+/* .notion-property__relation .resource .notion-link.notion-page:hover, */
+.notion-property__relation .resource .notion-link.notion-page:hover .notion-page__title .notion-semantic-string {
+    border-bottom: 1px solid var(--color-bg-yellow-light);
 }
 /* !END Page Properties Bottom-Border */
 
