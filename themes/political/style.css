@@ -519,7 +519,7 @@ div.notion-property__url {
 /*    width: 32px !important;*/
 /*}*/
 /* @Icon for Relations from Districts */
-.notion-property.notion-property__relation.property-7e3b3f51 .notion-page__icon {
+.notion-property.notion-property__relation.property-7e3b3f51 .notion-page__icon.small {
     display: none !important;
 }
 /* @Relation Properties Stack */
