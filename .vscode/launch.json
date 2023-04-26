@@ -6,7 +6,7 @@
             "port": 9222,
             "request": "attach",
             "type": "msedge",
-            "webRoot": "m"
+            "webRoot": "${workspaceFolder}"
         },
         {
             "type": "vscode-edge-devtools.debug",
