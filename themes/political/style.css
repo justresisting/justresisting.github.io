@@ -417,7 +417,7 @@ div.notion-property__url {
 }
 /* .notion-property__relation .resource .notion-link.notion-page:hover, */
 .notion-property__relation .resource .notion-link.notion-page:hover .notion-page__title .notion-semantic-string {
-    border-bottom: 1px solid var(--color-bg-yellow-light);
+    border-bottom: 1px solid var(--color-bg-yellow);
 }
 /* !END Page Properties Bottom-Border */
 
