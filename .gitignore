@@ -4,8 +4,8 @@
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
 # MY IGNORES
-.vscode
-.msedge
+.vscode/
+.msedge/
 
 # User-specific files
 *.rsuser
