@@ -271,6 +271,7 @@
     color: black;
     border-color: transparent;
 }
+/* !END WIDGETS */
 
 /* #SUPER NAVBAR */
 /* ^Super Navbar BLUR */
@@ -418,15 +419,7 @@ div.notion-property__url {
 }
 /* !END Page Properties Bottom-Border */
 
-/* @Database View Picker Left Margin */
-.notion-collection__header-wrapper .notion-dropdown__menu-wrapper {
-    left: 0 !important;
-    margin-top: 1rem;
-}
-/* @Removes Icon next to Database Collection Name */
-.notion-collection__header-icon {
-    display: none !important;
-}
+
 
 /* ^Notion Header Content Title Wrapper */
 /* @DEFAULT: *96px* */
@@ -488,6 +481,7 @@ div.notion-property__url {
     max-height: 16rem !important;
 }
 
+/* #NOTION PILLS */
 /* ^PROPERTY: *Pills* */
 .notion-pill {
   margin: 0 8px 0 0;
@@ -500,13 +494,8 @@ div.notion-property__url {
     background: var(--color-pill-default);
     color: var(--color-pill-text-default);
 }
-/* !END PAGE PROPERTIES */
+/* !END NOTION PILLS */
 
-
-/* ? */
-/*.notion-header.collection .notion-header__title-wrapper {*/
-/*  display: block !important;*/
-/*}*/
 
 /* #Relation Property */
 /* Default: *block* */
@@ -519,6 +508,7 @@ div.notion-property__url {
 .notion-property.notion-property__relation .notion-semantic-string span.resource div {
     display: flex;
 }
+/* !END PAGE PROPERTIES */
 
 
 /* #HEADINGS */
@@ -552,7 +542,22 @@ h3.notion-heading.toggle {
   display: none;
 }
 /* !END TOGGLES */
-/* !END NOTION PAGES */
+/* !END NOTION ELEMENTS */
+
+/* #COLLECTIONS */
+/* @Linked Database Name WITH View Tabs */
+.notion-collection__header .notion-semantic-string {
+    white-space: nowrap;
+}
+/* @Database View Picker Left Margin */
+.notion-collection__header-wrapper .notion-dropdown__menu-wrapper {
+    left: 0 !important;
+    margin-top: 1rem;
+}
+/* @Removes Icon next to Database Collection Name */
+.notion-collection__header-icon {
+    display: none !important;
+}
 
 /* #COLLECTION GROUP */
 .notion-collection-group__section-header .notion-property__title .notion-semantic-string {
