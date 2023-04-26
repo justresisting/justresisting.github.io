@@ -6,6 +6,9 @@
 # MY IGNORES
 .vscode/
 .msedge/
+.vscode/settings.json
+.vscode/launch.json
+.vscode/formatter.json
 
 # User-specific files
 *.rsuser
