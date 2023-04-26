@@ -570,6 +570,10 @@ h3.notion-heading.toggle {
 .notion-collection__header {
         border-bottom: 1px solid yellow;
 }
+/* @Collection Group Section Header Border Top  */
+.notion-collection-group__section-header:not(.no-border) {
+    border-top: 1px none #eee;
+}
 /* @Database View Picker Left Margin */
 .notion-collection__header-wrapper .notion-dropdown__menu-wrapper {
     left: 0 !important;
