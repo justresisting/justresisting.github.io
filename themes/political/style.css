@@ -562,6 +562,14 @@ h3.notion-heading.toggle {
 .notion-collection__header .notion-semantic-string {
     white-space: nowrap !important;
 }
+/* @Collection Title Border Bottom (Full Length) */
+.notion-collection__header-wrapper {
+    border-bottom: var(--border-default);
+}
+/* @Collection Title Border Bottom (Length of Title) */
+.notion-collection__header {
+        border-bottom: 1px solid yellow;
+}
 /* @Database View Picker Left Margin */
 .notion-collection__header-wrapper .notion-dropdown__menu-wrapper {
     left: 0 !important;
@@ -748,6 +756,7 @@ h3.notion-heading.toggle {
 /* ^COLLECTION CARD GRID COLUMN SIZE */
 /* @grid-auto-rows: auto */
 /* @Makes each row the size of the min-content */
+/* $ENABLED: Directory */
 .parent-page__directory .notion-collection-gallery {
     grid-auto-rows: auto;
 }
