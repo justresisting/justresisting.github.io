@@ -230,9 +230,15 @@
 --collection-list-item-padding: 5px 0 5px 5px !important;
 --collection-title-text-size: 16px !important;
 --collection-gallery-gap: 30px !important;
---collection-card-padding: 1px !important;
 --collection-card-border: 1px solid var(--color-border-default) !important;
 --collection-card-border-radius: var(--element-radius) !important;
+    --collection-card-padding: 0px;
+    --collection-card-title-padding: 0px;
+    --collection-card-content-padding: var(--padding-layout);
+    --collection-card-border-radii: var(--border-radii-layout);
+    --collection-card-gap: 32px;
+    --collection-card-shadow: rgba(0, 0, 0, 0.5) 0px 20px 40px -10px;
+/* $COLLECTION CARDS */
 /* $Collection Card Size */
 --collection-card-cover-size-static-small: 172px !important;
 --collection-card-cover-size-static-medium: 260px !important;
@@ -241,15 +247,8 @@
 --collection-card-cover-size-smaller: 6rem !important;
 --collection-card-cover-size-small: 8rem !important;
 --collection-card-cover-size-medium: 16rem !important;
---collection-card-cover-size-large: 32rem !important;
-/*--collection-card-cover-size-larger: 24rem !important;*/
-/* $COLLECTION CARDS */
-/*--collection-card-cover-size-large: 16rem !important;*/
-/*--collection-card-cover-size-medium: 12rem !important;*/
-/*--collection-card-cover-size-small: 8rem !important;*/
-/* --collection-card-cover-height-small: 128px;
---collection-card-cover-height-medium: 200px;
---collection-card-cover-height-large: 420px; */
+--collection-card-cover-size-large: 24rem !important;
+--collection-card-cover-size-larger: 32rem !important;
 --collection-card-cover-height-small: 4rem;
 --collection-card-cover-height-medium: 8rem;
 --collection-card-cover-height-large: 12rem;
