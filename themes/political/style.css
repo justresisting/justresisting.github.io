@@ -248,9 +248,9 @@
 /* --collection-card-cover-height-small: 128px;
 --collection-card-cover-height-medium: 200px;
 --collection-card-cover-height-large: 420px; */
---collection-card-cover-height-small: 4rem;
---collection-card-cover-height-medium: 8rem;
 --collection-card-cover-height-large: 12rem;
+--collection-card-cover-height-medium: 8rem;
+--collection-card-cover-height-small: 4rem;
 }
 
 /* #BEGIN THEME CSS */
@@ -700,8 +700,8 @@ h3.notion-heading.toggle {
 }
 
 .notion-property.notion-property__file.property-undefined div {
-    width: 100% !important;
-    height: 100% !important;
+    width: var(--collection-card-cover-size-small) !important;
+    height: var(--collection-card-cover-size-small) !important;
     margin: 0 auto !important;
 }
 /* !END ENLARGE IMAGES ON COLLECTION CARDS */
