@@ -412,7 +412,7 @@ div.notion-property__url {
 /* @Adds Link Bottom-Border :hover */
 /* .notion-property__relation .resource .notion-link.notion-page, */
 .notion-property__relation .resource .notion-link.notion-page .notion-page__title .notion-semantic-string {
-    border-bottom: 1px solid var(--color-bg-yellow);
+    border-bottom: 1px solid var(--color-bg-yellow-light);
     border-radius: 0;
 }
 /* .notion-property__relation .resource .notion-link.notion-page:hover, */
