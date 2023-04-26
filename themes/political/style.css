@@ -486,7 +486,7 @@ div.notion-property__url {
 /* ^PROPERTY: *Pills* */
 .notion-pill {
   margin: 0 8px 0 0;
-  padding: var(--pill-padding);
+  padding: var(--pill-padding) !important;
   border: var(--border-default);
   border-radius: var(--element-radius);
 }
