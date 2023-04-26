@@ -4,6 +4,7 @@
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
 # MY IGNORES
+.resistance
 .political_scss (use this)
 .political_scss (original)
 .testing
