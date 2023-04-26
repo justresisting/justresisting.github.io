@@ -572,7 +572,7 @@ h3.notion-heading.toggle {
 }
 /* @Collection Group Section Header Border Top  */
 .notion-collection-group__section-header:not(.no-border) {
-    border-top: 1px none #eee;
+    border-top: 1px none #eee !important;
 }
 /* @Database View Picker Left Margin */
 .notion-collection__header-wrapper .notion-dropdown__menu-wrapper {
