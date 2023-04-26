@@ -728,7 +728,7 @@ h3.notion-heading.toggle {
 }
 /* ^COLLECTION TITLE PADDING */
 .notion-collection-card__content .notion-property__title .notion-semantic-string .notion-page__title {
-    padding-top: 1rem;
+    padding: var(--collection-padding);
 }
 
 /* #COLLECTION GALLERY */
