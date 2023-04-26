@@ -620,8 +620,8 @@ h3.notion-heading.toggle {
 }
 .parent-page__2022 .super-content,
 .page__government-elected-officials .super-content {
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 /* @property select pills stack */
 .page__government-elected-officials .notion-collection-card__content .notion-property__select {
