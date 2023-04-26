@@ -518,6 +518,10 @@ div.notion-property__url {
 /*    height: 32px !important;*/
 /*    width: 32px !important;*/
 /*}*/
+/* @Icon for Relations from Districts */
+.notion-property.notion-property__relation.property-7e3b3f51 .notion-page__icon {
+    display: none !important;
+}
 /* @Relation Properties Stack */
 .notion-property.notion-property__relation .notion-semantic-string span.resource div {
     display: flex;
