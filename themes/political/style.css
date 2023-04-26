@@ -127,6 +127,7 @@
 /* $PILLS */
 --color-pill-default: var(--color-bg-black) !important;
 --color-pill-text-default: var(--color-text-default) !important;
+--pill-padding: .25rem 0.5rem .25rem .25rem !important;
 /* $Callouts */
 --callout-padding: 0.25rem 0 0.25rem 0 !important;
 --callout-padding-top: 0.25rem !important;
@@ -485,9 +486,9 @@ div.notion-property__url {
 /* ^PROPERTY: *Pills* */
 .notion-pill {
   margin: 0 8px 0 0;
-  padding: 0 8px;
+  padding: var(--pill-padding);
   border: var(--border-default);
-  border-radius: 4px;
+  border-radius: var(--element-radius);
 }
 
 .pill-default {
