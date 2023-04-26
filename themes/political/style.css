@@ -231,6 +231,7 @@
 --collection-title-text-size: 16px !important;
 --collection-gallery-gap: 30px !important;
 --collection-card-border: 1px solid var(--color-border-default) !important;
+--collection-gallery-header: 1px none var(--collection-header-border)!important;
 --collection-card-border-radius: var(--element-radius) !important;
     --collection-card-padding: 0px;
     --collection-card-title-padding: 0px;
@@ -763,6 +764,9 @@ h3.notion-heading.toggle {
 /* $ENABLED: Directory */
 .parent-page__directory .notion-collection-gallery {
     grid-auto-rows: auto;
+}
+.notion-collection-gallery {
+    border-top: var(--collection-gallery-header);
 }
 
 .notion-collection-gallery.large,
