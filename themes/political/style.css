@@ -547,7 +547,7 @@ h3.notion-heading.toggle {
 /* #COLLECTIONS */
 /* @Linked Database Name WITH View Tabs */
 .notion-collection__header .notion-semantic-string {
-    white-space: nowrap;
+    white-space: nowrap !important;
 }
 /* @Database View Picker Left Margin */
 .notion-collection__header-wrapper .notion-dropdown__menu-wrapper {
