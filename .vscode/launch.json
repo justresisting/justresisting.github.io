@@ -1,6 +1,5 @@
 {
     "configurations": [
-
         {
             "name": "Launch Chrome",
             "request": "launch",
@@ -22,7 +21,8 @@
             "runtimeArgs": [
                 "--remote-debugging-port=9222"
             ],
-            "url": "/home/jrsilvey/.var/app/com.visualstudio.code/data/vscode/extensions/ms-edgedevtools.vscode-edge-devtools-2.1.1/out/startpage/index.html", // Provide your project's url to finish configuring
+            "runtimeExecutable": "/var/lib/flatpak/app/com.microsoft.Edge/x86_64/stable/active/files/extra/msedge",
+            "url": "", // Provide your project's url to finish configuring
             "presentation": {
                 "hidden": true
             }
@@ -35,7 +35,8 @@
                 "--headless",
                 "--remote-debugging-port=9222"
             ],
-            "url": "/home/jrsilvey/.var/app/com.visualstudio.code/data/vscode/extensions/ms-edgedevtools.vscode-edge-devtools-2.1.1/out/startpage/index.html", // Provide your project's url to finish configuring
+            "runtimeExecutable": "/var/lib/flatpak/app/com.microsoft.Edge/x86_64/stable/active/files/extra/msedge",
+            "url": "", // Provide your project's url to finish configuring
             "presentation": {
                 "hidden": true
             }
@@ -44,7 +45,8 @@
             "type": "vscode-edge-devtools.debug",
             "name": "Open Edge DevTools",
             "request": "attach",
-            "url": "/home/jrsilvey/.var/app/com.visualstudio.code/data/vscode/extensions/ms-edgedevtools.vscode-edge-devtools-2.1.1/out/startpage/index.html", // Provide your project's url to finish configuring
+            //"runtimeExecutable": "/var/lib/flatpak/app/com.microsoft.Edge/x86_64/stable/active/files/extra/msedge",
+            "url": "", // Provide your project's url to finish configuring
             "presentation": {
                 "hidden": true
             }
