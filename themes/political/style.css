@@ -600,6 +600,12 @@ h3.notion-heading.toggle {
 
 
 /* #COLLECTION GALLERY  */
+/* ^Collection Card Normal */
+/* @ENABLED ON */
+/* $ Organizations  */
+.page__directory-organizations .notion-collection-card.gallery {
+    display: block;
+ }
 /* ^Collection Card Cover On Left */
 /* @ENABLED ON */
 /* $Elected Officials, 2022. Government, Directory (Children)  */
