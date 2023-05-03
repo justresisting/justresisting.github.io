@@ -635,7 +635,7 @@ h3.notion-heading.toggle {
     min-width: 100%;
     width: 100%;
 }
-/* @ */
+/* @ super-content for child pages */
 /* .parent-page__2022 .super-content,
 .page__government-elected-officials .super-content, */
 .parent-page__2022 .super-content,
@@ -644,6 +644,8 @@ h3.notion-heading.toggle {
 .parent-page__directory .super-content {
     padding-left: 2rem;
     padding-right: 2rem;
+    /* max-width fixes width if pages are not full width in Notion */
+    max-width: 100% !important;
 }
 /* @property select pills stack */
 .page__government-elected-officials .notion-collection-card__content .notion-property__select {
