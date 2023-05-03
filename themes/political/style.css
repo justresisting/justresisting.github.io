@@ -307,6 +307,8 @@ a.notion-link.super-navbar__item.active {
   z-index: -10;} */
 .super-content {
     background-color: var(--color-bg);
+/* max-width fixes width if pages are not full width in Notion */
+    max-width: 100% !important;
 }
 /* !END SUPER CONTENT */
 
@@ -651,8 +653,6 @@ h3.notion-heading.toggle {
 .parent-page__directory .super-content {
     padding-left: 2rem;
     padding-right: 2rem;
-    /* max-width fixes width if pages are not full width in Notion */
-    max-width: 100% !important;
 }
 /* @property select pills stack */
 .page__government-elected-officials .notion-collection-card__content .notion-property__select {
