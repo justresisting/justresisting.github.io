@@ -798,7 +798,7 @@ h3.notion-heading.toggle {
 .notion-collection-gallery {
     border-top: var(--collection-gallery-header);
 }
-
+/* @AUTO-FIT ENABLED BY DEFAULT */
 .notion-collection-gallery.large,
 .notion-collection-gallery.grouped.large {
    grid-template-columns: repeat(var(--grid-layout), minmax(var(--collection-card-cover-size-medium), 1fr)) !important;
@@ -811,6 +811,23 @@ h3.notion-heading.toggle {
 .notion-collection-gallery.grouped.small {
     grid-template-columns: repeat(var(--grid-layout), minmax(var(--collection-card-cover-size-smaller), 1fr)) !important;
 }
+/* !END AUTO-FIT BY DEFAULT */
+/* @AUTO-FILL ENABLED PER PAGE / PARENT PAGE*/
+/* $ENABLED FOR */
+/* *ORGANIZATIONS */
+.page__directory-organizations .notion-collection-gallery.large,
+.page__directory-organizations .notion-collection-gallery.grouped.large {
+   grid-template-columns: repeat(auto-fill, minmax(var(--collection-card-cover-size-medium), 1fr)) !important;
+}
+.page__directory-organizations .notion-collection-gallery.medium, 
+.page__directory-organizations .notion-collection-gallery.grouped.medium {
+    grid-template-columns: repeat(auto-fill, minmax(var(--collection-card-cover-size-small), 1fr)) !important;
+}
+.page__directory-organizations .notion-collection-gallery.small, 
+.page__directory-organizations .notion-collection-gallery.grouped.small {
+    grid-template-columns: repeat(auto-fill, minmax(var(--collection-card-cover-size-smaller), 1fr)) !important;
+}
+/* !END AUTO-FILL PER PAGE */
 /* !END COLLECTION CARD GRID COLUMN SIZE */
 .resource .notion-link.notion-page,
 .notion-semantic-string .link {
