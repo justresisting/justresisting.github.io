@@ -306,12 +306,12 @@ a.notion-link.super-navbar__item.active {
   position: var(--parralax-effect);
   z-index: -10;} */
 .super-content {
-    background-color: var(--color-bg);
-}
-.super-content.max-width {
+background-color: var(--color-bg);
 /* max-width fixes width if pages are not full width in Notion */
     max-width: 100% !important;
 }
+/* .super-content.max-width {
+} */
 /* !END SUPER CONTENT */
 
 
