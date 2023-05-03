@@ -602,7 +602,8 @@ h3.notion-heading.toggle {
 /* #COLLECTION GALLERY  */
 /* ^Collection Card Normal */
 /* @ENABLED ON */
-/* $ Organizations  */
+/* $ Organizations, Documents  */
+.page__directory-documents .notion-collection-card.gallery,
 .page__directory-organizations .notion-collection-card.gallery {
     display: block;
  }
