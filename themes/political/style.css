@@ -307,6 +307,8 @@ a.notion-link.super-navbar__item.active {
   z-index: -10;} */
 .super-content {
     background-color: var(--color-bg);
+}
+.super-content.max-width {
 /* max-width fixes width if pages are not full width in Notion */
     max-width: 100% !important;
 }
