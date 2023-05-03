@@ -250,9 +250,9 @@
 --collection-card-cover-size-medium: 16rem !important;
 --collection-card-cover-size-large: 24rem !important;
 --collection-card-cover-size-larger: 32rem !important;
---collection-card-cover-height-small: 4rem;
---collection-card-cover-height-medium: 8rem;
---collection-card-cover-height-large: 12rem;
+--collection-card-cover-height-small: 4rem !important;
+--collection-card-cover-height-medium: 12rem !important;
+--collection-card-cover-height-large: 24rem !important;
 }
 
 /* #BEGIN THEME CSS */
@@ -602,28 +602,46 @@ h3.notion-heading.toggle {
 /* #COLLECTION GALLERY  */
 /* ^Collection Card Cover On Left */
 /* @ENABLED ON */
-/* $Elected Officials, 2022 (Children)  */
+/* $Elected Officials, 2022. Government, Directory (Children)  */
+/* .parent-page__2022 .notion-collection-card.gallery,
+.page__government-elected-officials .notion-collection-card.gallery { */
 .parent-page__2022 .notion-collection-card.gallery,
-.page__government-elected-officials .notion-collection-card.gallery {
+.parent-page__government .notion-collection-card.gallery,
+.parent-page__places .notion-collection-card.gallery,
+.parent-page__directory .notion-collection-card.gallery {
     display: flex;
 }
+/* @ Container for card__cover img */
+/* .page__government-elected-officials .notion-collection-card__cover { */
 .parent-page__2022 .notion-collection-card__cover,
-.page__government-elected-officials .notion-collection-card__cover {
+.parent-page__government .notion-collection-card__cover,
+.parent-page__places .notion-collection-card__cover,
+.parent-page__directory .notion-collection-card__cover {
     position: relative;
     min-height: 115px;
     height: 100%;
-    width: 12rem;
+    width: 100%;
     overflow: hidden;
+    min-width: 128px !important;
 }
+/* @ card_cover img*/
+/* .page__government-elected-officials .notion-collection-card__cover img { */
 .parent-page__2022 .notion-collection-card__cover img,
-.page__government-elected-officials .notion-collection-card__cover img {
-    min-height: 256px;
-    height: 100%;
+.parent-page__government .notion-collection-card__cover img,
+.parent-page__places .notion-collection-card__cover img,
+.parent-page__directory .notion-collection-card__cover img {
+    min-height: 256px !important;
+    height: 100% !important;
     min-width: 100%;
     width: 100%;
 }
+/* @ */
+/* .parent-page__2022 .super-content,
+.page__government-elected-officials .super-content, */
 .parent-page__2022 .super-content,
-.page__government-elected-officials .super-content {
+.parent-page__government .super-content,
+.parent-page__places .super-content,
+.parent-page__directory .super-content {
     padding-left: 2rem;
     padding-right: 2rem;
 }
