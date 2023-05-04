@@ -883,6 +883,12 @@ h3.notion-heading.toggle {
     --grid-layout: auto-fill;
     grid-template-columns: repeat(var(--grid-layout),minmax(var(--collection-card-cover-size-medium),1fr)) !important;
 }
+
+.collection-7c8618c9041b4057a3d3ffe4e5b62135 .notion-collection-gallery, .notion-collection-gallery.grouped {
+    --grid-layout: auto-fill;
+    grid-template-columns: repeat(var(--grid-layout), minmax(var(--collection-card-cover-size-smaller), 1fr)) !important;
+
+}
 /* %About */
 /* %Services */
 /* %Resources */
