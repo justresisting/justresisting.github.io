@@ -241,7 +241,7 @@
     --collection-card-gap: 32px;
     --collection-card-shadow: rgba(0, 0, 0, 0.5) 0px 20px 40px -10px;
 /* $Collection Card Size */
---collection-card-cover-size-static-small: 172px !important;
+/* --collection-card-cover-size-static-small: 172px !important;
 --collection-card-cover-size-static-medium: 260px !important;
 --collection-card-cover-size-static-large: 320px !important;
 --collection-card-cover-size-tiny: 4rem !important;
@@ -252,7 +252,20 @@
 --collection-card-cover-size-larger: 32rem !important;
 --collection-card-cover-height-small: 4rem !important;
 --collection-card-cover-height-medium: 12rem !important;
---collection-card-cover-height-large: 24rem !important;
+--collection-card-cover-height-large: 24rem !important; */
+--collection-card-cover-size-static-small: 16rem !important;
+--collection-card-cover-size-static-medium: 16rem !important;
+--collection-card-cover-size-static-large: 16rem !important;
+--collection-card-cover-size-tiny: 16rem !important;
+--collection-card-cover-size-smaller: 16rem !important;
+--collection-card-cover-size-small: 16rem !important;
+--collection-card-cover-size-medium: 16rem !important;
+--collection-card-cover-size-large: 16rem !important;
+--collection-card-cover-size-larger: 16rem !important;
+--collection-card-cover-height-small: 16rem !important;
+--collection-card-cover-height-medium: 16rem !important;
+--collection-card-cover-height-large: 16rem !important;
+
 }
 
 /* #BEGIN THEME CSS */
