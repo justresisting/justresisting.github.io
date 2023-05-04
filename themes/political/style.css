@@ -221,7 +221,7 @@
 /* $Page Font - Fluid */
 --font-fluid: clamp(var(--font-min), var(--font-preferred), var(--font-max)) !important;
 /* $Grid Layout */
---grid-layout: auto-fit !important;
+--grid-layout: auto-fill !important;
 /* $Collections */
 --collection-margin: 0.25rem 0 !important;
 --collection-padding: 0 0.5rem !important;
