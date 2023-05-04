@@ -259,12 +259,12 @@
 --collection-card-cover-size-tiny: 16rem !important;
 --collection-card-cover-size-smaller: 16rem !important;
 --collection-card-cover-size-small: 16rem !important;
---collection-card-cover-size-medium: 16rem !important;
---collection-card-cover-size-large: 16rem !important;
---collection-card-cover-size-larger: 16rem !important;
 --collection-card-cover-height-small: 16rem !important;
+--collection-card-cover-size-medium: 16rem !important;
 --collection-card-cover-height-medium: 16rem !important;
+--collection-card-cover-size-large: 16rem !important;
 --collection-card-cover-height-large: 16rem !important;
+--collection-card-cover-size-larger: 16rem !important;
 
 }
 
@@ -607,21 +607,22 @@ h3.notion-heading.toggle {
 /* ^Collection Card Cover On Left */
 /* @ENABLED ON */
 /* $Elected Officials, 2022. Government, Directory (Children)  */
+/* !Only works with Page Cover, not Property File */
 /* .parent-page__2022 .notion-collection-card.gallery,
-.page__government-elected-officials .notion-collection-card.gallery { */
+.page__government-elected-officials .notion-collection-card.gallery {
 .parent-page__2022 .notion-collection-card.gallery,
 .parent-page__government .notion-collection-card.gallery,
 .parent-page__places .notion-collection-card.gallery,
 .parent-page__directory .notion-collection-card.gallery {
     display: flex;
-}
+} */
 /* ^Collection Card Normal */
 /* @ENABLED ON */
 /* $ Organizations, Documents  */
-.page__directory-documents .notion-collection-card.gallery,
+/* .page__directory-documents .notion-collection-card.gallery,
 .page__directory-organizations .notion-collection-card.gallery {
     display: block;
- }
+ } */
 /* @ Container for card__cover img */
 /* .page__government-elected-officials .notion-collection-card__cover { */
 .parent-page__2022 .notion-collection-card__cover,
