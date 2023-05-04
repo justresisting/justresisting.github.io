@@ -1,0 +1,14 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "build",
+			"path": ".msedge/Demos/1DIV",
+			"group": "build",
+			"problemMatcher": [],
+			"label": "npm: build - .msedge/Demos/1DIV",
+			"detail": "npx webpack"
+		}
+	]
+}
