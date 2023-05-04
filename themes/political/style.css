@@ -244,8 +244,8 @@
 --collection-card-cover-size-static-small: 172px !important;
 --collection-card-cover-size-static-medium: 260px !important;
 --collection-card-cover-size-static-large: 320px !important;
---collection-card-cover-size-tiny: 4rem !important;
---collection-card-cover-size-smaller: 6rem !important;
+--collection-card-cover-size-tiny: 6rem !important;
+--collection-card-cover-size-smaller: 9rem !important;
 --collection-card-cover-size-small: 12rem !important;
 --collection-card-cover-height-small: 9rem !important;
 --collection-card-cover-size-medium: 16rem !important;
@@ -803,9 +803,11 @@ h3.notion-heading.toggle {
     grid-template-columns: repeat(var(--grid-layout), minmax(var(--collection-card-cover-size-smaller), 1fr)) !important;
 }
 /* !END AUTO-FIT BY DEFAULT */
+
 /* @AUTO-FILL ENABLED PER PAGE / PARENT PAGE*/
 /* $ENABLED FOR */
 /* *ORGANIZATIONS */
+/* ?Auto-fill should be default. */
 .page__directory-organizations .notion-collection-gallery.large,
 .page__directory-organizations .notion-collection-gallery.grouped.large {
    grid-template-columns: repeat(auto-fill, minmax(var(--collection-card-cover-size-medium), 1fr)) !important;
@@ -875,17 +877,17 @@ h3.notion-heading.toggle {
 /* !END COLLECTIONS */
 
 /* #PAGES (Use IDs to force specific actions) */
-/* *Home */
-/* @ AMEtech Main Categories  */
+/* %Home */
+/* @ AMEtech Main Categories  */ 
 #block-47cc54fba7c4411da66fccd6e0f72634 .notion-collection-gallery {
     --grid-layout: auto-fill;
     grid-template-columns: repeat(var(--grid-layout),minmax(var(--collection-card-cover-size-medium),1fr)) !important;
 }
-/* *About */
-/* *Services */
-/* *Resources */
-/* *Blog */
-/* *Contact */
+/* %About */
+/* %Services */
+/* %Resources */
+/* %Blog */
+/* %Contact */
 
 
 
@@ -898,6 +900,7 @@ div#block-5df357da07bf4d268800212ce07fdd7b.notion-callout .notion-callout__conte
 /* !END CREDLY BADGE */
 
 /* #DEMOS */
+
 /* %DEMO: CALLOUTS OF A CERTAIN SIZE*/
 div#block-237b9a4d4a4c40e3982ab88abe797a64 .notion-callout,
 div#block-fad8cd2cf13d4097a3e7b6702abf1b03 .notion-callout {
