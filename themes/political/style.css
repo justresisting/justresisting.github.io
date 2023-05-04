@@ -241,7 +241,7 @@
     --collection-card-gap: 32px;
     --collection-card-shadow: rgba(0, 0, 0, 0.5) 0px 20px 40px -10px;
 /* $Collection Card Size */
-/* --collection-card-cover-size-static-small: 172px !important;
+--collection-card-cover-size-static-small: 172px !important;
 --collection-card-cover-size-static-medium: 260px !important;
 --collection-card-cover-size-static-large: 320px !important;
 --collection-card-cover-size-tiny: 4rem !important;
@@ -252,26 +252,7 @@
 --collection-card-cover-height-medium: 12rem !important;
 --collection-card-cover-size-large: 24rem !important;
 --collection-card-cover-height-large: 18rem !important;
---collection-card-cover-size-larger: 32rem !important;*/
---collection-card-cover-size-static-small: 172px !important;
---collection-card-cover-size-static-medium: 256px !important;
---collection-card-cover-size-static-large: 320px !important;
---collection-card-cover-size-tiny: 4rem !important;
---collection-card-cover-size-smaller: 6rem !important;
---collection-card-cover-size-small: 12rem !important;
---collection-card-cover-height-small: 9rem !important;
---collection-card-cover-size-medium: 16rem !important;
---collection-card-cover-height-medium: 12rem !important;
---collection-card-cover-size-large: 24rem !important;
---collection-card-cover-height-large: 18rem !important;
---collection-card-cover-size-larger: 24rem !important;
-
-    /*    --collection-card-cover-size-small: 172px;*/
-    /*    --collection-card-cover-height-medium: 200px;*/
-    /*    --collection-card-cover-size-medium: 260px;*/
-    /*    --collection-card-cover-height-large: 420px;*/
-    /*    --collection-card-cover-size-large: 320px;*/
-
+--collection-card-cover-size-larger: 32rem !important;
 }
 
 /* #BEGIN THEME CSS */
@@ -892,6 +873,20 @@ h3.notion-heading.toggle {
 /*}*/
 /* !END COLLECTION CALENDAR */
 /* !END COLLECTIONS */
+
+/* #PAGES (Use IDs to force specific actions) */
+/* *Home */
+/* @ AMEtech Main Categories  */
+#block-47cc54fba7c4411da66fccd6e0f72634 .notion-collection-gallery {
+    --grid-layout: auto-fill;
+    grid-template-columns: repeat(var(--grid-layout),minmax(var(--collection-card-cover-size-medium),1fr)) !important;
+}
+/* *About */
+/* *Services */
+/* *Resources */
+/* *Blog */
+/* *Contact */
+
 
 
 /* #CREDLY BADGE */
