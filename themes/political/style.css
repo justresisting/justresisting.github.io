@@ -580,14 +580,7 @@ h3.notion-heading.toggle {
     display: none !important;
 }
 
-/* #COLLECTION GROUP */
-.notion-collection-group__section-header .notion-property__title .notion-semantic-string {
-    background-color: var(--color-bg-yellow-light);
-    border-radius: var(--element-radius);
-    padding: .125rem .5rem;
-    font-size: var(--font-title-fluid);
-}
-/* !END COLLECTION GROUP */
+
 
 
 /* #COLLECTION GALLERY  */
@@ -789,15 +782,12 @@ h3.notion-heading.toggle {
 /* / standardizes h1 headings & group collection titles across site  */
 /* / will share family, size, weight, radius, bg color, justification  */
 h1.notion-heading .notion-semantic-string, 
-.notion-collection-group__section-header .notion-semantic-string {
+.notion-collection-group__section-header .notion-property__title .notion-semantic-string {
     background-color: var(--color-bg-yellow);
     border-radius: var(--element-radius);
     /* padding: 0.125rem 0.5rem; */
     font-size: var(--font-title-fluid);
-    /* width: 100% !important; */
     justify-content: center;
-    /* justify-items: center; */
-    /* justify-self: center; */
     display: grid;
     font-family: var(--primary-font);
     font-weight: 600;
