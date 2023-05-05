@@ -1,14 +1,15 @@
+/* %Variables */
 :root {
- /* $QUICK COLORS  */
- /* CHANGE COLORS ACROSS THEME */
- /* NEED RGB() IN VARIABLES */
+/* #Global Colors */
+/* ^QUICK COLORS  */
+/* / CHANGE COLORS ACROSS THEME */
+/* / NEED RGB() IN VARIABLES */
 --site-bg: 37, 37, 37 !important;
 --site-accent: 173, 173, 37 !important;
 --site-accent-bg: 73, 73, 37 !important;
 --site-hover: 73, 73, 73 !important;
 --site-primary: 51, 51, 51 !important;
-/* $Global Colors */
-/* $Colors */
+/* ^Colors */
 --color-white: 255, 255, 255 !important;
 --color-black: 0, 0, 0 !important;
 --color-gray: 73, 73, 73 !important;
@@ -21,9 +22,9 @@
 --color-pink: 153, 108, 153 !important;
 --color-red: 153, 0, 0 !important;
 /* ^GLOBAL THEME COLORS */
-/* DEPEND ON QUICK COLORS */
-/* DONT NEED RGB() IN VARIABLES */
-/* $Text */
+/* /DEPEND ON QUICK COLORS */
+/* /DONT NEED RGB() IN VARIABLES */
+/* ^Text */
 --color-text-white: rgb(var(--color-white)) !important;
 --color-text-black: rgba(0, 0, 0, 1) !important;
 --color-text-gray: rgba(192, 192, 192, 1) !important;
@@ -57,20 +58,20 @@
 --color-bg-pink-light: rgba(var(--color-pink), 0.5) !important;
 --color-bg-red: rgba(var(--color-red), 1) !important;
 --color-bg-red-light: rgba(var(--color-red), 0.5) !important;
-/* ^THEME DEFAULT */
+/* $THEME DEFAULT */
 --color-default: rgb(var(--site-primary)) !important;
 --color-default-light: rgba(var(--site-primary), 0.5) !important;
-/* ^THEME BG DEFAULT */
+/* $THEME BG DEFAULT */
 --color-bg: rgb(var(--site-bg)) !important;
 --color-bg-default: rgb(var(--site-bg)) !important;
 --color-bg-light: rgba(var(--site-bg), 0.5) !important;
-/* ^THEME ACCENT DEFAULT */
+/* $THEME ACCENT DEFAULT */
 --accent: rgb(var(--site-accent)) !important;
 --accent-light: rgba(var(--site-accent), 0.5) !important;
-/* ^THEME ACCENT BG DEFAULT */
+/* $THEME ACCENT BG DEFAULT */
 --accent-bg: rgb(var(--site-accent-bg)) !important;
 --accent-bg-light: rgba(var(--site-accent-bg), 0.5) !important;
-/* ^THEME HOVER DEFAULT */
+/* $THEME HOVER DEFAULT */
 --color-hover: rgb(var(--site-hover)) !important;
 --color-hover-light: rgba(var(--site-hover), 0.5) !important;
 --color-card-bg-hover: rgb(var(--site-hover)) !important; 
@@ -80,46 +81,41 @@
 --color-ui-hover-bg: rgba(var(--site-hover), 0.25) !important;
 --color-ui-hover-bg-light: rgba(var(--site-hover), 0.125) !important;
 /* ^DEFAULT COLOR: */
-/* BLOCK BACKGROUNDS */
+/* $BLOCK BACKGROUNDS */
 --color-card-bg: rgb(var(--site-primary)) !important;
-/* ^NAVBAR CTA BUTTON */
+/* $NAVBAR CTA BUTTON */
 --navbar-button-background-color: rgb(232, 232, 0) !important;
-  /* $Call to Actions */
-  --cta-padding: 13px 14px !important;
-  --cta-border-radius: 4px !important;
-  --cta-border: none !important;
-  --cta-shadow: none !important;
-/* ^CODE BLOCKS BACKGROUND */
+/* $CODE BLOCKS BACKGROUND */
 --color-code-bg: var(--color-bg-black) !important;
-/* ^FOREGROUND TEXT  */
+/* $FOREGROUND TEXT  */
 --color-text-default: rgb(var(--color-white)) !important;
-/* ^DIMMER FOREGROUND TEXT  */
+/* $DIMMER FOREGROUND TEXT  */
 --color-text-default-light: var(--color-text-gray) !important;
-/* !END COLORS */
-/* ^PAGE WIDTH */
+/* !Colors */
+/* ^Site UI */
+/* $PAGE WIDTH */
 --theme-width: 1200px !important;
 --responsive-width: calc(100% - var(--column-spacing)) !important;
 --long-width: 800px !important;
 --mid-width: 400px !important;
 --short-width: 200px !important;
-/* $UI */
-/* ^ Site Border Radius [Rounding] */
+/* $ Site Border Radius [Rounding] */
 --element-radius: var(--border-radii-layout) !important;
 --property-image-radius: 24px !important;
-/* ^Site Font Size*/
+/* $Site Font Size*/
 --body-font: 14px !important;
 --title-font: large !important;
 --title-size: xxx-large !important;
-/* ^Site Column Spacing*/
+/* $Site Column Spacing*/
 --column-spacing: 2em !important;
-/* ^Site Shadow */
+/* $Site Shadow */
 --site-shadow: 0 0 0 var(--color-default) !important;
-/* ^Site Border */
+/* $Site Border */
 --border-default: 1px solid var(--color-border-default) !important;
 --color-border-default: var(--accent-bg) !important;
-/* ^Site Header Level */
+/* $Site Header Level */
 --notion-header-page-title: 75vh !important;
-/* $SUPER CONTENT  */
+/* ^SUPER CONTENT  */
 --super-content-bg: var(--color-bg) !important;
 --super-footer-padding: 0 2rem !important;
 --super-content-padding: 0 !important;
@@ -129,6 +125,11 @@
 --color-pill-text-default: var(--color-text-default) !important;
 --pill-margin: .5rem 0 !important;
 --pill-padding: .25rem !important;
+/* $Call to Actions */
+--cta-padding: 13px 14px !important;
+--cta-border-radius: 4px !important;
+--cta-border: none !important;
+--cta-shadow: none !important;
 /* $Callouts */
 --callout-padding: 0.25rem 0 0.25rem 0 !important;
 --callout-padding-top: 0.25rem !important;
@@ -178,6 +179,20 @@
 --h3-margin: 0 0.125rem !important;
 --h3-line-height: 1.4 !important;
 --h3-text-shadow: var(--site-shadow) !important;
+/* ^Fluid Responsive Font */
+--font-title-fallback: 24px !important;
+--font-title-min: 1rem !important;
+--font-title-preferred: 1vw + 1rem !important;
+--font-title-max: 2.5rem !important;
+--font-fallback: 16px !important;
+--font-min: 16px !important;
+--font-preferred: 1.75vw + 2px !important;
+--font-max: 32px !important; 
+/* $Page Property Titles - Fluid */
+--font-title-fluid: clamp(var(--font-title-min), var(--font-title-preferred), var(--font-title-max)) !important;
+/* $Page Font - Fluid */
+--font-fluid: clamp(var(--font-min), var(--font-preferred), var(--font-max)) !important;
+
 /* $Toggles */
 --toggle-size: 32px !important;
 /* --toggle-color: var(--accent-bg) !important; */
@@ -189,7 +204,7 @@
 --link-border-color: none !important;
 /* $Margin */
 --code-margin: 1rem 1rem !important;
-/* $Database View Picker */
+/* ^Database View Picker */
 /* $Spacing */
 --picker-margin: var(--collection-margin) !important;
 --picker-padding: var(--collection-padding) !important;
@@ -204,25 +219,13 @@
 --picker-hover-bg-color: var(--color-bg-yellow-light) !important;
 --picker-hover-text-color: var(--color-text-default) !important;
 --picker-hover-border-color: var(--color-bg-yellow) !important;
-/* !END Database View Picker */
+
 /* ^Site Hero Image Parralax Effect /position: fixed/ */
 --parallax-effect: fixed !important;
-/* $Fluid Responsive Font */
---font-title-fallback: 24px !important;
---font-title-min: 1rem !important;
---font-title-preferred: 1vw + 1rem !important;
---font-title-max: 2.5rem !important;
---font-fallback: 16px !important;
---font-min: 16px !important;
---font-preferred: 1.75vw + 2px !important;
---font-max: 32px !important; 
-/* $Page Property Titles - Fluid */
---font-title-fluid: clamp(var(--font-title-min), var(--font-title-preferred), var(--font-title-max)) !important;
-/* $Page Font - Fluid */
---font-fluid: clamp(var(--font-min), var(--font-preferred), var(--font-max)) !important;
-/* $Grid Layout */
+/* ^Grid Layout */
 --grid-layout: auto-fit !important;
-/* $Collections */
+/* ^Collections */
+/* $Collection Spacing */
 --collection-margin: 0.25rem 0 !important;
 --collection-padding: 0 0.5rem !important;
 --collection-property-text-size: 14px !important;
@@ -253,7 +256,9 @@
 --collection-card-cover-size-large: 24rem !important;
 --collection-card-cover-height-large: 18rem !important;
 --collection-card-cover-size-larger: 32rem !important;
+
 }
+/* !Variables */
 
 /* #BEGIN THEME CSS */
 
@@ -273,7 +278,16 @@
     color: black;
     border-color: transparent;
 }
-/* !END WIDGETS */
+/* !Gumroad Shopping Cart */
+
+/* ^CREDLY BADGE */
+div#block-5df357da07bf4d268800212ce07fdd7b.notion-callout .notion-callout__content {
+    justify-content: center;
+    display: flex !important;
+    background-color: var(--color-text-white);
+}
+/* !CREDLY BADGE */
+/* !WIDGETS */
 
 /* #SUPER NAVBAR */
 /* ^Super Navbar BLUR */
@@ -296,25 +310,22 @@ a.notion-link.super-navbar__item {
 a.notion-link.super-navbar__item.active {
     background-color: var(--accent-bg) !important;
 }
-/* !END SUPER NAVBAR ITEM */
-/* !END SUPER NAVBAR */
+/* !Super Navbar Items */
+/* !SUPER NAVBAR */
 
 /* #SUPER CONTENT */
-/* background-color MUST BE SET */
-/* for Parralax effect */
+/* !background-color MUST BE SET for Parralax effect */
 /* img.notion-header__cover-image {
   position: var(--parralax-effect);
   z-index: -10;} */
 .super-content {
-background-color: var(--color-bg);
-/* max-width fixes width if pages are not full width in Notion */
+    background-color: var(--color-bg);
+    /* /max-width fixes pages not full width in Notion */
     max-width: 100% !important;
 }
 /* .super-content.max-width {
 } */
-/* !END SUPER CONTENT */
-
-
+/* !SUPER CONTENT */
 
 /* #HEADER */
 /* ^HEADER COVER IMAGES */
@@ -327,15 +338,18 @@ img.notion-header__cover-image {
     object-fit: cover !important;
     z-index: -1000;
 }
-/* .page__index img.notion-header__cover-image,
-.parent-page__index img.notion-header__cover-image,
-.parent-page__states img.notion-header__cover-image,
-.parent-page__categories img.notion-header__cover-image {
-    position: var(--parallax-effect) !important;
-    object-fit: cover !important; */
-    /* margin-top: 64px !important; */
-/* } */
+        /* XX dont need */
+        /* .page__index img.notion-header__cover-image,
+        .parent-page__index img.notion-header__cover-image,
+        .parent-page__states img.notion-header__cover-image,
+        .parent-page__categories img.notion-header__cover-image {
+            position: var(--parallax-effect) !important;
+            object-fit: cover !important; */
+            /* margin-top: 64px !important; */
+        /* } */
 /* @OBJECT-FIT: CONTAIN ENABLED FOR: */
+/* $ ENABLED IN */
+/* *Places/States, Elected-Officials */
 .parent-page__places-states img.notion-header__cover-image,
 .parent-page__elected-officials img.notion-header__cover-image {
     position: absolute !important;
@@ -344,12 +358,12 @@ img.notion-header__cover-image {
 /* @Header Turned: *OFF* */
 /* !END HEADER COVER IMAGE */
 
- /* #HEADER TITLE */
- /* @Header Title Turned: *ON* */
- /* DEFAULTS:  */
- /* margin-top: *96px* */
+/* ^HEADER TITLE */
+/* $Header Title Turned: *ON* */
+/* @DEFAULTS:  */
+/* @margin-top: *96px* */
 .notion-header__title-wrapper {
-  margin-top: 0 !important;
+margin-top: 0 !important;
 }
 .notion-header__title {
     width: fit-content;
@@ -358,20 +372,17 @@ img.notion-header__cover-image {
     border-radius: var(--element-radius);
     margin: auto;
     padding: var(--collection-padding);
-    
 }
 
 /* @Page Height with *.no-cover* */
 .notion-header__content.no-cover.no-icon-image .notion-header__title-wrapper,
 .notion-header__content.no-cover.has-icon-image .notion-header__title-wrapper {
     margin-top: -96px !important;
-    /* margin-top: 192px !important; */
+    /* XX margin-top: 192px !important; */
 }
+/* !HEADER TITLE */
 
-
-
-
-/* #HEADER ICON */
+/* ^HEADER ICON */
 /* @Header Icons Turned: *OFF*  */
 img.notion-header__icon {
   display: none !important;
@@ -382,8 +393,7 @@ img.notion-header__icon {
 .notion-header__icon-wrapper.no-cover.has-icon-image img.notion-header__icon {
     display: none !important;
 }
-
-/* #Header Icons turned: *ON* */
+/* $Header Icons turned: *ON* */
 /* @UNDER ALL INDEX PAGES, CATEGORIES */
 .page__index .notion-header__icon,
 .parent-page__index .notion-header__icon,
@@ -391,28 +401,16 @@ img.notion-header__icon {
 .parent-page__states .notion-header__icon {
   display: block !important;
 }
-/* !END HEADER ICONS */
+/* !HEADER ICON */
 
 /* #NOTION HEADER PAGE CONTENT */
-/* ?What is this? */
-/*.notion-property__title .notion-property__title__icon-wrapper {*/
-/*    display: none;*/
-/*}*/
+        /* ?What is this? */
+        /* XX .notion-property__title .notion-property__title__icon-wrapper {*/
+        /*    display: none;*/
+        /*}*/
+/* !HEADER */
 
-.notion-property__title .notion-semantic-string {
-    font-weight: 500;
-    font-size: var(--title-font);
-    line-height: 1;
-    word-break: normal;
-    white-space: pre-line;
-} 
-
-div.notion-property__url {
-  font-size: 14px;
-  white-space: nowrap;
-}
-
-/* ^Page Properties */
+/* #PAGE PROPERTIES */
 /* @Adds Page Properties Bottom-Border */
 /* @Adds Link Bottom-Border :hover */
 .notion-property__relation .resource .notion-link.notion-page .notion-page__title .notion-semantic-string {
@@ -422,14 +420,18 @@ div.notion-property__url {
 .notion-property__relation .resource .notion-link.notion-page:hover .notion-page__title .notion-semantic-string {
     border-bottom: 1px solid var(--color-bg-yellow);
 }
-/* !END Page Properties Bottom-Border */
+/* !Adds Page Properties Bottom-Border */
+
+/* $ Notion URL Properties */
+div.notion-property__url {
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+/* XXNotion Header Content Title Wrapper */
+/* XXDEFAULT: *96px* */
 
 
-
-/* ^Notion Header Content Title Wrapper */
-/* @DEFAULT: *96px* */
-
-/* ^PAGE PROPERTIES */
 .notion-page__properties {
     margin-left: 0 !important;
     background-color: var(--color-bg) !important;
@@ -458,8 +460,8 @@ div.notion-property__url {
     gap: 8px;
     min-height: 36px;
 }
-
- /* ^PROPERTY: *TITLE* */
+/* !Property: *Property* */
+/* ^PROPERTY: *TITLE* */
 .notion-page__property-name {
     background-color: var(--color-bg-black) !important;
     border-radius: var(--element-radius);
@@ -469,23 +471,31 @@ div.notion-property__url {
     /* padding-top: 8px !important;  */
     padding: var(--collection-padding) !important;
 }
+/* $ Notion Property Titles */
+.notion-property__title .notion-semantic-string {
+    font-weight: 500;
+    font-size: var(--title-font);
+    line-height: 1;
+    word-break: normal;
+    white-space: pre-line;
+} 
 
-/* @CENTER ALIGNS ALL PAGE PROPERTIES */
+/* $vertically centers all Page Properties */
 .notion-page__properties .notion-page__property .notion-page__property-name + .notion-property {
     align-self: center;
 }
-
-/* ^Property: *Images* */
+/* !PROPERTY: *TITLE* */
+/* ^Relation File */
 .notion-property.notion-property__file {
     width: 256px !important;
 }
-/* #Relation Property */
-/* @Relation File Image Container Div */
+/* $Relation File Image Container Div */
 .notion-property.notion-property__file div {
     height: 18rem !important;
     width: 100% !important;
 }
-/* @Relation File Image */
+/* !Relation File */
+/* ^Relation File Image */
 .notion-property.notion-property__file img {
     /* min-height: 8rem; */
     /* min-height made SVG icons in properties act crazy */
@@ -495,15 +505,18 @@ div.notion-property__url {
     object-fit: cover !important;
     border-radius: var(--element-radius);
 }
-/* @Icon for Relations from Districts */
+/* !Relation File Image */
+/* ^Relation Property */
+/* $Icon for Relations from Districts */
 .notion-property.notion-property__relation.property-7e3b3f51 .resource .notion-page__icon.small {
     display: none !important;
 }
-/* @Relation Properties Stack */
+/* $Relation Properties Stack */
 .notion-property.notion-property__relation .notion-semantic-string span.resource div {
     display: flex;
 }
-/* !END PAGE PROPERTIES */
+/* !Relation Property */
+/* !PAGE PROPERTIES */
 
 /* #NOTION PILLS */
 /* ^PROPERTY: *Pills* */
@@ -518,9 +531,15 @@ div.notion-property__url {
     background: var(--color-pill-default);
     color: var(--color-pill-text-default);
 }
-/* !END NOTION PILLS */
+/* !PROPERTY: *Pills* */
+/* $property select pills stack */
+.page__government-elected-officials .notion-collection-card__content .notion-property__select {
+    display: inline;
+}
+/* !NOTION PILLS */
 
-/* #HEADINGS */
+/* #NOTION ELEMENTS */
+/* ^Headings */
 h1.notion-heading,
 h2.notion-heading, 
 h3.notion-heading, 
@@ -535,76 +554,73 @@ h3.notion-heading.toggle {
     font-size: var(--font-title-fluid);
     color: var(--h1-text-color);
 }
-/* !END HEADINGS */
+/* !Headings */
 
-/* #NOTION ELEMENTS */
 
 /* #NOTION PAGES */
-/* ^NOTION PAGE ICONS */
+/* ^Notion Page Icons */
 .notion-semantic-string .resource .notion-page__icon {
     display: none;
 }
-/* !END NOTION PAGES */
+/* !NOTION PAGES */
 
 /* #TOGGLES */
 .notion-toggle.bg-brown {
   display: none;
 }
-/* !END TOGGLES */
-/* !END NOTION ELEMENTS */
+/* !TOGGLES */
+/* !NOTION ELEMENTS */
 
 /* #COLLECTIONS */
-/* @Linked Database Name WITH View Tabs */
+/* $Linked Database Name WITH View Tabs */
 .notion-collection__header .notion-semantic-string {
     white-space: nowrap !important;
 }
-/* @Collection Title Border Bottom (Full Length) */
+/* $Collection Title Border Bottom (Full Length) */
 .notion-collection__header-wrapper {
     border-bottom: var(--border-default);
 }
-/* @Collection Title Border Bottom (Length of Title) */
+/* $Collection Title Border Bottom (Length of Title) */
 .notion-collection__header {
         border-bottom: 1px solid yellow;
 }
-/* @Collection Group Section Header Border Top  */
+/* $Collection Group Section Header Border Top  */
 .notion-collection-group__section-header:not(.no-border) {
     border-top: 1px none #eee !important;
 }
-/* @Database View Picker Left Margin */
+/* $Database View Picker Left Margin */
 .notion-collection__header-wrapper .notion-dropdown__menu-wrapper {
     left: 0 !important;
     margin-top: 1rem;
 }
-/* @Removes Icon next to Database Collection Name */
+/* $Removes Icon next to Database Collection Name */
 .notion-collection__header-icon {
     display: none !important;
 }
 
+/* ^COLLECTION GALLERY  */
+/* $Collection Card Cover On Left */
+/* ENABLED ON */
+/* Elected Officials, 2022. Government, Directory (Children)  */
+/* /Only works with Page Cover, not Property File */
+/* xx .parent-page__2022 .notion-collection-card.gallery,
+xx .page__government-elected-officials .notion-collection-card.gallery {
+xx .parent-page__2022 .notion-collection-card.gallery,
+xx .parent-page__government .notion-collection-card.gallery,
+xx .parent-page__places .notion-collection-card.gallery,
+xx .parent-page__directory .notion-collection-card.gallery {
+xx    display: flex;
+xx } */
 
-
-
-/* #COLLECTION GALLERY  */
-/* ^Collection Card Cover On Left */
-/* @ENABLED ON */
-/* $Elected Officials, 2022. Government, Directory (Children)  */
-/* !Only works with Page Cover, not Property File */
-/* .parent-page__2022 .notion-collection-card.gallery,
-.page__government-elected-officials .notion-collection-card.gallery {
-.parent-page__2022 .notion-collection-card.gallery,
-.parent-page__government .notion-collection-card.gallery,
-.parent-page__places .notion-collection-card.gallery,
-.parent-page__directory .notion-collection-card.gallery {
-    display: flex;
-} */
 /* ^Collection Card Normal */
-/* @ENABLED ON */
-/* $ Organizations, Documents  */
-/* .page__directory-documents .notion-collection-card.gallery,
-.page__directory-organizations .notion-collection-card.gallery {
-    display: block;
- } */
-/* @ Container for card__cover img */
-/* .page__government-elected-officials .notion-collection-card__cover { */
+/* xx ENABLED ON */
+/* xx Organizations, Documents  */
+/* xx .page__directory-documents .notion-collection-card.gallery,
+xx .page__directory-organizations .notion-collection-card.gallery {
+xx    display: block;
+xx } */
+/* $Container for card__cover img */
+/* xx .page__government-elected-officials .notion-collection-card__cover { */
 .parent-page__2022 .notion-collection-card__cover,
 .parent-page__government .notion-collection-card__cover,
 .parent-page__places .notion-collection-card__cover,
@@ -617,7 +633,7 @@ h3.notion-heading.toggle {
     min-width: 128px !important;
 }
 /* @ card_cover img*/
-/* .page__government-elected-officials .notion-collection-card__cover img { */
+/* ? .page__government-elected-officials .notion-collection-card__cover img { */
 .parent-page__2022 .notion-collection-card__cover img,
 .parent-page__government .notion-collection-card__cover img,
 .parent-page__places .notion-collection-card__cover img,
@@ -627,9 +643,9 @@ h3.notion-heading.toggle {
     min-width: 100%;
     width: 100%;
 }
-/* @ super-content for child pages */
-/* .parent-page__2022 .super-content,
-.page__government-elected-officials .super-content, */
+/* $ super-content for child pages */
+/* ? .parent-page__2022 .super-content,
+   ? .page__government-elected-officials .super-content, */
 .parent-page__2022 .super-content,
 .parent-page__government .super-content,
 .parent-page__places .super-content,
@@ -637,49 +653,49 @@ h3.notion-heading.toggle {
     padding-left: 2rem;
     padding-right: 2rem;
 }
-/* @property select pills stack */
-.page__government-elected-officials .notion-collection-card__content .notion-property__select {
-    display: inline;
-}
 
-/* !END COLLECTION CARD ON LEFT */
-/*.notion-collection-card.gallery {*/
-/*  min-height: 100%;*/
-/*  height: 100%;*/
-/*  max-height: 100%;*/
-/*  border-radius: var(--element-radius);*/
-/*}*/
+/* !Collection Card Cover On Left */
+/* !COLLECTION GALLERY  */
 
-/*.notion-collection-card__cover.large {*/
-/*  min-height: var(--collection-card-cover-size-medium) !important;*/
-/*  height: 0;*/
-/*  max-height: var(--collection-card-cover-size-medium) !important;*/
-/*}*/
+/* !COLLECTION GALLERY  */
 
-/*.notion-collection-card__cover.medium {*/
-/*  min-height: var(--collection-card-cover-size-small) !important;*/
-/*  height: 0;*/
-/*  max-height: var(--collection-card-cover-size-small) !important;*/
-/*}*/
+/* XX.notion-collection-card.gallery {*/
+/* XX min-height: 100%;*/
+/* XX height: 100%;*/
+/* XX max-height: 100%;*/
+/* XX border-radius: var(--element-radius);*/
+/* XX } */
 
-/*.notion-collection-card__cover.small {*/
-/*  min-height: var(--collection-card-cover-size-tiny);*/
-/*  height: 0;*/
-/*  max-height: var(--collection-card-cover-size-tiny);*/
-/*}*/
+/* xx .notion-collection-card__cover.large {*/
+/* xx min-height: var(--collection-card-cover-size-medium) !important;*/
+/* xx height: 0;*/
+/* xx max-height: var(--collection-card-cover-size-medium) !important;*/
+/* xx }*/
 
-/*.notion-collection-card__content {*/
-/*  padding: 0;*/
-/*  display: block;*/
-/*}*/
+/* xx .notion-collection-card__cover.medium {*/
+/* xx min-height: var(--collection-card-cover-size-small) !important;*/
+/* xx height: 0;*/
+/* xx max-height: var(--collection-card-cover-size-small) !important;*/
+/* xx }*/
 
-/*.notion-collection-card__property {*/
-/*  display: inline-grid;*/
-/*}*/
-/* !END COLLECTION GALLERY */
+/* xx .notion-collection-card__cover.small {*/
+/* xx min-height: var(--collection-card-cover-size-tiny);*/
+/* xx height: 0;*/
+/* xx max-height: var(--collection-card-cover-size-tiny);*/
+/* xx }*/
+
+/* xx .notion-collection-card__content {*/
+/* xx padding: 0;*/
+/* xx display: block;*/
+/* xx }*/
+
+/* xx .notion-collection-card__property {*/
+/* xx display: inline-grid;*/
+/* xx }*/
 
 
 /* #COLLECTION CARDS */
+/* $Collection Card Rehardless Of Size */
 .notion-collection-card {
     width: 100%;
     height: 100%;
@@ -697,16 +713,16 @@ h3.notion-heading.toggle {
     border: 1px solid var(--color-border-default);
     transition: 0.3s ease-in-out;
 }
-
+/*  $:Hover */
 .notion-collection-card:hover {
     background: var(--color-ui-hover-bg-light);
     transform: scale(1.025);
 }
-
+/* $ transition of image scaling on :hover */
 .notion-collection-card:hover img {
     transform: scale(1.0);
 }
-
+/* ^Collection Card Cover */
 .notion-collection-card__cover {
     border-radius: var(--element-radius);
     min-height: 100%;
@@ -717,34 +733,27 @@ h3.notion-heading.toggle {
     position: relative;
 }
 
-/* ^CONTACT PAGE COLLECTION CARD COVER SIZE */
-.page__contact .notion-collection-card__cover {
-    min-height: var(--collection-card-cover-size-static-small);
-    height: 100%;
-    width: var(--collection-card-cover-size-static-small);
-    margin: 0 auto;
-}
 
-/* ^COLLECTION-CARD__COVER DIV */
+/* ^Collection Card Cover Div */
 /* / Without 100%; !important cover images unexpectedly change size */
 .notion-collection-card__cover div {
     height: 100% !important;
 }
 
-/* ^COLLECTION CARD IMG */
-/* *OBJECT-FIT: *COVER* */
+/* ^Collection Card Cover Img */
+/* @OBJECT-FIT: *COVER* */
 .notion-collection-card__cover img {
     object-fit: cover !important;
 }
 
 /* ^COLLECTION CARD IMG */
-/* *OBJECT-FIT: *CONTAIN* ENABLED FOR: */
-/* .parent-page__places-states .notion-collection-card__cover img {
-      object-fit: contain !important;
-} */
+/* @OBJECT-FIT: *CONTAIN* ENABLED FOR: */
+/* xx .parent-page__places-states .notion-collection-card__cover img {
+xx object-fit: contain !important;
+xx } */
 
 /* ^ENLARGE IMAGES ON COLLECTION CARDS */
-/* @ENLARGE FLAGS ON STATE COLLECTION CARDS */
+/* %ENLARGE FLAGS ON STATE COLLECTION CARDS */
 .notion-collection-card__property:has(.notion-property.notion-property__file.property-71435e6f) div {
     width: 128px !important;
     height: 128px !important;
@@ -756,29 +765,30 @@ h3.notion-heading.toggle {
     height: var(--collection-card-cover-size-small) !important;
     margin: 0 auto !important;
 }
-/* !END ENLARGE IMAGES ON COLLECTION CARDS */
+/* !ENLARGE IMAGES ON COLLECTION CARDS */
 
-/* ^COLLECTION CARD TITLE FONT */
+/* ^Collection Card Property Title */
+/* $Fluid Font Size  */
 .notion-collection-card .notion-property__title {
     font-size: var(--font-title-fluid);
 }
-/* ^COLLECTION CARD TITLE FONT */
+/* $Primary Font */
 .notion-property__title {
     display: flex;
     align-items: center;
     justify-content: center;
     font-family: var(--primary-font);
 }
-/* ^COLLECTION CARD ICON *OFF* */
+/* $Content Page Icon */
 .notion-collection-card__content .notion-property__title .notion-semantic-string .notion-page__icon {
     display: none;
 }
-/* ^COLLECTION TITLE PADDING */
+/* $Padding*/
 .notion-collection-card__content .notion-property__title .notion-semantic-string .notion-page__title {
     padding: var(--collection-padding);
 }
 
-/* ^Group Collection Title & H1 Heading */
+/* #Group Collection Title & H1 Heading */
 /* / standardizes h1 headings & group collection titles across site  */
 /* / will share family, size, weight, radius, bg color, justification  */
 h1.notion-heading .notion-semantic-string, 
@@ -793,6 +803,7 @@ h1.notion-heading .notion-semantic-string,
     font-weight: 600;
     width: 100%;
 }
+/* !Group Collection Title & H1 Heading */
 
 /* #COLLECTION GALLERY */
 /* ^COLLECTION CARD GRID COLUMN SIZE */
@@ -853,23 +864,23 @@ h1.notion-heading .notion-semantic-string,
 /* $ENABLED FOR */
 /* $ORGANIZATIONS */
 /* *Large */
-.page__directory-organizations .notion-collection-gallery.large,
+/* .page__directory-organizations .notion-collection-gallery.large,
 .page__directory-organizations .notion-collection-gallery.grouped.large {
     --grid-layout: auto-fill;
     grid-template-columns: repeat(var(--grid-layout), minmax(var(--collection-card-cover-size-medium), 1fr)) !important;
-}
+} */
 /* *Medium */
-.page__directory-organizations .notion-collection-gallery.medium, 
+/* .page__directory-organizations .notion-collection-gallery.medium, 
 .page__directory-organizations .notion-collection-gallery.grouped.medium {
     --grid-layout: auto-fill;
     grid-template-columns: repeat(var(--grid-layout), minmax(var(--collection-card-cover-size-small), 1fr)) !important;
-}
+} */
 /* *Small */
-.page__directory-organizations .notion-collection-gallery.small, 
+/* .page__directory-organizations .notion-collection-gallery.small, 
 .page__directory-organizations .notion-collection-gallery.grouped.small {
     --grid-layout: auto-fill;
     grid-template-columns: repeat(var(--grid-layout), minmax(var(--collection-card-cover-size-smaller), 1fr)) !important;
-}
+} */
 /* ! --grid-layout PER PAGE */
 /* !Grouped Gallery Sizes */
 /* !Gallery Sizes */
@@ -886,7 +897,6 @@ h1.notion-heading .notion-semantic-string,
 /*  background-color: var(--color-bg-default);*/
 /*}*/
 /* !END COLLECTION BOARDS */
-
 
 /* #COLLECTION LISTS */
 /*.notion-collection-list {*/
@@ -915,7 +925,6 @@ h1.notion-heading .notion-semantic-string,
 /*}*/
 /* !END COLLECTION LISTS */
 
-
 /* #COLLECTION CALENDARS */
 /*.notion-collection-card.calendar {*/
 /*  background-color: var(--color-bg-yellow-light);*/
@@ -928,37 +937,43 @@ h1.notion-heading .notion-semantic-string,
 /* !END COLLECTION CALENDAR */
 /* !END COLLECTIONS */
 
-/* #PAGES (Use IDs to force specific actions) */
+/* #PAGES */
+/* $Use IDs to force specific actions */
 /* %Home */
 /* @ AMEtech Main Categories  */
 /* *Activism, Media, Elections, Tech */
-#block-47cc54fba7c4411da66fccd6e0f72634 .notion-collection-gallery {
-    --grid-layout: auto-fit;
-    grid-template-columns: repeat(var(--grid-layout),minmax(var(--collection-card-cover-size-medium),1fr)) !important;
-}
 /* @ AMEtech Main Menu  */
 /* *Directory:People, Topics, Organizations, Events, News, Programs, Documents*/
 /* *Government:Elected Officials, House Activities,  Parties */
 /* *Places: Cities, Counties, Districts, States */
-.collection-7c8618c9041b4057a3d3ffe4e5b62135 .notion-collection-gallery {
-    --grid-layout: auto-fit;
-    grid-template-columns: repeat(var(--grid-layout), minmax(var(--collection-card-cover-size-smaller), 1fr)) !important;
+.page__index .notion-collection-gallery {
+    --grid-layout: auto-fit !important;
+    grid-template-columns: repeat(var(--grid-layout),minmax(var(--collection-card-cover-size-medium),1fr)) !important;
 }
+/* !Home */
 /* %About */
+
+/* !About */
 /* %Services */
+
+/* !Services */
 /* %Resources */
+
+/* !Resources */
 /* %Blog */
+
+/* !Blog */
 /* %Contact */
-
-
-
-/* #CREDLY BADGE */
-div#block-5df357da07bf4d268800212ce07fdd7b.notion-callout .notion-callout__content {
-    justify-content: center;
-    display: flex !important;
-    background-color: var(--color-text-white);
+/* ^CONTACT PAGE COLLECTION CARD COVER SIZE */
+.page__contact .notion-collection-card__cover {
+    min-height: var(--collection-card-cover-size-static-small);
+    height: 100%;
+    width: var(--collection-card-cover-size-static-small);
+    margin: 0 auto;
 }
-/* !END CREDLY BADGE */
+
+/* !Contact */
+/* !PAGES */
 
 /* #DEMOS */
 
