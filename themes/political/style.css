@@ -778,6 +778,25 @@ h3.notion-heading.toggle {
     padding: var(--collection-padding);
 }
 
+/* ^Group Collection Title & H1 Heading */
+/* / standardizes h1 headings & group collection titles across site  */
+/* / will share family, size, weight, radius, bg color, justification  */
+/*  */
+h1.notion-heading .notion-semantic-string, 
+.notion-collection-group__section-header .notion-semantic-string {
+    background-color: var(--color-bg-yellow);
+    border-radius: var(--element-radius);
+    /* padding: 0.125rem 0.5rem; */
+    font-size: var(--font-title-fluid);
+    /* width: 100% !important; */
+    justify-content: center;
+    /* justify-items: center; */
+    /* justify-self: center; */
+    display: grid;
+    font-family: var(--primary-font);
+    font-weight: 600;
+}
+
 /* #COLLECTION GALLERY */
 /* ^COLLECTION CARD GRID COLUMN SIZE */
 /* @grid-auto-rows: auto */
@@ -808,12 +827,12 @@ h3.notion-heading.toggle {
 }
 
 /* ^Grouped Gallery Sizes */
-/* ?DEFAULT: auto-fill */
+/* @DEFAULT: auto-fit */
 /* / --collection-card-cover-size smaller creates */
 /* / compact gallery columns and displays more data */
 /* *Large */
 .notion-collection-gallery.grouped.large {
-    /* --grid-layout: auto-fill; */
+    /* --grid-layout: auto-fit; */
     grid-template-columns: repeat(var(--grid-layout), minmax(var(--collection-card-cover-size-medium), 1fr)) !important;
 }
 /* *Medium */
