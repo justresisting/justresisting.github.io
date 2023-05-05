@@ -844,8 +844,8 @@ h1.notion-heading .notion-semantic-string,
 }
 /* / ALL GROUPED COLLECTION GALLERIES */
 .notion-collection-gallery.grouped {
-    --grid-layout: auto-fill;
-    grid-template-columns: repeat(var(--grid-layout),minmax(var(--collection-card-cover-size-small),1fr));
+    --grid-layout: auto-fill !important;
+    grid-template-columns: repeat(var(--grid-layout),minmax(var(--collection-card-cover-size-small),1fr)) !important;
 }
 
 /* ^ --grid-layout PER PAGE */
