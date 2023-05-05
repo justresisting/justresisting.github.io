@@ -717,8 +717,10 @@ h3.notion-heading.toggle {
 .notion-collection-card__cover {
     border-radius: var(--element-radius);
     min-height: 100%;
-    height: 100% !important;
-    max-height: 100%;
+    /* height: 100% !important; */
+    height: 100%;
+    max-height: 100% !important;
+    /* max-height: 100%; */
     position: relative;
 }
 
@@ -730,6 +732,11 @@ h3.notion-heading.toggle {
     margin: 0 auto;
 }
 
+/* ^COLLECTION-CARD__COVER DIV */
+/* / Without 100%; !important cover images unexpectedly change size */
+.notion-collection-card__cover div {
+    height: 100% !important;
+}
 
 /* ^COLLECTION CARD IMG */
 /* *OBJECT-FIT: *COVER* */
@@ -781,7 +788,6 @@ h3.notion-heading.toggle {
 /* ^Group Collection Title & H1 Heading */
 /* / standardizes h1 headings & group collection titles across site  */
 /* / will share family, size, weight, radius, bg color, justification  */
-/*  */
 h1.notion-heading .notion-semantic-string, 
 .notion-collection-group__section-header .notion-semantic-string {
     background-color: var(--color-bg-yellow);
