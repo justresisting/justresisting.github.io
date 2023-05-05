@@ -8,11 +8,11 @@
 **/.political_scss (use this)
 **/.political_scss (original)
 **/.testing
-# **/.vscode/
-# **/.msedge/
-# **/.vscode/settings.json
-# **/.vscode/launch.json
-# **/.vscode/formatter.json
+**/.vscode/
+**/.msedge/
+**/.vscode/settings.json
+**/.vscode/launch.json
+**/.vscode/formatter.json
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
