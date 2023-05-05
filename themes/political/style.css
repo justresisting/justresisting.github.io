@@ -878,16 +878,19 @@ h3.notion-heading.toggle {
 
 /* #PAGES (Use IDs to force specific actions) */
 /* %Home */
-/* @ AMEtech Main Categories  */ 
+/* @ AMEtech Main Categories  */
+/* *Activism, Media, Elections, Tech */
 #block-47cc54fba7c4411da66fccd6e0f72634 .notion-collection-gallery {
     --grid-layout: auto-fill;
     grid-template-columns: repeat(var(--grid-layout),minmax(var(--collection-card-cover-size-medium),1fr)) !important;
 }
-
-.collection-7c8618c9041b4057a3d3ffe4e5b62135 .notion-collection-gallery, .notion-collection-gallery.grouped {
+/* @ AMEtech Main Menu  */
+/* *Directory:People, Topics, Organizations, Events, News, Programs, Documents*/
+/* *Government:Elected Officials, House Activities,  Parties */
+/* *Places: Cities, Counties, Districts, States */
+.collection-7c8618c9041b4057a3d3ffe4e5b62135 .notion-collection-gallery {
     --grid-layout: auto-fill;
     grid-template-columns: repeat(var(--grid-layout), minmax(var(--collection-card-cover-size-smaller), 1fr)) !important;
-
 }
 /* %About */
 /* %Services */
