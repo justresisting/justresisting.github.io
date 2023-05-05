@@ -1001,3 +1001,14 @@ div#block-fad8cd2cf13d4097a3e7b6702abf1b03 .notion-callout {
 }
 /* !! END DEMOS !!*/
 /* !END THEME */
+
+/* !NOTES */
+/* #LEFT OFF */
+/* /Working on snippet to make Notion Header Cover Height reduce */
+/* /when there is img.notion-header__icon[src*="Black_Circle_AME.png"] */
+/* 
+.notion-header__cover:has( ~ .notion-header__content img.notion-header__icon[src*="Black_Circle_AME.png"]) img.notion-header__cover-image {
+    object-fit: contain !important;
+} 
+*/
+
