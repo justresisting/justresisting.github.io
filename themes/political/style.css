@@ -325,7 +325,7 @@ background-color: var(--color-bg);
 img.notion-header__cover-image {
     position: var(--parallax-effect) !important;
     object-fit: cover !important;
-    z-index: -1;
+    z-index: -1000;
 }
 /* .page__index img.notion-header__cover-image,
 .parent-page__index img.notion-header__cover-image,
