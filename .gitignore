@@ -8,11 +8,23 @@
 **/.political_scss (use this)
 **/.political_scss (original)
 **/.testing
-**/.vscode/
-**/.msedge/
-**/.vscode/settings.json
-**/.vscode/launch.json
-**/.vscode/formatter.json
+# **/.vscode/
+# **/.msedge/
+# **/.vscode/settings.json
+# **/.vscode/launch.json
+# **/.vscode/formatter.json
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Local History for Visual Studio Code
+.history/
+
+# Built Visual Studio Code Extensions
+*.vsix
 
 # User-specific files
 *.rsuser
