@@ -791,6 +791,7 @@ h1.notion-heading .notion-semantic-string,
     display: grid;
     font-family: var(--primary-font);
     font-weight: 600;
+    width: 100%;
 }
 
 /* #COLLECTION GALLERY */
