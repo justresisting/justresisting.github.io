@@ -693,6 +693,12 @@ xx } */
 /* xx display: inline-grid;*/
 /* xx }*/
 
+.gallery .notion-collection-card__property .notion-semantic-string {
+    text-overflow: ellipsis;
+    overflow: visible;
+    white-space: pre-wrap;
+}
+
 
 /* #COLLECTION CARDS */
 /* $Collection Card Rehardless Of Size */
@@ -739,6 +745,7 @@ xx } */
 .notion-collection-card__cover div {
     height: 100% !important;
 }
+
 
 /* ^Collection Card Cover Img */
 /* @OBJECT-FIT: *COVER* */
