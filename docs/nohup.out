@@ -1,0 +1,1367 @@
+libmutter-Message: 10:12:35.061: Running Mutter(Budgie) (using mutter 43.5) as a X11 window and compositing manager
+** Message: 10:12:37.597: libsession.vala:45: DESKTOP_AUTOSTART_ID not set, session registration may be broken (not running budgie-desktop?)
+
+** (budgie-panel:71186): WARNING **: 10:12:37.775: PowerIndicator.vala:68: Failed to refresh battery: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Method Refresh is not implemented on interface org.freedesktop.UPower.Device
+
+(budgie-wm:71185): libmutter-WARNING **: 10:12:42.809: Called enable_unredirect_for_display while unredirection is enabled.
+
+(budgie-wm:71185): libmutter-CRITICAL **: 10:12:42.969: meta_sound_player_play_from_theme: assertion 'META_IS_SOUND_PLAYER (player)' failed
+
+(budgie-wm:71185): libmutter-WARNING **: 10:12:47.401: Property 'libinput Accel Profile Enabled Default' for device 'Logitech USB Receiver Mouse' returned 3 items, expected 2
+
+(budgie-wm:71185): libmutter-WARNING **: 10:12:47.401: Property 'libinput Accel Profiles Available' for device 'Logitech USB Receiver Mouse' returned 3 items, expected 2
+
+(budgie-wm:71185): libmutter-WARNING **: 10:12:47.730: Failed to create colord device for 'xrandr-LG Electronics-LG FULL HD-0x00000000': device id 'xrandr-LG Electronics-LG FULL HD-0x00000000' already exists
+
+(budgie-wm:71185): libmutter-WARNING **: 10:12:47.781: Property 'libinput Accel Profile Enabled Default' for device 'Logitech Wireless Mouse' returned 3 items, expected 2
+
+(budgie-wm:71185): libmutter-WARNING **: 10:12:47.782: Property 'libinput Accel Profiles Available' for device 'Logitech Wireless Mouse' returned 3 items, expected 2
+
+(budgie-wm:71185): libmutter-WARNING **: 10:12:47.928: Failed to create colord device for 'xrandr-SDC-0x4951-0x00000000': device id 'xrandr-SDC-0x4951-0x00000000' already exists
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x5e00009 specified for 0x5e00062.
+
+(budgie-panel:71186): Gtk-WARNING **: 10:18:57.369: Could not load a pixbuf from icon theme.
+This may indicate that pixbuf loaders or the mime database could not be found.
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+Initializing todesktop runtime
+13:05:46.141 › @todesktop/runtime: AutoUpdater: Setting up UpdaterAgent
+13:05:47.687 › @todesktop/runtime: AutoUpdater: electron will-finish-launching event emitted { appVersion: '3.53.13', runtimeVersion: '1.2.1' }
+Web App Path is /tmp/.mount_beeperD8uJII/resources/webapp.asar/
+iconsPath path is /tmp/.mount_beeperD8uJII/resources/icons/
+Loading vector config for brand Beeper
+Fetching translation json for locale: en_EN
+Changing application language to en-us,en,en,en
+Fetching translation json for locale: en-us
+Could not fetch translation json for locale: 'en-us' Error: Cannot find module './i18n/strings/en-us.json'
+Require stack:
+- /tmp/.mount_beeperD8uJII/resources/app.asar/lib/language-helper.js
+- /tmp/.mount_beeperD8uJII/resources/app.asar/lib/tray.js
+- /tmp/.mount_beeperD8uJII/resources/app.asar/lib/electron-main.js
+- 
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1054:15)
+    at n._resolveFilename (node:electron/js2c/browser_init:2:109877)
+    at Module._load (node:internal/modules/cjs/loader:900:27)
+    at f._load (node:electron/js2c/asar_bundle:2:13330)
+    at Module.require (node:internal/modules/cjs/loader:1120:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at AppLocalization.fetchTranslationJson (/tmp/.mount_beeperD8uJII/resources/app.asar/lib/language-helper.js:76:20)
+    at /tmp/.mount_beeperD8uJII/resources/app.asar/lib/language-helper.js:89:39
+    at Array.forEach (<anonymous>)
+    at AppLocalization.setAppLocale (/tmp/.mount_beeperD8uJII/resources/app.asar/lib/language-helper.js:88:17) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/tmp/.mount_beeperD8uJII/resources/app.asar/lib/language-helper.js',
+    '/tmp/.mount_beeperD8uJII/resources/app.asar/lib/tray.js',
+    '/tmp/.mount_beeperD8uJII/resources/app.asar/lib/electron-main.js',
+    undefined
+  ]
+}
+Fetching translation json for locale: en
+Could not fetch translation json for locale: 'en' Error: Cannot find module './i18n/strings/en.json'
+Require stack:
+- /tmp/.mount_beeperD8uJII/resources/app.asar/lib/language-helper.js
+- /tmp/.mount_beeperD8uJII/resources/app.asar/lib/tray.js
+- /tmp/.mount_beeperD8uJII/resources/app.asar/lib/electron-main.js
+- 
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1054:15)
+    at n._resolveFilename (node:electron/js2c/browser_init:2:109877)
+    at Module._load (node:internal/modules/cjs/loader:900:27)
+    at f._load (node:electron/js2c/asar_bundle:2:13330)
+    at Module.require (node:internal/modules/cjs/loader:1120:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at AppLocalization.fetchTranslationJson (/tmp/.mount_beeperD8uJII/resources/app.asar/lib/language-helper.js:76:20)
+    at /tmp/.mount_beeperD8uJII/resources/app.asar/lib/language-helper.js:89:39
+    at Array.forEach (<anonymous>)
+    at AppLocalization.setAppLocale (/tmp/.mount_beeperD8uJII/resources/app.asar/lib/language-helper.js:88:17) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/tmp/.mount_beeperD8uJII/resources/app.asar/lib/language-helper.js',
+    '/tmp/.mount_beeperD8uJII/resources/app.asar/lib/tray.js',
+    '/tmp/.mount_beeperD8uJII/resources/app.asar/lib/electron-main.js',
+    undefined
+  ]
+}
+Fetching translation json for locale: en
+Could not fetch translation json for locale: 'en' Error: Cannot find module './i18n/strings/en.json'
+Require stack:
+- /tmp/.mount_beeperD8uJII/resources/app.asar/lib/language-helper.js
+- /tmp/.mount_beeperD8uJII/resources/app.asar/lib/tray.js
+- /tmp/.mount_beeperD8uJII/resources/app.asar/lib/electron-main.js
+- 
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1054:15)
+    at n._resolveFilename (node:electron/js2c/browser_init:2:109877)
+    at Module._load (node:internal/modules/cjs/loader:900:27)
+    at f._load (node:electron/js2c/asar_bundle:2:13330)
+    at Module.require (node:internal/modules/cjs/loader:1120:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at AppLocalization.fetchTranslationJson (/tmp/.mount_beeperD8uJII/resources/app.asar/lib/language-helper.js:76:20)
+    at /tmp/.mount_beeperD8uJII/resources/app.asar/lib/language-helper.js:89:39
+    at Array.forEach (<anonymous>)
+    at AppLocalization.setAppLocale (/tmp/.mount_beeperD8uJII/resources/app.asar/lib/language-helper.js:88:17) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/tmp/.mount_beeperD8uJII/resources/app.asar/lib/language-helper.js',
+    '/tmp/.mount_beeperD8uJII/resources/app.asar/lib/tray.js',
+    '/tmp/.mount_beeperD8uJII/resources/app.asar/lib/electron-main.js',
+    undefined
+  ]
+}
+Fetching translation json for locale: en
+Could not fetch translation json for locale: 'en' Error: Cannot find module './i18n/strings/en.json'
+Require stack:
+- /tmp/.mount_beeperD8uJII/resources/app.asar/lib/language-helper.js
+- /tmp/.mount_beeperD8uJII/resources/app.asar/lib/tray.js
+- /tmp/.mount_beeperD8uJII/resources/app.asar/lib/electron-main.js
+- 
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1054:15)
+    at n._resolveFilename (node:electron/js2c/browser_init:2:109877)
+    at Module._load (node:internal/modules/cjs/loader:900:27)
+    at f._load (node:electron/js2c/asar_bundle:2:13330)
+    at Module.require (node:internal/modules/cjs/loader:1120:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at AppLocalization.fetchTranslationJson (/tmp/.mount_beeperD8uJII/resources/app.asar/lib/language-helper.js:76:20)
+    at /tmp/.mount_beeperD8uJII/resources/app.asar/lib/language-helper.js:89:39
+    at Array.forEach (<anonymous>)
+    at AppLocalization.setAppLocale (/tmp/.mount_beeperD8uJII/resources/app.asar/lib/language-helper.js:88:17) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/tmp/.mount_beeperD8uJII/resources/app.asar/lib/language-helper.js',
+    '/tmp/.mount_beeperD8uJII/resources/app.asar/lib/tray.js',
+    '/tmp/.mount_beeperD8uJII/resources/app.asar/lib/electron-main.js',
+    undefined
+  ]
+}
+Resetting the UI components after locale change
+Resetting the UI components after locale change
+[74638:0509/130552.318896:ERROR:nss_util.cc(357)] After loading Root Certs, loaded==false: NSS error code: -8018
+sending browser-window-focus to react
+sys:1: Warning: ../gobject/gsignal.c:2778: instance '0x5575292afb30' has no handler with id '195332'
+Changing application language to en-us
+Fetching translation json for locale: en-us
+Could not fetch translation json for locale: 'en-us' Error: Cannot find module './i18n/strings/en-us.json'
+Require stack:
+- /tmp/.mount_beeperD8uJII/resources/app.asar/lib/language-helper.js
+- /tmp/.mount_beeperD8uJII/resources/app.asar/lib/tray.js
+- /tmp/.mount_beeperD8uJII/resources/app.asar/lib/electron-main.js
+- 
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1054:15)
+    at n._resolveFilename (node:electron/js2c/browser_init:2:109877)
+    at Module._load (node:internal/modules/cjs/loader:900:27)
+    at f._load (node:electron/js2c/asar_bundle:2:13330)
+    at Module.require (node:internal/modules/cjs/loader:1120:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at AppLocalization.fetchTranslationJson (/tmp/.mount_beeperD8uJII/resources/app.asar/lib/language-helper.js:76:20)
+    at /tmp/.mount_beeperD8uJII/resources/app.asar/lib/language-helper.js:89:39
+    at Array.forEach (<anonymous>)
+    at AppLocalization.setAppLocale (/tmp/.mount_beeperD8uJII/resources/app.asar/lib/language-helper.js:88:17) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/tmp/.mount_beeperD8uJII/resources/app.asar/lib/language-helper.js',
+    '/tmp/.mount_beeperD8uJII/resources/app.asar/lib/tray.js',
+    '/tmp/.mount_beeperD8uJII/resources/app.asar/lib/electron-main.js',
+    undefined
+  ]
+}
+Resetting the UI components after locale change
+/bin/sh: line 1: sw_vers: command not found
+Error handling ipc call getOsVersion Error: Command failed: sw_vers -productVersion
+/bin/sh: line 1: sw_vers: command not found
+
+    at checkExecSyncError (node:child_process:911:11)
+    at Object.execSync (node:child_process:983:15)
+    at Object.execSync (node:electron/js2c/asar_bundle:2:12711)
+    at handleIpcCall (/tmp/.mount_beeperD8uJII/resources/app.asar/lib/electron-main.js:425:43)
+    at IpcMainImpl.<anonymous> (/tmp/.mount_beeperD8uJII/resources/app.asar/lib/electron-main.js:353:27)
+    at IpcMainImpl.emit (node:events:513:28)
+    at IpcMainImpl.emit (node:domain:489:12)
+    at EventEmitter.<anonymous> (node:electron/js2c/browser_init:2:81105)
+    at EventEmitter.emit (node:events:513:28) {
+  status: 127,
+  signal: null,
+  output: [
+    null,
+    <Buffer >,
+    <Buffer 2f 62 69 6e 2f 73 68 3a 20 6c 69 6e 65 20 31 3a 20 73 77 5f 76 65 72 73 3a 20 63 6f 6d 6d 61 6e 64 20 6e 6f 74 20 66 6f 75 6e 64 0a>
+  ],
+  pid: 74750,
+  stdout: <Buffer >,
+  stderr: <Buffer 2f 62 69 6e 2f 73 68 3a 20 6c 69 6e 65 20 31 3a 20 73 77 5f 76 65 72 73 3a 20 63 6f 6d 6d 61 6e 64 20 6e 6f 74 20 66 6f 75 6e 64 0a>
+}
+sending browser-window-blur to react
+13:06:19.337 › @todesktop/runtime: AutoUpdater: .checkForUpdates called
+13:06:19.338 › @todesktop/runtime: AutoUpdater: _check called {
+  source: 'programmatic-call',
+  pendingCheckSources: [ 'programmatic-call' ]
+}
+13:06:19.339 › @todesktop/runtime: AutoUpdater: _actuallyPerformCheck called
+13:06:19.340 › @todesktop/runtime: Checking for update
+13:06:19.341 › @todesktop/runtime: AutoUpdater: checking-for-update
+13:06:20.015 › @todesktop/runtime: Update for version 3.53.13 is not available (latest version: 3.53.13, downgrade is disallowed).
+13:06:20.015 › @todesktop/runtime: AutoUpdater: update-not-available {
+  version: '3.53.13',
+  files: [
+    {
+      url: 'beeper-3.53.13.AppImage',
+      sha512: 'g7RZEjP/SUsBuFcB5ln28BTE30tzy44LMBLW5n+RmfqSnvCn2/QwcrelyqW2WBCdPq7UEr0J9VfO9F32NXjqbA==',
+      size: 156904332,
+      blockMapSize: 162720
+    },
+    {
+      url: 'beeper-3.53.13.deb',
+      sha512: 'iKx8UvaD4yOtX7TpKRGY/sXy7KYxmK2PuNecuWw09/f9DfoKGCrjHT74ff8ya9fBSvRLdH4dc/fwPdXKUksuTw==',
+      size: 113812950
+    },
+    {
+      url: 'beeper-3.53.13.rpm',
+      sha512: 'JGHor6/j3xfNXZemKoYgo2MD0PX9l8DEj77H1qU1a9ZIqlrZVTi29kk6CqJ0Mx1IgxS6ts3yE/Sb3q2lN9sQcA==',
+      size: 113643052
+    }
+  ],
+  path: 'beeper-3.53.13.AppImage',
+  sha512: 'g7RZEjP/SUsBuFcB5ln28BTE30tzy44LMBLW5n+RmfqSnvCn2/QwcrelyqW2WBCdPq7UEr0J9VfO9F32NXjqbA==',
+  releaseDate: '2023-05-02T20:45:46.885Z'
+}
+13:06:20.016 › @todesktop/runtime: AutoUpdater: UpdaterAgent: UpdaterAgent: Analysing autoUpdater.checkForUpdates result {
+  currentVersion: '3.53.13',
+  newVersion: '3.53.13',
+  updateInfo: {
+    version: '3.53.13',
+    files: [ '[object]', '[object]', '[object]' ],
+    path: 'beeper-3.53.13.AppImage',
+    sha512: 'g7RZEjP/SUsBuFcB5ln28BTE30tzy44LMBLW5n+RmfqSnvCn2/QwcrelyqW2WBCdPq7UEr0J9VfO9F32NXjqbA==',
+    releaseDate: '2023-05-02T20:45:46.885Z'
+  }
+}
+13:06:20.018 › @todesktop/runtime: AutoUpdater: No update available
+Beeper : electron-main : contactOperation
+13:06:28.429 › Beeper : MacContacts : contactsHelper, returning early since contacts does not exist
+Beeper : electron-main : contactOperation
+13:06:28.430 › Beeper : MacContacts : contactsHelper, returning early since contacts does not exist
+sending browser-window-focus to react
+sys:1: Warning: ../gobject/gsignal.c:2778: instance '0x557529ad7290' has no handler with id '200109'
+sending browser-window-blur to react
+sending browser-window-focus to react
+sys:1: Warning: ../gobject/gsignal.c:2778: instance '0x5575290f1070' has no handler with id '202944'
+
+(budgie-wm:71185): Clutter-WARNING **: 13:07:07.561: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e082e7b90] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 13:07:07.561: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07c9b8b0] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 13:07:09.406: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e082e7b90] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 13:07:09.406: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07c9b8b0] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 13:07:14.779: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e082e7b90] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 13:07:14.779: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07c9b8b0] is on because it needs an allocation.
+sending browser-window-blur to react
+sending browser-window-focus to react
+sys:1: Warning: ../gobject/gsignal.c:2778: instance '0x557529b7f9f0' has no handler with id '205412'
+sending browser-window-blur to react
+sending browser-window-focus to react
+sending browser-window-blur to react
+Initializing todesktop runtime
+13:07:28.285 › @todesktop/runtime: AutoUpdater: Setting up UpdaterAgent
+13:07:28.927 › @todesktop/runtime: AutoUpdater: electron will-finish-launching event emitted { appVersion: '3.53.13', runtimeVersion: '1.2.1' }
+Web App Path is /tmp/.mount_beepercRzpyr/resources/webapp.asar/
+iconsPath path is /tmp/.mount_beepercRzpyr/resources/icons/
+Loading vector config for brand Beeper
+Fetching translation json for locale: en_EN
+Changing application language to en-us
+Fetching translation json for locale: en-us
+Could not fetch translation json for locale: 'en-us' Error: Cannot find module './i18n/strings/en-us.json'
+Require stack:
+- /tmp/.mount_beepercRzpyr/resources/app.asar/lib/language-helper.js
+- /tmp/.mount_beepercRzpyr/resources/app.asar/lib/tray.js
+- /tmp/.mount_beepercRzpyr/resources/app.asar/lib/electron-main.js
+- 
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1054:15)
+    at n._resolveFilename (node:electron/js2c/browser_init:2:109877)
+    at Module._load (node:internal/modules/cjs/loader:900:27)
+    at f._load (node:electron/js2c/asar_bundle:2:13330)
+    at Module.require (node:internal/modules/cjs/loader:1120:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at AppLocalization.fetchTranslationJson (/tmp/.mount_beepercRzpyr/resources/app.asar/lib/language-helper.js:76:20)
+    at /tmp/.mount_beepercRzpyr/resources/app.asar/lib/language-helper.js:89:39
+    at Array.forEach (<anonymous>)
+    at AppLocalization.setAppLocale (/tmp/.mount_beepercRzpyr/resources/app.asar/lib/language-helper.js:88:17) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/tmp/.mount_beepercRzpyr/resources/app.asar/lib/language-helper.js',
+    '/tmp/.mount_beepercRzpyr/resources/app.asar/lib/tray.js',
+    '/tmp/.mount_beepercRzpyr/resources/app.asar/lib/electron-main.js',
+    undefined
+  ]
+}
+Resetting the UI components after locale change
+Resetting the UI components after locale change
+sending browser-window-focus to react
+[74909:0509/130730.451743:ERROR:nss_util.cc(357)] After loading Root Certs, loaded==false: NSS error code: -8018
+sys:1: Warning: ../gobject/gsignal.c:2778: instance '0x557529bbb040' has no handler with id '221173'
+Changing application language to en-us
+Fetching translation json for locale: en-us
+Could not fetch translation json for locale: 'en-us' Error: Cannot find module './i18n/strings/en-us.json'
+Require stack:
+- /tmp/.mount_beepercRzpyr/resources/app.asar/lib/language-helper.js
+- /tmp/.mount_beepercRzpyr/resources/app.asar/lib/tray.js
+- /tmp/.mount_beepercRzpyr/resources/app.asar/lib/electron-main.js
+- 
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1054:15)
+    at n._resolveFilename (node:electron/js2c/browser_init:2:109877)
+    at Module._load (node:internal/modules/cjs/loader:900:27)
+    at f._load (node:electron/js2c/asar_bundle:2:13330)
+    at Module.require (node:internal/modules/cjs/loader:1120:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at AppLocalization.fetchTranslationJson (/tmp/.mount_beepercRzpyr/resources/app.asar/lib/language-helper.js:76:20)
+    at /tmp/.mount_beepercRzpyr/resources/app.asar/lib/language-helper.js:89:39
+    at Array.forEach (<anonymous>)
+    at AppLocalization.setAppLocale (/tmp/.mount_beepercRzpyr/resources/app.asar/lib/language-helper.js:88:17) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/tmp/.mount_beepercRzpyr/resources/app.asar/lib/language-helper.js',
+    '/tmp/.mount_beepercRzpyr/resources/app.asar/lib/tray.js',
+    '/tmp/.mount_beepercRzpyr/resources/app.asar/lib/electron-main.js',
+    undefined
+  ]
+}
+Resetting the UI components after locale change
+/bin/sh: line 1: sw_vers: command not found
+Error handling ipc call getOsVersion Error: Command failed: sw_vers -productVersion
+/bin/sh: line 1: sw_vers: command not found
+
+    at checkExecSyncError (node:child_process:911:11)
+    at Object.execSync (node:child_process:983:15)
+    at Object.execSync (node:electron/js2c/asar_bundle:2:12711)
+    at handleIpcCall (/tmp/.mount_beepercRzpyr/resources/app.asar/lib/electron-main.js:425:43)
+    at IpcMainImpl.<anonymous> (/tmp/.mount_beepercRzpyr/resources/app.asar/lib/electron-main.js:353:27)
+    at IpcMainImpl.emit (node:events:513:28)
+    at IpcMainImpl.emit (node:domain:489:12)
+    at EventEmitter.<anonymous> (node:electron/js2c/browser_init:2:81105)
+    at EventEmitter.emit (node:events:513:28) {
+  status: 127,
+  signal: null,
+  output: [
+    null,
+    <Buffer >,
+    <Buffer 2f 62 69 6e 2f 73 68 3a 20 6c 69 6e 65 20 31 3a 20 73 77 5f 76 65 72 73 3a 20 63 6f 6d 6d 61 6e 64 20 6e 6f 74 20 66 6f 75 6e 64 0a>
+  ],
+  pid: 75029,
+  stdout: <Buffer >,
+  stderr: <Buffer 2f 62 69 6e 2f 73 68 3a 20 6c 69 6e 65 20 31 3a 20 73 77 5f 76 65 72 73 3a 20 63 6f 6d 6d 61 6e 64 20 6e 6f 74 20 66 6f 75 6e 64 0a>
+}
+sending browser-window-blur to react
+sending browser-window-focus to react
+sys:1: Warning: ../gobject/gsignal.c:2778: instance '0x557529b2ea70' has no handler with id '224058'
+sending browser-window-blur to react
+sending browser-window-focus to react
+sys:1: Warning: ../gobject/gsignal.c:2778: instance '0x557528cd9390' has no handler with id '226376'
+sending browser-window-blur to react
+13:07:59.143 › @todesktop/runtime: AutoUpdater: .checkForUpdates called
+13:07:59.144 › @todesktop/runtime: AutoUpdater: _check called {
+  source: 'programmatic-call',
+  pendingCheckSources: [ 'programmatic-call' ]
+}
+13:07:59.145 › @todesktop/runtime: AutoUpdater: _actuallyPerformCheck called
+13:07:59.146 › @todesktop/runtime: Checking for update
+13:07:59.147 › @todesktop/runtime: AutoUpdater: checking-for-update
+13:07:59.878 › @todesktop/runtime: Update for version 3.53.13 is not available (latest version: 3.53.13, downgrade is disallowed).
+13:07:59.878 › @todesktop/runtime: AutoUpdater: update-not-available {
+  version: '3.53.13',
+  files: [
+    {
+      url: 'beeper-3.53.13.AppImage',
+      sha512: 'g7RZEjP/SUsBuFcB5ln28BTE30tzy44LMBLW5n+RmfqSnvCn2/QwcrelyqW2WBCdPq7UEr0J9VfO9F32NXjqbA==',
+      size: 156904332,
+      blockMapSize: 162720
+    },
+    {
+      url: 'beeper-3.53.13.deb',
+      sha512: 'iKx8UvaD4yOtX7TpKRGY/sXy7KYxmK2PuNecuWw09/f9DfoKGCrjHT74ff8ya9fBSvRLdH4dc/fwPdXKUksuTw==',
+      size: 113812950
+    },
+    {
+      url: 'beeper-3.53.13.rpm',
+      sha512: 'JGHor6/j3xfNXZemKoYgo2MD0PX9l8DEj77H1qU1a9ZIqlrZVTi29kk6CqJ0Mx1IgxS6ts3yE/Sb3q2lN9sQcA==',
+      size: 113643052
+    }
+  ],
+  path: 'beeper-3.53.13.AppImage',
+  sha512: 'g7RZEjP/SUsBuFcB5ln28BTE30tzy44LMBLW5n+RmfqSnvCn2/QwcrelyqW2WBCdPq7UEr0J9VfO9F32NXjqbA==',
+  releaseDate: '2023-05-02T20:45:46.885Z'
+}
+13:07:59.880 › @todesktop/runtime: AutoUpdater: UpdaterAgent: UpdaterAgent: Analysing autoUpdater.checkForUpdates result {
+  currentVersion: '3.53.13',
+  newVersion: '3.53.13',
+  updateInfo: {
+    version: '3.53.13',
+    files: [ '[object]', '[object]', '[object]' ],
+    path: 'beeper-3.53.13.AppImage',
+    sha512: 'g7RZEjP/SUsBuFcB5ln28BTE30tzy44LMBLW5n+RmfqSnvCn2/QwcrelyqW2WBCdPq7UEr0J9VfO9F32NXjqbA==',
+    releaseDate: '2023-05-02T20:45:46.885Z'
+  }
+}
+13:07:59.882 › @todesktop/runtime: AutoUpdater: No update available
+Beeper : electron-main : contactOperation
+13:08:04.926 › Beeper : MacContacts : contactsHelper, returning early since contacts does not exist
+Beeper : electron-main : contactOperation
+13:08:05.374 › Beeper : MacContacts : contactsHelper, returning early since contacts does not exist
+sending browser-window-focus to react
+sys:1: Warning: ../gobject/gsignal.c:2778: instance '0x557529600980' has no handler with id '228027'
+sending browser-window-blur to react
+sending browser-window-focus to react
+sys:1: Warning: ../gobject/gsignal.c:2778: instance '0x557529b263b0' has no handler with id '228981'
+sending browser-window-blur to react
+sending browser-window-focus to react
+sys:1: Warning: ../gobject/gsignal.c:2778: instance '0x557529bee930' has no handler with id '230663'
+sending browser-window-blur to react
+QIBusPlatformInputContext: invalid portal bus.
+Gtk-Message: 13:09:07.940: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 13:09:07.962: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 13:09:07.962: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 13:09:08.183: Failed to load module "canberra-gtk-module"
+Gtk-Message: 13:09:08.183: Failed to load module "canberra-gtk-module"
+Qt: Session management error: None of the authentication protocols specified are supported
+sending browser-window-focus to react
+sys:1: Warning: ../gobject/gsignal.c:2778: instance '0x5575299b0f40' has no handler with id '246881'
+
+(budgie-wm:71185): Clutter-WARNING **: 13:09:18.059: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e082d2960] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 13:09:18.059: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07c9b8b0] is on because it needs an allocation.
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x5000008 specified for 0x5000014.
+sending browser-window-blur to react
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x5000008 specified for 0x500001b.
+sending browser-window-focus to react
+flameshot: info: Capture saved as /home/jrsilvey/Dropbox/Projects/Images/Flameshots/2023-05-09_13-09_May_Tue.png
+sending browser-window-blur to react
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x5000008 specified for 0x5000036.
+QPainter::begin: Paint device returned engine == 0, type: 2
+QPainter::setRenderHint: Painter must be active to set rendering hints
+QPainter::setCompositionMode: Painter not active
+QPainter::translate: Painter not active
+QPainter::setPen: Painter not active
+QPainter::setBrush: Painter not active
+QPainter::setBrush: Painter not active
+flameshot: info: Capture saved as /home/jrsilvey/Dropbox/Projects/Images/Flameshots/2023-05-09_13-30_May_Tue.png
+sending browser-window-focus to react
+sys:1: Warning: ../gobject/gsignal.c:2778: instance '0x557528d93fc0' has no handler with id '265922'
+sending browser-window-blur to react
+sys:1: Warning: invalid (NULL) pointer instance
+sys:1: Warning: g_signal_connect_object: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(budgie-panel:71186): Gvc-CRITICAL **: 13:47:36.826: gvc_mixer_stream_get_volume: assertion 'GVC_IS_MIXER_STREAM (stream)' failed
+
+(budgie-panel:71186): Gvc-CRITICAL **: 13:47:36.826: gvc_mixer_stream_get_is_muted: assertion 'GVC_IS_MIXER_STREAM (stream)' failed
+sys:1: Warning: g_object_get_data: assertion 'G_IS_OBJECT (object)' failed
+sending browser-window-focus to react
+sending browser-window-blur to react
+
+** (budgie-panel:71186): WARNING **: 13:49:57.863: Failed to fetch xid: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Object does not exist at path “/org/ayatana/bamf/window/25165827”
+
+** (budgie-panel:71186): WARNING **: 13:49:57.863: Failed to fetch type: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Object does not exist at path “/org/ayatana/bamf/window/25165827”
+
+** (budgie-panel:71186): WARNING **: 13:49:57.864: Failed to fetch monitor: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Object does not exist at path “/org/ayatana/bamf/window/25165827”
+
+** (budgie-panel:71186): WARNING **: 13:49:57.864: Failed to fetch maximized state: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Object does not exist at path “/org/ayatana/bamf/window/25165827”
+
+** (budgie-panel:71186): WARNING **: 13:49:57.865: Failed to fetch xid: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Object does not exist at path “/org/ayatana/bamf/window/25165827”
+
+** (budgie-panel:71186): WARNING **: 13:49:57.865: Failed to fetch type: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Object does not exist at path “/org/ayatana/bamf/window/25165827”
+
+** (budgie-panel:71186): WARNING **: 13:49:57.868: Unable to fetch children: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Object does not exist at path “/org/ayatana/bamf/application/1378438912”
+
+
+** (budgie-panel:71186): WARNING **: 13:49:57.869: Failed to fetch path: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Object does not exist at path “/org/ayatana/bamf/application/1378438912”
+
+** (budgie-panel:71186): WARNING **: 13:49:57.872: Failed to fetch xid: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Object does not exist at path “/org/ayatana/bamf/window/25165827”
+
+** (budgie-panel:71186): WARNING **: 13:49:57.872: Failed to fetch xid: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Object does not exist at path “/org/ayatana/bamf/window/25165827”
+
+** (budgie-panel:71186): WARNING **: 13:49:57.873: Failed to fetch xid: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Object does not exist at path “/org/ayatana/bamf/window/25165827”
+
+** (budgie-panel:71186): WARNING **: 13:49:57.875: Failed to fetch property `_GTK_UNIQUE_BUS_NAME': GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Object does not exist at path “/org/ayatana/bamf/window/25165827”
+
+** (budgie-panel:71186): WARNING **: 13:49:57.875: Failed to fetch path: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Object does not exist at path “/org/ayatana/bamf/window/25165827”
+sending browser-window-focus to react
+sys:1: Warning: ../gobject/gsignal.c:2778: instance '0x5575298f37a0' has no handler with id '271469'
+Beeper : electron-main : contactOperation
+13:50:03.256 › Beeper : MacContacts : contactsHelper, returning early since contacts does not exist
+Beeper : electron-main : contactOperation
+13:50:08.144 › Beeper : MacContacts : contactsHelper, returning early since contacts does not exist
+Beeper : electron-main : contactOperation
+13:50:13.652 › Beeper : MacContacts : contactsHelper, returning early since contacts does not exist
+Beeper : electron-main : contactOperation
+13:50:29.393 › Beeper : MacContacts : contactsHelper, returning early since contacts does not exist
+Beeper : electron-main : getContactsAuthStatus
+13:53:22.500 › Beeper : MacContacts : getContactsAuthStatus()
+Beeper : electron-main : contactOperation
+13:53:22.517 › Beeper : MacContacts : contactsHelper, returning early since contacts does not exist
+Beeper : electron-main : contactOperation
+13:54:30.768 › Beeper : MacContacts : contactsHelper, returning early since contacts does not exist
+Beeper : electron-main : contactOperation
+13:54:33.864 › Beeper : MacContacts : contactsHelper, returning early since contacts does not exist
+Beeper : electron-main : contactOperation
+13:54:55.049 › Beeper : MacContacts : contactsHelper, returning early since contacts does not exist
+Beeper : electron-main : contactOperation
+13:54:59.946 › Beeper : MacContacts : contactsHelper, returning early since contacts does not exist
+Beeper : electron-main : contactOperation
+13:55:06.541 › Beeper : MacContacts : contactsHelper, returning early since contacts does not exist
+Window manager warning: Invalid WM_TRANSIENT_FOR window 0x5000008 specified for 0x500003e.
+sending browser-window-blur to react
+QPainter::begin: Paint device returned engine == 0, type: 2
+QPainter::setRenderHint: Painter must be active to set rendering hints
+QPainter::setCompositionMode: Painter not active
+QPainter::translate: Painter not active
+QPainter::setPen: Painter not active
+QPainter::setBrush: Painter not active
+QPainter::setBrush: Painter not active
+sending browser-window-focus to react
+flameshot: info: Capture saved to clipboard. Capture saved as /home/jrsilvey/Dropbox/Projects/Images/Flameshots/2023-05-09_13-55_May_Tue.png
+Beeper : electron-main : contactOperation
+13:55:30.425 › Beeper : MacContacts : contactsHelper, returning early since contacts does not exist
+sending browser-window-blur to react
+sending browser-window-focus to react
+sys:1: Warning: ../gobject/gsignal.c:2778: instance '0x557529bc5b50' has no handler with id '275650'
+sending browser-window-blur to react
+sending browser-window-focus to react
+sys:1: Warning: ../gobject/gsignal.c:2778: instance '0x557529ec7e00' has no handler with id '277446'
+14:07:29.172 › @todesktop/runtime: AutoUpdater: .checkForUpdates called
+14:07:29.172 › @todesktop/runtime: AutoUpdater: _check called {
+  source: 'programmatic-call',
+  pendingCheckSources: [ 'programmatic-call' ]
+}
+14:07:29.173 › @todesktop/runtime: AutoUpdater: _actuallyPerformCheck called
+14:07:29.173 › @todesktop/runtime: Checking for update
+14:07:29.173 › @todesktop/runtime: AutoUpdater: checking-for-update
+14:07:29.819 › @todesktop/runtime: Update for version 3.53.13 is not available (latest version: 3.53.13, downgrade is disallowed).
+14:07:29.819 › @todesktop/runtime: AutoUpdater: update-not-available {
+  version: '3.53.13',
+  files: [
+    {
+      url: 'beeper-3.53.13.AppImage',
+      sha512: 'g7RZEjP/SUsBuFcB5ln28BTE30tzy44LMBLW5n+RmfqSnvCn2/QwcrelyqW2WBCdPq7UEr0J9VfO9F32NXjqbA==',
+      size: 156904332,
+      blockMapSize: 162720
+    },
+    {
+      url: 'beeper-3.53.13.deb',
+      sha512: 'iKx8UvaD4yOtX7TpKRGY/sXy7KYxmK2PuNecuWw09/f9DfoKGCrjHT74ff8ya9fBSvRLdH4dc/fwPdXKUksuTw==',
+      size: 113812950
+    },
+    {
+      url: 'beeper-3.53.13.rpm',
+      sha512: 'JGHor6/j3xfNXZemKoYgo2MD0PX9l8DEj77H1qU1a9ZIqlrZVTi29kk6CqJ0Mx1IgxS6ts3yE/Sb3q2lN9sQcA==',
+      size: 113643052
+    }
+  ],
+  path: 'beeper-3.53.13.AppImage',
+  sha512: 'g7RZEjP/SUsBuFcB5ln28BTE30tzy44LMBLW5n+RmfqSnvCn2/QwcrelyqW2WBCdPq7UEr0J9VfO9F32NXjqbA==',
+  releaseDate: '2023-05-02T20:45:46.885Z'
+}
+14:07:29.820 › @todesktop/runtime: AutoUpdater: UpdaterAgent: UpdaterAgent: Analysing autoUpdater.checkForUpdates result {
+  currentVersion: '3.53.13',
+  newVersion: '3.53.13',
+  updateInfo: {
+    version: '3.53.13',
+    files: [ '[object]', '[object]', '[object]' ],
+    path: 'beeper-3.53.13.AppImage',
+    sha512: 'g7RZEjP/SUsBuFcB5ln28BTE30tzy44LMBLW5n+RmfqSnvCn2/QwcrelyqW2WBCdPq7UEr0J9VfO9F32NXjqbA==',
+    releaseDate: '2023-05-02T20:45:46.885Z'
+  }
+}
+14:07:29.820 › @todesktop/runtime: AutoUpdater: No update available
+
+(budgie-panel:71186): Gvc-CRITICAL **: 14:08:31.695: gvc_mixer_stream_get_volume: assertion 'GVC_IS_MIXER_STREAM (stream)' failed
+
+(budgie-panel:71186): Gvc-CRITICAL **: 14:08:31.695: gvc_mixer_stream_get_is_muted: assertion 'GVC_IS_MIXER_STREAM (stream)' failed
+[77467:77467:0509/144318.380685:ERROR:chrome_browser_cloud_management_controller.cc(162)] Cloud management controller initialization aborted as CBCM is not enabled.
+sending browser-window-blur to react
+[77467:77489:0509/144326.316935:ERROR:nss_util.cc(357)] After loading Root Certs, loaded==false: NSS error code: -8018
+sys:1: Warning: ../gobject/gsignal.c:2778: instance '0x557529f70750' has no handler with id '280825'
+[77467:77493:0509/144354.528796:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+sys:1: Warning: ../gobject/gsignal.c:2778: instance '0x55752a0014e0' has no handler with id '284146'
+[77467:77467:0509/144404.280183:ERROR:object_proxy.cc(623)] Failed to call method: org.freedesktop.ScreenSaver.GetActive: object_path= /org/freedesktop/ScreenSaver: org.freedesktop.DBus.Error.NotSupported: This method is not implemented
+Opening in existing browser session.
+Opening in existing browser session.
+sys:1: Warning: ../gobject/gsignal.c:2778: instance '0x55752984af50' has no handler with id '304161'
+sys:1: Warning: ../gobject/gsignal.c:2778: instance '0x55752a0723f0' has no handler with id '306231'
+sys:1: Warning: ../gobject/gsignal.c:2778: instance '0x557529fa68c0' has no handler with id '311922'
+[77467:77467:0509/145229.706744:ERROR:interface_endpoint_client.cc(695)] Message 5 rejected by interface blink.mojom.WidgetHost
+sys:1: Warning: ../gobject/gsignal.c:2778: instance '0x55752a09f1d0' has no handler with id '327249'
+sending browser-window-focus to react
+sending browser-window-blur to react
+15:07:29.184 › @todesktop/runtime: AutoUpdater: .checkForUpdates called
+15:07:29.184 › @todesktop/runtime: AutoUpdater: _check called {
+  source: 'programmatic-call',
+  pendingCheckSources: [ 'programmatic-call' ]
+}
+15:07:29.185 › @todesktop/runtime: AutoUpdater: _actuallyPerformCheck called
+15:07:29.185 › @todesktop/runtime: Checking for update
+15:07:29.185 › @todesktop/runtime: AutoUpdater: checking-for-update
+15:07:29.717 › @todesktop/runtime: Update for version 3.53.13 is not available (latest version: 3.53.13, downgrade is disallowed).
+15:07:29.718 › @todesktop/runtime: AutoUpdater: update-not-available {
+  version: '3.53.13',
+  files: [
+    {
+      url: 'beeper-3.53.13.AppImage',
+      sha512: 'g7RZEjP/SUsBuFcB5ln28BTE30tzy44LMBLW5n+RmfqSnvCn2/QwcrelyqW2WBCdPq7UEr0J9VfO9F32NXjqbA==',
+      size: 156904332,
+      blockMapSize: 162720
+    },
+    {
+      url: 'beeper-3.53.13.deb',
+      sha512: 'iKx8UvaD4yOtX7TpKRGY/sXy7KYxmK2PuNecuWw09/f9DfoKGCrjHT74ff8ya9fBSvRLdH4dc/fwPdXKUksuTw==',
+      size: 113812950
+    },
+    {
+      url: 'beeper-3.53.13.rpm',
+      sha512: 'JGHor6/j3xfNXZemKoYgo2MD0PX9l8DEj77H1qU1a9ZIqlrZVTi29kk6CqJ0Mx1IgxS6ts3yE/Sb3q2lN9sQcA==',
+      size: 113643052
+    }
+  ],
+  path: 'beeper-3.53.13.AppImage',
+  sha512: 'g7RZEjP/SUsBuFcB5ln28BTE30tzy44LMBLW5n+RmfqSnvCn2/QwcrelyqW2WBCdPq7UEr0J9VfO9F32NXjqbA==',
+  releaseDate: '2023-05-02T20:45:46.885Z'
+}
+15:07:29.718 › @todesktop/runtime: AutoUpdater: UpdaterAgent: UpdaterAgent: Analysing autoUpdater.checkForUpdates result {
+  currentVersion: '3.53.13',
+  newVersion: '3.53.13',
+  updateInfo: {
+    version: '3.53.13',
+    files: [ '[object]', '[object]', '[object]' ],
+    path: 'beeper-3.53.13.AppImage',
+    sha512: 'g7RZEjP/SUsBuFcB5ln28BTE30tzy44LMBLW5n+RmfqSnvCn2/QwcrelyqW2WBCdPq7UEr0J9VfO9F32NXjqbA==',
+    releaseDate: '2023-05-02T20:45:46.885Z'
+  }
+}
+15:07:29.719 › @todesktop/runtime: AutoUpdater: No update available
+16:07:29.189 › @todesktop/runtime: AutoUpdater: .checkForUpdates called
+16:07:29.189 › @todesktop/runtime: AutoUpdater: _check called {
+  source: 'programmatic-call',
+  pendingCheckSources: [ 'programmatic-call' ]
+}
+16:07:29.190 › @todesktop/runtime: AutoUpdater: _actuallyPerformCheck called
+16:07:29.190 › @todesktop/runtime: Checking for update
+16:07:29.190 › @todesktop/runtime: AutoUpdater: checking-for-update
+16:07:29.831 › @todesktop/runtime: Update for version 3.53.13 is not available (latest version: 3.53.13, downgrade is disallowed).
+16:07:29.831 › @todesktop/runtime: AutoUpdater: update-not-available {
+  version: '3.53.13',
+  files: [
+    {
+      url: 'beeper-3.53.13.AppImage',
+      sha512: 'g7RZEjP/SUsBuFcB5ln28BTE30tzy44LMBLW5n+RmfqSnvCn2/QwcrelyqW2WBCdPq7UEr0J9VfO9F32NXjqbA==',
+      size: 156904332,
+      blockMapSize: 162720
+    },
+    {
+      url: 'beeper-3.53.13.deb',
+      sha512: 'iKx8UvaD4yOtX7TpKRGY/sXy7KYxmK2PuNecuWw09/f9DfoKGCrjHT74ff8ya9fBSvRLdH4dc/fwPdXKUksuTw==',
+      size: 113812950
+    },
+    {
+      url: 'beeper-3.53.13.rpm',
+      sha512: 'JGHor6/j3xfNXZemKoYgo2MD0PX9l8DEj77H1qU1a9ZIqlrZVTi29kk6CqJ0Mx1IgxS6ts3yE/Sb3q2lN9sQcA==',
+      size: 113643052
+    }
+  ],
+  path: 'beeper-3.53.13.AppImage',
+  sha512: 'g7RZEjP/SUsBuFcB5ln28BTE30tzy44LMBLW5n+RmfqSnvCn2/QwcrelyqW2WBCdPq7UEr0J9VfO9F32NXjqbA==',
+  releaseDate: '2023-05-02T20:45:46.885Z'
+}
+16:07:29.831 › @todesktop/runtime: AutoUpdater: UpdaterAgent: UpdaterAgent: Analysing autoUpdater.checkForUpdates result {
+  currentVersion: '3.53.13',
+  newVersion: '3.53.13',
+  updateInfo: {
+    version: '3.53.13',
+    files: [ '[object]', '[object]', '[object]' ],
+    path: 'beeper-3.53.13.AppImage',
+    sha512: 'g7RZEjP/SUsBuFcB5ln28BTE30tzy44LMBLW5n+RmfqSnvCn2/QwcrelyqW2WBCdPq7UEr0J9VfO9F32NXjqbA==',
+    releaseDate: '2023-05-02T20:45:46.885Z'
+  }
+}
+16:07:29.832 › @todesktop/runtime: AutoUpdater: No update available
+sys:1: Warning: ../gobject/gsignal.c:2778: instance '0x55752a1f6b20' has no handler with id '374595'
+sys:1: Warning: ../gobject/gsignal.c:2778: instance '0x557529afcd60' has no handler with id '377676'
+17:07:29.198 › @todesktop/runtime: AutoUpdater: .checkForUpdates called
+17:07:29.199 › @todesktop/runtime: AutoUpdater: _check called {
+  source: 'programmatic-call',
+  pendingCheckSources: [ 'programmatic-call' ]
+}
+17:07:29.200 › @todesktop/runtime: AutoUpdater: _actuallyPerformCheck called
+17:07:29.200 › @todesktop/runtime: Checking for update
+17:07:29.201 › @todesktop/runtime: AutoUpdater: checking-for-update
+17:07:29.852 › @todesktop/runtime: Update for version 3.53.13 is not available (latest version: 3.53.13, downgrade is disallowed).
+17:07:29.852 › @todesktop/runtime: AutoUpdater: update-not-available {
+  version: '3.53.13',
+  files: [
+    {
+      url: 'beeper-3.53.13.AppImage',
+      sha512: 'g7RZEjP/SUsBuFcB5ln28BTE30tzy44LMBLW5n+RmfqSnvCn2/QwcrelyqW2WBCdPq7UEr0J9VfO9F32NXjqbA==',
+      size: 156904332,
+      blockMapSize: 162720
+    },
+    {
+      url: 'beeper-3.53.13.deb',
+      sha512: 'iKx8UvaD4yOtX7TpKRGY/sXy7KYxmK2PuNecuWw09/f9DfoKGCrjHT74ff8ya9fBSvRLdH4dc/fwPdXKUksuTw==',
+      size: 113812950
+    },
+    {
+      url: 'beeper-3.53.13.rpm',
+      sha512: 'JGHor6/j3xfNXZemKoYgo2MD0PX9l8DEj77H1qU1a9ZIqlrZVTi29kk6CqJ0Mx1IgxS6ts3yE/Sb3q2lN9sQcA==',
+      size: 113643052
+    }
+  ],
+  path: 'beeper-3.53.13.AppImage',
+  sha512: 'g7RZEjP/SUsBuFcB5ln28BTE30tzy44LMBLW5n+RmfqSnvCn2/QwcrelyqW2WBCdPq7UEr0J9VfO9F32NXjqbA==',
+  releaseDate: '2023-05-02T20:45:46.885Z'
+}
+17:07:29.853 › @todesktop/runtime: AutoUpdater: UpdaterAgent: UpdaterAgent: Analysing autoUpdater.checkForUpdates result {
+  currentVersion: '3.53.13',
+  newVersion: '3.53.13',
+  updateInfo: {
+    version: '3.53.13',
+    files: [ '[object]', '[object]', '[object]' ],
+    path: 'beeper-3.53.13.AppImage',
+    sha512: 'g7RZEjP/SUsBuFcB5ln28BTE30tzy44LMBLW5n+RmfqSnvCn2/QwcrelyqW2WBCdPq7UEr0J9VfO9F32NXjqbA==',
+    releaseDate: '2023-05-02T20:45:46.885Z'
+  }
+}
+17:07:29.854 › @todesktop/runtime: AutoUpdater: No update available
+sending browser-window-focus to react
+sending browser-window-blur to react
+flatpak-vscode: Adding /app/tools/fish/bin to PATH
+flatpak-vscode: Adding /app/tools/podman/bin to PATH
+
+(budgie-wm:71185): Clutter-WARNING **: 18:01:53.539: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e07bff5e0] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:01:53.539: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e077df410] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:02:07.146: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e07bff5e0] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:02:07.147: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e077df410] is on because it needs an allocation.
+18:07:29.212 › @todesktop/runtime: AutoUpdater: .checkForUpdates called
+18:07:29.213 › @todesktop/runtime: AutoUpdater: _check called {
+  source: 'programmatic-call',
+  pendingCheckSources: [ 'programmatic-call' ]
+}
+18:07:29.215 › @todesktop/runtime: AutoUpdater: _actuallyPerformCheck called
+18:07:29.216 › @todesktop/runtime: Checking for update
+18:07:29.217 › @todesktop/runtime: AutoUpdater: checking-for-update
+18:07:29.898 › @todesktop/runtime: Update for version 3.53.13 is not available (latest version: 3.53.13, downgrade is disallowed).
+18:07:29.898 › @todesktop/runtime: AutoUpdater: update-not-available {
+  version: '3.53.13',
+  files: [
+    {
+      url: 'beeper-3.53.13.AppImage',
+      sha512: 'g7RZEjP/SUsBuFcB5ln28BTE30tzy44LMBLW5n+RmfqSnvCn2/QwcrelyqW2WBCdPq7UEr0J9VfO9F32NXjqbA==',
+      size: 156904332,
+      blockMapSize: 162720
+    },
+    {
+      url: 'beeper-3.53.13.deb',
+      sha512: 'iKx8UvaD4yOtX7TpKRGY/sXy7KYxmK2PuNecuWw09/f9DfoKGCrjHT74ff8ya9fBSvRLdH4dc/fwPdXKUksuTw==',
+      size: 113812950
+    },
+    {
+      url: 'beeper-3.53.13.rpm',
+      sha512: 'JGHor6/j3xfNXZemKoYgo2MD0PX9l8DEj77H1qU1a9ZIqlrZVTi29kk6CqJ0Mx1IgxS6ts3yE/Sb3q2lN9sQcA==',
+      size: 113643052
+    }
+  ],
+  path: 'beeper-3.53.13.AppImage',
+  sha512: 'g7RZEjP/SUsBuFcB5ln28BTE30tzy44LMBLW5n+RmfqSnvCn2/QwcrelyqW2WBCdPq7UEr0J9VfO9F32NXjqbA==',
+  releaseDate: '2023-05-02T20:45:46.885Z'
+}
+18:07:29.899 › @todesktop/runtime: AutoUpdater: UpdaterAgent: UpdaterAgent: Analysing autoUpdater.checkForUpdates result {
+  currentVersion: '3.53.13',
+  newVersion: '3.53.13',
+  updateInfo: {
+    version: '3.53.13',
+    files: [ '[object]', '[object]', '[object]' ],
+    path: 'beeper-3.53.13.AppImage',
+    sha512: 'g7RZEjP/SUsBuFcB5ln28BTE30tzy44LMBLW5n+RmfqSnvCn2/QwcrelyqW2WBCdPq7UEr0J9VfO9F32NXjqbA==',
+    releaseDate: '2023-05-02T20:45:46.885Z'
+  }
+}
+18:07:29.900 › @todesktop/runtime: AutoUpdater: No update available
+Opening in existing browser session.
+[77467:77467:0509/182044.735923:ERROR:CONSOLE(0)] "Access to image at 'made-up-favicon:https://www.astrobotic.com/' from origin 'chrome-extension://mpognobbkildjkofajifpdfhcoklimli' has been blocked by CORS policy: Cross origin requests are only supported for protocol schemes: http, data, isolated-app, chrome-extension, chrome, https, chrome-untrusted.", source: chrome-extension://mpognobbkildjkofajifpdfhcoklimli/main.html (0)
+
+(budgie-wm:71185): Clutter-WARNING **: 18:20:48.437: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:20:48.437: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:08.808: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:08.808: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+[77467:77467:0509/182120.477782:ERROR:CONSOLE(1)] "Uncaught (in promise) Error: Source filter not found ["Feeds","bf476ea7-5e66-4246-9412-19e21e232184"]", source: chrome-extension://mpognobbkildjkofajifpdfhcoklimli/background-common-bundle.js (1)
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:41.823: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:41.823: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:43.791: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:43.791: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+[77467:77467:0509/182150.452184:ERROR:CONSOLE(1)] "Uncaught (in promise) Error: Source filter not found ["Feeds","bf476ea7-5e66-4246-9412-19e21e232184"]", source: chrome-extension://mpognobbkildjkofajifpdfhcoklimli/background-common-bundle.js (1)
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:50.954: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:50.954: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:50.970: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:50.970: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:51.006: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:51.007: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:51.026: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:51.026: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:51.053: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:51.053: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:51.073: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:51.073: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:51.087: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:51.088: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:51.108: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:51.108: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:51.120: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:51.120: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:51.156: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:51.156: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:51.174: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:51.174: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:51.187: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:51.187: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:51.221: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:51.221: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:51.237: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:51.238: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:51.255: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:51.256: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:51.288: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:51.289: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:51.305: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:51.305: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:51.337: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:51.338: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:51.356: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:51.356: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:51.373: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:51.373: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:51.391: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:51.391: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:51.423: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:51.423: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:51.438: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:51.439: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:51.455: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:51.455: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:51.472: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:51.473: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:51.490: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:51.490: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:51.505: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:51.505: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:51.519: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:51.519: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:51.537: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:51.537: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:51.555: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:51.555: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:51.571: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:51.571: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:51.605: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:51.605: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:51.621: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:51.621: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:51.649: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:51.649: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:51.670: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:51.670: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:51.688: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:51.689: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:51.704: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:51.704: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:51.720: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:51.721: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:51.754: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:51.754: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:51.773: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:51.773: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:51.803: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:51.803: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:51.825: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:51.825: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:51.840: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:51.841: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:51.871: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:51.871: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:51.889: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:51.890: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:51.907: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:51.907: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:51.922: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:51.922: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:51.937: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:51.937: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:51.956: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:51.956: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:51.970: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:51.970: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:51.987: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:51.987: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:52.005: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:52.006: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:52.036: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:52.036: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:52.053: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:52.053: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:52.070: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:52.070: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:52.091: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:52.091: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:52.103: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:52.103: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:52.137: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:52.137: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:52.153: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:52.153: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:52.171: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:52.171: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:52.188: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:52.188: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:52.221: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:52.221: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:52.237: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:52.238: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:52.253: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:52.253: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:52.270: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:52.270: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:52.286: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:52.286: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:52.304: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:52.304: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:52.319: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:52.319: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:52.337: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:52.337: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:52.353: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:52.354: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:52.370: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:52.370: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:52.391: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:52.391: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:52.403: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:52.404: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:53.269: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:53.270: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:53.287: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:53.287: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:53.304: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:53.304: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:53.320: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:53.320: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:53.341: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:53.341: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:53.353: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:53.354: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:53.373: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:53.373: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:53.389: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:53.389: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:53.406: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:53.406: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:53.438: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:53.438: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:53.455: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:53.455: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:53.472: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:53.473: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:53.489: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:53.489: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:53.503: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:53.504: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:53.523: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:53.523: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:53.553: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:53.553: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:53.573: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:53.573: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:53.590: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:53.590: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:53.605: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:53.605: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:53.642: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:53.643: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:53.653: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:53.653: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:53.687: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:53.687: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:53.703: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:53.703: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:53.723: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:53.723: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:53.740: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:53.742: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:53.757: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:53.757: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:53.790: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:53.791: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:53.806: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:53.806: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:53.838: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:53.839: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:53.855: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:53.855: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:53.888: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:53.888: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:53.903: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:53.904: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:53.922: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:53.923: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:53.940: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:53.940: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:53.953: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:53.953: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:53.990: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:53.990: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:54.004: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:54.004: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:54.038: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:54.038: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:54.053: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:54.053: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:54.073: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:54.073: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:54.091: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:21:54.091: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:22:41.872: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:22:41.872: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+[77467:77467:0509/182250.312246:ERROR:CONSOLE(1)] "Uncaught (in promise) Error: Source filter not found ["Feeds","bf476ea7-5e66-4246-9412-19e21e232184"]", source: chrome-extension://mpognobbkildjkofajifpdfhcoklimli/background-common-bundle.js (1)
+
+(budgie-wm:71185): Clutter-WARNING **: 18:23:14.357: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:23:14.358: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:23:21.905: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:23:21.905: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:23:21.932: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:23:21.932: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:23:21.957: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:23:21.957: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:23:21.975: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:23:21.975: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:23:22.007: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:23:22.007: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:23:22.025: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:23:22.025: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:23:22.059: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:23:22.060: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:23:22.090: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:23:22.090: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:23:22.111: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:23:22.112: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:23:22.168: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:23:22.168: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:23:22.185: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:23:22.186: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:23:22.222: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:23:22.222: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:23:22.241: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:23:22.241: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:23:22.270: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:23:22.271: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:23:22.287: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:23:22.287: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:23:22.306: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:23:22.306: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:23:22.322: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:23:22.322: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:23:22.354: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:23:22.354: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:23:22.371: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:23:22.371: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:23:22.390: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:23:22.391: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:23:22.422: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x561e08421920] is on because it needs an allocation.
+
+(budgie-wm:71185): Clutter-WARNING **: 18:23:22.422: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x561e07242d20] is on because it needs an allocation.
+[77467:77467:0509/182350.418132:ERROR:CONSOLE(1)] "Uncaught (in promise) Error: Source filter not found ["Feeds","bf476ea7-5e66-4246-9412-19e21e232184"]", source: chrome-extension://mpognobbkildjkofajifpdfhcoklimli/background-common-bundle.js (1)
+
+(budgie-wm:71185): libmutter-WARNING **: 18:24:03.217: Failed to find colord device xrandr-LG Electronics-LG FULL HD-0x00000000: device id 'xrandr-LG Electronics-LG FULL HD-0x00000000' does not exist
+
+(budgie-wm:71185): libmutter-WARNING **: 18:24:03.220: Failed to find colord device xrandr-SDC-0x4951-0x00000000: device id 'xrandr-SDC-0x4951-0x00000000' does not exist
+[77467:77467:0509/182450.130359:ERROR:CONSOLE(1)] "Uncaught (in promise) Error: Source filter not found ["Feeds","bf476ea7-5e66-4246-9412-19e21e232184"]", source: chrome-extension://mpognobbkildjkofajifpdfhcoklimli/background-common-bundle.js (1)
+[77467:77467:0509/182550.376537:ERROR:CONSOLE(1)] "Uncaught (in promise) Error: Source filter not found ["Feeds","bf476ea7-5e66-4246-9412-19e21e232184"]", source: chrome-extension://mpognobbkildjkofajifpdfhcoklimli/background-common-bundle.js (1)
+[77467:77467:0509/182650.281818:ERROR:CONSOLE(1)] "Uncaught (in promise) Error: Source filter not found ["Feeds","bf476ea7-5e66-4246-9412-19e21e232184"]", source: chrome-extension://mpognobbkildjkofajifpdfhcoklimli/background-common-bundle.js (1)

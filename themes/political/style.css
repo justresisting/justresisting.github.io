@@ -967,7 +967,7 @@ h1.notion-heading .notion-semantic-string,
 /* *Places: Cities, Counties, Districts, States */
 .page__index .notion-collection-gallery {
     --grid-layout: auto-fit !important;
-    grid-template-columns: repeat(var(--grid-layout),minmax(var(--collection-card-cover-size-medium),1fr)) !important;
+    grid-template-columns: repeat(var(--grid-layout),minmax(var(--collection-card-cover-size-smaller),1fr)) !important;
 }
 /* !Home */
 /* %About */

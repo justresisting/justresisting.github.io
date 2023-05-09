@@ -1,0 +1,17 @@
+libmutter-Message: 18:24:01.345: Running Mutter(Budgie) (using mutter 43.5) as a X11 window and compositing manager
+
+(budgie-wm:86205): libmutter-WARNING **: 18:24:03.219: Called enable_unredirect_for_display while unredirection is enabled.
+
+(budgie-wm:86205): libmutter-CRITICAL **: 18:24:03.256: meta_sound_player_play_from_theme: assertion 'META_IS_SOUND_PLAYER (player)' failed
+
+(budgie-wm:86205): libmutter-WARNING **: 18:24:04.451: Property 'libinput Accel Profile Enabled Default' for device 'Logitech USB Receiver Mouse' returned 3 items, expected 2
+
+(budgie-wm:86205): libmutter-WARNING **: 18:24:04.462: Property 'libinput Accel Profiles Available' for device 'Logitech USB Receiver Mouse' returned 3 items, expected 2
+** Message: 18:24:05.599: libsession.vala:45: DESKTOP_AUTOSTART_ID not set, session registration may be broken (not running budgie-desktop?)
+
+(budgie-wm:86205): libmutter-WARNING **: 18:24:05.723: Property 'libinput Accel Profile Enabled Default' for device 'Logitech Wireless Mouse' returned 3 items, expected 2
+
+(budgie-wm:86205): libmutter-WARNING **: 18:24:05.727: Property 'libinput Accel Profiles Available' for device 'Logitech Wireless Mouse' returned 3 items, expected 2
+Window manager warning: Buggy client sent a _NET_ACTIVE_WINDOW message with a timestamp of 0 for 0x3e0000b
+
+** (budgie-panel:86206): WARNING **: 18:24:23.372: PowerIndicator.vala:68: Failed to refresh battery: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Method Refresh is not implemented on interface org.freedesktop.UPower.Device
