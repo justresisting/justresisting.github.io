@@ -510,6 +510,7 @@ div.notion-property__url {
     border-radius: var(--element-radius);
 }
 
+
 .page__about .notion-property.notion-property__file img {
     object-fit: contain !important;
 }
@@ -764,7 +765,7 @@ xx } */
 
 /* ^COLLECTION CARD IMG */
 /* @OBJECT-FIT: *CONTAIN* ENABLED FOR: */
-.page__blog-series-productivity parent-page__blog-series .notion-collection-card__cover img,
+.parent-page__blog-series .notion-collection-card__cover img,
 .page__directory-organizations .notion-collection-card__cover img,
 .parent-page__places-states .notion-collection-card__cover img {
     object-fit: contain !important;
@@ -985,7 +986,9 @@ h1.notion-heading .notion-semantic-string,
 
 /* !Resources */
 /* %Blog */
-
+.parent-page__blog-series .notion-collection-card__cover img {
+        object-fit: contain !important;
+}
 /* !Blog */
 /* %Contact */
 /* ^CONTACT PAGE COLLECTION CARD COVER SIZE */
