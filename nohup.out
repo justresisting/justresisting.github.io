@@ -15,3 +15,25 @@ libmutter-Message: 18:24:01.345: Running Mutter(Budgie) (using mutter 43.5) as a
 Window manager warning: Buggy client sent a _NET_ACTIVE_WINDOW message with a timestamp of 0 for 0x3e0000b
 
 ** (budgie-panel:86206): WARNING **: 18:24:23.372: PowerIndicator.vala:68: Failed to refresh battery: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Method Refresh is not implemented on interface org.freedesktop.UPower.Device
+
+** (budgie-panel:86206): WARNING **: 18:27:24.343: GDBus.Error:org.gtk.GDBus.UnmappedGError.Quark._LIBDBUSMENU_2dGLIB.Code0: The ID supplied 3666 does not refer to a menu item we have
+
+** (budgie-panel:86206): WARNING **: 18:27:24.344: GDBus.Error:org.gtk.GDBus.UnmappedGError.Quark._LIBDBUSMENU_2dGLIB.Code0: The ID supplied 3667 does not refer to a menu item we have
+
+** (budgie-panel:86206): WARNING **: 18:27:24.400: GDBus.Error:org.gtk.GDBus.UnmappedGError.Quark._LIBDBUSMENU_2dGLIB.Code0: The ID supplied 3686 does not refer to a menu item we have
+
+** (budgie-panel:86206): WARNING **: 18:27:24.401: GDBus.Error:org.gtk.GDBus.UnmappedGError.Quark._LIBDBUSMENU_2dGLIB.Code0: The ID supplied 3687 does not refer to a menu item we have
+
+** (budgie-panel:86206): WARNING **: 18:27:24.401: GDBus.Error:org.gtk.GDBus.UnmappedGError.Quark._LIBDBUSMENU_2dGLIB.Code0: The ID supplied 3721 does not refer to a menu item we have
+
+** (budgie-panel:86206): WARNING **: 18:27:24.595: GDBus.Error:org.gtk.GDBus.UnmappedGError.Quark._LIBDBUSMENU_2dGLIB.Code0: The ID supplied 3792 does not refer to a menu item we have
+
+** (budgie-panel:86206): WARNING **: 18:27:24.597: GDBus.Error:org.gtk.GDBus.UnmappedGError.Quark._LIBDBUSMENU_2dGLIB.Code0: The ID supplied 3799 does not refer to a menu item we have
+
+** (budgie-panel:86206): WARNING **: 18:27:33.226: GDBus.Error:org.gtk.GDBus.UnmappedGError.Quark._LIBDBUSMENU_2dGLIB.Code0: The ID supplied 5223 does not refer to a menu item we have
+
+** (budgie-panel:86206): WARNING **: 18:27:33.227: GDBus.Error:org.gtk.GDBus.UnmappedGError.Quark._LIBDBUSMENU_2dGLIB.Code0: The ID supplied 5230 does not refer to a menu item we have
+
+** (budgie-panel:86206): WARNING **: 18:27:33.276: GDBus.Error:org.gtk.GDBus.UnmappedGError.Quark._LIBDBUSMENU_2dGLIB.Code0: The ID supplied 5247 does not refer to a menu item we have
+
+** (budgie-panel:86206): WARNING **: 18:27:33.277: GDBus.Error:org.gtk.GDBus.UnmappedGError.Quark._LIBDBUSMENU_2dGLIB.Code0: The ID supplied 5248 does not refer to a menu item we have
