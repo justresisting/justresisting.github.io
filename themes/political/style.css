@@ -987,7 +987,7 @@ h1.notion-heading .notion-semantic-string,
 
 /* !Resources */
 /* %Blog */
-.parent-page__blog-series . .notion-property.notion-property__file,
+.parent-page__blog-series .notion-property.notion-property__file,
 .parent-page__blog-series .notion-collection-card__cover img {
         object-fit: contain !important;
 }
