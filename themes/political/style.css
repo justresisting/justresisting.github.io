@@ -764,6 +764,7 @@ xx } */
 
 /* ^COLLECTION CARD IMG */
 /* @OBJECT-FIT: *CONTAIN* ENABLED FOR: */
+.page__blog-series-productivity parent-page__blog-series .notion-collection-card__cover img,
 .page__directory-organizations .notion-collection-card__cover img,
 .parent-page__places-states .notion-collection-card__cover img {
     object-fit: contain !important;
