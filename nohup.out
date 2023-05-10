@@ -37,3 +37,80 @@ Window manager warning: Buggy client sent a _NET_ACTIVE_WINDOW message with a ti
 ** (budgie-panel:86206): WARNING **: 18:27:33.276: GDBus.Error:org.gtk.GDBus.UnmappedGError.Quark._LIBDBUSMENU_2dGLIB.Code0: The ID supplied 5247 does not refer to a menu item we have
 
 ** (budgie-panel:86206): WARNING **: 18:27:33.277: GDBus.Error:org.gtk.GDBus.UnmappedGError.Quark._LIBDBUSMENU_2dGLIB.Code0: The ID supplied 5248 does not refer to a menu item we have
+
+(budgie-wm:86205): Clutter-WARNING **: 18:30:45.477: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x557dd62441a0] is on because it needs an allocation.
+
+(budgie-wm:86205): Clutter-WARNING **: 18:30:45.477: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x557dd6216f10] is on because it needs an allocation.
+
+(budgie-panel:86206): Gtk-WARNING **: 18:36:49.034: Could not load a pixbuf from icon theme.
+This may indicate that pixbuf loaders or the mime database could not be found.
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+Window manager warning: WM_TRANSIENT_FOR window 0x3c009f5 for override-redirect window 0x3c00a12 is an override-redirect window and this is not correct according to the standard, so we'll fallback to the root window.
+Window manager warning: Buggy client sent a _NET_ACTIVE_WINDOW message with a timestamp of 0 for 0x3e0000b
+Window manager warning: Buggy client sent a _NET_ACTIVE_WINDOW message with a timestamp of 0 for 0x3e0000b
+Window manager warning: Buggy client sent a _NET_ACTIVE_WINDOW message with a timestamp of 0 for 0x3e0000b
+Window manager warning: Buggy client sent a _NET_ACTIVE_WINDOW message with a timestamp of 0 for 0x3e0000b
+Window manager warning: Buggy client sent a _NET_ACTIVE_WINDOW message with a timestamp of 0 for 0x3e0000b
+sys:1: Warning: ../gobject/gsignal.c:2778: instance '0x562a9d569650' has no handler with id '247801'
+
+(budgie-wm:86205): Clutter-WARNING **: 19:50:52.001: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x557dd7803070] is on because it needs an allocation.
+
+(budgie-wm:86205): Clutter-WARNING **: 19:50:52.001: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x557dd77f7810] is on because it needs an allocation.
+
+(budgie-wm:86205): Clutter-WARNING **: 19:50:52.001: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x557dd64ef840] is on because it needs an allocation.
+
+(budgie-wm:86205): Clutter-WARNING **: 19:50:52.001: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x557dd623ee10] is on because it needs an allocation.
+
+(budgie-wm:86205): Clutter-WARNING **: 19:52:07.943: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x557dd7803600] is on because it needs an allocation.
+
+(budgie-wm:86205): Clutter-WARNING **: 19:52:07.943: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x557dd7821a30] is on because it needs an allocation.
+
+(budgie-wm:86205): Clutter-WARNING **: 19:52:09.989: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x557dd64ef840] is on because it needs an allocation.
+
+(budgie-wm:86205): Clutter-WARNING **: 19:52:09.989: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x557dd623ee10] is on because it needs an allocation.
+
+(budgie-wm:86205): Clutter-WARNING **: 19:53:26.992: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x557dd66e7ff0] is on because it needs an allocation.
+
+(budgie-wm:86205): Clutter-WARNING **: 19:53:26.992: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x557dd66e7a50] is on because it needs an allocation.
+
+(budgie-wm:86205): Clutter-WARNING **: 19:53:27.011: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x557dd66e7ff0] is on because it needs an allocation.
+
+(budgie-wm:86205): Clutter-WARNING **: 19:53:27.011: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x557dd66e7a50] is on because it needs an allocation.
+
+(budgie-wm:86205): Clutter-WARNING **: 19:53:39.992: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x557dd66e7ff0] is on because it needs an allocation.
+
+(budgie-wm:86205): Clutter-WARNING **: 19:53:39.992: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x557dd66e7a50] is on because it needs an allocation.
+Window manager warning: Buggy client sent a _NET_ACTIVE_WINDOW message with a timestamp of 0 for 0x3e0000b
+
+(budgie-wm:86205): Clutter-WARNING **: 19:54:25.265: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x557dd66e7ff0] is on because it needs an allocation.
+
+(budgie-wm:86205): Clutter-WARNING **: 19:54:25.265: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x557dd66e7a50] is on because it needs an allocation.
+
+(budgie-wm:86205): Clutter-WARNING **: 19:54:25.265: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x557dd7803070] is on because it needs an allocation.
+
+(budgie-wm:86205): Clutter-WARNING **: 19:54:25.265: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x557dd77f7810] is on because it needs an allocation.
+
+(budgie-wm:86205): Clutter-WARNING **: 19:54:31.424: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x557dd66e7ff0] is on because it needs an allocation.
+
+(budgie-wm:86205): Clutter-WARNING **: 19:54:31.424: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x557dd66e7a50] is on because it needs an allocation.
+
+(budgie-wm:86205): Clutter-WARNING **: 19:54:31.424: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x557dd7803070] is on because it needs an allocation.
+
+(budgie-wm:86205): Clutter-WARNING **: 19:54:31.424: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x557dd77f7810] is on because it needs an allocation.
+
+(budgie-wm:86205): Clutter-WARNING **: 19:54:33.796: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x557dd66e7ff0] is on because it needs an allocation.
+
+(budgie-wm:86205): Clutter-WARNING **: 19:54:33.796: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x557dd66e7a50] is on because it needs an allocation.
+
+(budgie-wm:86205): Clutter-WARNING **: 19:54:33.796: Can't update stage views actor <unnamed>[<MetaWindowActorX11>:0x557dd7803070] is on because it needs an allocation.
+
+(budgie-wm:86205): Clutter-WARNING **: 19:54:33.796: Can't update stage views actor <unnamed>[<MetaSurfaceActorX11>:0x557dd77f7810] is on because it needs an allocation.
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchSyncMessage] Error: PCompositorBridge::Msg_NotifyChildRecreated Processing error: message was deserialized, but the handler returned false (indicating failure)
+

@@ -224,6 +224,10 @@
 --parallax-effect: fixed !important;
 /* ^Grid Layout */
 --grid-layout: auto-fit !important;
+/* ^Object-Fit */
+--contain: contain !important;
+--cover: cover !important;
+
 /* ^Collections */
 /* $Collection Spacing */
 --collection-margin: 0.25rem 0 !important;
@@ -701,7 +705,7 @@ xx } */
 .gallery .notion-collection-card__property .notion-semantic-string {
     text-overflow: ellipsis;
     overflow: visible;
-    white-space: pre-wrap;
+    white-space: pre-wrap !important;
 }
 
 
