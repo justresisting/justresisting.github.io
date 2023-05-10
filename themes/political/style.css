@@ -510,10 +510,11 @@ div.notion-property__url {
     border-radius: var(--element-radius);
 }
 
-
+.notion-property.notion-property__file img,
 .page__about .notion-property.notion-property__file img {
     object-fit: contain !important;
 }
+
 
 /* !Relation File Image */
 /* ^Relation Property */
@@ -986,6 +987,7 @@ h1.notion-heading .notion-semantic-string,
 
 /* !Resources */
 /* %Blog */
+.parent-page__blog-series . .notion-property.notion-property__file,
 .parent-page__blog-series .notion-collection-card__cover img {
         object-fit: contain !important;
 }
