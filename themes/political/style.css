@@ -595,6 +595,17 @@ h3.notion-heading.toggle {
 }
 /* ! END TOGGLES */
 
+/* #QUOTES */
+.notion-quote {
+    color: var(--color-bg-yellow);
+}
+/* $Quote Text */
+.notion-quote .notion-semantic-string {
+    color: var(--color-text-default-light);
+}
+/* ! END Quote Text */
+/* ! END QUOTES */
+
 /* #CALLOUTS */
 .notion-callout {
   display: flex;
