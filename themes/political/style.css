@@ -614,6 +614,20 @@ h3.notion-heading.toggle {
 }
 /* ! END Callout Content */
 
+/* $Callout Title */
+.notion-callout .notion-callout__content span.notion-semantic-string {
+  text-align: center !important;
+  font-size: x-large;
+  font-weight: 800 !important;
+}
+/* ! END Callout Title */
+
+/* $Callout Content Text */
+.notion-callout .notion-callout__content .notion-text__content .notion-semantic-string {
+  font-size: medium;
+}
+/* ! END Callout Content Text */
+
 /* $Callout in a Callout */
 .notion-callout .notion-callout {
 	background-color: var(--color-bg-yellow-light);
