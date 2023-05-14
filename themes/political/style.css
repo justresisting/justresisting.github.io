@@ -162,7 +162,7 @@
 --divider-thickness: 5px !important;
 --divider-style: solid !important;
 --divider-color: var(--accent) !important;
---divider-border: var(--divider-thickness) var(--divider-style) var(--divider-color) !important;
+/* --divider-border: var(--divider-thickness) var(--divider-style) var(--divider-color) !important; */
 /* $Typography */
 --text-spacing: 1px !important;
 --secondary-font: "Inter", sans-serif !important;
