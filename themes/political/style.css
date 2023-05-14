@@ -111,8 +111,10 @@
 /* $Site Shadow */
 --site-shadow: 0 0 0 var(--color-default) !important;
 /* $Site Border */
---border-default: 1px solid var(--color-border-default) !important;
+--border-thickness: 1px !important;
+--border-style: solid !important;
 --color-border-default: var(--accent-bg) !important;
+--border-default: var(--border-thickness) var(--border-style) var(--color-border-default) !important;
 /* $Site Header Level */
 --notion-header-page-title: 75vh !important;
 /* $Site Margin */
@@ -143,18 +145,23 @@
 --callout-border-width: 1px !important;
 --callout-border-style: solid !important;
 --callout-border-color: var(--color-border-default) !important;
---callout-border-radius: var(--element-radius) !important;
+--callout-border-radii: var(--element-radius) !important;
 --callout-justify: center !important;
 --callout-icon-size: 20px !important;
 --callout-emoji-size: 18px !important;
---callout-margin: 1rem 0 !important;
+--callout-margin: 1rem auto !important;
 --callout-margin-top: 0.25rem !important;
 --callout-content-margin: 0 0.5rem !important;
+--callout-min-height: 10rem !important;
 /* $Images */
 --image-border-radius: var(--element-radius) !important;
 /* $DIVIDERS */
 --divider-margin: 15px 0 !important;
 --divider-opacity: 1 !important;
+--divider-thickness: 5px !important;
+--divider-style: solid !important;
+--divider-color: var(--accent) !important;
+--divider-border: var(--divider-thickness) var(--divider-style) var(--divider-color) ;
 /* $Typography */
 --text-spacing: 1px !important;
 --secondary-font: "Inter", sans-serif !important;
@@ -246,12 +253,12 @@
 --collection-card-border: 1px solid var(--color-border-default) !important;
 --collection-gallery-header: 1px none var(--collection-header-border)!important;
 --collection-card-border-radius: var(--element-radius) !important;
-    --collection-card-padding: 0px;
-    --collection-card-title-padding: 0px;
-    --collection-card-content-padding: var(--padding-layout);
-    --collection-card-border-radii: var(--border-radii-layout);
-    --collection-card-gap: 32px;
-    --collection-card-shadow: rgba(0, 0, 0, 0.5) 0px 20px 40px -10px;
+--collection-card-padding: 0px;
+--collection-card-title-padding: 0px;
+--collection-card-content-padding: var(--padding-layout);
+--collection-card-border-radii: var(--border-radii-layout);
+--collection-card-gap: 32px;
+--collection-card-shadow: rgba(0, 0, 0, 0.5) 0px 20px 40px -10px;
 /* $Collection Card Size */
 --collection-card-cover-size-static-small: 172px !important;
 --collection-card-cover-size-static-medium: 260px !important;
@@ -433,7 +440,7 @@ img.notion-header__icon {
 
 /* $ Notion URL Properties */
 div.notion-property__url {
-  font-size: 14px;
+  font-size: var(--body-font);
   white-space: nowrap;
 }
 
@@ -567,7 +574,6 @@ h3.notion-heading.toggle {
 }
 /* ! END Headings */
 
-
 /* #NOTION PAGES */
 /* ^Notion Page Icons */
 .notion-semantic-string .resource .notion-page__icon {
@@ -575,11 +581,59 @@ h3.notion-heading.toggle {
 }
 /* ! END NOTION PAGES */
 
+/* #DIVIDER */
+.notion-divider {
+ 
+  margin: var(--divider-margin);
+  border-bottom: var(--divider-border);
+}
+/* ! END DIVIDER */
+
 /* #TOGGLES */
 .notion-toggle.bg-brown {
   display: none;
 }
 /* ! END TOGGLES */
+
+/* #CALLOUTS */
+.notion-callout {
+  display: flex;
+  overflow: hidden;
+  border: var(--border-default) !important;
+  border-radius: var(--callout-border-radii);
+  box-shadow: var(--callout-shadow);
+  margin: var(--callout-margin) !important;
+  padding: var(--callout-padding);
+  min-height: var(--callout-min-height);
+}
+
+/* $Callout in a Callout */
+.notion-callout .notion-callout {
+	background-color: var(--color-bg-yellow-light);
+	border-color: var(--color-bg-yellow);
+}
+/* ! END Callout in a Callout */
+
+/* $Callout Title in a Callout in a Callout */
+.notion-callout .notion-callout .notion-callout__content .notion-semantic-string {
+  justify-content: center;
+  display: flex;
+  margin-bottom: 1rem;
+  font-size: x-large;
+  text-align: center;
+  color: white;
+  font-weight: 800;
+}
+/* ! END Callout Title in a Callout in a Callout */
+
+/* $Text within a Callout in a Callouts */
+.notion-callout .notion-callout .notion-text .notion-text__content .notion-semantic-string {
+  font-size: medium;
+  font-weight: 400 !important;
+  color: var(--color-text-default-light);
+}
+/* ! END Text within a Callout in a Callouts */
+/* ! END CALLOUTS */
 /* ! END NOTION ELEMENTS */
 
 /* #COLLECTIONS */
@@ -777,13 +831,13 @@ xx } */
 .notion-collection-card__property:has(.notion-property.notion-property__file.property-71435e6f) div {
     width: 128px !important;
     height: 128px !important;
-    margin: 0 auto !important;
+    margin: var(--long) !important;
 }
 
 .notion-property.notion-property__file.property-undefined div {
     width: var(--collection-card-cover-size-small) !important;
     height: var(--collection-card-cover-size-small) !important;
-    margin: 0 auto !important;
+    margin: var(--long) !important;
 }
 /* ! END ENLARGE IMAGES ON COLLECTION CARDS */
 
@@ -998,7 +1052,7 @@ h1.notion-heading .notion-semantic-string,
     min-height: var(--collection-card-cover-size-static-small);
     height: 100%;
     width: var(--collection-card-cover-size-static-small);
-    margin: 0 auto;
+    margin: var(--long);
 }
 
 /* ! END Contact */
