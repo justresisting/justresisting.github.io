@@ -584,9 +584,8 @@ h3.notion-heading.toggle {
 
 /* #DIVIDER */
 .notion-divider {
- 
   margin: var(--divider-margin);
-  border-bottom: var(--divider-border);
+  border-bottom: 5px var(--divider-style) var(--accent);
 }
 /* ! END DIVIDER */
 
