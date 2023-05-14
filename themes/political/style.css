@@ -649,9 +649,9 @@ h3.notion-heading.toggle {
 /* ! END Callout Title in a Callout in a Callout */
 
 /* $Callout Content in a Callout in a Callout */
-.notion-callout .notion-callout .notion-callout__content {
+/* .notion-callout .notion-callout .notion-callout__content {
   margin: auto 1rem;
-}
+} */
 /* ! END Callout Content in a Callout in a Callout */
 
 /* $Text within a Callout in a Callouts */
