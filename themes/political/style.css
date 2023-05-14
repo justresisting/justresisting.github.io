@@ -159,10 +159,10 @@
 /* $DIVIDERS */
 --divider-margin: 15px 0 !important;
 --divider-opacity: 1 !important;
---divider-thickness: 5px;
---divider-style: solid;
---divider-color: var(--accent);
---divider-border: var(--divider-thickness) var(--divider-style) var(--divider-color) ;
+--divider-thickness: 5px !important;
+--divider-style: solid !important;
+--divider-color: var(--accent) !important;
+--divider-border: var(--divider-thickness) var(--divider-style) var(--divider-color) !important;
 /* $Typography */
 --text-spacing: 1px !important;
 --secondary-font: "Inter", sans-serif !important;
