@@ -147,7 +147,7 @@
 --callout-border-style: solid;
 --callout-border-color: var(--color-border-default);
 --callout-border-radii: var(--element-radius);
---callout-shadow: rgba(0, 0, 0, 0.80) 0px 4px 8px -2px;
+--callout-shadow: rgba(0, 0, 0, 0.80) 0px 4px 8px -2px !important;
 --callout-justify: center;
 --callout-icon-size: 20px;
 --callout-emoji-size: 18px;
