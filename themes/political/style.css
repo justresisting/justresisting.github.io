@@ -655,6 +655,7 @@ h3.notion-heading.toggle {
   font-weight: 800 !important;
   display: flex;
   justify-content: center !important;
+  color: var(--color-text-default);
 }
 /* ! END Callout Title */
 
@@ -694,7 +695,7 @@ h3.notion-heading.toggle {
 
 /* $Text within a Callout in a Callouts */
 .notion-callout .notion-callout .notion-text .notion-text__content .notion-semantic-string {
-  font-size: medium;
+  font-size: large;
   font-weight: 400 !important;
   color: var(--color-text-default-light);
 }
