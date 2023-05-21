@@ -669,7 +669,8 @@ h3.notion-heading.toggle {
 	background-color: var(--color-bg-yellow-light);
 	border: var(--callout-border);
     box-shadow: var(--callout-shadow) !important;
-    min-height: var(--callout-min-height) !important;
+    /* min-height: var(--callout-min-height) !important; */
+    min-height: -webkit-fill-available;
 }
 /* ! END Callout in a Callout */
 
