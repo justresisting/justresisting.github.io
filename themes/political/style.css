@@ -668,8 +668,8 @@ h3.notion-heading.toggle {
 /* $Callout in a Callout */
 .notion-callout .notion-callout {
 	background-color: var(--color-bg-yellow-light);
-	border: var(--callout-border) !important;
-    box-shadow: var(--callout-shadow);
+	border: var(--callout-border);
+    box-shadow: var(--callout-shadow) !important;
 }
 /* ! END Callout in a Callout */
 
