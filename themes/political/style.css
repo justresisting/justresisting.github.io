@@ -640,7 +640,6 @@ h3.notion-heading.toggle {
   box-shadow: 0 0 0 var(--color-default) !important;
   margin: var(--callout-margin) !important;
   padding: var(--callout-padding);
-  min-height: var(--callout-min-height) !important;
 }
 
 /* $Callout Content */
@@ -670,6 +669,7 @@ h3.notion-heading.toggle {
 	background-color: var(--color-bg-yellow-light);
 	border: var(--callout-border);
     box-shadow: var(--callout-shadow) !important;
+    min-height: var(--callout-min-height) !important;
 }
 /* ! END Callout in a Callout */
 
