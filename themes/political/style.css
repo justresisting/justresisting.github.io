@@ -147,6 +147,7 @@
 --callout-border-style: solid;
 --callout-border-color: var(--color-border-default);
 --callout-border-radii: var(--element-radius);
+--callout-shadow: rgba(0, 0, 0, 0.80) 0px 4px 8px -2px;
 --callout-justify: center;
 --callout-icon-size: 20px;
 --callout-emoji-size: 18px;
@@ -590,9 +591,33 @@ h3.notion-heading.toggle {
 /* ! END DIVIDER */
 
 /* #TOGGLES */
+/* $::Selection */
+.notion-toggle::before {
+	position: absolute !important;
+	font-weight: 100 !important;
+	font-size: 24px !important;
+	line-height: 1 !important;
+	opacity: .4 !important;
+	content: "+" !important;
+	top: 24px !important;
+	left: 20px !important;
+}
+
+.notion-toggle {
+  /* border: 1px solid #ebebeb !important; */
+  border: var(--border-default) !important;
+  border-radius: 12px !important;
+  margin-bottom: 16px !important;
+  position: relative !important;
+  text-align: left !important;
+  transition: background .2s ease-in-out !important;
+}
+
+/* $Invisible Toggle */
 .notion-toggle.bg-brown {
   display: none;
 }
+/* ! END INVISIBLE TOGGLE */
 /* ! END TOGGLES */
 
 /* #QUOTES */
@@ -612,7 +637,7 @@ h3.notion-heading.toggle {
   overflow: hidden;
   border: 1px solid transparent !important;
   border-radius: var(--callout-border-radii);
-  box-shadow: var(--callout-shadow);
+  box-shadow: 0 0 0 var(--color-default) !important;
   margin: var(--callout-margin) !important;
   padding: var(--callout-padding);
   min-height: var(--callout-min-height);
@@ -644,6 +669,7 @@ h3.notion-heading.toggle {
 .notion-callout .notion-callout {
 	background-color: var(--color-bg-yellow-light);
 	border: var(--callout-border) !important;
+    box-shadow: var(--callout-shadow);
 }
 /* ! END Callout in a Callout */
 
