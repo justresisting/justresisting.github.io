@@ -552,6 +552,14 @@ div.notion-property__url {
     color: var(--color-pill-text-default);
 }
 /* ! END PROPERTY: *Pills* */
+
+/* $Notion Pills on Page Properties */
+/* /NOT on Collection Cards */
+.notion-page__properties .notion-property .notion-pill {
+    margin-right: 1rem !important;
+}
+/* !Notion Pills on Page Properties */
+
 /* $property select pills stack */
 .page__government-elected-officials .notion-collection-card__content .notion-property__select {
     display: inline;
