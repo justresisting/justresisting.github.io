@@ -130,7 +130,7 @@
 /* $PILLS */
 --color-pill-default: var(--color-bg-black) !important;
 --color-pill-text-default: var(--color-text-default) !important;
---pill-margin: .5rem 0 !important;
+--pill-margin: 0 .25rem !important;
 --pill-padding: .25rem !important;
 /* $Call to Actions */
 --cta-padding: 13px 14px !important;
