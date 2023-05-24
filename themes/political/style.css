@@ -668,8 +668,8 @@ h3.notion-heading.toggle {
   text-align: center !important;
   font-size: x-large;
   font-weight: 800 !important;
-  display: flex;
-  justify-content: center !important;
+  /* display: flex; */
+  /* justify-content: center !important; */
   color: var(--color-text-default);
 }
 /* ! END Callout Title */
@@ -692,8 +692,8 @@ h3.notion-heading.toggle {
 
 /* $Callout Title in a Callout in a Callout */
 .notion-callout .notion-callout .notion-callout__content .notion-semantic-string {
-  justify-content: center;
-  display: flex;
+  /* justify-content: center; */
+  /* display: flex; */
   margin-bottom: 1rem;
   font-size: x-large;
   text-align: center;
