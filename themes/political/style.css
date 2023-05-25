@@ -311,6 +311,12 @@ div#block-5df357da07bf4d268800212ce07fdd7b.notion-callout .notion-callout__conte
     margin: 0 auto;
     width: 512px;
 }
+.tally-block-heading-1 h1, 
+.tally-block-heading-2 h2,
+.tally-block-heading-3 h3 {
+    font-weight: normal;
+}
+
 /* ! END Tally.so Contact Forms */
 /* ! END WIDGETS */
 
