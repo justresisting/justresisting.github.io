@@ -997,8 +997,8 @@ h1.notion-heading .notion-semantic-string,
 
 /* ^Grouped Gallery Sizes */
 /* @DEFAULT: auto-fill */
-/* / --collection-card-cover-size smaller creates */
-/* / compact gallery columns and displays more data */
+/* / setting --collection-card-cover-size smaller creates */
+/* / more compact gallery columns and displays more data */
 /* *Large */
 .notion-collection-gallery.large {
     --grid-layout: auto-fit;
@@ -1049,6 +1049,13 @@ h1.notion-heading .notion-semantic-string,
     grid-template-columns: repeat(var(--grid-layout), minmax(var(--collection-card-cover-size-smaller), 1fr)) !important;
 }
 /* ! END  --grid-layout PER PAGE */
+
+/* ^Our Services - Services Gallery */
+#block-c090edc551d44f36bd5a669b47a629e3 .notion-collection-gallery.small {
+    --grid-layout: auto-fit;
+    grid-template-columns: repeat(var(--grid-layout), minmax(var(--collection-card-cover-size-smaller), 1fr)) !important;
+}
+
 /* ! END Grouped Gallery Sizes */
 /* ! END Gallery Sizes */
 /* ! END COLLECTION GALLERY */
