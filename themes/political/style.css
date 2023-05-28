@@ -1049,13 +1049,6 @@ h1.notion-heading .notion-semantic-string,
     grid-template-columns: repeat(var(--grid-layout), minmax(var(--collection-card-cover-size-smaller), 1fr)) !important;
 }
 /* ! END  --grid-layout PER PAGE */
-
-/* ^Our Services - Services Gallery */
-#block-c090edc551d44f36bd5a669b47a629e3 .notion-collection-gallery.small {
-    --grid-layout: auto-fit;
-    grid-template-columns: repeat(var(--grid-layout), minmax(var(--collection-card-cover-size-smaller), 1fr)) !important;
-}
-
 /* ! END Grouped Gallery Sizes */
 /* ! END Gallery Sizes */
 /* ! END COLLECTION GALLERY */
@@ -1113,6 +1106,7 @@ h1.notion-heading .notion-semantic-string,
 
 /* #PAGES */
 /* $Use IDs to force specific actions */
+
 /* %Home */
 /* @ AMEtech Main Menu  */
 /* @ AMEtech Main Categories  */
@@ -1131,6 +1125,11 @@ h1.notion-heading .notion-semantic-string,
 
 /* ! END Services */
 /* %Resources */
+/* ^Resource Page Galleries */
+.page__resources .notion-collection-gallery {
+    --grid-layout: auto-fit !important;
+    grid-template-columns: repeat(var(--grid-layout),minmax(var(--collection-card-cover-size-smaller),1fr)) !important;
+}
 
 /* ! END Resources */
 /* %Blog */
@@ -1164,6 +1163,11 @@ h1.notion-heading .notion-semantic-string,
 #block-5c8eebb4d7d9489fb6aea6ef14aedf7d .notion-collection-gallery {
     --grid-layout: auto-fit !important;
     grid-template-columns: repeat(var(--grid-layout),minmax(var(--collection-card-cover-size-smaller),1fr)) !important;
+}
+/* ^Our Services - Services Gallery */
+#block-c090edc551d44f36bd5a669b47a629e3 .notion-collection-gallery.small {
+    --grid-layout: auto-fit;
+    grid-template-columns: repeat(var(--grid-layout), minmax(var(--collection-card-cover-size-smaller), 1fr)) !important;
 }
 /* ! END SPECIFIC BLOCKS */
 
