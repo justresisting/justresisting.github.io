@@ -1141,6 +1141,7 @@ h1.notion-heading .notion-semantic-string,
 /* %Contact */
 /* ^CONTACT PAGE COLLECTION CARD COVER SIZE */
 /* #block-c00e84f6d20b40fc8d55fadf605ac99a */
+.parent-page__directory-people,
 .page__contact .notion-collection-card__cover {
     min-height: var(--collection-card-cover-size-static-small);
     height: 100%;
@@ -1157,6 +1158,7 @@ h1.notion-heading .notion-semantic-string,
 /* ^Places:     Cities, Counties, Districts, States */
 /* $Directory */
 #block-ebdcfafda8ed4fa48428e0cc2617952d .notion-collection-gallery,
+    /* *People */
 /* $Government */
 #block-71a357e7d6684374934ee1d35a3050cb .notion-collection-gallery,
 /* $Places */
