@@ -1141,7 +1141,7 @@ h1.notion-heading .notion-semantic-string,
 /* %Contact */
 /* ^CONTACT PAGE COLLECTION CARD COVER SIZE */
 /* #block-c00e84f6d20b40fc8d55fadf605ac99a */
-.parent-page__directory-people,
+.parent-page__directory-people .notion-collection-card__cover,
 .page__contact .notion-collection-card__cover {
     min-height: var(--collection-card-cover-size-static-small);
     height: 100%;
