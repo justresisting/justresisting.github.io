@@ -1172,6 +1172,11 @@ h1.notion-heading .notion-semantic-string,
       object-fit: contain !important;
       padding: 8px !important;
 }
+/* $ Collection Card Title */
+.parent-page__directory-people .notion-property__title .notion-semantic-string,
+#page-contact .notion-property__title .notion-semantic-string {
+    display: none;
+}
 
 /* ! END CONTACT PAGE COLLECTION CARD COVER SIZE */
 /* ! END Contact */
