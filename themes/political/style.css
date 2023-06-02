@@ -1141,14 +1141,37 @@ h1.notion-heading .notion-semantic-string,
 /* %Contact */
 /* ^CONTACT PAGE COLLECTION CARD COVER SIZE */
 /* #block-c00e84f6d20b40fc8d55fadf605ac99a */
+/* / #page__contact not .page__contact FIX THIS*/
+/* / .page__contact .notion-collection-card__cover {
+   /  min-height: var(--collection-card-cover-size-static-small);
+   /  height: 100%;
+   /  width: var(--collection-card-cover-size-static-small);
+   /  margin: var(--long);
+} */
+/* $Collection Gallery Gap & Display */
+.parent-page__directory-people .notion-collection-gallery,
+#page-contact .notion-collection-gallery {
+    grid-gap: 8px !important;
+    display: flex;
+}
+/* $Collection Card Cover DIMENSIONS*/
 .parent-page__directory-people .notion-collection-card__cover,
-.page__contact .notion-collection-card__cover {
-    min-height: var(--collection-card-cover-size-static-small);
-    height: 100%;
-    width: var(--collection-card-cover-size-static-small);
-    margin: var(--long);
+#page-contact .notion-collection-card__cover {
+    min-height: 32px !important;
+        height: 48px !important;
+    max-height: 64px !important;
+     min-width: 32px !important;
+         width: 48px !important;
+     max-width: 64px !important;
+}
+/* $Collection Card Cover IMAGE */
+.parent-page__directory-people .notion-collection-card__cover img,
+#page-contact .notion-collection-card__cover img {
+      object-fit: contain !important;
+      padding: 8px !important;
 }
 
+/* ! END CONTACT PAGE COLLECTION CARD COVER SIZE */
 /* ! END Contact */
 /* ! END PAGES */
 
@@ -1158,7 +1181,6 @@ h1.notion-heading .notion-semantic-string,
 /* ^Places:     Cities, Counties, Districts, States */
 /* $Directory */
 #block-ebdcfafda8ed4fa48428e0cc2617952d .notion-collection-gallery,
-    /* *People */
 /* $Government */
 #block-71a357e7d6684374934ee1d35a3050cb .notion-collection-gallery,
 /* $Places */
