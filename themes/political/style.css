@@ -873,9 +873,10 @@ xx } */
 /*  $:Hover */
 .notion-collection-card:hover {
     background: var(--color-ui-hover-bg-light);
+    border: 1px solid var(--color-text-yellow);
     transform: scale(1.025);
 }
-/* $ transition of image scaling on :hover */
+/* $ transition of IMAGE scaling on :hover */
 .notion-collection-card:hover img {
     transform: scale(1.0);
 }
@@ -1163,6 +1164,7 @@ h1.notion-heading .notion-semantic-string,
      min-width: 32px !important;
          width: 48px !important;
      max-width: 64px !important;
+      position: unset;
 }
 /* $Collection Card Cover IMAGE */
 .parent-page__directory-people .notion-collection-card__cover img,
