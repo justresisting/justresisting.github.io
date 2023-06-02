@@ -1147,7 +1147,7 @@ h1.notion-heading .notion-semantic-string,
    /  height: 100%;
    /  width: var(--collection-card-cover-size-static-small);
    /  margin: var(--long);
-} */
+}  / */
 /* $Collection Gallery Gap & Display */
 .parent-page__directory-people .notion-collection-gallery,
 #page-contact .notion-collection-gallery {
