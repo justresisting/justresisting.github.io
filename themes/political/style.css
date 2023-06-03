@@ -624,32 +624,35 @@ h3.notion-heading.toggle {
   transition: background .2s ease-in-out !important;
 }
 /* $Glyph BEFORE clicking*/
-.notion-toggle__trigger::before {
-	position: absolute !important;
-	font-size: 64px !important;
-	line-height: 1 !important;
-	opacity: .8 !important;
-	content: "+" !important;
-	top: 24px !important;
-	left: 20px !important;
-    color: var(--color-bg-yellow)
+.notion-toggle.closed .notion-toggle__trigger::after {
+	position: absolute;
+	font-size: 32px;
+	opacity: 1;
+	content: "⊕";
+	top: 16px;
+	left: 16px;
+    color: var(--color-bg-yellow);
 }
+
 /* $Glyph AFTER clicking */
-.notion-toggle__trigger::after {
-	position: absolute !important;
-	font-size: 64px !important;
-	line-height: 1 !important;
-	opacity: .6 !important;
-	content: "—" !important;
-	top: 24px !important;
-	left: 20px !important;
-    transform: rotate(45deg);
+.notion-toggle.open .notion-toggle__trigger::after {
+	position: absolute;
+	font-size: 32px;
+	opacity: .6;
+	content: "⊖";
+	top: 16px;
+	left: 16px;
     color: var(--color-bg-yellow);
 }
 /* $Toggle Trigger :HOVER */
-/* .notion-toggle__trigger:hover {
-
-} */
+.notion-toggle__trigger:hover {
+    opacity: .8;
+}
+/* $ Notion Native Toggle */
+/* / turned OFF so other glyph works */
+.notion-toggle__trigger_icon {
+    display: none;
+}
 
 /* $ Toggle Icon */
 /* / display: NONE */
