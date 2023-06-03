@@ -645,8 +645,8 @@ h3.notion-heading.toggle {
     color: var(--color-bg-yellow);
     transform: rotate(45deg);
 }
-.notion-toggle.open:hover .notion-toggle__trigger::before,
-.notion-toggle.closed:hover .notion-toggle__trigger::after {
+.notion-toggle.closed:hover .notion-toggle__trigger::before,
+.notion-toggle.open:hover .notion-toggle__trigger::after {
   color: yellow;
 }
 /* $Toggle Trigger :HOVER */
