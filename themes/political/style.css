@@ -877,8 +877,8 @@ xx } */
 /*  $:Hover */
 .notion-collection-card:hover {
     background: var(--color-ui-hover-bg-light);
-    border: 1px solid var(--color-text-yellow);
-    transform: scale(1.025);
+    border: 1px solid var(--color-bg-yellow);
+    transform: scale(0.9, 0.9);
 }
 /* $ transition of IMAGE scaling on :hover */
 .notion-collection-card:hover img {
