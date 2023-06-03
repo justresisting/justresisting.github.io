@@ -881,7 +881,9 @@ xx } */
     text-overflow: ellipsis;
     overflow: visible;
     white-space: pre-wrap !important;
+    line-height: normal;
 }
+
 
 
 /* #COLLECTION CARDS */
@@ -961,6 +963,11 @@ xx } */
     margin: var(--long) !important;
 }
 /* ! END ENLARGE IMAGES ON COLLECTION CARDS */
+
+/* ^Site Snippets in Homepage Category Gallery Cards */
+.notion-property.notion-property__text.property-65613330346566622d353262392d343037382d386563612d313439373937313366343131 {
+	font-size: x-large;
+}
 
 /* ^Collection Card Property Title */
 /* $Fluid Font Size  */
