@@ -624,7 +624,7 @@ h3.notion-heading.toggle {
   transition: background .2s ease-in-out !important;
 }
 /* $Glyph BEFORE clicking*/
-.notion-toggle.closed .notion-toggle__trigger::after {
+.notion-toggle.closed .notion-toggle__trigger::before {
 	position: absolute;
 	font-size: 32px;
 	opacity: 1;
@@ -633,7 +633,6 @@ h3.notion-heading.toggle {
 	left: 16px;
     color: var(--color-bg-yellow);
 }
-
 /* $Glyph AFTER clicking */
 .notion-toggle.open .notion-toggle__trigger::after {
 	position: absolute;
@@ -643,6 +642,7 @@ h3.notion-heading.toggle {
 	top: 16px;
 	left: 16px;
     color: var(--color-bg-yellow);
+    transform: rotate(45deg);
 }
 /* $Toggle Trigger :HOVER */
 .notion-toggle__trigger:hover {
