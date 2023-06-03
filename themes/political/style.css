@@ -644,6 +644,10 @@ h3.notion-heading.toggle {
     color: var(--color-bg-yellow);
     transform: rotate(45deg);
 }
+.notion-toggle.open:hover .notion-toggle__trigger::before,
+.notion-toggle.closed:hover .notion-toggle__trigger::after {
+  color: yellow;
+}
 /* $Toggle Trigger :HOVER */
 .notion-toggle__trigger:hover {
     opacity: .8;
@@ -651,7 +655,7 @@ h3.notion-heading.toggle {
 /* $ Notion Native Toggle */
 /* / turned OFF so other glyph works */
 .notion-toggle__trigger_icon {
-    display: none;
+    display: none !important;
 }
 
 /* $ Toggle Icon */
