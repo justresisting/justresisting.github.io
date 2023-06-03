@@ -638,7 +638,8 @@ h3.notion-heading.toggle {
 	position: absolute;
 	font-size: 32px;
 	opacity: .6;
-	content: "⊖";
+	/* content: "⊖"; */
+    content: "⊕";
 	top: 16px;
 	left: 16px;
     color: var(--color-bg-yellow);
