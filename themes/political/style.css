@@ -629,8 +629,8 @@ h3.notion-heading.toggle {
 	font-size: 32px;
 	opacity: 1;
 	content: "⊕";
-	top: 16px;
-	left: 16px;
+	top: 24px;
+	left: 24px;
     color: var(--color-bg-yellow);
 }
 /* $Glyph AFTER clicking */
@@ -640,8 +640,8 @@ h3.notion-heading.toggle {
 	opacity: .6;
 	/* content: "⊖"; */
     content: "⊕";
-	top: 16px;
-	left: 16px;
+	top: 24px;
+	left: 24px;
     color: var(--color-bg-yellow);
     transform: rotate(45deg);
 }
