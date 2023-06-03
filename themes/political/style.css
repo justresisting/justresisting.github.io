@@ -666,7 +666,11 @@ h3.notion-heading.toggle {
 }
 
 /* $Callout Content */
-.notion-callout .notion-callout__content {
+.notion-callout__content {
+  -webkit-margin-start: 8px;
+  /* margin-inline-start: 8px; */
+  overflow: visible;
+  width: fit-content;
   margin: var(--callout-margin) !important;
 }
 /* ! END Callout Content */
@@ -693,7 +697,7 @@ h3.notion-heading.toggle {
 	background-color: var(--color-bg-yellow-light);
 	border: var(--callout-border);
     box-shadow: var(--callout-shadow) !important;
-    /* min-height: var(--callout-min-height) !important; */
+    min-height: var(--callout-min-height);
     min-height: -webkit-fill-available;
 }
 /* ! END Callout in a Callout */
