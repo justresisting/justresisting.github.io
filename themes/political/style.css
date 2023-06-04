@@ -711,8 +711,8 @@ h3.notion-heading.toggle {
 /* $Callout Title */
 .notion-callout .notion-callout__content span.notion-semantic-string {
   text-align: center !important;
-  font-size: x-large;
-  font-weight: 800 !important;
+  font-size: normal;
+  font-weight: 600 !important;
   /* display: flex; */
   /* justify-content: center !important; */
   color: var(--color-text-default);
@@ -723,18 +723,7 @@ h3.notion-heading.toggle {
 .notion-callout .notion-callout__content .notion-text__content .notion-semantic-string {
   font-size: medium;
 }
-/* ^Callout TITLE */
-/* / Use Callout w/ BLUE BG for TITLES */
-.notion-callout.bg-blue-light.border {
-    background-color: var(--color-bg-yellow-light);
-    min-height: min-content;
-}
-/* ^Callout TITLE FONT SIZE */
-/*  / CALLOUT WITH BLUE BG ARE TITLES */
-.notion-callout.bg-blue-light.border .notion-semantic-string {
-    font-size: x-large !important;
 
-}
 /* ! END Callout Content Text */
 
 /* $Callout in a Callout */
