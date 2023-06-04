@@ -1083,7 +1083,7 @@ h1.notion-heading .notion-semantic-string,
 }
 
 /* ^ --grid-layout PER PAGE */
-/* ?DEFAULT: Auto-fill ? */
+/* @DEFAULT: Auto-fill */
 /* $ENABLED FOR */
 /* $ORGANIZATIONS */
 /* *Large */
@@ -1109,6 +1109,10 @@ h1.notion-heading .notion-semantic-string,
 .page__directory-organizations .notion-collection-gallery.grouped.small {
     --grid-layout: auto-fill;
     grid-template-columns: repeat(var(--grid-layout), minmax(var(--collection-card-cover-size-smaller), 1fr)) !important;
+}
+/* @Default: Auto-Fit */
+#page-directory-people-justin-russell .notion-collection-gallery {
+    --grid-layout: auto-fit;
 }
 /* ! END  --grid-layout PER PAGE */
 /* ! END Grouped Gallery Sizes */
