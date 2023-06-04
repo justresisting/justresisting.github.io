@@ -1112,9 +1112,9 @@ h1.notion-heading .notion-semantic-string,
 }
 /* @Default: Auto-Fit */
 #page-directory-people-justin-russell .notion-collection-gallery.small {
-    grid-template-columns: repeat(var(--grid-layout),minmax(var(--collection-card-cover-size-tiny),1fr));
-    --grid-layout: auto-fit;
-    display: grid;
+    grid-template-columns: repeat(var(--grid-layout),minmax(var(--collection-card-cover-size-tiny),1fr)) !important;
+    --grid-layout: auto-fit !important;
+    display: grid !important;
 }
 /* ! END  --grid-layout PER PAGE */
 /* ! END Grouped Gallery Sizes */
