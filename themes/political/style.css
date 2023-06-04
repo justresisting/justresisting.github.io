@@ -729,7 +729,7 @@ h3.notion-heading.toggle {
 .notion-callout .notion-callout {
 	background-color: var(--color-bg-yellow-light);
 	border: var(--callout-border);
-    box-shadow: var(--callout-shadow) !important;
+    box-shadow: var(--callout-shadow);
     min-height: var(--callout-min-height);
     min-height: -webkit-fill-available;
     min-width: var(--callout-min-width);
@@ -743,7 +743,7 @@ h3.notion-heading.toggle {
   /* justify-content: center; */
   /* display: flex; */
   margin-bottom: 1rem;
-  font-size: x-large;
+  font-size: large;
   text-align: center;
   color: white;
   font-weight: 800;
