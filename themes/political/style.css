@@ -748,11 +748,6 @@ h3.notion-heading.toggle {
     min-width: -webkit-fill-available;
 }
 
-
-.parent-page__directory-people .notion-callout {}
-
-
-
 /* ! END Callout in a Callout */
 
 /* $Callout Title in a Callout in a Callout */
@@ -1019,7 +1014,7 @@ xx } */
 /* / will share family, size, weight, radius, bg color, justification  */
 h1.notion-heading .notion-semantic-string, 
 .notion-collection-group__section-header .notion-property__title .notion-semantic-string {
-    background-color: var(--color-bg-yellow);
+    background-color: var(--color-bg-yellow-light);
     border-radius: var(--element-radius);
     /* padding: 0.125rem 0.5rem; */
     font-size: var(--font-title-fluid);
