@@ -696,6 +696,16 @@ h3.notion-heading.toggle {
   margin: var(--callout-margin);
   padding: var(--callout-padding);
 }
+/* ^Callout TITLE */
+/* / Use Callout w/ BLUE BG for TITLES */
+.notion-callout.bg-blue-light.border {
+    background-color: var(--color-bg-yellow-light);
+    min-height: min-content;
+}
+.notion-callout.bg-blue-light.border .notion-semantic-string {
+    font-size: x-large !important;
+
+}
 
 /* $Callout Content */
 .notion-callout__content {
