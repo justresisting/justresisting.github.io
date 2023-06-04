@@ -1111,7 +1111,8 @@ h1.notion-heading .notion-semantic-string,
     grid-template-columns: repeat(var(--grid-layout), minmax(var(--collection-card-cover-size-smaller), 1fr)) !important;
 }
 /* @Default: Auto-Fit */
-#page-directory-people-justin-russell .notion-collection-gallery {
+#page-directory-people-justin-russell .notion-collection-gallery.small {
+    grid-template-columns: repeat(var(--grid-layout),minmax(var(--collection-card-cover-size-medium),1fr));
     --grid-layout: auto-fit;
 }
 /* ! END  --grid-layout PER PAGE */
