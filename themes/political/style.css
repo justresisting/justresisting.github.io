@@ -598,6 +598,7 @@ h3.notion-heading.toggle {
     word-break: keep-all;
     font-size: var(--font-title-fluid);
     color: var(--h1-text-color);
+    border-radius: var(--element-radius);
 }
 /* ! END Headings */
 
@@ -696,16 +697,6 @@ h3.notion-heading.toggle {
   margin: var(--callout-margin);
   padding: var(--callout-padding);
 }
-/* ^Callout TITLE */
-/* / Use Callout w/ BLUE BG for TITLES */
-.notion-callout.bg-blue-light.border {
-    background-color: var(--color-bg-yellow-light);
-    min-height: min-content;
-}
-.notion-callout.bg-blue-light.border .notion-semantic-string {
-    font-size: x-large !important;
-
-}
 
 /* $Callout Content */
 .notion-callout__content {
@@ -731,6 +722,18 @@ h3.notion-heading.toggle {
 /* $Callout Content Text */
 .notion-callout .notion-callout__content .notion-text__content .notion-semantic-string {
   font-size: medium;
+}
+/* ^Callout TITLE */
+/* / Use Callout w/ BLUE BG for TITLES */
+.notion-callout.bg-blue-light.border {
+    background-color: var(--color-bg-yellow-light);
+    min-height: min-content;
+}
+/* ^Callout TITLE FONT SIZE */
+/*  / CALLOUT WITH BLUE BG ARE TITLES */
+.notion-callout.bg-blue-light.border .notion-semantic-string {
+    font-size: x-large !important;
+
 }
 /* ! END Callout Content Text */
 
