@@ -148,6 +148,9 @@
 --callout-border-color: var(--color-border-default);
 --callout-border-radii: var(--element-radius);
 --callout-shadow: rgba(0, 0, 0, 0.80) 0px 4px 8px -2px !important;
+/* box-shadow: 10px 10px 30px 0px rgba(0,0,0,0.5);
+-webkit-box-shadow: 10px 10px 30px 0px rgba(0,0,0,0.5);
+-moz-box-shadow: 10px 10px 30px 0px rgba(0,0,0,0.5); */
 --callout-justify: center;
 --callout-icon-size: 20px;
 --callout-emoji-size: 18px;
@@ -155,6 +158,7 @@
 --callout-margin-top: 0.25rem;
 --callout-content-margin: 0 0.5rem;
 --callout-min-height: 16rem;
+--callout-min-width: 100%;
 /* $Images */
 --image-border-radius: var(--element-radius) !important;
 /* $DIVIDERS */
@@ -698,9 +702,9 @@ h3.notion-heading.toggle {
 .notion-callout__content {
   -webkit-margin-start: 8px;
   /* margin-inline-start: 8px; */
-  overflow: visible;
+  overflow: visible !important;
   width: fit-content;
-  margin: var(--callout-margin) !important;
+  /* margin: var(--callout-margin) !important; */
 }
 /* ! END Callout Content */
 
@@ -728,7 +732,10 @@ h3.notion-heading.toggle {
     box-shadow: var(--callout-shadow) !important;
     min-height: var(--callout-min-height);
     min-height: -webkit-fill-available;
+    min-width: var(--callout-min-width);
+    min-width: -webkit-fill-available;
 }
+
 /* ! END Callout in a Callout */
 
 /* $Callout Title in a Callout in a Callout */
