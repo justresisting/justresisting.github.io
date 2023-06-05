@@ -516,7 +516,7 @@ div.notion-property__url {
 /* $ Notion Property Titles */
 .notion-property__title .notion-semantic-string {
     font-weight: 500;
-    font-size: var(--font-title-fluid);
+    font-size: var(--font-title);
     line-height: 1;
     word-break: normal;
     white-space: pre-line;
@@ -983,7 +983,7 @@ xx } */
     background-color: var(--color-bg-yellow-light) !important;
     border-radius: var(--element-radius);
     /* padding: 0.125rem 0.5rem; */
-    font-size: var(--font-title-fluid);
+    font-size: var(--font-title);
     justify-content: center;
     display: grid;
     font-family: var(--primary-font);
