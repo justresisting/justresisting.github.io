@@ -700,10 +700,10 @@ h3.notion-heading.toggle {
 .notion-callout {
   display: flex;
   overflow: hidden;
-  border: 0 solid transparent !important;
+  border: 1px solid transparent !important;
   border-radius: var(--callout-border-radii);
   box-shadow: var(--callout-shadow) !important;
-  filter: var(--drop-shadow);
+  /* filter: var(--drop-shadow); */
   margin: var(--callout-margin);
   padding: var(--callout-padding);
 }
