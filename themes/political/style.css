@@ -1137,7 +1137,7 @@ xx } */
 /* #EMBED */
 /* %Adds Space around ANY Notion Embed */
 .notion-embed__content {
-    margin-top: 5rem 0 3rem 0;
+    margin: 5rem 0 3rem 0;
 }
 /* ^Images */
 .notion-image {
