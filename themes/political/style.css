@@ -413,7 +413,7 @@ margin-top: 0 !important;
 .notion-header__title {
     width: fit-content;
     background-color: var(--color-bg);
-    border: var(--border-default);
+    /* border: var(--border-default); */
     border-radius: var(--element-radius);
     margin: auto;
     padding: var(--collection-padding) !important;
