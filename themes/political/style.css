@@ -878,6 +878,8 @@ xx } */
     border-radius: var(--collection-card-border-radii);
     box-shadow: var(--collection-card-shadow);
     transition: var(--transition);
+    display: grid;
+    justify-content: center;
 }
 
 .notion-collection-card.gallery {
