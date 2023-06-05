@@ -703,13 +703,13 @@ h3.notion-heading.toggle {
   border-radius: var(--callout-border-radii);
   /* box-shadow: var(--site-shadow) !important; */
   /* filter: var(--drop-shadow); */
-  margin: var(--callout-margin);
-  padding: var(--callout-padding);
+  /* margin: var(--callout-margin); */
+  /* padding: var(--callout-padding); */
 }
-.parent-page__our-services .notion-callout,
+/* .parent-page__our-services .notion-callout,
 #page-our-services .notion-callout {
     margin: var(--callout-padding);
-}
+} */
 
 /* $Callout Content */
 .notion-callout__content {
@@ -739,10 +739,7 @@ h3.notion-heading.toggle {
     font-weight: normal;
     color: white;
 }
-
-
 /* ! END Callout Content Text */
-
 /* $Callout in a Callout */
 /* @Makes All Heights Match */
 .notion-callout .notion-callout {
@@ -754,6 +751,8 @@ h3.notion-heading.toggle {
     min-width: var(--callout-min-width);
     min-width: -webkit-fill-available;
     width: 100%;
+    margin: var(--callout-margin);
+    padding: var(--callout-padding);
 }
 /* @Makes All Heights Match */
 .parent-page__our-services .notion-callout .notion-callout,
@@ -780,7 +779,7 @@ h3.notion-heading.toggle {
 }
 /* $Collection Title Border Bottom (Length of Title) */
 .notion-collection__header {
-        border-bottom: 1px solid yellow;
+    border-bottom: 1px solid yellow;
 }
 /* $Collection Group Section Header Border Top  */
 .notion-collection-group__section-header:not(.no-border) {
