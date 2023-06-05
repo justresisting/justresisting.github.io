@@ -702,7 +702,7 @@ h3.notion-heading.toggle {
   overflow: hidden;
   border: 1px solid transparent !important;
   border-radius: var(--callout-border-radii);
-  box-shadow: var(--callout-shadow) !important;
+  box-shadow: var(--site-shadow) !important;
   filter: var(--drop-shadow);
   margin: var(--callout-margin);
   padding: var(--callout-padding);
@@ -748,7 +748,7 @@ h3.notion-heading.toggle {
 .notion-callout .notion-callout {
 	/* background-color: var(--color-bg-yellow-light); */
 	border: var(--callout-border);
-    box-shadow: var(--callout-shadow);
+    box-shadow: var(--site-shadow);
     min-height: var(--callout-min-height);
     min-height: -webkit-fill-available;
     min-width: var(--callout-min-width);
