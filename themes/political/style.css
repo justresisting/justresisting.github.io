@@ -766,15 +766,15 @@ h3.notion-heading.toggle {
 /* ! END Callout in a Callout */
 
 /* $Callout Title in a Callout in a Callout */
-.notion-callout .notion-callout .notion-callout__content .notion-semantic-string {
+/* .notion-callout .notion-callout .notion-callout__content .notion-semantic-string { */
   /* justify-content: center; */
   /* display: flex; */
-  margin-bottom: 1rem;
+  /* margin-bottom: 1rem;
   font-size: large;
   text-align: center;
   color: white;
-  font-weight: 800;
-}
+  font-weight: 800; */
+/* } */
 /* ! END Callout Title in a Callout in a Callout */
 
 /* $Callout Content in a Callout in a Callout */
