@@ -737,6 +737,7 @@ h3.notion-heading.toggle {
 .notion-callout p .notion-semantic-string span {
     font-size: var(--font-body);
     font-weight: normal;
+    color: white;
 }
 
 
