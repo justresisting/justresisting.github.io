@@ -78,8 +78,8 @@
 --color-card-bg-hover-light: rgba(var(--site-hover), 0.5) !important; 
 /* $Header Hover */
 --header-hover: var(--color-text-gray) !important;
---color-ui-hover-bg: rgba(var(--site-hover), 0.25) !important;
---color-ui-hover-bg-light: rgba(var(--site-hover), 0.125) !important;
+/* --color-ui-hover-bg: rgba(var(--site-hover), 0.25) !important;
+--color-ui-hover-bg-light: rgba(var(--site-hover), 0.125) !important; */
 /* ^DEFAULT COLOR: */
 /* $BLOCK BACKGROUNDS */
 --color-card-bg: rgb(var(--site-primary)) !important;
@@ -96,17 +96,17 @@
 /* $PAGE WIDTH */
 --theme-width: 1200px !important;
 --responsive-width: calc(100% - var(--column-spacing)) !important;
---long-width: 800px !important;
---mid-width: 400px !important;
---short-width: 200px !important;
+--long-width: 48rem !important;
+--mid-width: 24rem !important;
+--short-width: 16rem !important;
 /* $ Site Border Radius [Rounding] */
 --element-radius: var(--border-radii-layout) !important;
---property-image-radius: 24px !important;
+--property-image-radius: 1.5rem !important;
 /* $Site Font Size*/
 --font-body: calc(12px + 0.390625vw) !important;
 --font-title: calc(15px + 0.390625vw) !important;
 /* $Site Column Spacing*/
---column-spacing: 2em !important;
+--column-spacing: 2rem !important;
 /* $Site Shadow */
 --site-shadow: 2.5px 2.5px 25px 1px rgba(0, 0, 0, .75);
 --drop-shadow: drop-shadow(1px 1px 15px rgba(0, 0, 0, .25));
@@ -258,10 +258,10 @@
 /* $Collection Spacing */
 --collection-margin: 0.25rem 0 !important;
 --collection-padding: 0 0.5rem !important;
---collection-property-text-size: 14px !important;
+--collection-property-text-size: var(--font-body) !important;
 --collection-list-item-border-radius: 0 !important;
 --collection-list-item-padding: 5px 0 5px 5px !important;
---collection-title-text-size: 16px !important;
+--collection-title-text-size: var(--font-title) !important;
 --collection-gallery-gap: 30px !important;
 /* $COLLECTION CARDS */
 --collection-card-border: 1px solid var(--color-border-default) !important;
@@ -939,13 +939,15 @@ xx } */
 }
 /*  $:Hover */
 .notion-collection-card:hover {
-    background: var(--color-ui-hover-bg-light);
+    background: var(--color-card-bg-hover);
     border: 1px solid var(--color-bg-yellow);
-    transform: scale(0.9, 0.9);
+    transform: scale(0.9);
+    transition: var(--transition);
 }
 /* $ transition of IMAGE scaling on :hover */
 .notion-collection-card:hover img {
-    transform: scale(1.0);
+    transform: scale(1.125);
+    transition: var(--transition);
 }
 /* ^Collection Card Cover */
 .notion-collection-card__cover {
@@ -971,6 +973,7 @@ xx } */
 /* @OBJECT-FIT: *COVER* */
 .notion-collection-card__cover img {
     object-fit: cover !important;
+    transition: var(--transition);
 }
 
 /* ^COLLECTION CARD IMG */
@@ -979,6 +982,7 @@ xx } */
 .page__directory-organizations .notion-collection-card__cover img,
 .parent-page__places-states .notion-collection-card__cover img {
     object-fit: contain !important;
+    transition: var(--transition);
 }
 
 /* ^ENLARGE IMAGES ON COLLECTION CARDS */
@@ -1241,19 +1245,19 @@ xx } */
 /* $Collection Card Cover DIMENSIONS*/
 .parent-page__directory-people .notion-collection-card__cover,
 #page-contact .notion-collection-card__cover {
-    min-height: 32px !important;
-        height: 48px !important;
-    max-height: 64px !important;
-     min-width: 32px !important;
-         width: 48px !important;
-     max-width: 64px !important;
+    min-height: 2rem !important;
+        height: 3rem !important;
+    max-height: 4rem !important;
+     min-width: 2rem !important;
+         width: 3rem !important;
+     max-width: 4rem !important;
       position: unset;
 }
 /* $Collection Card Cover IMAGE */
 .parent-page__directory-people .notion-collection-card__cover img,
 #page-contact .notion-collection-card__cover img {
       object-fit: contain !important;
-      padding: 8px !important;
+      padding: .5rem !important;
 }
 /* $ Collection Card Title */
 .parent-page__directory-people .notion-property__title .notion-semantic-string,
