@@ -718,7 +718,7 @@ h3.notion-heading.toggle {
   /* -webkit-margin-start: 8px; */
   /* margin-inline-start: 8px; */
   overflow: visible !important;
-  width: fit-content;
+  width: fit-content !important;
   /* margin: var(--callout-margin) !important; */
 }
 /* ! END Callout Content */
