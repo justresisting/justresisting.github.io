@@ -542,8 +542,9 @@ div.notion-property__url {
     width: 100% !important;
     object-fit: cover !important;
     border-radius: var(--element-radius);
+    transition: var(--transition);
 }
-
+/* ? What did I do here? Think I negated the cover above */
 .notion-property.notion-property__file img,
 .page__about .notion-property.notion-property__file img {
     object-fit: contain !important;
