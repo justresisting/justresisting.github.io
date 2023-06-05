@@ -705,7 +705,7 @@ h3.notion-heading.toggle {
   border-radius: var(--callout-border-radii);
   box-shadow: var(--callout-shadow) !important;
   filter: var(--drop-shadow);
-  /* margin: var(--callout-margin); */
+  margin: var(--callout-margin);
   padding: var(--callout-padding);
 }
 .parent-page__our-services .notion-callout,
