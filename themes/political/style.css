@@ -152,7 +152,7 @@
 --callout-border-color: var(--color-border-default);
 --callout-border: var(--callout-border-width) var(--callout-border-style) var(--callout-border-color);
 --callout-border-radii: var(--element-radius);
---callout-shadow: var(--site-shadow);
+--callout-shadow: var(--site-shadow) !important;
 --callout-justify: center;
 --callout-icon-size: 20px;
 --callout-emoji-size: 18px;
