@@ -108,7 +108,7 @@
 /* $Site Column Spacing*/
 --column-spacing: 2rem !important;
 /* $Site Shadow */
---site-shadow: 2.5px 2.5px 40px 1px rgba(0, 0, 0, .75) !important;
+--site-shadow: 5px 5px 25px 1px rgba(0, 0, 0, 0.75) !important;
 --drop-shadow: drop-shadow(1px 1px 15px rgba(0, 0, 0, .25)) !important;
 /* $Site Border */
 --border-thickness: 1px;
@@ -272,7 +272,7 @@
 --collection-card-content-padding: var(--padding-layout);
 --collection-card-border-radii: var(--border-radii-layout);
 --collection-card-gap: var(--column-spacing);
---collection-card-shadow: var(--site-shadow);
+--collection-card-shadow: var(--site-shadow) !important;
 /* $Collection Card Size */
 --collection-card-cover-size-static-small: 172px !important;
 --collection-card-cover-size-static-medium: 260px !important;
@@ -702,10 +702,10 @@ h3.notion-heading.toggle {
   overflow: hidden;
   border: 1px solid transparent !important;
   border-radius: var(--callout-border-radii);
-  box-shadow: var(--site-shadow) !important;
+  /* box-shadow: var(--site-shadow) !important; */
   filter: var(--drop-shadow);
   margin: var(--callout-margin);
-  /* padding: var(--callout-padding); */
+  padding: var(--callout-padding);
 }
 .parent-page__our-services .notion-callout,
 #page-our-services .notion-callout {
@@ -748,7 +748,7 @@ h3.notion-heading.toggle {
 .notion-callout .notion-callout {
 	/* background-color: var(--color-bg-yellow-light); */
 	border: var(--callout-border);
-    box-shadow: var(--site-shadow);
+    box-shadow: var(--site-shadow) !important;
     min-height: var(--callout-min-height);
     min-height: -webkit-fill-available;
     min-width: var(--callout-min-width);
