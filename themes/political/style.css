@@ -147,10 +147,10 @@
 --callout-padding-top: 0.25rem;
 --callout-title-bg: var(--color-bg-default);
 --callout-title-size: 2rem;
---callout-border: var(--callout-border-width) var(--callout-border-style) var(--callout-border-color);
 --callout-border-width: 1px;
 --callout-border-style: solid;
 --callout-border-color: var(--color-border-default);
+--callout-border: var(--callout-border-width) var(--callout-border-style) var(--callout-border-color);
 --callout-border-radii: var(--element-radius);
 --callout-shadow: var(--site-shadow);
 --callout-justify: center;
@@ -262,17 +262,17 @@
 --collection-list-item-border-radius: 0 !important;
 --collection-list-item-padding: 5px 0 5px 5px !important;
 --collection-title-text-size: var(--font-title) !important;
---collection-gallery-gap: 30px !important;
+--collection-gallery-gap: var(--column-spacing) !important;
 /* $COLLECTION CARDS */
---collection-card-border: 1px solid var(--color-border-default) !important;
+--collection-card-border: var(--border-default) !important;
 --collection-gallery-header: var(--border-default) !important;
 --collection-card-border-radius: var(--element-radius) !important;
 --collection-card-padding: 0px;
 --collection-card-title-padding: 0px;
 --collection-card-content-padding: var(--padding-layout);
 --collection-card-border-radii: var(--border-radii-layout);
---collection-card-gap: 32px;
---collection-card-shadow:var(--site-shadow);
+--collection-card-gap: var(--column-spacing);
+--collection-card-shadow: var(--site-shadow);
 /* $Collection Card Size */
 --collection-card-cover-size-static-small: 172px !important;
 --collection-card-cover-size-static-medium: 260px !important;
@@ -286,7 +286,6 @@
 --collection-card-cover-size-large: 24rem !important;
 --collection-card-cover-height-large: 18rem !important;
 --collection-card-cover-size-larger: 32rem !important;
-
 }
 /* ! END Variables */
 
@@ -744,7 +743,7 @@ h3.notion-heading.toggle {
 
 /* $Callout in a Callout */
 .notion-callout .notion-callout {
-	background-color: var(--color-bg-yellow-light);
+	/* background-color: var(--color-bg-yellow-light); */
 	border: var(--callout-border);
     box-shadow: var(--callout-shadow);
     min-height: var(--callout-min-height);
