@@ -103,8 +103,8 @@
 --element-radius: var(--border-radii-layout) !important;
 --property-image-radius: 1.5rem !important;
 /* $Site Font Size*/
---font-body: calc(12px + 0.390625vw) !important;
---font-title: calc(15px + 0.390625vw) !important;
+--font-body: calc(15px + 0.390625vw) !important;
+--font-title: calc(18px + 0.390625vw) !important;
 /* $Site Column Spacing*/
 --column-spacing: 2rem !important;
 /* $Site Shadow */
