@@ -416,7 +416,7 @@ margin-top: 0 !important;
     border: var(--border-default);
     border-radius: var(--element-radius);
     margin: auto;
-    padding: var(--collection-padding);
+    padding: var(--collection-padding) !important;
 }
 
 /* @Page Height with *.no-cover* */
