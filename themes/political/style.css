@@ -1159,9 +1159,9 @@ xx } */
 
 /* #EMBED */
 /* %Adds Space around ANY Notion Embed */
-.notion-embed__content {
-    margin: 10% 0;
-}
+/* .notion-embed__content {
+    margin: 1rem 0;
+} */
 
 /* #PAGES */
 /* $Use IDs to force specific actions */
