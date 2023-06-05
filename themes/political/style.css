@@ -125,7 +125,7 @@
 --transition-property: all;
 --transition-duration: 0.3s;
 --transition-timing-function: ease-in-out;
---transition-delay: 0s;
+--transition-delay: 0.1s;
 --transition: var(--transition-property) var(--transition-duration) var(--transition-timing-function) var(--transition-delay) !important;
 /* ^SUPER CONTENT  */
 --super-content-bg: var(--color-bg) !important;
@@ -265,7 +265,7 @@
 --collection-gallery-gap: 30px !important;
 /* $COLLECTION CARDS */
 --collection-card-border: 1px solid var(--color-border-default) !important;
---collection-gallery-header: 1px none var(--collection-header-border)!important;
+--collection-gallery-header: var(--border-default) !important;
 --collection-card-border-radius: var(--element-radius) !important;
 --collection-card-padding: 0px;
 --collection-card-title-padding: 0px;
