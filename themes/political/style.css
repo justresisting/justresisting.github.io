@@ -152,7 +152,7 @@
 --callout-border-color: var(--color-border-default);
 --callout-border: var(--callout-border-width) var(--callout-border-style) var(--callout-border-color);
 --callout-border-radii: var(--element-radius);
---callout-shadow: var(--site-shadow) !important;
+--callout-shadow: var(--site-shadow);
 --callout-justify: center;
 --callout-icon-size: 20px;
 --callout-emoji-size: 18px;
@@ -705,7 +705,7 @@ h3.notion-heading.toggle {
   box-shadow: var(--site-shadow) !important;
   filter: var(--drop-shadow);
   margin: var(--callout-margin);
-  padding: var(--callout-padding);
+  /* padding: var(--callout-padding); */
 }
 .parent-page__our-services .notion-callout,
 #page-our-services .notion-callout {
