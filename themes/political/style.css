@@ -113,7 +113,7 @@
 /* $Site Border */
 --border-thickness: 1px;
 --border-style: solid;
---color-border-default: var(--accent-bg);
+--color-border-default: var(--accent-bg-light);
 --border-default: var(--border-thickness) var(--border-style) var(--color-border-default);
 /* $Site Header Level */
 --notion-header-page-title: 75vh !important;
