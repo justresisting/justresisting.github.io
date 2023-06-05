@@ -516,7 +516,7 @@ div.notion-property__url {
 /* $ Notion Property Titles */
 .notion-property__title .notion-semantic-string {
     font-weight: 500;
-    font-size: var(--font-body);
+    font-size: var(--font-title-fluid);
     line-height: 1;
     word-break: normal;
     white-space: pre-line;
@@ -949,13 +949,13 @@ xx } */
 
 /* ^Site Snippets in Homepage Category Gallery Cards */
 .notion-property.notion-property__text.property-65613330346566622d353262392d343037382d386563612d313439373937313366343131 {
-	font-size: x-large;
+	font-size: var(--font-body);
 }
 
 /* ^Collection Card Property Title */
 /* $Fluid Font Size  */
 .notion-collection-card .notion-property__title {
-    font-size: var(--font-title-fluid);
+    font-size: var(--font-title);
 }
 /* $Primary Font */
 .notion-property__title {
