@@ -638,7 +638,7 @@ h3.notion-heading.toggle {
 }
 /* $Glyph BEFORE clicking*/
 .notion-toggle.closed .notion-toggle__trigger::before {
-	position: absolute;
+	/* position: absolute; */
 	font-size: 16px;
 	opacity: 1;
 	content: "⊕";
@@ -652,11 +652,11 @@ h3.notion-heading.toggle {
 }
 /* $Glyph AFTER clicking */
 .notion-toggle.open .notion-toggle__trigger::before {
-	position: absolute;
+	/* position: absolute; */
 	font-size: 16px;
 	opacity: .6;
-	/* content: "⊖"; */
-    content: "⊕";
+	content: "⊖";
+    /* content: "⊕"; */
 	top: 0;
 	left: 0;
     color: var(--color-bg-yellow);
