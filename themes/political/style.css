@@ -753,6 +753,7 @@ h3.notion-heading.toggle {
     min-height: -webkit-fill-available;
     min-width: var(--callout-min-width);
     min-width: -webkit-fill-available;
+    width: 100%;
 }
 /* @Makes All Heights Match */
 .parent-page__our-services .notion-callout .notion-callout,
