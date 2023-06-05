@@ -108,8 +108,8 @@
 /* $Site Column Spacing*/
 --column-spacing: 2rem !important;
 /* $Site Shadow */
---site-shadow: 2.5px 2.5px 25px 1px rgba(0, 0, 0, .75);
---drop-shadow: drop-shadow(1px 1px 15px rgba(0, 0, 0, .25));
+--site-shadow: 2.5px 2.5px 40px 1px rgba(0, 0, 0, .75) !important;
+--drop-shadow: drop-shadow(1px 1px 15px rgba(0, 0, 0, .25)) !important;
 /* $Site Border */
 --border-thickness: 1px;
 --border-style: solid;
