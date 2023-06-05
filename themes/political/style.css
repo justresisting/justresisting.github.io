@@ -722,21 +722,25 @@ h3.notion-heading.toggle {
 }
 /* ! END Callout Content */
 
-/* $Callout Title */
-.notion-callout .notion-callout__content span.notion-semantic-string {
-  text-align: center !important;
-  font-size: x-large;
-  font-weight: 600 !important;
-  /* display: flex; */
-  /* justify-content: center !important; */
-  color: var(--color-text-default);
+/* $Callout Title (Span On Top of Content) */
+.notion-callout__content span.notion-semantic-string {
+  font-size: var(--font-title-fluid);
+  font-weight: bolder;
+  margin-bottom: 1rem;
 }
 /* ! END Callout Title */
-
-/* $Callout Content Text */
-.notion-callout .notion-callout__content .notion-text__content .notion-semantic-string {
-  font-size: var(--font-body);
+/* $Callout Title In a Callout */
+.notion-callout .notion-callout span.notion-semantic-string {
+    font-size: var(--font-title);
+    font-weight: bold;
+    margin-bottom: .5rem;
 }
+/* $Callout Content Text */
+.notion-callout .notion-callout .notion-text .notion-text__content .notion-semantic-string {
+    font-size: var(--font-body);
+    font-weight: normal;
+}
+
 
 /* ! END Callout Content Text */
 
