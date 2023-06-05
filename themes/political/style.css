@@ -880,6 +880,8 @@ xx } */
     transition: var(--transition);
     display: grid;
     justify-content: center;
+    justify-items: center;
+    justify-self: center;
 }
 
 .notion-collection-card.gallery {
