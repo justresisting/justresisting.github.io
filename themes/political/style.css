@@ -718,6 +718,7 @@ h3.notion-heading.toggle {
   /* margin-inline-start: 8px; */
   overflow: visible !important;
   width: fit-content !important;
+  color: var(--color-text-default);
 }
 /* ! END Callout Content */
 
@@ -725,7 +726,6 @@ h3.notion-heading.toggle {
 .notion-callout__content > span.notion-semantic-string {
   font-size: var(--heading3-size);
   font-weight: bolder;
-  color: var(--color-text-default);
 }
 /* ! END Callout Title */
 /* $Callout Title (Nested In a Callout) */
