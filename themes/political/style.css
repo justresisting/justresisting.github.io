@@ -700,7 +700,7 @@ h3.notion-heading.toggle {
 .notion-callout {
   display: flex;
   overflow: hidden;
-  border: 1px solid transparent !important;
+  /* border: 1px solid transparent !important; */
   border-radius: var(--callout-border-radii);
   box-shadow: var(--callout-shadow) !important;
   filter: var(--drop-shadow);
@@ -744,6 +744,7 @@ h3.notion-heading.toggle {
 /* ! END Callout Content Text */
 
 /* $Callout in a Callout */
+/* @Makes All Heights Match */
 .notion-callout .notion-callout {
 	/* background-color: var(--color-bg-yellow-light); */
 	border: var(--callout-border);
@@ -753,7 +754,7 @@ h3.notion-heading.toggle {
     min-width: var(--callout-min-width);
     min-width: -webkit-fill-available;
 }
-
+/* @Makes All Heights Match */
 .parent-page__our-services .notion-callout .notion-callout,
 #page-our-services .notion-callout .notion-callout {
     /* min-height: var(--callout-min-height); */
@@ -763,31 +764,6 @@ h3.notion-heading.toggle {
 }
 
 /* ! END Callout in a Callout */
-
-/* $Callout Title in a Callout in a Callout */
-/* .notion-callout .notion-callout .notion-callout__content .notion-semantic-string { */
-  /* justify-content: center; */
-  /* display: flex; */
-  /* margin-bottom: 1rem;
-  font-size: large;
-  text-align: center;
-  color: white;
-  font-weight: 800; */
-/* } */
-/* ! END Callout Title in a Callout in a Callout */
-
-/* $Callout Content in a Callout in a Callout */
-/* .notion-callout .notion-callout .notion-callout__content {
-  margin: auto 1rem;
-} */
-/* ! END Callout Content in a Callout in a Callout */
-
-/* $Text within a Callout in a Callouts */
-.notion-callout .notion-callout .notion-text .notion-text__content .notion-semantic-string {
-  font-size: var(--font-body);
-  font-weight: 400 !important;
-  color: var(--color-text-default-light);
-}
 /* ! END Text within a Callout in a Callouts */
 /* ! END CALLOUTS */
 /* ! END NOTION ELEMENTS */
@@ -1257,8 +1233,6 @@ xx } */
 /* ! END PAGES */
 
 /* #SPECIFIC BLOCKS */
-
-.parent-page__directory-people .notion-callout
 
 /* ^Directory:  People, Topics, Organizations, Events, News, Programs, Docs*/
 /* ^Government: Elected Officials, House Activities, Parties */
