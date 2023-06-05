@@ -630,11 +630,11 @@ h3.notion-heading.toggle {
 .notion-toggle {
   /* border: 1px solid #ebebeb !important; */
   /* border: var(--border-default) !important; */
-  border-radius: 12px !important;
+  border-radius: var(--element-radius) !important;
   margin-bottom: 16px !important;
   position: relative !important;
   text-align: left !important;
-  transition: background .2s ease-in-out !important;
+  transition: var(--transition) !important;
 }
 /* $Glyph BEFORE clicking*/
 .notion-toggle.closed .notion-toggle__trigger::before {
@@ -644,6 +644,10 @@ h3.notion-heading.toggle {
 	content: "⊕";
 	top: 0;
 	left: 0;
+    color: yellow;
+    transition: var(--transition);
+}
+.notion-toggle.closed:hover {
     color: var(--color-bg-yellow);
 }
 /* $Glyph AFTER clicking */
@@ -656,12 +660,11 @@ h3.notion-heading.toggle {
 	top: 0;
 	left: 0;
     color: var(--color-bg-yellow);
-    transform: rotate(45deg);
     transition: var(--transition);
+    transform: rotate(45deg);
 }
-.notion-toggle.closed:hover,
 .notion-toggle.open:hover {
-  color: yellow;
+    color: yellow;
 }
 /* $Toggle Trigger :HOVER */
 .notion-toggle__trigger:hover {
@@ -672,13 +675,11 @@ h3.notion-heading.toggle {
 .notion-toggle__trigger_icon {
     display: none !important;
 }
-
 /* $ Toggle Icon */
 /* / display: NONE */
 .notion-toggle__trigger_icon {
     display: none;
 }
-
 /* $Invisible Toggle */
 .notion-toggle.bg-brown {
   display: none;
@@ -736,7 +737,7 @@ h3.notion-heading.toggle {
 
 /* $Callout Content Text */
 .notion-callout .notion-callout__content .notion-text__content .notion-semantic-string {
-  font-size: medium;
+  font-size: var(--font-body);
 }
 
 /* ! END Callout Content Text */
@@ -782,7 +783,7 @@ h3.notion-heading.toggle {
 
 /* $Text within a Callout in a Callouts */
 .notion-callout .notion-callout .notion-text .notion-text__content .notion-semantic-string {
-  font-size: large;
+  font-size: var(--font-body);
   font-weight: 400 !important;
   color: var(--color-text-default-light);
 }
