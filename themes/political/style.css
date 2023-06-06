@@ -777,6 +777,7 @@ h3.notion-heading.toggle {
 /* $Collection Title Border Bottom (Full Length) */
 .notion-collection__header-wrapper {
     border-bottom: var(--border-default);
+    margin-top: 2rem;
 }
 /* $Collection Title Border Bottom (Length of Title) */
 .notion-collection__header {
