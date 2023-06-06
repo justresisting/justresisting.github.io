@@ -878,7 +878,7 @@ xx } */
     border-radius: var(--collection-card-border-radii);
     box-shadow: var(--collection-card-shadow);
     transition: var(--transition);
-    display: grid;
+    /* display: grid; */
     justify-content: center;
     justify-items: center;
     justify-self: center;
