@@ -468,6 +468,7 @@ img.notion-header__icon {
 div.notion-property__url {
   font-size: var(--font-body);
   white-space: nowrap;
+  margin: var(--long);
 }
 
 /* XXNotion Header Content Title Wrapper */
