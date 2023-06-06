@@ -108,12 +108,12 @@
 /* $Site Column Spacing*/
 --column-spacing: 2rem !important;
 /* $Site Shadow */
---site-shadow: 5px 5px 25px 1px rgba(0, 0, 0, 0.75) !important;
---drop-shadow: drop-shadow(1px 1px 15px rgba(0, 0, 0, .25)) !important;
+--site-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.75) !important;
+--drop-shadow: drop-shadow(5px 5px 5px rgba(0, 0, 0, .25)) !important;
 /* $Site Border */
---border-thickness: 1px;
---border-style: solid;
---color-border-default: var(--accent-bg-light);
+--border-thickness: 1px !important;
+--border-style: solid !important;
+--color-border-default: var(--accent-bg-light) !important;
 --border-default: var(--border-thickness) var(--border-style) var(--color-border-default);
 /* $Site Header Level */
 --notion-header-page-title: 75vh !important;
@@ -147,8 +147,8 @@
 --callout-padding-top: 0.25rem;
 --callout-title-bg: var(--color-bg-default);
 --callout-title-size: 2rem;
---callout-border-width: 1px;
---callout-border-style: solid;
+--callout-border-width: var(--border-thickness);
+--callout-border-style: var(--border-style);
 --callout-border-color: var(--color-border-default);
 --callout-border: var(--callout-border-width) var(--callout-border-style) var(--callout-border-color);
 --callout-border-radii: var(--element-radius);
@@ -488,20 +488,20 @@ div.notion-property__url {
 /* @min-height: 36px;*/
 .notion-properties .notion-page__property {
     font-size: var(--font-body);
-    grid-template-columns: 192px 1fr !important;
-    gap: 64px !important;
+    grid-template-columns: 12rem 1fr !important;
+    gap: 4rem !important;
     background-color: var(--color-bg) !important;
-    padding: 0 8px 0 !important;
+    padding: 0 .5rem 0 !important;
     overflow: hidden;
     display: flex;
     flex-wrap: wrap;
 }
 
 .notion-page__property {
-    display: grid;
-    grid-template-columns: 256px 1fr !important;
-    gap: 8px;
-    min-height: 36px;
+    /* display: grid; */
+    grid-template-columns: 16rem 1fr;
+    /* gap: 8px; */
+    /* min-height: 36px; */
 }
 /* ! END Property: *Property* */
 /* ^PROPERTY: *Property Name* */
@@ -513,6 +513,7 @@ div.notion-property__url {
     /* white-space: pre-wrap !important; */
     padding: var(--collection-padding) !important;
     margin: var(--wide);
+    filter:var(--drop-shadow);
 }
 /* $ Notion Property Titles */
 .notion-property__title .notion-semantic-string {
@@ -526,12 +527,18 @@ div.notion-property__url {
 /* ! END PROPERTY: *TITLE* */
 /* ^Relation File */
 .notion-property.notion-property__file {
-    width: 256px !important;
+    min-width: 25vw;
+    width: 16rem;
+    max-width: 100%;
 }
 /* $Relation File Image Container Div */
 .notion-property.notion-property__file div {
-    height: 18rem !important;
-    width: 100% !important;
+    min-height: fit-content;
+    height: 25vh !important;
+    max-height: 100%;
+    min-width: fit-content;
+    width: 25vw !important;
+    max-width: 100%;
 }
 /* ! END Relation File */
 /* ^Relation File Image */
@@ -870,14 +877,14 @@ xx } */
 /* #COLLECTION CARDS */
 /* $Collection Card Regardless Of Size */
 .notion-collection-card {
-    width: 100%;
-    height: 100%;
-    position: relative;
-    cursor: pointer;
-    overflow: hidden;
-    background: var(--color-card-bg);
-    padding: var(--collection-card-padding);
-    border-radius: var(--collection-card-border-radii);
+    /* width: 100%; */
+    /* height: 100%; */
+    /* position: relative; */
+    /* cursor: pointer; */
+    /* overflow: hidden; */
+    /* background: var(--color-card-bg); */
+    /* padding: var(--collection-card-padding); */
+    /* border-radius: var(--collection-card-border-radii); */
     box-shadow: var(--collection-card-shadow);
     transition: var(--transition);
     /* display: grid; */
@@ -941,15 +948,15 @@ xx } */
 /* ^ENLARGE IMAGES ON COLLECTION CARDS */
 /* %ENLARGE FLAGS ON STATE COLLECTION CARDS */
 .notion-collection-card__property:has(.notion-property.notion-property__file.property-71435e6f) div {
-    width: 128px !important;
-    height: 128px !important;
+    width: 8rem !important;
+    height: 8rem !important;
     margin: var(--long) !important;
 }
 
 .notion-property.notion-property__file.property-undefined div {
-    width: var(--collection-card-cover-size-small) !important;
-    height: var(--collection-card-cover-size-small) !important;
-    margin: var(--long) !important;
+    width: var(--collection-card-cover-size-small);
+    height: var(--collection-card-cover-size-small);
+    margin: var(--long);
 }
 /* ! END ENLARGE IMAGES ON COLLECTION CARDS */
 
