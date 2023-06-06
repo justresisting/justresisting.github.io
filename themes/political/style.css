@@ -1201,6 +1201,9 @@ xx } */
     justify-self: center !important;
     align-self: center !important;
 }
+#block-directory-people-justin-russell.notion-collection-card {
+    display: grid;
+}
 
 /* ! END Services */
 /* %Resources */
