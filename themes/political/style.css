@@ -987,7 +987,7 @@ xx } */
     background-color: var(--color-bg-yellow-light) !important;
     border-radius: var(--element-radius);
     /* padding: 0.125rem 0.5rem; */
-    font-size: var(--font-title);
+    font-size: var(--heading1-size);
     justify-content: center;
     display: grid;
     font-family: var(--primary-font);
