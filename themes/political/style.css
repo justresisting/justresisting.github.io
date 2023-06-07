@@ -554,7 +554,7 @@ div.notion-property__url {
 /* $Relation File Image Container Div */
 .notion-property.notion-property__file div {
     min-height: fit-content;
-    height: 25vh !important;
+    height: 100% !important;
     max-height: 100%;
     min-width: fit-content;
     width: 25vw !important;
@@ -565,10 +565,10 @@ div.notion-property__url {
 .notion-property.notion-property__file img {
     /* min-height: 8rem; */
     /* min-height made SVG icons in properties act crazy */
-    /* max-height: 18rem !important; */
-    /* height: 100%; */
-    /* width: 100% !important; */
-    /* object-fit: cover !important; */
+    max-height: 18rem !important;
+    height: 100%;
+    width: 100% !important;
+    object-fit: cover !important;
     border-radius: var(--element-radius);
     transition: var(--transition);
 }
