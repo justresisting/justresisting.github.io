@@ -1271,7 +1271,7 @@ xx } */
     display: flex;
 }
 /* $Collection Card Cover DIMENSIONS*/
-.parent-page__directory-people .notion-collection-card__cover,
+/* .parent-page__directory-people .notion-collection-card__cover, */
 #page-contact .notion-collection-card__cover {
     min-height: 2rem !important;
         height: 3rem !important;
@@ -1282,13 +1282,13 @@ xx } */
       position: unset;
 }
 /* $Collection Card Cover IMAGE */
-.parent-page__directory-people .notion-collection-card__cover img,
+/* .parent-page__directory-people .notion-collection-card__cover img, */
 #page-contact .notion-collection-card__cover img {
       object-fit: contain !important;
       padding: .5rem !important;
 }
 /* $ Collection Card Title */
-.parent-page__directory-people .notion-property__title .notion-semantic-string,
+/* .parent-page__directory-people .notion-property__title .notion-semantic-string, */
 #page-contact .notion-property__title .notion-semantic-string {
     display: none;
 }
