@@ -565,7 +565,7 @@ div.notion-property__url {
 .notion-property.notion-property__file img {
     /* min-height: 8rem; */
     /* min-height made SVG icons in properties act crazy */
-    max-height: 18rem !important;
+    max-height: 16rem !important;
     height: 100%;
     width: 100% !important;
     object-fit: cover !important;
