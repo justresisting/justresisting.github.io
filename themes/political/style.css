@@ -1260,7 +1260,7 @@ xx } */
    /  margin: var(--long);
 }  / */
 /* $Collection Gallery Gap & Display */
-.parent-page__directory-people .notion-collection-gallery,
+/* .parent-page__directory-people .notion-collection-gallery, */
 #page-contact .notion-collection-gallery {
     grid-gap: 8px !important;
     display: flex;
