@@ -517,22 +517,23 @@ div.notion-property__url {
     filter: var(--drop-shadow);
     /* justify-content: left !important; */
 }
-/* @ Just the Words in the property name */
-.notion-page__property-name > span {
-    background-color: var(--color-bg-black) !important;
-    color: var(--color-text-default);
-    border-radius: var(--element-radius) !important;
-    border: var(--border-default) !important;
-}
-
 /* $ Notion Property Titles */
-/* $Create Even Property Name Background Sizes */
 .notion-property__title .notion-semantic-string {
     font-weight: 500;
     font-size: var(--font-title);
     line-height: 1;
     word-break: normal;
     white-space: pre-line;
+}
+
+/* @ Just the Words in the property name */
+/* $Create Even Property Name Background Sizes */
+.notion-page__property-name > span {
+    background-color: var(--color-bg-black) !important;
+    color: var(--color-text-default);
+    border-radius: var(--element-radius) !important;
+    border: var(--border-default) !important;
+    padding: var(--collection-padding);
     width: 100%;
     width: -moz-available;
     width: -webkit-fill-available;
