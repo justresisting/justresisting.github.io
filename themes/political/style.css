@@ -1288,7 +1288,7 @@ xx } */
       padding: .5rem !important;
 }
 /* $ Collection Card Title */
-/* .parent-page__directory-people .notion-property__title .notion-semantic-string, */
+.parent-page__directory-people .notion-property__title .notion-semantic-string,
 #page-contact .notion-property__title .notion-semantic-string {
     display: none;
 }
