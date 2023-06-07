@@ -460,7 +460,8 @@ img.notion-header__icon {
     border-radius: 0;
 }
 .notion-property__relation .resource .notion-link.notion-page:hover .notion-page__title .notion-semantic-string {
-    border-bottom: 1px solid var(--color-bg-yellow);
+    /* border-bottom: 1px solid var(--color-bg-yellow); */
+    border-bottom: 1px solid yellow;
 }
 /* ! END Adds Page Properties Bottom-Border */
 
@@ -476,8 +477,9 @@ div.notion-property__url {
 
 
 .notion-page__properties {
-    margin-left: 0 !important;
-    background-color: var(--color-bg) !important;
+    margin-top: 2.5rem;
+    /* margin-left: 0 !important; */
+    /* background-color: var(--color-bg) !important; */
 }
 
 /* ^Property: *PROPERTY* */
@@ -488,16 +490,18 @@ div.notion-property__url {
 /* @min-height: 36px;*/
 .notion-properties .notion-page__property {
     font-size: var(--font-body);
-    grid-template-columns: 12rem 1fr !important;
-    gap: 4rem !important;
+    /* grid-template-columns: 12rem 1fr !important; */
+    /* gap: 4rem !important; */
     background-color: var(--color-bg) !important;
     padding: 0 .5rem 0 !important;
     overflow: hidden;
-    display: flex;
-    flex-wrap: wrap;
+    display: inline;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
 }
-
+/* $display:inline; = pulls page properties to center */
 .notion-page__property {
+    display: inline !important;
     /* display: grid; */
     grid-template-columns: 16rem 1fr;
     /* gap: 8px; */
@@ -506,31 +510,45 @@ div.notion-property__url {
 /* ! END Property: *Property* */
 /* ^PROPERTY: *Property Name* */
 .notion-page__property-name {
-    background-color: var(--color-bg-black) !important;
-    border-radius: var(--element-radius);
-    border: var(--border-default);
     align-items: center !important;
     /* white-space: pre-wrap !important; */
     padding: var(--collection-padding) !important;
-    margin: var(--wide);
-    filter:var(--drop-shadow);
+    margin: var(--callout-margin);
+    filter: var(--drop-shadow);
+    /* justify-content: left !important; */
 }
+/* @ Just the Words in the property name */
+.notion-page__property-name > span {
+    background-color: var(--color-bg-black) !important;
+    color: var(--color-text-default);
+    border-radius: var(--element-radius) !important;
+    border: var(--border-default) !important;
+}
+
 /* $ Notion Property Titles */
+/* $Create Even Property Name Background Sizes */
 .notion-property__title .notion-semantic-string {
     font-weight: 500;
     font-size: var(--font-title);
     line-height: 1;
     word-break: normal;
     white-space: pre-line;
-} 
+    width: 100%;
+    width: -moz-available;
+    width: -webkit-fill-available;
+}
+.notion-page__properties {
+    width: fit-content;
+}
+/* ! END Create Even Property Name Background Sizes */
 
 /* ! END PROPERTY: *TITLE* */
 /* ^Relation File */
-.notion-property.notion-property__file {
+/* .notion-property.notion-property__file {
     min-width: 25vw;
     width: 16rem;
     max-width: 100%;
-}
+} */
 /* $Relation File Image Container Div */
 .notion-property.notion-property__file div {
     min-height: fit-content;
@@ -545,15 +563,14 @@ div.notion-property__url {
 .notion-property.notion-property__file img {
     /* min-height: 8rem; */
     /* min-height made SVG icons in properties act crazy */
-    max-height: 18rem !important;
-    height: 100%;
-    width: 100% !important;
-    object-fit: cover !important;
+    /* max-height: 18rem !important; */
+    /* height: 100%; */
+    /* width: 100% !important; */
+    /* object-fit: cover !important; */
     border-radius: var(--element-radius);
     transition: var(--transition);
 }
-/* ? What did I do here? Think I negated the cover above */
-.notion-property.notion-property__file img,
+/* $About "Who We Are" Gallery File Image Relations */
 .page__about .notion-property.notion-property__file img {
     object-fit: contain !important;
 }
@@ -568,6 +585,7 @@ div.notion-property__url {
 .notion-property.notion-property__relation .notion-semantic-string span.resource div {
     display: flex;
 }
+
 /* ! END Relation Property */
 /* ! END PAGE PROPERTIES */
 
@@ -953,11 +971,11 @@ xx } */
     margin: var(--long) !important;
 }
 
-.notion-property.notion-property__file.property-undefined div {
+/* .notion-property.notion-property__file.property-undefined div {
     width: var(--collection-card-cover-size-small);
     height: var(--collection-card-cover-size-small);
     margin: var(--long);
-}
+} */
 /* ! END ENLARGE IMAGES ON COLLECTION CARDS */
 
 /* ^Site Snippets in Homepage Category Gallery Cards */
