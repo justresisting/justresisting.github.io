@@ -934,6 +934,12 @@ xx } */
     transform: scale(1.125);
     transition: var(--transition);
 }
+.notion-collection-gallery.small .notion-collection-card:hover img {
+    transform: scale(1);
+}
+/* ! END transition of IMAGE scaling on :hover */
+/*  ! END :Hover */
+
 /* ^Collection Card Cover */
 .notion-collection-card__cover {
     border-radius: 0;
