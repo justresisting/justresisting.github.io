@@ -161,7 +161,7 @@
 --callout-margin: 1rem auto;
 --callout-margin-top: 0.25rem;
 --callout-content-margin: 0 0.5rem;
---callout-min-height: 16rem;
+--callout-min-height: 100%;
 --callout-min-width: 100%;
 /* $Images */
 --image-border-radius: var(--element-radius) !important;
@@ -799,8 +799,10 @@ h3.notion-heading.toggle {
 	border: var(--callout-border);
     box-shadow: var(--site-shadow) !important;
     min-height: var(--callout-min-height);
+    min-height: -moz-available;
     min-height: -webkit-fill-available;
     min-width: var(--callout-min-width);
+    min-width: -moz-available;
     min-width: -webkit-fill-available;
     width: 100%;
     margin: var(--callout-margin);
@@ -810,8 +812,10 @@ h3.notion-heading.toggle {
 .parent-page__our-services .notion-callout .notion-callout,
 #page-our-services .notion-callout .notion-callout {
     /* min-height: var(--callout-min-height); */
+    min-height: -moz-available;
     min-height: -webkit-fill-available;
     /* min-width: var(--callout-min-width); */
+    min-width: -moz-available;
     min-width: -webkit-fill-available;
 }
 
