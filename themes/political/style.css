@@ -732,7 +732,10 @@ h3.notion-heading.toggle {
 }
 /* ! END Quote Text */
 /* ! END QUOTES */
-
+/* #TEXT */
+.notion-semantic-string {
+    line-height: 1.5 !important;
+}
 /* #CALLOUTS */
 .notion-callout {
   display: flex;
