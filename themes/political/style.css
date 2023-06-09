@@ -984,11 +984,11 @@ xx } */
     margin: var(--long) !important;
 }
 
-/* .notion-property.notion-property__file.property-undefined div {
+.notion-property.notion-property__file.property-undefined div {
     width: var(--collection-card-cover-size-small);
     height: var(--collection-card-cover-size-small);
     margin: var(--long);
-} */
+}
 /* ! END ENLARGE IMAGES ON COLLECTION CARDS */
 
 /* ^Site Snippets in Homepage Category Gallery Cards */
@@ -1271,12 +1271,14 @@ xx } */
    /  margin: var(--long);
 }  / */
 /* $Collection Gallery Gap & Display */
-.parent-page__directory-people .notion-collection-gallery.small .notion-collection-gallery,
+/* @display: flex makes one single row */
+.parent-page__directory-people .notion-collection-gallery.small,
 #page-contact .notion-collection-gallery {
-    grid-gap: 8px !important;
-    display: flex;
+    grid-gap: 4px !important;
+    /* display: flex; */
 }
-/* $Collection Card Cover DIMENSIONS*/
+/* $Collection Card Cover IMAGE DIMENSIONS*/
+/* @position: unset; [Initial, Revert, Static also work ] */
 .parent-page__directory-people .notion-collection-gallery.small .notion-collection-card__cover,
 #page-contact .notion-collection-card__cover {
     min-height: 2rem !important;
