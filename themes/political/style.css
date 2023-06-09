@@ -1233,8 +1233,8 @@ xx } */
 /* %Services */
 .parent-page__our-services .super-content,
 #page-our-services .super-content {
-    padding-left: 0;
-    padding-right: 0;
+    padding-left: calc(0 + var(column-spacing));
+    padding-right: calc(0 + var(column-spacing));
 }
 /* %Request a FREE Quote */
 #block-de66c7619fa94df583add65f6173a587 {
@@ -1245,7 +1245,7 @@ xx } */
     justify-content: space-evenly;
     justify-items: center;
     justify-self: center;
-    min-width: fit-content;
+    min-width: fit-content !important;
     width: fit-content;
     max-width: fit-content;
     margin: auto;
