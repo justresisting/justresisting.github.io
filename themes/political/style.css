@@ -1272,7 +1272,7 @@ xx } */
 }  / */
 /* $Collection Gallery Gap & Display */
 /* @display: flex makes one single row */
-.parent-page__directory-people .notion-collection-gallery.small,
+.parent-page__directory-people .notion-collection-gallery.small .notion-collection-card,
 #page-contact .notion-collection-gallery {
     grid-gap: 4px !important;
     /* display: flex; */
