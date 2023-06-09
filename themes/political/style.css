@@ -1277,14 +1277,13 @@ xx } */
 /* ! END Blog */
 /* %Contact */
 /* ^CONTACT PAGE COLLECTION CARD COVER SIZE */
-/* #block-c00e84f6d20b40fc8d55fadf605ac99a */
-/* / #page__contact not .page__contact FIX THIS*/
-/* / .page__contact .notion-collection-card__cover {
-   /  min-height: var(--collection-card-cover-size-static-small);
-   /  height: 100%;
-   /  width: var(--collection-card-cover-size-static-small);
-   /  margin: var(--long);
-}  / */
+/* $Contact Page Links  */
+#block-c00e84f6d20b40fc8d55fadf605ac99a .notion-collection-gallery.small {
+    --grid-layout: auto-fit;
+    grid-template-columns: repeat(var(--grid-layout), minmax(var(--collection-card-cover-size-tiny), 1fr)) !important;
+    display: flex;
+}
+
 /* $Collection Gallery Gap & Display */
 /* @display: flex makes one single row */
 .parent-page__directory-people .notion-collection-gallery.small .notion-collection-card,
