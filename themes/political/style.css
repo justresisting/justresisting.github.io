@@ -249,6 +249,11 @@
 /* ^Site Hero Image Parralax Effect /position: fixed/ */
 --parallax-effect: fixed !important;
 /* ^Grid Layout */
+/* @--grid-layout affects collection card size */
+/* @ auto-fit stretched all cards full length of screen */
+/* @ This can result in extremely long cards if only a few exist */
+/* @ auto-fill is normal Super behavior, this results in all cards */
+/* @ stretched together clumped to the left */
 --grid-layout: auto-fit !important;
 /* ^Object-Fit */
 --contain: contain !important;
@@ -1205,7 +1210,7 @@ xx } */
 /* $Homepage Galleries */
 /* @ Homepage Category Gallery */
 #block-8ece99eb023440b795edff12716d74e6 .notion-collection-gallery {
-    --grid-layout: auto-fill !important;
+    --grid-layout: auto-fit !important;
     grid-template-columns: repeat(var(--grid-layout),minmax(var(--collection-card-cover-size-medium),1fr)) !important;
 }
 .page__index .notion-collection-gallery {
