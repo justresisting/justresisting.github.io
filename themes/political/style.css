@@ -760,11 +760,20 @@ h3.notion-heading.toggle {
 /* ! END Callout Content */
 
 /* $Callout Title (Span On Top of Content) */
+/* @ > span.notion-semantic-string = TITLES ONLY */
 .notion-callout__content > span.notion-semantic-string {
   font-size: var(--heading3-size);
   font-weight: bolder;
 }
 /* ! END Callout Title */
+/* $Callout Content */
+/* @ span.notion-semantic-string = ALL CONTENT */
+.notion-callout__content span.notion-semantic-string {
+    justify-content: space-evenly;
+    justify-items: center;
+    justify-self: center;
+    display: flex;
+}        
 /* $Callout Title (Nested In a Callout) */
 .notion-callout .notion-callout .notion-callout__content > span.notion-semantic-string {
     color: var(--color-text-yellow);
