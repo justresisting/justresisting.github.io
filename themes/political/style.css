@@ -108,8 +108,8 @@
 /* $Site Column Spacing*/
 --column-spacing: 2rem !important;
 /* $Site Shadow */
---site-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.75) !important;
---drop-shadow: drop-shadow(5px 5px 5px rgba(0, 0, 0, .25)) !important;
+--site-shadow: .25rem .25rem .5rem .125rem rgba(0, 0, 0, 0.75) !important;
+--drop-shadow: drop-shadow(0.25rem .25rem .5rem .125rem rgba(0, 0, 0, 0.5)) !important;
 /* $Site Border */
 --border-thickness: 1px !important;
 --border-style: solid !important;
@@ -151,7 +151,7 @@
 --callout-border-style: var(--border-style);
 --callout-border-color: var(--color-border-default);
 --callout-border: var(--callout-border-width) var(--callout-border-style) var(--callout-border-color);
---callout-border-radii: var(--element-radius);
+--callout-border-radii: calc(var(--element-radius) - 2px) !important;
 --callout-shadow: var(--site-shadow);
 --callout-justify: center;
 --callout-icon-size: 20px;
@@ -737,7 +737,7 @@ h3.notion-heading.toggle {
 .notion-callout {
   display: flex;
   overflow: hidden;
-  border: 1px solid transparent !important;
+  border: var(--border-default);
   border-radius: var(--callout-border-radii);
   /* box-shadow: var(--site-shadow) !important; */
   /* filter: var(--drop-shadow); */
