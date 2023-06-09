@@ -131,6 +131,8 @@
 --super-content-bg: var(--color-bg) !important;
 --super-footer-padding: 0 2rem !important;
 --super-content-padding: 0 !important;
+--super-content-padding-left: calc(0rem + var(--column-spacing)) !important;
+--super-content-padding-right: calc(0rem + var(--column-spacing)) !important;
 --super-content-margin-top: 0 !important;
 /* $PILLS */
 --color-pill-default: var(--color-bg-black) !important;
@@ -898,8 +900,8 @@ xx } */
 .parent-page__government .super-content,
 .parent-page__places .super-content,
 .parent-page__directory .super-content {
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-left: var(--super-content-padding-left);
+    padding-right: var(--super-content-padding-right);
 }
 
 /* ! END Collection Card Cover On Left */
@@ -1236,8 +1238,8 @@ xx } */
 /* %Services */
 .parent-page__our-services .super-content,
 #page-our-services .super-content {
-    padding-left: calc(0 + var(column-spacing));
-    padding-right: calc(0 + var(column-spacing));
+    padding-left: var(--super-content-padding-left);
+    padding-right: var(--super-content-padding-right);
 }
 /* %Request a FREE Quote */
 #block-de66c7619fa94df583add65f6173a587 {
