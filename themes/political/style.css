@@ -606,10 +606,18 @@ div.notion-property__url {
 /* #NOTION PILLS */
 /* ^PROPERTY: *Pills* */
 .notion-pill {
-  margin: var(--pill-margin) !important;
-  /* padding: var(--pill-padding) !important;
-  border: var(--border-default);
-  border-radius: var(--element-radius); */
+    border-radius: var(--element-radius);
+    border: var(--border-default);
+    padding: var(--pill-padding);
+    margin: var(--pill-margin);
+    max-width: fit-content;
+    width: auto;
+    /* box-shadow: var(--site-shadow); */
+    /* filter: var(--drop-shadow); */
+    flex-direction: column;
+    justify-content: space-evenly;
+    justify-items: center;
+    justify-self: center;
 }
 
 .pill-default {
@@ -627,7 +635,8 @@ div.notion-property__url {
 
 /* $property select pills stack */
 .page__government-elected-officials .notion-collection-card__content .notion-property__select {
-    display: inline;
+    /* display: inline; */
+    flex-direction: column;
 }
 /* ! END NOTION PILLS */
 
