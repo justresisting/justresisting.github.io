@@ -552,7 +552,7 @@ div.notion-property__url {
 /* ! END Create Even Property Name Background Sizes */
 /* $Center all Page Properties (Relations, pills, etc) under Property Name */
 .notion-page__properties .notion-property {
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 /* ! END PROPERTY: *TITLE* */
