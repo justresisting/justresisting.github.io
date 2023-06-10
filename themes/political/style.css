@@ -995,8 +995,9 @@ xx } */
 /* ^Collection Card Cover Img */
 /* @OBJECT-FIT: *COVER* */
 .notion-collection-card__cover img {
-    object-fit: cover !important;
+    /* object-fit: cover !important; */
     transition: var(--transition);
+    object-position: top !important;
 }
 
 /* ^COLLECTION CARD IMG */
