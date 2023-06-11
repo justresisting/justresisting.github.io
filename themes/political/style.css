@@ -1000,6 +1000,10 @@ xx } */
     object-position: top !important;
 }
 
+.notion-collection-gallery.small .notion-collection-card__cover img {
+    object-position: center !important;
+}
+
 /* ^COLLECTION CARD IMG */
 /* @OBJECT-FIT: *CONTAIN* ENABLED FOR: */
 .parent-page__blog-series .notion-collection-card__cover img,
