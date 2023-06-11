@@ -1169,6 +1169,7 @@ xx } */
 .notion-semantic-string .link {
     z-index: unset !important;
     position: relative;
+    display: inline;
 }
 
 /* #COLLECTION BOARDS */
