@@ -1234,8 +1234,9 @@ xx } */
 }
 
 /* #TEXT */
+.notion-semantic-string,
 .notion-text__content {
-    display: inline-block;
+    display: inline-block !important;
 }
 
 /* #PAGES */
