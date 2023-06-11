@@ -1001,6 +1001,7 @@ xx } */
 }
 
 .notion-collection-gallery.small .notion-collection-card__cover img {
+    object-fit: contain !important;
     object-position: center !important;
 }
 
