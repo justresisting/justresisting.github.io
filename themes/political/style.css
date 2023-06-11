@@ -1227,6 +1227,11 @@ xx } */
      justify-self: center;
 }
 
+/* #TEXT */
+.notion-text__content {
+    display: inline-block;
+}
+
 /* #PAGES */
 /* $Use IDs to force specific actions */
 
