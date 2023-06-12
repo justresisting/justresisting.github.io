@@ -746,7 +746,7 @@ h3.notion-heading.toggle {
   overflow: hidden;
   border: var(--border-default);
   border-radius: var(--callout-border-radii);
-  /* box-shadow: var(--site-shadow) !important; */
+  box-shadow: var(--site-shadow) !important;
   /* filter: var(--drop-shadow); */
   /* margin: var(--callout-margin); */
   /* padding: var(--callout-padding); */
