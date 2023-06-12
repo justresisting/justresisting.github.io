@@ -387,6 +387,9 @@ a.notion-link.super-navbar__item {
     object-fit: cover !important;
     z-index: -1000;
 } */
+.page__index img.notion-header__cover-image {
+    height: 75vh !important;
+}
 
 /* @OBJECT-FIT: CONTAIN ENABLED FOR: */
 /* $ ENABLED IN */
