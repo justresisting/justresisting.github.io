@@ -394,6 +394,7 @@ a.notion-link.super-navbar__item {
 /* @OBJECT-FIT: CONTAIN ENABLED FOR: */
 /* $ ENABLED IN */
 /* *Places/States, Elected-Officials */
+.parent-page__directory-organizations .notion-header__cover-image,
 .parent-page__places-states img.notion-header__cover-image,
 .parent-page__elected-officials img.notion-header__cover-image {
     position: absolute !important;
