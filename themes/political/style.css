@@ -382,20 +382,12 @@ a.notion-link.super-navbar__item {
 /* @OBJECT-FIT: COVER */
 /* @Z-INDEX: -1 */
 /* @all for parallax effect */
-img.notion-header__cover-image {
+/* img.notion-header__cover-image {
     position: var(--parallax-effect) !important;
     object-fit: cover !important;
     z-index: -1000;
-}
-        /* XX dont need */
-        /* .page__index img.notion-header__cover-image,
-        .parent-page__index img.notion-header__cover-image,
-        .parent-page__states img.notion-header__cover-image,
-        .parent-page__categories img.notion-header__cover-image {
-            position: var(--parallax-effect) !important;
-            object-fit: cover !important; */
-            /* margin-top: 64px !important; */
-        /* } */
+} */
+
 /* @OBJECT-FIT: CONTAIN ENABLED FOR: */
 /* $ ENABLED IN */
 /* *Places/States, Elected-Officials */
@@ -453,10 +445,7 @@ img.notion-header__icon {
 /* ! END HEADER ICON */
 
 /* #NOTION HEADER PAGE CONTENT */
-        /* ?What is this? */
-        /* XX .notion-property__title .notion-property__title__icon-wrapper {*/
-        /*    display: none;*/
-        /*}*/
+
 /* ! END HEADER */
 
 /* #PAGE PROPERTIES */
