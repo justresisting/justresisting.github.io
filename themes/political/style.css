@@ -989,12 +989,6 @@ xx } */
     object-position: top !important;
 }
 
-.notion-collection-gallery.small .notion-collection-card__cover img {
-    object-fit: contain !important;
-    object-position: center !important;
-    padding: 1rem !important;
-}
-
 /* ^COLLECTION CARD IMG */
 /* @OBJECT-FIT: *CONTAIN* ENABLED FOR: */
 .parent-page__blog-series .notion-collection-card__cover img,
@@ -1354,6 +1348,13 @@ xx } */
     --grid-layout: auto-fit;
     grid-template-columns: repeat(var(--grid-layout), minmax(var(--collection-card-cover-size-smaller), 1fr)) !important;
 }
+/* ^Hope I could Help! */
+#block-487bd77d45034b3585a148a7ff54f57b .notion-collection-gallery.small .notion-collection-card__cover img {
+    object-fit: contain !important;
+    object-position: center !important;
+    padding: 1rem !important;
+}
+
 /* ! END SPECIFIC BLOCKS */
 
 /* #DEMOS */
