@@ -913,6 +913,11 @@ xx } */
     padding-right: var(--super-content-padding-right);
 }
 
+#page-roadmap-overview-chatgpt .super-content {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
 /* ! END Collection Card Cover On Left */
 /* ! END COLLECTION GALLERY  */
 
