@@ -1163,6 +1163,10 @@ xx } */
     display: inline;
 }
 
+.notion-link.link:hover {
+  color: yellow !important;
+}
+
 /* #COLLECTION BOARDS */
 /*.notion-collection-board, .notion-collection-board.small, .notion-collection-board.medium, .notion-collection-board.large {*/
 /*  background-color: var(--color-bg-default);*/
