@@ -138,7 +138,7 @@
 --color-pill-default: var(--color-bg-black) !important;
 --color-pill-text-default: var(--color-text-default) !important;
 --pill-margin: 0 .25rem !important;
---pill-padding: .25rem !important;
+--pill-padding: .5rem !important;
 /* $Call to Actions */
 --cta-padding: 13px 14px !important;
 --cta-border-radius: 4px !important;
@@ -599,10 +599,10 @@ div.notion-property__url {
 /* #NOTION PILLS */
 /* ^PROPERTY: *Pills* */
 .notion-pill {
-    border-radius: var(--element-radius);
-    border: var(--border-default);
-    padding: var(--pill-padding);
-    margin: var(--pill-margin);
+    border-radius: var(--element-radius) !important;
+    border: var(--border-default) !important;
+    padding: var(--pill-padding) !important;
+    margin: var(--pill-margin) !important;
     max-width: fit-content;
     width: auto;
     /* box-shadow: var(--site-shadow); */
@@ -1381,13 +1381,13 @@ div#block-fad8cd2cf13d4097a3e7b6702abf1b03 .notion-callout {
 }
 /* %DEMO: UNCLICKABLE GALLERY IMAGES */
 /* @Removes Clicking Cards */
-#block-portfolio-demos-unclickable-gallery-images a.notion-link.notion-collection-card__anchor {
+/* #block-portfolio-demos-unclickable-gallery-images a.notion-link.notion-collection-card__anchor {
     pointer-events: none;
-}
+} */
 /* @Retains Clicking Card Properties */
-#block-portfolio-demos-unclickable-gallery-images .gallery .notion-collection-card__content {
+/* #block-portfolio-demos-unclickable-gallery-images .gallery .notion-collection-card__content {
   pointer-events: all;
-}
+} */
 /* ! END ! END DEMOS !!*/
 /* !END THEME */
 
