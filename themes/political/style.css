@@ -981,6 +981,10 @@ xx } */
     max-height: 100% !important;
     position: relative;
 }
+/* $Collection Card Cover Small */
+.notion-collection-card__cover.small {
+    padding: 1rem !important;
+}
 
 /* ^Collection Card Content */
 /* .notion-collection-card__content {
@@ -1003,6 +1007,7 @@ xx } */
 .small .notion-collection-card__cover img {
     object-fit: contain !important;
     object-position: center !important;
+    padding: 0.5rem !important;
 }
 
 .medium .notion-collection-card__cover img {
