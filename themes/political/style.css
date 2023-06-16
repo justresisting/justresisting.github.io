@@ -992,12 +992,21 @@ xx } */
     height: 100% !important;
 }
 
-
 /* ^Collection Card Cover Img */
 /* @OBJECT-FIT: *COVER* */
 .notion-collection-card__cover img {
     /* object-fit: cover !important; */
     transition: var(--transition);
+    /* object-position: top !important; */
+}
+
+.small .notion-collection-card__cover img {
+    object-fit: contain !important;
+    object-position: center !important;
+}
+
+.medium .notion-collection-card__cover img {
+    object-fit: cover !important;
     object-position: top !important;
 }
 
