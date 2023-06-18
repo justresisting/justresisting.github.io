@@ -548,6 +548,13 @@ div.notion-property__url {
     justify-content: space-between;
 }
 
+.notion-collection-card__property {
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    justify-self: center;
+}
+
 /* ! END PROPERTY: *TITLE* */
 /* ^Relation File */
 /* .notion-property.notion-property__file {
@@ -929,6 +936,8 @@ xx } */
     white-space: pre-wrap !important;
     line-height: normal;
 }
+
+
 
 
 
