@@ -549,8 +549,8 @@ div.notion-property__url {
 }
 
 .notion-collection-card__property {
-    display: flex;
-    justify-content: space-between;
+    display: flex !important;
+    justify-content: space-between !important;
     justify-items: center;
     justify-self: center;
 }
