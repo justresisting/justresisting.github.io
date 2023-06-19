@@ -148,7 +148,7 @@
 --callout-padding: 0.25rem 0 0.25rem 0;
 --callout-padding-top: 0.25rem;
 --callout-title-bg: var(--color-bg-default);
---callout-title-size: 2rem;
+--callout-title-size: var(--heading4-size) !important;
 --callout-border-width: var(--border-thickness);
 --callout-border-style: var(--border-style);
 --callout-border-color: var(--color-border-default);
@@ -201,13 +201,13 @@
 --h3-margin: 0 0.125rem !important;
 --h3-line-height: 1.4 !important;
 --h3-text-shadow: var(--site-shadow) !important;
-/* ^Fluid Responsive Font */
+/* ^Fluid Type */
     --font-body: var(--font-medium) !important;
  --heading-size: var(--font-large) !important;
    --font-title: var(--heading5-size) !important;
-/* ^UTOPIA */
-   /* --font-small: clamp(0.74rem, calc(0.72rem + 0.09vw), 0.80rem) !important;
-    --font-body: clamp(0.89rem, calc(0.85rem + 0.16vw), 1.00rem) !important; */
+   --title-size: var(--heading1-size) !important;
+/* ^Fluid Spacing */
+/* #UTOPIA */
    --font-small: clamp(0.78rem, calc(0.77rem + 0.03vw), 0.80rem) !important;
   --font-medium: clamp(0.94rem, calc(0.92rem + 0.16vw), 1.00rem) !important;
    --font-large: clamp(1.06rem, calc(1.01rem + 0.27vw), 1.25rem) !important;
