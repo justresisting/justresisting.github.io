@@ -253,7 +253,7 @@
 /* ^Collections */
 /* $Collection Spacing */
 --collection-margin: 0.25rem 0 !important;
---collection-padding: 0 0.5rem !important;
+--collection-padding: 0 var(--space-xs) !important;
 --collection-property-text-size: var(--font-body) !important;
 --collection-list-item-border-radius: 0 !important;
 --collection-list-item-padding: 5px 0 5px 5px !important;
@@ -406,6 +406,7 @@ a.notion-link.super-navbar__item {
     border-radius: var(--element-radius);
     margin: auto;
     padding: var(--collection-padding) !important;
+    box-shadow: var(--site-shadow) !important;
 }
 
 /* @Page Height with *.no-cover* */
