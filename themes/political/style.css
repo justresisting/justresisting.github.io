@@ -152,21 +152,21 @@
 --callout-border-width: var(--border-thickness);
 --callout-border-style: var(--border-style);
 --callout-border-color: var(--color-border-default);
---callout-border: var(--callout-border-width) var(--callout-border-style) var(--callout-border-color);
+--callout-border: var(--callout-border-width) var(--callout-border-style) var(--callout-border-color) !important;
 --callout-border-radii: calc(var(--element-radius) - 2px) !important;
---callout-shadow: var(--site-shadow);
+--callout-shadow: var(--site-shadow) !important;
 --callout-justify: center;
 --callout-icon-size: 20px;
 --callout-emoji-size: 18px;
 --callout-margin: 1rem auto;
 --callout-margin-top: 0.25rem;
---callout-content-margin: 0 0.5rem;
+--callout-content-margin: 0 var(--space-2xs) !important;
 --callout-min-height: 100%;
 --callout-min-width: 100%;
 /* $Images */
 --image-border-radius: var(--element-radius) !important;
 /* $DIVIDERS */
---divider-margin: 15px 0 !important;
+--divider-margin: var(--space-xs) 0 !important;
 --divider-opacity: 1 !important;
 --divider-thickness: 5px !important;
 --divider-style: solid !important;
@@ -397,12 +397,12 @@ a.notion-link.super-navbar__item {
 /* @DEFAULTS:  */
 /* @margin-top: *96px* */
 .notion-header__title-wrapper {
-margin-top: var(--notion-header-title-wrapper-margin-top) !important;
+    margin-top: var(--notion-header-title-wrapper-margin-top) !important;
 }
 .notion-header__title {
     width: fit-content;
     background-color: var(--color-bg);
-    /* border: var(--border-default); */
+    border: var(--border-default);
     border-radius: var(--element-radius);
     margin: auto;
     padding: var(--collection-padding) !important;
@@ -764,6 +764,7 @@ h3.notion-heading.toggle {
   overflow: visible !important;
   width: fit-content !important;
   color: var(--color-text-default);
+  margin: var(--callout-content-margin);
 }
 /* ! END Callout Content */
 
