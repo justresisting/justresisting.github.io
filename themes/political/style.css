@@ -181,7 +181,8 @@
 /* ^Type */
    --font-small: clamp(0.78rem, calc(0.77rem + 0.03vw), 0.80rem) !important;
   --font-medium: clamp(0.88rem, calc(0.90rem + 0.16vw), 1.00rem) !important;
-   --font-large: clamp(1.06rem, calc(1.01rem + 0.27vw), 1.25rem) !important;
+   /* --font-large: clamp(1.06rem, calc(1.01rem + 0.27vw), 1.25rem) !important; */
+   --font-large: clamp(1.08rem, calc(1.10rem + 0.41vw), 1.50rem) !important;
 --heading5-size: clamp(1.28rem, calc(1.19rem + 0.41vw), 1.56rem) !important;
 --heading4-size: clamp(1.53rem, calc(1.41rem + 0.60vw), 1.95rem) !important;
 --heading3-size: clamp(1.84rem, calc(1.66rem + 0.86vw), 2.44rem) !important;
