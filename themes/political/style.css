@@ -106,7 +106,7 @@
 --column-spacing: 2rem !important;
 /* $Site Shadow */
 --site-shadow: .25rem .25rem .5rem .125rem rgba(0, 0, 0, 0.75) !important;
---drop-shadow: drop-shadow(0.25rem .25rem .5rem .125rem rgba(0, 0, 0, 0.5)) !important;
+--drop-shadow: drop-shadow(.5rem .5rem .5rem rgba(0, 0, 0, 0.5)) !important;
 /* $Site Border */
 --border-thickness: 1px !important;
 --border-style: solid !important;
@@ -115,7 +115,8 @@
 /* ^Site Header */
 /* $Hero Image Size */
 --notion-header-page-title: 75vh !important;
---notion-header-title-wrapper-margin-top:  !important;
+/* $Margin between Hero & Title */
+--notion-header-title-wrapper-margin-top: 6rem !important;
 /* $Site Margin */
 --wide: auto 0 !important; /* left-to-right */
 --long: 0 auto !important; /* top-to-bottom */
