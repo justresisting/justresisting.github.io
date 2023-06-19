@@ -112,8 +112,10 @@
 --border-style: solid !important;
 --color-border-default: var(--accent-bg-light) !important;
 --border-default: var(--border-thickness) var(--border-style) var(--color-border-default);
-/* $Site Header Level */
+/* ^Site Header */
+/* $Hero Image Size */
 --notion-header-page-title: 75vh !important;
+--notion-header-title-wrapper-margin-top:  !important;
 /* $Site Margin */
 --wide: auto 0 !important; /* left-to-right */
 --long: 0 auto !important; /* top-to-bottom */
@@ -394,7 +396,7 @@ a.notion-link.super-navbar__item {
 /* @DEFAULTS:  */
 /* @margin-top: *96px* */
 .notion-header__title-wrapper {
-margin-top: 0 !important;
+margin-top: var(--notion-header-title-wrapper-margin-top) !important;
 }
 .notion-header__title {
     width: fit-content;
