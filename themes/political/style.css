@@ -550,7 +550,7 @@ div.notion-property__url {
 .notion-property__title .notion-semantic-string {
     font-weight: 500;
     font-size: var(--font-title);
-    line-height: 1;
+    /* line-height: 1; */
     word-break: normal;
     white-space: pre-line;
 }
