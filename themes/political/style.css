@@ -92,6 +92,48 @@
 /* $DIMMER FOREGROUND TEXT  */
 --color-text-default-light: var(--color-text-gray) !important;
 /* ! END Colors */
+/* #UTOPIA */
+/* ^Type */
+   --font-small: clamp(0.78rem, calc(0.77rem + 0.03vw), 0.80rem) !important;
+  --font-medium: clamp(0.88rem, calc(0.90rem + 0.16vw), 1.00rem) !important;
+   /* --font-large: clamp(1.06rem, calc(1.01rem + 0.27vw), 1.25rem) !important; */
+   --font-large: clamp(1.08rem, calc(1.10rem + 0.41vw), 1.50rem) !important;
+--heading5-size: clamp(1.28rem, calc(1.19rem + 0.41vw), 1.56rem) !important;
+--heading4-size: clamp(1.53rem, calc(1.41rem + 0.60vw), 1.95rem) !important;
+--heading3-size: clamp(1.84rem, calc(1.66rem + 0.86vw), 2.44rem) !important;
+--heading2-size: clamp(2.20rem, calc(1.96rem + 1.21vw), 3.05rem) !important;
+--heading1-size: clamp(2.64rem, calc(2.31rem + 1.67vw), 3.82rem) !important;
+/* ^Space */
+/* $T-shirt Sizes */
+    --space-3xs: clamp(0.31rem, calc(0.31rem + 0.00vw), 0.31rem); /*~  .25rem */
+    --space-2xs: clamp(0.56rem, calc(0.54rem + 0.11vw), 0.63rem); /*~   .5rem */
+     --space-xs: clamp(0.88rem, calc(0.85rem + 0.11vw), 0.94rem); /*~    1rem */
+      --space-s: clamp(1.13rem, calc(1.08rem + 0.22vw), 1.25rem); /*~ 1.25rem */
+      --space-m: clamp(1.69rem, calc(1.62rem + 0.33vw), 1.88rem); /*~ 1.75rem */
+      --space-l: clamp(2.25rem, calc(2.16rem + 0.43vw), 2.50rem); /*~ 2.25rem */
+     --space-xl: clamp(3.38rem, calc(3.24rem + 0.65vw), 3.75rem); /*~  3.5rem */
+    --space-2xl: clamp(4.50rem, calc(4.33rem + 0.87vw), 5.00rem); /*~ 4.75rem */
+    --space-3xl: clamp(6.75rem, calc(6.49rem + 1.30vw), 7.50rem); /*~    7rem */
+/* $One-up pairs */
+--space-3xs-2xs: clamp(0.31rem, calc(0.20rem + 0.54vw), 0.63rem);
+ --space-2xs-xs: clamp(0.56rem, calc(0.43rem + 0.65vw), 0.94rem);
+   --space-xs-s: clamp(0.88rem, calc(0.74rem + 0.65vw), 1.25rem);
+    --space-s-m: clamp(1.13rem, calc(0.86rem + 1.30vw), 1.88rem);
+    --space-m-l: clamp(1.69rem, calc(1.40rem + 1.41vw), 2.50rem);
+   --space-l-xl: clamp(2.25rem, calc(1.73rem + 2.61vw), 3.75rem);
+ --space-xl-2xl: clamp(3.38rem, calc(2.81rem + 2.83vw), 5.00rem);
+--space-2xl-3xl: clamp(4.50rem, calc(3.46rem + 5.22vw), 7.50rem);
+/* $Custom pairs */
+    --space-s-l: clamp(1.13rem, calc(0.65rem + 2.39vw), 2.50rem);
+  --space-xs-xl: clamp(0.88rem, calc(-0.12rem + 5.0vw), 3.75rem);
+/* ^Fluid Type */
+    --font-body: var(--font-medium) !important;
+ --heading-size: var(--font-large) !important;
+   --font-title: var(--heading5-size) !important;
+   --title-size: var(--heading1-size) !important;
+/* ^Fluid Spacing */
+
+
 /* ^Site UI */
 /* $PAGE WIDTH */
      --theme-width: 1200px !important;
@@ -178,46 +220,6 @@
 --secondary-font: "Inter", sans-serif !important;
 --notion-text-margin: 0 0 0 0 !important;
 --heading-weight: 800;
-/* #UTOPIA */
-/* ^Type */
-   --font-small: clamp(0.78rem, calc(0.77rem + 0.03vw), 0.80rem) !important;
-  --font-medium: clamp(0.88rem, calc(0.90rem + 0.16vw), 1.00rem) !important;
-   /* --font-large: clamp(1.06rem, calc(1.01rem + 0.27vw), 1.25rem) !important; */
-   --font-large: clamp(1.08rem, calc(1.10rem + 0.41vw), 1.50rem) !important;
---heading5-size: clamp(1.28rem, calc(1.19rem + 0.41vw), 1.56rem) !important;
---heading4-size: clamp(1.53rem, calc(1.41rem + 0.60vw), 1.95rem) !important;
---heading3-size: clamp(1.84rem, calc(1.66rem + 0.86vw), 2.44rem) !important;
---heading2-size: clamp(2.20rem, calc(1.96rem + 1.21vw), 3.05rem) !important;
---heading1-size: clamp(2.64rem, calc(2.31rem + 1.67vw), 3.82rem) !important;
-/* ^Space */
-/* $T-shirt Sizes */
-    --space-3xs: clamp(0.31rem, calc(0.31rem + 0.00vw), 0.31rem); /*~  .25rem */
-    --space-2xs: clamp(0.56rem, calc(0.54rem + 0.11vw), 0.63rem); /*~   .5rem */
-     --space-xs: clamp(0.88rem, calc(0.85rem + 0.11vw), 0.94rem); /*~    1rem */
-      --space-s: clamp(1.13rem, calc(1.08rem + 0.22vw), 1.25rem); /*~ 1.25rem */
-      --space-m: clamp(1.69rem, calc(1.62rem + 0.33vw), 1.88rem); /*~ 1.75rem */
-      --space-l: clamp(2.25rem, calc(2.16rem + 0.43vw), 2.50rem); /*~ 2.25rem */
-     --space-xl: clamp(3.38rem, calc(3.24rem + 0.65vw), 3.75rem); /*~  3.5rem */
-    --space-2xl: clamp(4.50rem, calc(4.33rem + 0.87vw), 5.00rem); /*~ 4.75rem */
-    --space-3xl: clamp(6.75rem, calc(6.49rem + 1.30vw), 7.50rem); /*~    7rem */
-/* $One-up pairs */
---space-3xs-2xs: clamp(0.31rem, calc(0.20rem + 0.54vw), 0.63rem);
- --space-2xs-xs: clamp(0.56rem, calc(0.43rem + 0.65vw), 0.94rem);
-   --space-xs-s: clamp(0.88rem, calc(0.74rem + 0.65vw), 1.25rem);
-    --space-s-m: clamp(1.13rem, calc(0.86rem + 1.30vw), 1.88rem);
-    --space-m-l: clamp(1.69rem, calc(1.40rem + 1.41vw), 2.50rem);
-   --space-l-xl: clamp(2.25rem, calc(1.73rem + 2.61vw), 3.75rem);
- --space-xl-2xl: clamp(3.38rem, calc(2.81rem + 2.83vw), 5.00rem);
---space-2xl-3xl: clamp(4.50rem, calc(3.46rem + 5.22vw), 7.50rem);
-/* $Custom pairs */
-    --space-s-l: clamp(1.13rem, calc(0.65rem + 2.39vw), 2.50rem);
-  --space-xs-xl: clamp(0.88rem, calc(-0.12rem + 5.0vw), 3.75rem);
-/* ^Fluid Type */
-    --font-body: var(--font-medium) !important;
- --heading-size: var(--font-large) !important;
-   --font-title: var(--heading5-size) !important;
-   --title-size: var(--heading1-size) !important;
-/* ^Fluid Spacing */
 /* ^Toggles */
 --toggle-size: 2rem !important;
 /* --toggle-color: var(--accent-bg) !important; */
