@@ -828,8 +828,9 @@ h3.notion-heading.toggle {
 .notion-callout__content {
   /* -webkit-margin-start: 8px; */
   /* margin-inline-start: 8px; */
-  overflow: visible !important;
-  width: fit-content !important;
+  /* overflow: visible !important; */
+  /* width: fit-content !important; */
+  width: fit-content;
   color: var(--color-text-default);
   margin: var(--callout-content-margin);
 }
