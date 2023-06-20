@@ -527,6 +527,8 @@ div.notion-property__url:hover {
     border: var(--border-default-dark);
     border-radius: var(--element-radius);
     padding: var(--space-3xs);
+    color: var(--color-text-yellow);
+    font-size: var(--font-small) !important;
 }
 /* $Specific :hover */
 
