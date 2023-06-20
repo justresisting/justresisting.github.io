@@ -503,9 +503,13 @@ img.notion-header__icon {
 
 /* $ Notion URL Properties */
 div.notion-property__url {
-  font-size: var(--font-body);
-  white-space: nowrap;
-  margin: var(--long);
+    font-size: var(--font-body);
+    white-space: nowrap;
+    margin-left: auto;
+    color: var(--color-bg-yellow);
+}
+div.notion-property__url:hover {
+    color: yellow;
 }
 
 /* XXNotion Header Content Title Wrapper */
