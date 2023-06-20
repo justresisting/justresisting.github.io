@@ -515,7 +515,7 @@ div.notion-property__url {
     opacity: .7;
 }
 /* $General :hover */
-div.notion-property.notion-property__email,
+div.notion-property.notion-property__email:hover,
 div.notion-property__url:hover {
     color: var(--color-text-yellow);
     opacity: 1;
