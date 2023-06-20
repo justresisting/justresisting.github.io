@@ -277,7 +277,7 @@
 --collection-card-cover-size-static-small: 172px !important;
 --collection-card-cover-size-static-medium: 260px !important;
 --collection-card-cover-size-static-large: 320px !important;
---collection-card-cover-size-tiny: 6rem !important;
+/* --collection-card-cover-size-tiny: 6rem !important;
 --collection-card-cover-size-smaller: 9rem !important;
 --collection-card-cover-size-small: 12rem !important;
 --collection-card-cover-height-small: 9rem !important;
@@ -285,7 +285,41 @@
 --collection-card-cover-height-medium: 12rem !important;
 --collection-card-cover-size-large: 24rem !important;
 --collection-card-cover-height-large: 18rem !important;
---collection-card-cover-size-larger: 32rem !important;
+--collection-card-cover-size-larger: 32rem !important; */
+
+    --collection-card-cover-size-tiny: clamp(2.00rem, calc(0.61rem + 6.96vw), 6.00rem)  !important;
+ --collection-card-cover-size-smaller: clamp(6.00rem, calc(4.96rem + 5.22vw), 9.00rem)  !important;
+   --collection-card-cover-size-small: clamp(4.00rem, calc(1.22rem + 13.91vw), 12.00rem) !important;
+ --collection-card-cover-height-small: clamp(6.00rem, calc(4.96rem + 5.22vw), 9.00rem)  !important;
+  --collection-card-cover-size-medium: clamp(8.00rem, calc(5.22rem + 13.91vw), 16.00rem) !important;
+--collection-card-cover-height-medium: clamp(4.00rem, calc(1.22rem + 13.91vw), 12.00rem) !important;
+   --collection-card-cover-size-large: clamp(12.00rem, calc(7.83rem + 20.87vw), 24.00rem) !important;
+ --collection-card-cover-height-large: clamp(12.00rem, calc(9.91rem + 10.43vw), 18.00rem) !important;
+  --collection-card-cover-size-larger: clamp(16.00rem, calc(10.43rem + 27.83vw), 32.00rem) !important;
+
+  /* --space-3xs: clamp(0.25rem, calc(0.16rem + 0.43vw), 0.50rem);
+  --space-2xs: clamp(0.50rem, calc(0.33rem + 0.87vw), 1.00rem);
+  --space-xs: clamp(0.75rem, calc(0.49rem + 1.30vw), 1.50rem);
+  --space-s: clamp(1.00rem, calc(0.65rem + 1.74vw), 2.00rem);
+  --space-m: clamp(2.00rem, calc(1.30rem + 3.48vw), 4.00rem);
+  --space-l: clamp(4.00rem, calc(2.61rem + 6.96vw), 8.00rem);
+  --space-xl: clamp(8.00rem, calc(5.22rem + 13.91vw), 16.00rem);
+  --space-2xl: clamp(12.00rem, calc(7.83rem + 20.87vw), 24.00rem);
+  --space-3xl: clamp(16.00rem, calc(10.43rem + 27.83vw), 32.00rem); */
+
+  /* One-up pairs */
+  /* --space-3xs-2xs: clamp(0.25rem, calc(-0.01rem + 1.30vw), 1.00rem);
+  --space-2xs-xs: clamp(0.50rem, calc(0.15rem + 1.74vw), 1.50rem);
+  --space-xs-s: clamp(0.75rem, calc(0.32rem + 2.17vw), 2.00rem);
+  --space-s-m: clamp(1.00rem, calc(-0.04rem + 5.22vw), 4.00rem);
+  --space-m-l: clamp(2.00rem, calc(-0.09rem + 10.43vw), 8.00rem);
+  --space-l-xl: clamp(4.00rem, calc(-0.17rem + 20.87vw), 16.00rem);
+  --space-xl-2xl: clamp(8.00rem, calc(2.43rem + 27.83vw), 24.00rem);
+  --space-2xl-3xl: clamp(12.00rem, calc(5.04rem + 34.78vw), 32.00rem); */
+
+  /* Custom pairs */
+  /* --space-s-l: clamp(1.00rem, calc(-1.43rem + 12.17vw), 8.00rem); */
+
 }
 /* ! END Variables */
 
