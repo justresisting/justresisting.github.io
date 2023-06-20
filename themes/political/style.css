@@ -372,8 +372,7 @@ div#block-5df357da07bf4d268800212ce07fdd7b.notion-callout .notion-callout__conte
 
 /* #TEXT */
 .notion-semantic-string {
-    line-height: 1.5 !important;
-    font-size: var(--font-medium);
+    line-height: 1.5;
 }
 
 /* #SUPER NAVBAR */
