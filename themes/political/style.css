@@ -502,7 +502,8 @@ img.notion-header__icon {
 }
 /* ! END Adds Page Properties Bottom-Border */
 
-/* $ Notion URL Properties */
+/* # Notion Property Types */
+/* $General */
 /* ^URLs */
 /* ^Email */
 div.notion-property.notion-property__email,
@@ -513,11 +514,21 @@ div.notion-property__url {
     color: var(--color-text-yellow);
     opacity: .7;
 }
+/* $General :hover */
 div.notion-property.notion-property__email,
 div.notion-property__url:hover {
     color: var(--color-text-yellow);
     opacity: 1;
 }
+
+/* $Specific */
+/* @ .property-526f4e7e = PROGRAM */
+.notion-property.notion-property__relation.property-526f4e7e {
+    border: var(--border-default-dark);
+    border-radius: var(--element-radius);
+    padding: var(--space-3xs);
+}
+/* $Specific :hover */
 
 /* XXNotion Header Content Title Wrapper */
 /* XXDEFAULT: *96px* */
