@@ -4,38 +4,38 @@
 /* ^QUICK COLORS  */
 /* / CHANGE COLORS ACROSS THEME */
 /* / NEED RGB() IN VARIABLES */
---site-bg: 37, 37, 37 !important;
---site-accent: 173, 173, 37 !important;
+       --site-bg: 37, 37, 37 !important;
+   --site-accent: 173, 173, 37 !important;
 --site-accent-bg: 73, 73, 37 !important;
---site-hover: 73, 73, 73 !important;
---site-primary: 51, 51, 51 !important;
+    --site-hover: 73, 73, 73 !important;
+  --site-primary: 51, 51, 51 !important;
 /* ^Colors */
---color-white: 255, 255, 255 !important;
---color-black: 0, 0, 0 !important;
---color-gray: 73, 73, 73 !important;
---color-brown: 67, 33, 0 !important;
+ --color-white: 255, 255, 255 !important;
+ --color-black: 0, 0, 0 !important;
+  --color-gray: 73, 73, 73 !important;
+ --color-brown: 67, 33, 0 !important;
 --color-orange: 153, 67, 10 !important;
 --color-yellow: 125, 125, 32 !important;
---color-green: 0, 102, 0 !important;
---color-blue: 10, 49, 97 !important;
+ --color-green: 0, 102, 0 !important;
+  --color-blue: 10, 49, 97 !important;
 --color-purple: 108, 51, 153 !important;
---color-pink: 153, 108, 153 !important;
---color-red: 153, 0, 0 !important;
+  --color-pink: 153, 108, 153 !important;
+   --color-red: 153, 0, 0 !important;
 /* ^GLOBAL THEME COLORS */
 /* /DEPEND ON QUICK COLORS */
 /* /DONT NEED RGB() IN VARIABLES */
 /* ^Text */
---color-text-white: rgb(var(--color-white)) !important;
---color-text-black: rgba(0, 0, 0, 1) !important;
---color-text-gray: rgba(192, 192, 192, 1) !important;
---color-text-brown: rgba(100, 75, 50, 1) !important;
+ --color-text-white: rgb(var(--color-white)) !important;
+ --color-text-black: rgba(0, 0, 0, 1) !important;
+  --color-text-gray: rgba(192, 192, 192, 1) !important;
+ --color-text-brown: rgba(100, 75, 50, 1) !important;
 --color-text-orange: rgba(175, 50, 0, 1) !important;
 --color-text-yellow: rgba(232, 232, 0, 1) !important;
---color-text-green: rgba(75, 175, 75, 1) !important;
---color-text-blue: rgba(50, 125, 175, 1) !important;
+ --color-text-green: rgba(75, 175, 75, 1) !important;
+  --color-text-blue: rgba(50, 125, 175, 1) !important;
 --color-text-purple: rgba(175, 50, 175, 1) !important;
---color-text-pink: rgba(225, 150, 200, 1) !important;
---color-text-red: rgba(225, 50, 50, 1) !important;
+  --color-text-pink: rgba(225, 150, 200, 1) !important;
+   --color-text-red: rgba(225, 50, 50, 1) !important;
 /* $ color-bg = opaque */
 --color-bg-gray: rgba(var(--color-gray), 1) !important;
 --color-bg-black: rgba(var(--color-black), 1) !important;
@@ -48,33 +48,33 @@
 --color-bg-pink: rgba(var(--color-pink), 1) !important;
 --color-bg-red: rgba(var(--color-red), 1) !important;
 /* $ color-bg-light = transparent */
---color-bg-gray-light: rgba(var(--color-gray), 0.5) !important;
---color-bg-black-light: rgba(var(--color-black), 0.25) !important;
---color-bg-brown-light: rgba(var(--color-brown), 0.5) !important;
+  --color-bg-gray-light: rgba(var(--color-gray), 0.5) !important;
+ --color-bg-black-light: rgba(var(--color-black), 0.25) !important;
+ --color-bg-brown-light: rgba(var(--color-brown), 0.5) !important;
 --color-bg-orange-light: rgba(var(--color-orange), 0.5) !important;
 --color-bg-yellow-light: rgba(var(--color-yellow), 0.5) !important;
---color-bg-green-light: rgba(var(--color-green), 0.5) !important;
---color-bg-blue-light: rgba(var(--color-blue), 0.5) !important;
+ --color-bg-green-light: rgba(var(--color-green), 0.5) !important;
+  --color-bg-blue-light: rgba(var(--color-blue), 0.5) !important;
 --color-bg-purple-light: rgba(var(--color-purple), 0.5) !important;
---color-bg-pink-light: rgba(var(--color-pink), 0.5) !important;
---color-bg-red-light: rgba(var(--color-red), 0.5) !important;
+  --color-bg-pink-light: rgba(var(--color-pink), 0.5) !important;
+   --color-bg-red-light: rgba(var(--color-red), 0.5) !important;
 /* $THEME DEFAULT */
---color-default: rgb(var(--site-primary)) !important;
+      --color-default: rgb(var(--site-primary)) !important;
 --color-default-light: rgba(var(--site-primary), 0.5) !important;
 /* $THEME BG DEFAULT */
---color-bg: rgb(var(--site-bg)) !important;
+        --color-bg: rgb(var(--site-bg)) !important;
 --color-bg-default: rgb(var(--site-bg)) !important;
---color-bg-light: rgba(var(--site-bg), 0.5) !important;
+  --color-bg-light: rgba(var(--site-bg), 0.5) !important;
 /* $THEME ACCENT DEFAULT */
---accent: rgb(var(--site-accent)) !important;
+      --accent: rgb(var(--site-accent)) !important;
 --accent-light: rgba(var(--site-accent), 0.5) !important;
 /* $THEME ACCENT BG DEFAULT */
---accent-bg: rgb(var(--site-accent-bg)) !important;
+      --accent-bg: rgb(var(--site-accent-bg)) !important;
 --accent-bg-light: rgba(var(--site-accent-bg), 0.5) !important;
 /* $THEME HOVER DEFAULT */
---color-hover: rgb(var(--site-hover)) !important;
---color-hover-light: rgba(var(--site-hover), 0.5) !important;
---color-card-bg-hover: rgb(var(--site-hover)) !important; 
+              --color-hover: rgb(var(--site-hover)) !important;
+        --color-hover-light: rgba(var(--site-hover), 0.5) !important;
+      --color-card-bg-hover: rgb(var(--site-hover)) !important; 
 --color-card-bg-hover-light: rgba(var(--site-hover), 0.5) !important; 
 /* $Header Hover */
 --header-hover: var(--color-text-gray) !important;
@@ -94,16 +94,17 @@
 /* ! END Colors */
 /* ^Site UI */
 /* $PAGE WIDTH */
---theme-width: 1200px !important;
---responsive-width: calc(100% - var(--column-spacing)) !important;
---long-width: 48rem !important;
---mid-width: 24rem !important;
---short-width: 16rem !important;
+     --theme-width: 1200px !important;
+--responsive-width: calc(100% - var(--space-m)) !important;
+      --long-width: 48rem !important;
+       --mid-width: 24rem !important;
+     --short-width: 16rem !important;
 /* $ Site Border Radius [Rounding] */
+--border-radii-layout: var(--space-2xs) !important;
 --element-radius: var(--border-radii-layout) !important;
---property-image-radius: 1.5rem !important;
+--property-image-radius: var(--space-s) !important;
 /* $Site Column Spacing*/
---column-spacing: 2rem !important;
+--column-spacing: var(--space-m) !important;
 /* $Site Shadow */
 --site-shadow: .25rem .25rem .5rem .125rem rgba(0, 0, 0, 0.75) !important;
 --drop-shadow: drop-shadow(.5rem .5rem .5rem rgba(0, 0, 0, 0.5)) !important;
@@ -129,7 +130,7 @@
 --transition: var(--transition-property) var(--transition-duration) var(--transition-timing-function) var(--transition-delay) !important;
 /* ^SUPER CONTENT  */
 --super-content-bg: var(--color-bg) !important;
---super-footer-padding: 0 2rem !important;
+--super-footer-padding: 0 var(--space-m) !important;
 --super-content-padding: 0 !important;
 --super-content-padding-left: calc(0rem + var(--column-spacing)) !important;
 --super-content-padding-right: calc(0rem + var(--column-spacing)) !important;
@@ -137,10 +138,10 @@
 /* $PILLS */
 --color-pill-default: var(--color-bg-black) !important;
 --color-pill-text-default: var(--color-text-default) !important;
---pill-margin: 0 .25rem !important;
---pill-padding: .5rem !important;
+--pill-margin: 0 var(--space-3xs) !important;
+--pill-padding: var(--space-2xs) !important;
 /* $Call to Actions */
---cta-padding: 13px 14px !important;
+--cta-padding: var(--space-2xs) var(--space-xs) !important;
 --cta-border-radius: 4px !important;
 --cta-border: none !important;
 --cta-shadow: none !important;
@@ -156,10 +157,10 @@
 --callout-border-radii: calc(var(--element-radius) - 2px) !important;
 --callout-shadow: var(--site-shadow) !important;
 --callout-justify: center;
---callout-icon-size: 20px;
---callout-emoji-size: 18px;
---callout-margin: 1rem auto;
---callout-margin-top: 0.25rem;
+--callout-icon-size: var(--space-s) !important;
+--callout-emoji-size: var(--space-s) !important;
+--callout-margin: var(--space-xs) auto !important;
+--callout-margin-top: var(--space-3xs) !important;
 --callout-content-margin: 0 var(--space-2xs) !important;
 --callout-min-height: 100%;
 --callout-min-width: 100%;
