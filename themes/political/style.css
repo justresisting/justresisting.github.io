@@ -164,6 +164,8 @@
 --wide: auto 0 !important; /* left-to-right */
 --long: 0 auto !important; /* top-to-bottom */
 /* $Site Padding */
+--padding-right: calc(env(safe-area-inset-right) + clamp(1.00rem, calc(-1.43rem + 12.17vw), 8.00rem)) !important;
+ --padding-left: calc(env(safe-area-inset-left) + clamp(1.00rem, calc(-1.43rem + 12.17vw), 8.00rem)) !important;
 /* $Site Transition */
 --transition-property: all;
 --transition-duration: 0.3s;
@@ -174,8 +176,8 @@
 --super-content-bg: var(--color-bg) !important;
 --super-footer-padding: 0 var(--space-m) !important;
 --super-content-padding: 0 !important;
---super-content-padding-left: calc(0rem + var(--column-spacing)) !important;
---super-content-padding-right: calc(0rem + var(--column-spacing)) !important;
+--super-content-padding-left: var(--padding-left) !important;
+--super-content-padding-right: var(--padding-right) !important;
 --super-content-margin-top: 0 !important;
 /* $PILLS */
 --color-pill-default: var(--color-bg-black) !important;
