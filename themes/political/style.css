@@ -1367,8 +1367,9 @@ xx } */
     margin: auto;
 }
 
-#block-directory-people-justin-russell.notion-collection-card {
-    display: grid;
+#page-about #block-directory-people-justin-russell.notion-collection-card img {
+    /* display: grid; */
+    object-fit: contain;
 }
 
 /* ! END Services */
