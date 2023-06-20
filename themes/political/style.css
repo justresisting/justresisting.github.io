@@ -130,7 +130,7 @@
     --font-body: var(--font-medium) !important;
  --heading-size: var(--font-large) !important;
    --font-title: var(--heading5-size) !important;
-   --title-size: var(--heading1-size) !important;
+   --title-size: calc(var(--heading1-size) * 1.25) !important;
 /* ^Fluid Spacing */
 
 
@@ -190,8 +190,8 @@
 --cta-border: none !important;
 --cta-shadow: none !important;
 /* $Callouts */
---callout-padding: 0.25rem 0 0.25rem 0;
---callout-padding-top: 0.25rem;
+--callout-padding: var(--space-3xs) 0 var(--space-3xs) 0 !important;
+--callout-padding-top: var(--space-3xs) !important;
 --callout-title-bg: var(--color-bg-default);
 --callout-title-size: var(--heading4-size) !important;
 --callout-border-width: var(--border-thickness);
@@ -234,16 +234,16 @@
 /* ^Code */
 --code-margin: 1rem 1rem !important;
 /* ^Database View Picker */
---picker-margin: var(--collection-margin) !important;
---picker-padding: var(--collection-padding) !important;
---picker-border-radius: var(--element-radius) !important;
---picker-active-bg-color: var(--color-bg-yellow) !important;
---picker-active-text-color: var(--color-text-default) !important;
---picker-border-color: var(--color-bg-yellow-light) !important;
---picker-text-color: var(--color-text-default) !important;
---picker-hover-bg-color: var(--color-bg-yellow-light) !important;
---picker-hover-text-color: var(--color-text-default) !important;
---picker-hover-border-color: var(--color-bg-yellow) !important;
+            --picker-margin: var(--collection-margin)     !important;
+           --picker-padding: var(--collection-padding)    !important;
+     --picker-border-radius: var(--element-radius)        !important;
+   --picker-active-bg-color: var(--color-bg-yellow)       !important;
+ --picker-active-text-color: var(--color-text-default)    !important;
+      --picker-border-color: var(--color-bg-yellow-light) !important;
+        --picker-text-color: var(--color-text-default)    !important;
+    --picker-hover-bg-color: var(--color-bg-yellow-light) !important;
+  --picker-hover-text-color: var(--color-text-default)    !important;
+--picker-hover-border-color: var(--color-bg-yellow)       !important;
 /* ^Site Hero Image Parralax Effect /position: fixed/ */
 --parallax-effect: fixed !important;
 /* ^Grid Layout */
@@ -372,6 +372,7 @@ div#block-5df357da07bf4d268800212ce07fdd7b.notion-callout .notion-callout__conte
 /* #TEXT */
 .notion-semantic-string {
     line-height: 1.5 !important;
+    font-size: var(--font-medium);
 }
 
 /* #SUPER NAVBAR */
