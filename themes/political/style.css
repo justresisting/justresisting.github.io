@@ -506,10 +506,12 @@ div.notion-property__url {
     font-size: var(--font-body);
     white-space: nowrap;
     margin-left: auto;
-    color: var(--color-bg-yellow);
+    color: var(--color-text-yellow);
+    opacity: .7;
 }
 div.notion-property__url:hover {
-    color: yellow;
+    color: var(--color-text-yellow);
+    opacity: 1;
 }
 
 /* XXNotion Header Content Title Wrapper */
