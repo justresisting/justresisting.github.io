@@ -502,6 +502,9 @@ img.notion-header__icon {
 /* ! END Adds Page Properties Bottom-Border */
 
 /* $ Notion URL Properties */
+/* ^URLs */
+/* ^Email */
+div.notion-property.notion-property__email,
 div.notion-property__url {
     font-size: var(--font-body);
     white-space: nowrap;
@@ -509,6 +512,7 @@ div.notion-property__url {
     color: var(--color-text-yellow);
     opacity: .7;
 }
+div.notion-property.notion-property__email,
 div.notion-property__url:hover {
     color: var(--color-text-yellow);
     opacity: 1;
