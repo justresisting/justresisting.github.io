@@ -1328,14 +1328,24 @@ xx } */
 /* $Use IDs to force specific actions */
 
 /* %Home */
-/* @ AMEtech Main Menu  */
-/* @ AMEtech Main Categories  */
-/* *Activism, Media, Elections, Tech */
+/* @ AMEtech Intro */
+#block-d679ebdb1f79491786766d31ebeaf8d8.notion-text,
+#block-7f6d4b74f33b40c3812c4b316148b08b.notion-text,
+#block-ce1f082b2d6e49a98bc20f3509f0da8d.notion-text {
+    font-size: var(--heading-size);
+    text-align: center;
+    line-height: 1.5;
+}
 
 /* @ Main Menu */
 #page-index #block-f56f003340f04f89afe34de5648ff4aa.notion-collection-card.gallery .notion-collection-card__content {
     padding: calc(var(--collection-card-content-padding) / 1.25);
 }
+
+/* @ AMEtech Main Menu  */
+/* @ AMEtech Main Categories  */
+/* *Activism, Media, Elections, Tech */
+
 
 /* $Homepage Galleries */
 /* @ Homepage Category Gallery */
@@ -1346,13 +1356,6 @@ xx } */
 #block-8ece99eb023440b795edff12716d74e6 .notion-collection-gallery {
     --grid-layout: auto-fit !important;
     grid-template-columns: repeat(var(--grid-layout),minmax(var(--collection-card-cover-size-medium),1fr)) !important;
-}
-#block-d679ebdb1f79491786766d31ebeaf8d8.notion-text,
-#block-7f6d4b74f33b40c3812c4b316148b08b.notion-text,
-#block-ce1f082b2d6e49a98bc20f3509f0da8d.notion-text {
-    font-size: var(--heading-size);
-    text-align: center;
-    line-height: 1.5;
 }
 
 /* ! END Home */
