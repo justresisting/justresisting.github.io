@@ -1343,6 +1343,13 @@ xx } */
     --collection-card-content-padding: var(--space-xs);
     padding: var(--collection-card-content-padding);
 }
+#page-index #block-f56f003340f04f89afe34de5648ff4aa .notion-property__title .notion-semantic-string {
+    font-weight: bold;
+    font-size: calc(var(--font-medium) * 1.125);
+    line-height: 2;
+    word-break: normal;
+    white-space: nowrap;
+}
 
 /* @ AMEtech Main Menu  */
 /* @ AMEtech Main Categories  */
