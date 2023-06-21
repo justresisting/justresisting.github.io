@@ -159,19 +159,21 @@
 /* ^Site Header */
 /* $Hero Image Size */
 --notion-header-page-title: 75vh !important;
-/* $Margin between Hero & Title */
+/* $Margin between Hero & Title [SHOULD BE 96px or 6rem] */
 --notion-header-title-wrapper-margin-top: 6rem !important;
 /* $Site Margin */
 --wide: auto 0 !important; /* left-to-right */
 --long: 0 auto !important; /* top-to-bottom */
 /* $Site Padding */
---padding-right: calc(env(safe-area-inset-right) + clamp(1.00rem, calc(-1.43rem + 12.17vw), 8.00rem)) !important;
- --padding-left: calc(env(safe-area-inset-left) + clamp(1.00rem, calc(-1.43rem + 12.17vw), 8.00rem)) !important;
+    --padding-layout: var(--space-s) !important;
+--responsive-padding: var(clamp(1.00rem, calc(-1.43rem + 12.17vw), 8.00rem)) !important;
+     --padding-right: calc(env(safe-area-inset-right) + var(--responsive-padding)) !important;
+      --padding-left: calc(env(safe-area-inset-left) + var(--responsive-padding)) !important;
 /* $Site Transition */
---transition-property: all;
---transition-duration: 0.3s;
---transition-timing-function: ease-in-out;
---transition-delay: 0.1s;
+--transition-property: all !important;
+--transition-duration: 0.3s !important;
+--transition-timing-function: ease-in-out !important;
+--transition-delay: 0.1s !important;
 --transition: var(--transition-property) var(--transition-duration) var(--transition-timing-function) var(--transition-delay) !important;
 /* ^SUPER CONTENT  */
 --super-content-bg: var(--color-bg) !important;
@@ -224,8 +226,8 @@
 --notion-text-margin: 0 0 0 0 !important;
 --heading-weight: 800;
 /* ^Toggles */
---toggle-size: 2rem !important;
-/* --toggle-color: var(--accent-bg) !important; */
+--toggle-size: var(--space-l) !important;
+--toggle-color: var(--accent) !important;
 --toggle-closed: var(--accent) !important;
 --toggle-open: rgba(var(--site-accent), 0.75) !important;
 /* ^Links */
@@ -233,7 +235,7 @@
 --link-border-style: none !important;
 --link-border-color: none !important;
 /* ^Code */
---code-margin: 1rem 1rem !important;
+--code-margin: var(--space-xs) !important;
 /* ^Database View Picker */
             --picker-margin: var(--collection-margin)     !important;
            --picker-padding: var(--collection-padding)    !important;
@@ -259,7 +261,7 @@
 --cover: cover !important;
 /* ^Collections */
 /* $Collection Spacing */
---collection-margin: 0.25rem 0 !important;
+--collection-margin: var(--space-3xs) 0 !important;
 --collection-padding: 0 var(--space-xs) !important;
 --collection-property-text-size: var(--font-body) !important;
 --collection-list-item-border-radius: 0 !important;
@@ -270,11 +272,11 @@
 --collection-card-border: var(--border-default) !important;
 --collection-gallery-header: var(--border-default) !important;
 --collection-card-border-radius: var(--element-radius) !important;
---collection-card-padding: 0px;
---collection-card-title-padding: 0px;
---collection-card-content-padding: var(--padding-layout);
---collection-card-border-radii: var(--border-radii-layout);
---collection-card-gap: var(--column-spacing);
+--collection-card-padding: 0px !important;
+--collection-card-title-padding: 0px !important;
+--collection-card-content-padding: var(--padding-layout) !important;
+--collection-card-border-radii: var(--border-radii-layout) !important;
+--collection-card-gap: var(--column-spacing) !important;
 --collection-card-shadow: var(--site-shadow) !important;
 /* $Collection Card Size */
 --collection-card-cover-size-static-small: 172px !important;
@@ -751,11 +753,11 @@ h3.notion-heading.toggle {
 	content: "⊕";
 	top: 0;
 	left: 0;
-    color: yellow;
+    color: var(--toggle-closed);
     transition: var(--transition);
 }
 .notion-toggle.closed:hover {
-    color: var(--color-bg-yellow);
+    color: var(--toggle-open);
 }
 /* $Glyph AFTER clicking */
 /* font-size affects glyph size */
@@ -811,9 +813,11 @@ h3.notion-heading.toggle {
   overflow: hidden;
   border: var(--border-default);
   border-radius: var(--callout-border-radii);
-  box-shadow: var(--site-shadow) !important;
+  /* box-shadow: var(--site-shadow); */
   /* filter: var(--drop-shadow); */
-  /* margin: var(--callout-margin); */
+  margin: var(--callout-margin);
+  margin-top: var(--space-xs-xl);
+  margin-bottom: var(--space-xs-xl);
   /* padding: var(--callout-padding); */
   justify-content: space-evenly;
   justify-items: center;
