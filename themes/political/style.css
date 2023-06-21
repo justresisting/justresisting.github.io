@@ -1332,6 +1332,11 @@ xx } */
 /* @ AMEtech Main Categories  */
 /* *Activism, Media, Elections, Tech */
 
+/* @ Main Menu */
+#page-index #block-f56f003340f04f89afe34de5648ff4aa.notion-collection-card.gallery .notion-collection-card__content {
+    padding: calc(var(--collection-card-content-padding) / 1.25);
+}
+
 /* $Homepage Galleries */
 /* @ Homepage Category Gallery */
 .page__index .notion-collection-gallery {
