@@ -166,8 +166,9 @@
 --long: 0 auto !important; /* top-to-bottom */
 /* $Site Padding */
     --padding-layout: var(--space-s) !important;
-     --padding-right: calc(env(safe-area-inset-left) + clamp(1.00rem, calc(-1.43rem + 12.17vw), 8.00rem));
-     --padding-left: calc(env(safe-area-inset-left) + clamp(1.00rem, calc(-1.43rem + 12.17vw), 8.00rem));
+--responsive-padding: clamp(1.00rem, calc(-1.43rem + 12.17vw), 8.00rem) !important;
+    --padding-right: calc(env(safe-area-inset-left) + var(--responsive-padding) !important;
+     --padding-left: calc(env(safe-area-inset-left) + var(--responsive-padding) !important;
 /* $Site Transition */
 --transition-property: all !important;
 --transition-duration: 0.3s !important;
