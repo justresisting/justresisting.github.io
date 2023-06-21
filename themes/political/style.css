@@ -841,6 +841,7 @@ h3.notion-heading.toggle {
 .notion-callout__content > span.notion-semantic-string {
   font-size: var(--heading3-size);
   font-weight: bolder;
+  line-height: 1.5;
 }
 /* ! END Callout Title */
 /* $Callout Content */
