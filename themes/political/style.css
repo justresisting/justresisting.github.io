@@ -166,9 +166,9 @@
 --long: 0 auto !important; /* top-to-bottom */
 /* $Site Padding */
     --padding-layout: var(--space-s) !important;
---responsive-padding: clamp(1.00rem, calc(-1.43rem + 12.17vw), 8.00rem) !important;
-    --padding-right: calc(env(safe-area-inset-left) + var(--responsive-padding) !important;
-     --padding-left: calc(env(safe-area-inset-left) + var(--responsive-padding) !important;
+--responsive-padding: clamp(1.00rem, calc(-1.43rem + 12.17vw), 8.00rem);
+    --padding-right: calc(env(safe-area-inset-left) + var(--responsive-padding));
+     --padding-left: calc(env(safe-area-inset-left) + var(--responsive-padding));
 /* $Site Transition */
 --transition-property: all !important;
 --transition-duration: 0.3s !important;
@@ -301,7 +301,7 @@
    --collection-card-cover-size-large: clamp(12.00rem, calc(7.83rem + 20.87vw), 24.00rem) !important;
  --collection-card-cover-height-large: clamp(12.00rem, calc(9.91rem + 10.43vw), 18.00rem) !important;
   --collection-card-cover-size-larger: clamp(16.00rem, calc(10.43rem + 27.83vw), 32.00rem) !important;
-
+}
   /* --space-3xs: clamp(0.25rem, calc(0.16rem + 0.43vw), 0.50rem);
   --space-2xs: clamp(0.50rem, calc(0.33rem + 0.87vw), 1.00rem);
   --space-xs: clamp(0.75rem, calc(0.49rem + 1.30vw), 1.50rem);
@@ -325,7 +325,6 @@
   /* Custom pairs */
   /* --space-s-l: clamp(1.00rem, calc(-1.43rem + 12.17vw), 8.00rem); */
 
-}
 /* ! END Variables */
 
 /* #BEGIN THEME CSS */
