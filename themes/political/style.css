@@ -166,7 +166,6 @@
 --long: 0 auto !important; /* top-to-bottom */
 /* $Site Padding */
     --padding-layout: var(--space-s) !important;
-/* --responsive-padding: clamp(1.00rem, calc(-1.43rem + 12.17vw), 8.00rem); */
     --padding-right: calc(env(safe-area-inset-left) + clamp(1.00rem, calc(-1.43rem + 12.17vw), 8.00rem)) !important;
      --padding-left: calc(env(safe-area-inset-left) + clamp(1.00rem, calc(-1.43rem + 12.17vw), 8.00rem)) !important;
 /* $Site Transition */
