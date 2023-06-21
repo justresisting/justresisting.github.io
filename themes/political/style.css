@@ -1339,8 +1339,8 @@ xx } */
 }
 
 /* @ Main Menu */
-#page-index #block-f56f003340f04f89afe34de5648ff4aa.notion-collection-card.gallery .notion-collection-card__content {
-    padding: calc(var(--collection-card-content-padding) / 1.25);
+#page-index #block-f56f003340f04f89afe34de5648ff4aa .notion-collection-card .notion-collection-card__content {
+    padding: calc(var(--collection-card-content-padding) / 1.75);
 }
 
 /* @ AMEtech Main Menu  */
