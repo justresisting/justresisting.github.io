@@ -184,8 +184,8 @@
 /* $PILLS */
 --color-pill-default: var(--color-bg-black) !important;
 --color-pill-text-default: var(--color-text-default) !important;
---pill-margin: 0 var(--space-3xs) !important;
---pill-padding: var(--space-2xs) !important;
+--pill-margin: var(--space-3xs) !important;
+--pill-padding: var(--space-3xs) !important;
 --pill-radius: calc(var(--element-radius) / 2) !important;
 /* $Call to Actions */
 --cta-padding: var(--space-2xs) var(--space-xs) !important;
@@ -670,6 +670,8 @@ div.notion-property__url:hover {
     border: var(--border-default) !important;
     padding: var(--pill-padding) !important;
     margin: var(--pill-margin) !important;
+    font-size: var(--font-body) !important;
+    margin-right: auto;
     max-width: fit-content;
     width: auto;
     /* box-shadow: var(--site-shadow); */
