@@ -503,20 +503,30 @@ img.notion-header__icon {
 /* ! END Adds Page Properties Bottom-Border */
 
 /* # Notion Property Types */
+.notion-property {
+    transition: var(--transition);
+    z-index: 11;
+}
 /* $General */
+/* ^Relations */
+div.notion-property.notion-property__relation {
+    color: var(--color-text-default);
+}
 /* ^URLs */
 /* ^Email */
 div.notion-property.notion-property__email,
-div.notion-property__url {
+div.notion-property.notion-property__url {
     font-size: var(--font-body);
     white-space: nowrap;
     /* margin-left: auto; */
-    color: var(--color-text-yellow);
+    color: var(--color-text-default);
     opacity: .7;
 }
 /* $General :hover */
+/* ^URLs */
+/* ^Email */
 div.notion-property.notion-property__email:hover,
-div.notion-property__url:hover {
+div.notion-property.notion-property__url:hover {
     color: var(--color-text-yellow);
     opacity: 1;
 }
@@ -1165,9 +1175,10 @@ xx } */
 }
 /* ! END COLLECTION CARD GRID COLUMN SIZE */
 
-/* .notion-collection-gallery { */
+.notion-collection-gallery {
     /* border-top: var(--collection-gallery-header); */
-/* } */
+    color: var(--color-text-default);
+}
 
 /* ^Gallery Sizes */
 /* @DEFAULT: --grid-layout */
@@ -1252,13 +1263,17 @@ xx } */
 
 .resource .notion-link.notion-page,
 .notion-semantic-string .link {
-    z-index: unset !important;
+    z-index: 11;
     position: relative;
     display: inline;
+    color: var(--color-text-white) !important;
+    transition: var(--transition);
 }
-
+/* @:hover */
+.resource .notion-link.notion-page:hover,
+.notion-semantic-string .link:hover,
 .notion-link.link:hover {
-  color: yellow !important;
+  color: var(--color-text-yellow) !important;
 }
 
 /* #COLLECTION BOARDS */
