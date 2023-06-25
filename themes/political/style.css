@@ -729,6 +729,11 @@ h3.notion-heading.toggle {
     color: var(--color-text-white);
     border-radius: var(--element-radius);
 }
+h1.notion-heading.toggle:hover, 
+h2.notion-heading.toggle:hover, 
+h3.notion-heading.toggle:hover {
+    opacity: .7;
+}
 /* ! END Headings */
 
 /* #NOTION PAGES */
