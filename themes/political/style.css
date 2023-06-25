@@ -760,13 +760,13 @@ h3.notion-heading.toggle:hover {
   text-align: left !important;
   transition: var(--transition) !important;
 }
-.notion-heading.toggle.closed.notion-toggle-heading-1 .notion-toggle__trigger::before {
+.notion-toggle.closed.notion-toggle-heading-1 > .notion-toggle__summary > .notion-toggle__trigger {
     font-size: var(--heading1-size);
 } 
-.notion-heading.toggle.closed.notion-toggle-heading-2 .notion-toggle__trigger::before {
+.notion-toggle.closed.notion-toggle-heading-2 > .notion-toggle__summary > .notion-toggle__trigger {
     font-size: var(--heading2-size);
 }
-.notion-heading.toggle.closed.notion-toggle-heading-3 .notion-toggle__trigger::before {
+.notion-toggle.closed.notion-toggle-heading-3 > .notion-toggle__summary > .notion-toggle__trigger {
     font-size: var(--heading3-size);
 }
 /* $Glyph BEFORE clicking*/
