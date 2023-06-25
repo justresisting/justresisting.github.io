@@ -510,7 +510,7 @@ div.notion-property.notion-property__email,
 div.notion-property__url {
     font-size: var(--font-body);
     white-space: nowrap;
-    margin-left: auto;
+    /* margin-left: auto; */
     color: var(--color-text-yellow);
     opacity: .7;
 }
