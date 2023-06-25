@@ -906,8 +906,8 @@ h3.notion-heading.toggle {
 }
 /* $Collection Title Border Bottom (Full Length) */
 .notion-collection__header-wrapper {
-    border-bottom: var(--border-default);
-    margin-top: 2rem;
+    /* border-bottom: var(--border-default); */
+    margin-top: 2rem !important;
 }
 /* $Collection Title Border Bottom (Length of Title) */
 .notion-collection__header {
@@ -1164,9 +1164,9 @@ xx } */
 }
 /* ! END COLLECTION CARD GRID COLUMN SIZE */
 
-.notion-collection-gallery {
-    border-top: var(--collection-gallery-header);
-}
+/* .notion-collection-gallery { */
+    /* border-top: var(--collection-gallery-header); */
+/* } */
 
 /* ^Gallery Sizes */
 /* @DEFAULT: --grid-layout */
