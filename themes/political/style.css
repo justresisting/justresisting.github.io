@@ -1021,8 +1021,11 @@ xx } */
 }
 
 .notion-collection-card.gallery {
+    /* @display: grid = align-content */
     /* border: 0 solid var(--color-border-default); */
     transition: var(--transition);
+    display: grid;
+    align-content: space-between;
 }
 /*  $:Hover */
 .notion-collection-card:hover {
