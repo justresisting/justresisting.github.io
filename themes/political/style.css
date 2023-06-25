@@ -186,6 +186,7 @@
 --color-pill-text-default: var(--color-text-default) !important;
 --pill-margin: 0 var(--space-3xs) !important;
 --pill-padding: var(--space-2xs) !important;
+--pill-radius: calc(var(--element-radius) / 2) !important;
 /* $Call to Actions */
 --cta-padding: var(--space-2xs) var(--space-xs) !important;
 --cta-border-radius: 4px !important;
@@ -665,7 +666,7 @@ div.notion-property__url:hover {
 /* #NOTION PILLS */
 /* ^PROPERTY: *Pills* */
 .notion-pill {
-    border-radius: var(--element-radius) !important;
+    border-radius: var(--pill-radius) !important;
     border: var(--border-default) !important;
     padding: var(--pill-padding) !important;
     margin: var(--pill-margin) !important;
@@ -1021,12 +1022,10 @@ xx } */
 }
 
 .notion-collection-card.gallery {
-    /* @display: grid = align-content */
     /* border: 0 solid var(--color-border-default); */
     transition: var(--transition);
-    display: grid;
-    align-content: space-between;
 }
+
 /*  $:Hover */
 .notion-collection-card:hover {
     background: var(--color-card-bg-hover);
