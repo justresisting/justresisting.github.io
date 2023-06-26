@@ -823,6 +823,14 @@ h3.notion-heading.toggle:hover {
 .notion-toggle.bg-brown {
   display: none;
 }
+/* @Removes Toggle Glyph ::before on collection section headers w/ toggles */
+.notion-toggle__trigger.notion-collection-group__section-toggle::before {
+    display: none;
+}
+/* @Makes Toggle Trigger Icon ‣ Visible In Front of Collection Section */
+.notion-collection-group__section-toggle > .notion-toggle__trigger_icon {
+    display: block !important;
+}
 /* ! END INVISIBLE TOGGLE */
 /* ! END TOGGLES */
 
