@@ -148,7 +148,8 @@
 /* $Site Column Spacing*/
 --column-spacing: var(--space-m) !important;
 /* $Site Shadow */
---site-shadow: .25rem .25rem .5rem .125rem rgba(0, 0, 0, 0.75) !important;
+/* --site-shadow: .25rem .25rem .5rem .125rem rgba(0, 0, 0, .75) !important; */
+--site-shadow: .5rem .5rem 1rem 0.125rem rgba(0, 0, 0, 0.5) !important;
 --drop-shadow: drop-shadow(.5rem .5rem .5rem rgba(0, 0, 0, 0.5)) !important;
 /* $Site Border */
 --border-thickness: 1px !important;
@@ -1048,7 +1049,7 @@ xx } */
 }
 
 .notion-collection-card.gallery {
-    /* border: 0 solid var(--color-border-default); */
+    border: 0 solid var(--color-border-default);
     transition: var(--transition);
 }
 
