@@ -691,6 +691,9 @@ div.notion-property.notion-property__url:hover {
     justify-content: space-evenly;
     justify-items: center;
     justify-self: center;
+    white-space: normal !important;
+    text-wrap: balance;
+    text-align: center;
 }
 
 .pill-default {
