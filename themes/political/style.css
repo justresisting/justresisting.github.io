@@ -188,6 +188,7 @@
 --pill-margin: var(--space-3xs) !important;
 --pill-padding: var(--space-3xs) !important;
 --pill-radius: calc(var(--element-radius) / 2) !important;
+--pill-border: 1px solid rgba(var(--site-accent), .35) !important;
 /* $Call to Actions */
 --cta-padding: var(--space-2xs) var(--space-xs) !important;
 --cta-border-radius: 4px !important;
@@ -678,13 +679,13 @@ div.notion-property.notion-property__url:hover {
 /* ^PROPERTY: *Pills* */
 .notion-pill {
     border-radius: var(--pill-radius) !important;
-    border: var(--border-default) !important;
+    border: var(--pill-border) !important;
     padding: var(--pill-padding) !important;
     margin: var(--pill-margin) !important;
     font-size: var(--font-body) !important;
     margin-right: auto;
     max-width: fit-content;
-    width: auto;
+    width: inherit;
     /* box-shadow: var(--site-shadow); */
     /* filter: var(--drop-shadow); */
     flex-direction: column;
