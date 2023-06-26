@@ -1395,7 +1395,10 @@ xx } */
     --grid-layout: auto-fit !important;
     grid-template-columns: repeat(var(--grid-layout),minmax(var(--collection-card-cover-size-smaller),1fr)) !important;
 }
-#block-8ece99eb023440b795edff12716d74e6 .notion-collection-gallery {
+/* @AME Categories */
+#block-8ece99eb023440b795edff12716d74e6 .notion-collection-gallery,
+/* @States */
+#block-fef0e5380d934f8f930eed5525c1e8cf .notion-collection-gallery {
     --grid-layout: auto-fit !important;
     grid-template-columns: repeat(var(--grid-layout),minmax(var(--collection-card-cover-size-medium),1fr)) !important;
 }
