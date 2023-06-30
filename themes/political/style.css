@@ -1438,7 +1438,8 @@ xx } */
     min-width: fit-content !important;
     width: fit-content;
     max-width: fit-content;
-    margin: var(--space-m);
+    margin: var(--space-s) auto;
+    padding: var(--space-xs);
 }
 
 #page-about #block-directory-people-justin-russell.notion-collection-card img {
