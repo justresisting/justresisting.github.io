@@ -871,8 +871,8 @@ h3.notion-heading.toggle:hover {
   /* -webkit-margin-start: 8px; */
   /* margin-inline-start: 8px; */
   /* overflow: visible !important; */
-  /* width: fit-content !important; */
-  width: fit-content;
+  width: fit-content !important;
+  /* width: fit-content; */
   color: var(--color-text-default);
   margin: var(--callout-content-margin);
 }
@@ -921,6 +921,7 @@ h3.notion-heading.toggle:hover {
     min-width: -webkit-fill-available;
     width: 100%;
     margin: var(--callout-margin);
+    margin-bottom: 1rem;
     padding: var(--callout-padding);
 }
 /* @Makes All Heights Match */
@@ -1437,7 +1438,7 @@ xx } */
     min-width: fit-content !important;
     width: fit-content;
     max-width: fit-content;
-    margin: auto;
+    margin: var(--space-m);
 }
 
 #page-about #block-directory-people-justin-russell.notion-collection-card img {
