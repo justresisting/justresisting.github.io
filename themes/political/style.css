@@ -1119,6 +1119,7 @@ xx } */
     object-fit: contain !important;
     object-position: center !important;
     padding: 0.5rem !important;
+    border-radius: var(--element-radius);
 }
 
 .medium .notion-collection-card__cover img {
