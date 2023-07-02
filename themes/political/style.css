@@ -92,7 +92,7 @@
 /* $DIMMER FOREGROUND TEXT  */
 --color-text-default-light: var(--color-text-gray) !important;
 /* ! END Colors */
-/* #UTOPIA */
+/* #DESIGN SYSTEM */
 /* ^Type */
    --font-small: clamp(0.78rem, calc(0.77rem + 0.03vw), 0.80rem) !important;
   --font-medium: clamp(0.88rem, calc(0.90rem + 0.16vw), 1.00rem) !important;
