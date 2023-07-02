@@ -525,10 +525,13 @@ div.notion-property.notion-property__relation {
 div.notion-property.notion-property__email,
 div.notion-property.notion-property__url {
     font-size: var(--font-body);
-    white-space: nowrap;
+    white-space: normal;
     /* margin-left: auto; */
     color: var(--color-text-default);
     opacity: .7;
+    /* @This is to keep the URL from getting to long */
+    display: grid;
+    grid-auto-columns: var(--collection-card-cover-size-large);
 }
 /* $General :hover */
 /* ^URLs */
