@@ -1172,12 +1172,10 @@ xx } */
 .notion-collection-card .notion-property__title {
     font-size: var(--font-title);
 }
-/* $Primary Font */
-.notion-property__title {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: var(--primary-font);
+/* $Title Justify */
+.notion-collection-card__content .notion-property__title {
+    justify-content: space-around;
+    text-align: center;
 }
 /* $Content Page Icon */
 .notion-collection-card__content .notion-property__title .notion-semantic-string .notion-page__icon {
