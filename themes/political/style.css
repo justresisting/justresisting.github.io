@@ -1081,7 +1081,7 @@ xx } */
 }
 /* $ transition of IMAGE scaling on :hover */
 .notion-collection-card:hover img {
-    transform: scale(1.125);
+    transform: scale(0.95);
     transition: var(--transition);
 }
 .notion-collection-gallery.small .notion-collection-card:hover img {
