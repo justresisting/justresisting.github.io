@@ -1545,6 +1545,11 @@ xx } */
     padding: 1rem !important;
 }
 
+/* @State Info Galleries */
+.parent-page__places-states .notion-collection-card__content {
+    text-align: center;
+}
+
 /* ! END SPECIFIC BLOCKS */
 
 /* #DEMOS */
