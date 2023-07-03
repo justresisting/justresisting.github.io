@@ -1527,6 +1527,9 @@ xx } */
     display: grid;
     grid-template-columns: 40vw 40vw;
 }
+#block-root-divider.notion-divider {
+    display: none;
+}
 
 /* ^Directory:  People, Topics, Organizations, Events, News, Programs, Docs*/
 /* ^Government: Elected Officials, House Activities, Parties */
