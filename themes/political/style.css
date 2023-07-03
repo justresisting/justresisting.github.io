@@ -623,7 +623,7 @@ div.notion-property.notion-property__url:hover {
     width: 100%;
     width: -moz-available;
     width: -webkit-fill-available;
-    font-size: var(--heading5-size) !important;
+    font-size: var(--font-medium) !important;
     line-height: 1.125 !important;
 }
 
