@@ -773,7 +773,7 @@ h3.notion-heading.toggle:hover {
     width: fit-content !important;
     margin: auto !important;
     margin-top: var(--space-xl) !important;
-    border: var(--border-default);
+    border-top: var(--border-default);
 }
 /* @Font-Size */
 .notion-navbar__title {
