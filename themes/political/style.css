@@ -443,12 +443,6 @@ a.notion-link.super-navbar__item {
 
 
 /* ^HEADER TITLE */
-/* $Header Title Turned: *ON* */
-/* @DEFAULTS:  */
-/* @margin-top: *96px* */
-.notion-header__title-wrapper {
-    margin-top: var(--notion-header-title-wrapper-margin-top) !important;
-}
 .notion-header__title {
     width: fit-content;
     background-color: var(--color-bg);
@@ -468,6 +462,12 @@ a.notion-link.super-navbar__item {
 /* @Removes Icons for Contact with .no-cover */
 .notion-header__content.no-cover.has-icon > .notion-header__title-wrapper > div {
     display: none;
+}
+/* $Header Title Turned: *ON* */
+/* @DEFAULTS:  */
+/* @margin-top: *96px* */
+.notion-header__title-wrapper {
+    margin-top: var(--notion-header-title-wrapper-margin-top) !important;
 }
 
 /* ! END HEADER TITLE */
