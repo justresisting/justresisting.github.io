@@ -764,6 +764,17 @@ h3.notion-heading.toggle:hover {
 }
 /* ! END DIVIDER */
 
+/* #BREADCRUMB */
+.notion-breadcrumb {
+    width: fit-content !important;
+    margin: auto !important;
+}
+/* @Font-Size */
+.notion-navbar__title {
+    font-size: var(--font-large) !important;
+}
+
+
 /* #TOGGLES */
 .notion-toggle {
   /* border: 1px solid #ebebeb !important; */
