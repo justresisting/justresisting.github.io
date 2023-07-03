@@ -781,7 +781,7 @@ h3.notion-heading.toggle:hover {
 }
 /* @Font-Size */
 .notion-navbar__title {
-    font-size: var(--font-large) !important;
+    font-size: var(--font-medium) !important;
 }
 
 
