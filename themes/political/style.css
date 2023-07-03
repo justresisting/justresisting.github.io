@@ -1519,6 +1519,15 @@ xx } */
 
 /* #SPECIFIC BLOCKS */
 
+/* ^PAGE PROPERTIES */
+/* !BIG CHANGE, DOUBLE PAGE PROPERTIES ROW */
+.notion-page__properties {
+    width: fit-content;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 40vw 40vw;
+}
+
 /* ^Directory:  People, Topics, Organizations, Events, News, Programs, Docs*/
 /* ^Government: Elected Officials, House Activities, Parties */
 /* ^Places:     Cities, Counties, Districts, States */
@@ -1541,6 +1550,12 @@ xx } */
     object-fit: contain !important;
     object-position: center !important;
     padding: 1rem !important;
+}
+
+div#block-ea0124f5f51449828d4733c2c3e0c479 {
+    display: grid;
+    justify-items: center;
+    justify-content: space-around;
 }
 
 /* @State Info Galleries */
