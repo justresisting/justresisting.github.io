@@ -460,11 +460,11 @@ a.notion-link.super-navbar__item {
 }
 
 /* @Page Height with *.no-cover* */
-/* .notion-header__content.no-cover.no-icon .notion-header__title-wrapper, */
-/* .notion-header__content.no-cover.has-icon .notion-header__title-wrapper { */
-    /* margin-top: -96px !important; */
+.notion-header__content.no-cover.no-icon .notion-header__title-wrapper,
+.notion-header__content.no-cover.has-icon .notion-header__title-wrapper {
+    margin-top: -96px !important;
     /* XX margin-top: 192px !important; */
-/* } */
+}
 /* @Removes Icons for Contact with .no-cover */
 .notion-header__content.no-cover.has-icon > .notion-header__title-wrapper > div {
     display: none;
