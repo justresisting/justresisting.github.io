@@ -515,6 +515,10 @@ img.notion-header__icon {
     transition: var(--transition);
     z-index: 11;
 }
+/* @Increases font-size on all properties */
+.notion-property > .notion-semantic-string > span {
+    font-size: large;
+}
 /* $General */
 /* ^Relations */
 div.notion-property.notion-property__relation {
