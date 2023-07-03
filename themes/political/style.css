@@ -619,10 +619,14 @@ div.notion-property.notion-property__url:hover {
     width: 100%;
     width: -moz-available;
     width: -webkit-fill-available;
+    font-size: var(--heading5-size);
+    line-height: 1.125;
 }
+
 .notion-page__properties {
     width: fit-content;
 }
+
 /* ! END Create Even Property Name Background Sizes */
 /* $Center all Page Properties (Relations, pills, etc) under Property Name */
 .notion-page__properties .notion-property {
