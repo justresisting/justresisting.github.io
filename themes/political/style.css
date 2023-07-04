@@ -665,13 +665,26 @@ div.notion-property.notion-property__url:hover {
 .notion-property.notion-property__file img {
     /* min-height: 8rem; */
     /* min-height made SVG icons in properties act crazy */
-    max-height: 16rem !important;
+    /* max-height: 16rem !important;
     height: 100%;
     width: 100% !important;
     object-fit: cover !important;
     object-position: top !important;
     border-radius: var(--element-radius);
+    transition: var(--transition); */
+    /* !Former Default */
+}
+
+.notion-property.notion-property__file img {
+    /* min-height: 8rem; */
+    max-height: var(--collection-card-cover-size-small) !important;
+    /* width: var(--collection-card-cover-size-small) !important; */
+    width: fit-content !important;
+    /* object-fit: cover !important; */
+    /* object-position: top !important; */
+    border-radius: var(--element-radius);
     transition: var(--transition);
+    /* !New Default */
 }
 /* $About "Who We Are" Gallery File Image Relations */
 .page__about .notion-property.notion-property__file img {
