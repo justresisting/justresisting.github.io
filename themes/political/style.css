@@ -651,6 +651,12 @@ div.notion-property.notion-property__url:hover {
     width: 16rem;
     max-width: 100%;
 } */
+/* @Square for Property File Image to Appear */
+.notion-property.notion-property__file.property-undefined div {
+    min-width: var(--collection-card-cover-size-medium) !important;
+    min-height: var(--collection-card-cover-size-small) !important;
+}
+
 /* $Relation File Image Container Div */
 .notion-property.notion-property__file div {
     min-height: fit-content;
@@ -675,17 +681,26 @@ div.notion-property.notion-property__url:hover {
     /* !Former Default */
 /* } */
 
-.notion-property.notion-property__file img {
+/* .notion-property.notion-property__file img {
     /* min-height: 8rem; */
-    max-height: var(--collection-card-cover-size-small) !important;
+    /* max-height: var(--collection-card-cover-size-small) !important; */
     /* width: var(--collection-card-cover-size-small) !important; */
-    width: fit-content !important;
+    /* width: fit-content !important; */
     /* object-fit: cover !important; */
     /* object-position: top !important; */
+    /* border-radius: var(--element-radius); */
+    /* transition: var(--transition); */
+/* } */
+.notion-property.notion-property__file img {
+    max-height: var(--collection-card-cover-size-medium) !important;
+    width: var(--collection-card-cover-size-medium) !important;
+    height: var(--collection-card-cover-size-small) !important;
+    object-fit: cover !important;
     border-radius: var(--element-radius);
     transition: var(--transition);
     /* !New Default */
 }
+
 /* $About "Who We Are" Gallery File Image Relations */
 .page__about .notion-property.notion-property__file img {
     object-fit: contain !important;
