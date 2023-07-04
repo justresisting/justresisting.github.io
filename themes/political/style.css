@@ -662,7 +662,7 @@ div.notion-property.notion-property__url:hover {
 }
 /* ! END Relation File */
 /* ^Relation File Image */
-.notion-property.notion-property__file img {
+/* .notion-property.notion-property__file img { */
     /* min-height: 8rem; */
     /* min-height made SVG icons in properties act crazy */
     /* max-height: 16rem !important;
@@ -673,7 +673,7 @@ div.notion-property.notion-property__url:hover {
     border-radius: var(--element-radius);
     transition: var(--transition); */
     /* !Former Default */
-}
+/* } */
 
 .notion-property.notion-property__file img {
     /* min-height: 8rem; */
