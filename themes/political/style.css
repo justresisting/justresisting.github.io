@@ -1364,6 +1364,10 @@ xx } */
   color: var(--color-text-yellow);
 }
 
+span.notion-semantic-string {
+    color: var(--color-text-default);
+}
+
 /* #COLLECTION BOARDS */
 /*.notion-collection-board, .notion-collection-board.small, .notion-collection-board.medium, .notion-collection-board.large {*/
 /*  background-color: var(--color-bg-default);*/
