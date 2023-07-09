@@ -1429,6 +1429,11 @@ span.notion-semantic-string {
      justify-self: center;
 }
 
+.notion-image.normal img {
+    height: 100%;
+}
+
+
 /* #TEXT */
 .notion-semantic-string,
 .notion-text__content {
