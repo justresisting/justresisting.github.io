@@ -694,7 +694,7 @@ div.notion-property.notion-property__url:hover {
     max-height: var(--collection-card-cover-size-medium) !important;
     width: var(--collection-card-cover-size-medium) !important;
     height: var(--collection-card-cover-size-small) !important;
-    object-fit: cover !important;
+    /* object-fit: cover !important; */
     border-radius: var(--element-radius);
     transition: var(--transition);
     /* !New Default */
