@@ -1361,7 +1361,7 @@ xx } */
 .resource .notion-link.notion-page:hover,
 .notion-semantic-string .link:hover,
 .notion-link.link:hover {
-  color: var(--color-text-yellow) !important;
+  color: var(--color-text-yellow);
 }
 
 /* #COLLECTION BOARDS */
