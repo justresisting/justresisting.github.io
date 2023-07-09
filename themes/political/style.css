@@ -530,7 +530,6 @@ div.notion-property.notion-property__email,
 div.notion-property.notion-property__url {
     font-size: var(--font-body);
     white-space: normal;
-    text-align: center;
     color: var(--color-text-default);
     opacity: .7;
     /* @This is to keep the URL from getting to long */
