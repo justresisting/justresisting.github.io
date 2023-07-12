@@ -1746,11 +1746,11 @@ span.notion-semantic-string {
 }
 /* ^States */
 .parent-page__places-states .notion-header__cover.has-cover {
-    max-height: 140px;
-    height: 140px;
+    max-height: 140px !important;
+    height: 140px !important;
 }
 .parent-page__places-states img.notion-header__cover-image {
-    display: none;
+    display: none !important;
 }
 /* ^Our Services - Services Gallery */
 #block-c090edc551d44f36bd5a669b47a629e3 .notion-collection-gallery.small {
