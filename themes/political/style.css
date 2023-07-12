@@ -1250,12 +1250,12 @@ xx } */
     /* object-position: top !important; */
 }
 
-.small .notion-collection-card__cover img {
+/* .small .notion-collection-card__cover img { */
     /* object-fit: contain !important; */
     /* object-position: center; */
     /* padding: var(--collection-card-content-padding); */
-    border-radius: var(--element-radius);
-}
+    /* border-radius: var(--element-radius); */
+/* } */
 
 .medium .notion-collection-card__cover img {
     /* object-fit: cover !important; */
