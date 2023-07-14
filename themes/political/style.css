@@ -98,12 +98,12 @@
     --font-small: clamp(0.78rem, calc(0.77rem + 0.03vw), 0.8rem) !important;
     --font-medium: clamp(0.88rem, calc(0.9rem + 0.16vw), 1rem) !important;
     /* --font-large: clamp(1.06rem, calc(1.01rem + 0.27vw), 1.25rem) !important; */
-    --font-large: clamp(1.08rem, calc(1.1rem + 0.41vw), 1.5rem) !important;
+    /* --font-large: clamp(1.08rem, calc(1.1rem + 0.41vw), 1.5rem) !important;
     --heading5-size: clamp(1.28rem, calc(1.19rem + 0.41vw), 1.56rem) !important;
     --heading4-size: clamp(1.53rem, calc(1.41rem + 0.6vw), 1.95rem) !important;
     --heading3-size: clamp(1.84rem, calc(1.66rem + 0.86vw), 2.44rem) !important;
     --heading2-size: clamp(2.2rem, calc(1.96rem + 1.21vw), 3.05rem) !important;
-    --heading1-size: clamp(2.64rem, calc(2.31rem + 1.67vw), 3.82rem) !important;
+    --heading1-size: clamp(2.64rem, calc(2.31rem + 1.67vw), 3.82rem) !important; */
     /* ^Space */
     /* $T-shirt Sizes */
     --space-3xs: clamp(0.31rem, calc(0.31rem + 0vw), 0.31rem);
