@@ -1572,7 +1572,7 @@ span.notion-semantic-string {
 
 .notion-text {
     margin: auto;
-    min-width: var(--short-width);
+    /* min-width: var(--short-width); */
     width: 100%;
     max-width: var(--long-width);
 }
