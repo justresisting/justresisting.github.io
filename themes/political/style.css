@@ -147,7 +147,7 @@
     /* $PAGE WIDTH */
     --theme-width: 1200px !important;
     --responsive-width: calc(100% - var(--space-m)) !important;
-    --long-width: 48rem !important;
+    --long-width: 40rem !important;
     --mid-width: 24rem !important;
     --short-width: 16rem !important;
     /* $ Site Border Radius [Rounding] */
