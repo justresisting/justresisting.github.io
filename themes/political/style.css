@@ -471,7 +471,9 @@ a.notion-link.super-navbar__item {
     border: var(--border-default);
 }
 
-/* .notion-header__cover.no-cover { */
+.notion-header__cover.no-cover {
+    border: none;
+}
 
 /* @OBJECT-FIT: CONTAIN ENABLED FOR: */
 /* $ ENABLED IN */
@@ -617,6 +619,10 @@ div.notion-property.notion-property__url:hover {
     padding: var(--space-3xs);
     color: var(--color-text-yellow);
     font-size: var(--font-small) !important;
+}
+
+.notion-property.notion-property__number.property-35636237636537392d636531632d343361362d626131662d616539363938663161663936 .notion-semantic-string {
+    color: var(--color-text-green);
 }
 
 /* $Specific :hover */
