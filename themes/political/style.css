@@ -78,8 +78,9 @@
     --color-card-bg-hover-light: rgba(var(--site-hover), 0.5) !important;
     /* $Header Hover */
     --header-hover: var(--color-text-gray) !important;
-    /* --color-ui-hover-bg: rgba(var(--site-hover), 0.25) !important;
---color-ui-hover-bg-light: rgba(var(--site-hover), 0.125) !important; */
+    /* --color-ui-hover-bg: rgba(var(--site-hover), 0.25) !important; */
+    --color-ui-hover-bg: rgb(var(--site-accent-bg)) !important;
+    --color-ui-hover-bg-light: rgba(var(--site-accent), 0.125) !important;
     /* ^DEFAULT COLOR: */
     /* $BLOCK BACKGROUNDS */
     --color-card-bg: rgb(var(--site-primary)) !important;
@@ -1578,6 +1579,13 @@ span.notion-semantic-string {
 .notion-semantic-string,
 .notion-text__content {
     display: inline-block !important;
+}
+
+.resource .notion-page__title .notion-semantic-string {
+    background-color: var(--accent-bg);
+    border-radius: calc(var(--element-radius) / 1.75);
+    padding: 0 var(--space-3xs);
+    line-height: normal;
 }
 
 /* #PAGES */
