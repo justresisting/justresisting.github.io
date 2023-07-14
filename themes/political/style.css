@@ -620,11 +620,14 @@ div.notion-property.notion-property__url:hover {
     color: var(--color-text-yellow);
     font-size: var(--font-small) !important;
 }
-
+/* %Reciepts */
 .notion-property.notion-property__number.property-35636237636537392d636531632d343361362d626131662d616539363938663161663936 .notion-semantic-string {
     color: var(--color-text-green);
 }
-
+/* %Disbursements */
+..notion-property.notion-property__number.property-65613530336263362d643337392d343364632d383737642d313736363361656432366535 .notion-semantic-string {
+    color: var(--color-text-red);
+}
 /* $Specific :hover */
 
 /* XXNotion Header Content Title Wrapper */
