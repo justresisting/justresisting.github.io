@@ -1498,7 +1498,7 @@ xx } */
 
 span.notion-semantic-string {
     color: var(--color-text-default);
-    line-height: 1;
+    /* line-height: 1; */
 }
 
 /* #COLLECTION BOARDS */
