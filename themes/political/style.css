@@ -1567,6 +1567,14 @@ span.notion-semantic-string {
 }
 
 /* #TEXT */
+
+.notion-text {
+    margin: auto;
+    min-width: var(--short-width);
+    width: var(--long-width);
+    max-width: max-content;
+}
+
 .notion-semantic-string,
 .notion-text__content {
     display: inline-block !important;
