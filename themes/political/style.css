@@ -164,7 +164,8 @@
     /* $Hero Image Size */
     --notion-header-page-title: 75vh !important;
     /* $Margin between Hero & Title [SHOULD BE 96px or 6rem] */
-    --notion-header-title-wrapper-margin-top: 6rem !important;
+    /* --notion-header-title-wrapper-margin-top: 6rem !important; */
+    --notion-header-title-wrapper-margin-top: .5rem !important;
     /* $Site Margin */
     --wide: auto 0 !important; /* left-to-right */
     --long: 0 auto !important; /* top-to-bottom */
@@ -473,8 +474,9 @@ a.notion-link.super-navbar__item {
     object-fit: cover !important;
     z-index: -1000;
 } */
-.page__index .notion-header__cover {
-    height: 75vh !important;
+.notion-header__cover {
+    height: var(--header-cover-height);
+    border: var(--border-default);
 }
 
 /* @OBJECT-FIT: CONTAIN ENABLED FOR: */
@@ -1478,6 +1480,7 @@ xx } */
 
 span.notion-semantic-string {
     color: var(--color-text-default);
+    line-height: 1;
 }
 
 /* #COLLECTION BOARDS */
