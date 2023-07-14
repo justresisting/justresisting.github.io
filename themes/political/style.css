@@ -470,6 +470,7 @@ a.notion-link.super-navbar__item {
     height: var(--header-cover-height);
     border: var(--border-default);
 }
+
 .notion-header__cover.no-cover {
     display: none;
 }
@@ -1572,8 +1573,8 @@ span.notion-semantic-string {
 .notion-text {
     margin: auto;
     min-width: var(--short-width);
-    width: var(--long-width);
-    max-width: max-content;
+    width: 100%;
+    max-width: var(--long-width);
 }
 
 .notion-semantic-string,
