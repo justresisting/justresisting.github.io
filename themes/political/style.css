@@ -472,7 +472,7 @@ a.notion-link.super-navbar__item {
 }
 
 .notion-header__cover.no-cover {
-    display: none;
+    height: 20vh;
 }
 
 /* @OBJECT-FIT: CONTAIN ENABLED FOR: */
