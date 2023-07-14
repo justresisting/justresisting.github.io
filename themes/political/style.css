@@ -97,8 +97,8 @@
     /* ^Type */
     --font-small: clamp(0.78rem, calc(0.77rem + 0.03vw), 0.8rem) !important;
     --font-medium: clamp(0.88rem, calc(0.9rem + 0.16vw), 1rem) !important;
-    /* --font-large: clamp(1.06rem, calc(1.01rem + 0.27vw), 1.25rem) !important; */
-    --font-large: clamp(1.08rem, calc(1.1rem + 0.41vw), 1.5rem) !important;
+    --font-large: clamp(1.06rem, calc(1.01rem + 0.27vw), 1.25rem) !important;
+    /* --font-large: clamp(1.08rem, calc(1.1rem + 0.41vw), 1.5rem) !important; */
     /* --heading5-size: clamp(1.28rem, calc(1.19rem + 0.41vw), 1.56rem) !important;
     --heading4-size: clamp(1.53rem, calc(1.41rem + 0.6vw), 1.95rem) !important;
     --heading3-size: clamp(1.84rem, calc(1.66rem + 0.86vw), 2.44rem) !important;
@@ -138,7 +138,7 @@
     --space-xs-xl: clamp(0.88rem, calc(-0.12rem + 5vw), 3.75rem);
     /* ^Fluid Type */
     --font-body: var(--font-medium) !important;
-    --heading-size: var(--font-medium) !important;
+    --heading-size: var(--font-large) !important;
     --font-title: var(--heading5-size) !important;
     --title-size: calc(var(--heading1-size) * 1.25) !important;
     /* ^Fluid Spacing */
@@ -1596,7 +1596,7 @@ span.notion-semantic-string {
 #block-d679ebdb1f79491786766d31ebeaf8d8.notion-text,
 #block-7f6d4b74f33b40c3812c4b316148b08b.notion-text,
 #block-ce1f082b2d6e49a98bc20f3509f0da8d.notion-text {
-    font-size: var(--heading5-size);
+    font-size: var(--heading4-size);
     text-align: center;
     line-height: 1.5;
 }
