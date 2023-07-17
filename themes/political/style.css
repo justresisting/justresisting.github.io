@@ -1275,9 +1275,9 @@ xx } */
 }
 
 /* $Collection Card Cover Small */
-.notion-collection-card__cover.small {
-    padding: 1rem !important;
-}
+/* .notion-collection-card__cover.small {
+    padding: 1rem;
+} */
 
 /* ^Collection Card Content */
 /* .notion-collection-card__content {
