@@ -471,9 +471,9 @@ a.notion-link.super-navbar__item {
     border: var(--border-default);
 }
 
-.notion-header__cover.no-cover {
+/* .notion-header__cover.no-cover {
     border: none;
-}
+} */
 
 /* @OBJECT-FIT: CONTAIN ENABLED FOR: */
 /* $ ENABLED IN */
