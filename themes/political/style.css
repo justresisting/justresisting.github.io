@@ -911,6 +911,8 @@ h3.notion-heading.toggle:hover {
     position: relative !important;
     text-align: left !important;
     transition: var(--transition) !important;
+    padding-left: var(--padding-left);
+    padding-right: var(--padding-right);
 }
 
 .notion-toggle.closed.notion-toggle-heading-1 > .notion-toggle__summary > .notion-toggle__trigger {
