@@ -1589,7 +1589,7 @@ span.notion-semantic-string {
 
 .notion-semantic-string,
 .notion-text__content {
-    display: inline-block !important;
+    display: inline-block;
 }
 
 .resource .notion-page__title .notion-semantic-string {
