@@ -546,10 +546,10 @@ img.notion-header__icon {
 }
 
 /* $Header Icons turned: *OFF* */
-.parent-page__actout .notion-header__cover.no-cover,
+/* .parent-page__actout .notion-header__cover.no-cover,
 .parent-page__actout .notion-header__icon-wrapper.no-cover.has-icon-image {
     display: none;
-}
+} */
 
 /* ! END HEADER ICON */
 
