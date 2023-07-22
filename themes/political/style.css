@@ -1540,6 +1540,9 @@ span.notion-semantic-string {
     white-space: pre-wrap;
     border: none;
 }
+.notion-collection-list__item-anchor {
+    z-index: 12 !important;
+}
 
 /*.notion-collection-list__item .notion-property__title .notion-semantic-string > span {*/
 /*  border-bottom: 2px solid var(--color-bg-yellow-light);*/
