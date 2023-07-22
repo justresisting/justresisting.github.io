@@ -1534,6 +1534,13 @@ span.notion-semantic-string {
 /*  background-color: var(--color-card-bg);*/
 /*}*/
 
+.notion-collection-list__item .notion-property.notion-property__title .notion-semantic-string > span {
+    overflow: visible;
+    text-overflow: ellipsis;
+    white-space: pre-wrap;
+    border: none;
+}
+
 /*.notion-collection-list__item .notion-property__title .notion-semantic-string > span {*/
 /*  border-bottom: 2px solid var(--color-bg-yellow-light);*/
 /*}*/
@@ -1541,6 +1548,8 @@ span.notion-semantic-string {
 /*.notion-collection-list__item .notion-property__title .notion-icon {*/
 /*  display: none;*/
 /*}*/
+
+
 
 /*.notion-numbered-list {*/
 /*    margin: 0;*/
