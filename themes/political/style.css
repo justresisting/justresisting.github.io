@@ -1535,7 +1535,7 @@ span.notion-semantic-string {
 /*}*/
 
 .notion-collection-list__item .notion-property.notion-property__title .notion-semantic-string > span {
-    overflow: visible;
+    overflow: hidden;
     text-overflow: ellipsis;
     white-space: pre-wrap;
     border: none;
