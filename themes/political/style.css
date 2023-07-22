@@ -228,12 +228,12 @@
     /* $Images */
     --image-border-radius: var(--element-radius) !important;
     /* $DIVIDERS */
-    --divider-margin: var(--space-xs) 0 !important;
+    --divider-margin: var(--space-s) 0 !important;
     --divider-opacity: 1 !important;
-    --divider-thickness: 5px !important;
+    --divider-thickness: 2px !important;
     --divider-style: solid !important;
-    --divider-color: var(--accent) !important;
-    /* --divider-border: var(--divider-thickness) var(--divider-style) var(--divider-color) !important; */
+    --divider-color: var(--color-border-default) !important;
+    --divider-border: var(--divider-thickness) var(--divider-style) var(--divider-color) !important;
     /* $Typography */
     --text-spacing: 1px !important;
     --secondary-font: "Inter", sans-serif !important;
@@ -883,7 +883,7 @@ h3.notion-heading.toggle:hover {
 /* #DIVIDER */
 .notion-divider {
     margin: var(--divider-margin);
-    border-bottom: 5px var(--divider-style) var(--accent) !important;
+    border: var(--divider-border) !important;
 }
 
 /* ! END DIVIDER */
