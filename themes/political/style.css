@@ -580,7 +580,7 @@ img.notion-header__icon {
 
 /* @Increases font-size on all properties */
 .notion-property > .notion-semantic-string > span {
-    font-size: large;
+    font-size: var(--font-body);
 }
 
 /* $General */
