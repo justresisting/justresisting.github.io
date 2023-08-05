@@ -80,7 +80,8 @@
     /* $Header Hover */
     --header-hover: var(--color-text-gray) !important;
     /* --color-ui-hover-bg: rgba(var(--site-hover), 0.25) !important; */
-    --color-ui-hover-bg: rgb(var(--site-accent-bg)) !important;
+    /* --color-ui-hover-bg: rgb(var(--site-accent-bg)) !important; */
+    --color-ui-hover-bg: var(--color-bg-black-light) !important;
     --color-ui-hover-bg-light: rgba(var(--site-accent), 0.125) !important;
     /* ^DEFAULT COLOR: */
     /* $BLOCK BACKGROUNDS */
@@ -898,7 +899,12 @@ h3.notion-heading.toggle:hover {
 .notion-semantic-string .resource .notion-page__icon {
     display: none;
 }
-
+/* @:HOVER */
+.notion-page > div:hover {
+    /* background: var(--color-ui-hover-bg); */
+    /* border: var(--border-default); */
+    opacity: .7;
+}
 /* ! END NOTION PAGES */
 
 /* #DIVIDER */
