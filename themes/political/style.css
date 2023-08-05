@@ -901,7 +901,7 @@ h3.notion-heading.toggle:hover {
 }
 /* @:HOVER */
 .notion-page > div:hover {
-    /* background: var(--color-ui-hover-bg); */
+    background-color: transparent;
     /* border: var(--border-default); */
     opacity: .7;
 }
