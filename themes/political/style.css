@@ -1200,7 +1200,7 @@ xx } */
 .parent-page__places .notion-collection-card__cover,
 .parent-page__directory .notion-collection-card__cover {
     position: relative;
-    min-height: 115px;
+    min-height: 200px !important;
     height: 100%;
     width: 100%;
     overflow: hidden;
