@@ -817,7 +817,8 @@ div.notion-property.notion-property__url:hover {
 
 /* $Relation Properties Stack */
 .notion-property.notion-property__relation .notion-semantic-string span.resource div {
-    display: flex;
+    /* display: flex; */
+    display: block;
 }
 
 /* ! END Relation Property */
