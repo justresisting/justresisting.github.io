@@ -165,9 +165,9 @@
     /* $Site Border */
     --border-thickness: 1px !important;
     --border-style: solid !important;
-    --color-border-default: var(--accent-bg-light) !important;
+    --color-border-default: var(--accent) !important;
     --border-default: var(--border-thickness) var(--border-style) var(--color-border-default) !important;
-    --border-default-dark: var(--border-thickness) var(--border-style) var(--accent-bg) !important;
+    --border-default-dark: var(--border-thickness) var(--border-style) var(--accent-light) !important;
     /* ^Site Header */
     /* $Hero Image Size */
     --notion-header-page-title: 75vh !important;
