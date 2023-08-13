@@ -641,8 +641,15 @@ div.notion-property.notion-property__url:hover {
     color: var(--color-text-red) !important;
 }
 /* %financial disclosure */
+/* @ Adds Content "FINANCIAL DISCLOSURE" */
+.notion-property.notion-property__url.property-33626136333035632d646265662d343963612d393930382d373739303762613866363835 .notion-semantic-string:before {
+    content: "$ Financial Disclosure $";
+    color: var(--color-text-green) !important;
+    border-bottom: var(--border-default);
+}
+/* @ Removes Content .notion-property__url */
 .notion-property.notion-property__url.property-33626136333035632d646265662d343963612d393930382d373739303762613866363835 .notion-semantic-string a.notion-link.link {
-    color: var(--color-text-yellow) !important;
+    display: none;
 }
 /* $Specific :hover */
 
