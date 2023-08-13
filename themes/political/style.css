@@ -816,9 +816,14 @@ div.notion-property.notion-property__url:hover {
 }
 
 /* $Relation Properties Stack */
-.notion-property.notion-property__relation .notion-semantic-string span.resource div {
-    /* display: flex; */
-    display: block;
+/* .notion-property.notion-property__relation .notion-semantic-string span.resource div {
+    display: flex;
+    display: inline-block;
+} */
+
+/* % State Relation State Flag Image */
+.notion-property.notion-property__relation.property-733d4b7a .notion-page__icon {
+    display: flex;
 }
 
 /* ! END Relation Property */
