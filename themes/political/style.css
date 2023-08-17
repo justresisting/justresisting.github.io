@@ -1655,6 +1655,12 @@ span.notion-semantic-string {
     line-height: normal;
 }
 
+.resource .notion-page__title .notion-semantic-string span {
+    white-space: break-spaces;
+    border-bottom: 1px solid yellow;
+    border-radius: 0;
+}
+
 /* #PAGES */
 /* $Use IDs to force specific actions */
 
