@@ -168,6 +168,7 @@
     --color-border-default: var(--accent-bg-light) !important;
     --border-default: var(--border-thickness) var(--border-style) var(--color-border-default) !important;
     --border-default-dark: var(--border-thickness) var(--border-style) var(--accent-light) !important;
+    --border-default-link: var(--border-thickness) var(--border-style) var(--color-text-yellow) !important;
     /* ^Site Header */
     /* $Hero Image Size */
     --notion-header-page-title: 75vh !important;
@@ -605,11 +606,12 @@ div.notion-property.notion-property__relation {
 /* ^Email */
 div.notion-property.notion-property__email,
 div.notion-property.notion-property__url {
-    font-size: var(--font-body);
+    font-size: var(--font-small);
+    /* @This is to keep the URL from getting to long */
     white-space: normal;
     /* color: var(--color-text-default); */
     opacity: 0.7;
-    /* @This is to keep the URL from getting to long */
+    transition: var(--transition);
     display: grid;
     grid-auto-columns: var(--collection-card-cover-size-large);
 }
@@ -619,8 +621,8 @@ div.notion-property.notion-property__url {
 /* ^Email */
 div.notion-property.notion-property__email:hover,
 div.notion-property.notion-property__url:hover {
-    color: var(--color-text-yellow);
     opacity: 1;
+    transition: var(--transition);
 }
 
 /* $Specific */
@@ -1541,15 +1543,18 @@ xx } */
     z-index: 11;
     position: relative;
     display: inline;
-    color: var(--color-text-white) !important;
+    color: var(--color-text-white);
+    opacity: 0.7;
     transition: var(--transition);
+    border-bottom: var(--border-default-link);
 }
 
 /* @:hover */
 .resource .notion-link.notion-page:hover,
 .notion-semantic-string .link:hover,
 .notion-link.link:hover {
-    color: var(--color-text-yellow);
+    opacity: 1;
+    transition: var(--transition);
 }
 
 span.notion-semantic-string {
