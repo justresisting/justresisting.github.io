@@ -1036,6 +1036,11 @@ h3.notion-heading.toggle:hover {
     display: block !important;
 }
 
+/* @Important - Keep - Fixes Text Issues */
+div.notion-toggle__content span.notion-semantic-string {
+    display: block;
+}
+
 /* ! END INVISIBLE TOGGLE */
 /* ! END TOGGLES */
 
