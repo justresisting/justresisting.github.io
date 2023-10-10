@@ -1655,10 +1655,20 @@ span.notion-semantic-string {
     max-width: var(--long-width);
 }
 
-.notion-semantic-string,
+/* .notion-semantic-string,
 p.notion-text__content span.notion-semantic-string,
 .notion-text__content {
     display: inline-block;
+} */
+.notion-semantic-string,
+p.notion-text__content span.notion-semantic-string, 
+.notion-text__content,
+ /* @ Important for paragraph flow */
+.notion-callout__content .notion-link.link {
+    display: inline-block;
+    justify-content: space-evenly;
+    justify-items: center;
+    justify-self: center;
 }
 
 .resource .notion-page__title .notion-semantic-string {
