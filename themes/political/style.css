@@ -1684,6 +1684,138 @@ div.notion-callout__content span.notion-semantic-string {
     border-radius: 0;
 }
 
+/* #COLOR */
+/* ^DEFAULT COLOR *LIGHT* */
+.color-default-light {
+    color: var(--color-text-default-light)!important; 
+}
+.color-gray-light {
+    color: var(--color-text-gray-light)!important;
+}
+.color-brown-light {
+    color: var(--color-text-brown-light)!important;
+}
+.color-orange-light {
+    color: var(--color-text-orange-light)!important;
+}
+.color-yellow-light {
+    color: var(--color-text-yellow-light)!important;
+}
+.color-green-light {
+    color: var(--color-text-green-light)!important;
+}
+.color-blue-light {
+    color: var(--color-text-blue-light)!important;
+}
+.color-purple-light {
+    color: var(--color-text-purple-light)!important;
+}
+.color-pink-light {
+    color: var(--color-text-pink-light)!important;
+}
+.color-red-light {
+    color: var(--color-text-red-light)!important;
+}
+
+/* ^DEFAULT BACKGROUND BG COLOR *LIGHT* */
+.bg-default-light {
+    background-color: var(--color-bg-default-light)!important;
+}
+.bg-gray-light {
+    background-color: var(--color-bg-gray-light)!important;
+}
+.bg-brown-light {
+    background-color: var(--color-bg-brown-light)!important;
+}
+.bg-orange-light {
+    background-color: var(--color-bg-orange-light)!important;
+}
+.bg-yellow-light {
+    background-color: var(--color-bg-yellow-light)!important;
+}
+.bg-green-light {
+    background-color: var(--color-bg-green-light)!important;
+}
+.bg-blue-light {
+    background-color: var(--color-bg-blue-light)!important;
+}
+.bg-purple-light {
+    background-color: var(--color-bg-purple-light)!important;
+}
+.bg-pink-light {
+    background-color: var(--color-bg-pink-light)!important;
+}
+.bg-red-light {
+    background-color: var(--color-bg-red-light)!important;
+}
+
+/* ^DEFAULT TEXT COLOR */
+.color-default {
+    color: var(--color-text-default)!important;
+}
+.color-gray {
+    color: var(--color-text-gray)!important;
+}
+.color-brown {
+    color: var(--color-text-brown)!important;
+}
+.color-orange {
+    color: var(--color-text-orange)!important;
+}
+.color-yellow {
+    color: var(--color-text-yellow)!important;
+}
+.color-green {
+    color: var(--color-text-green)!important;
+}
+.color-blue {
+    color: var(--color-text-blue)!important;
+}
+.color-purple {
+    color: var(--color-text-purple)!important;
+}
+.color-pink {
+    color: var(--color-text-pink)!important;
+}
+.color-red {
+    color: var(--color-text-red)!important;
+}
+
+/* ^DEFAULT BACKGROUND BG COLOR */
+.bg-default {
+    background-color: var(--color-bg-default)!important;
+}
+.bg-accent {
+    background-color: var(--color-bg-accent)!important;
+}
+.bg-gray {
+    background-color: var(--color-bg-gray)!important;
+}
+.bg-brown {
+    background-color: var(--color-bg-brown)!important;
+}
+.bg-orange {
+    background-color: var(--color-bg-orange)!important;
+}
+.bg-yellow {
+    background-color: var(--color-bg-yellow)!important;
+}
+.bg-green {
+    background-color: var(--color-bg-green)!important;
+}
+.bg-blue {
+    background-color: var(--color-bg-blue)!important;
+}
+.bg-purple {
+    background-color: var(--color-bg-purple)!important;
+}
+.bg-pink {
+    background-color: var(--color-bg-pink)!important;
+}
+.bg-red {
+    background-color: var(--color-bg-red)!important;
+}
+
 /* #PAGES */
 /* $Use IDs to force specific actions */
 
