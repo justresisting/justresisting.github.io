@@ -169,7 +169,7 @@
 /* $Page Width */
     --theme-width: 1200px !important;
     --responsive-width: calc(100% - var(--space-m)) !important;
-    --long-width: 40rem !important;
+    --long-width: 43.75rem !important;
     --mid-width: 24rem !important;
     --short-width: 16rem !important;
 
@@ -467,10 +467,13 @@ div#block-5df357da07bf4d268800212ce07fdd7b.notion-callout .notion-callout__conte
 
 /* #TEXT */
 
+/* @ centers lines of text on the page - width: fit-content; */
+/* @ justify-left, all text column - max-width: length amount; */
 .notion-text {
     margin: auto;
     width: 100%;
     max-width: var(--long-width);
+    line-height: 1;
 }
 
 .notion-semantic-string {
@@ -494,11 +497,6 @@ div.notion-callout__content span.notion-semantic-string {
     justify-content: space-evenly;
     justify-items: center;
     justify-self: center;
-}
-
-/* @ centers lines of text on the page */
-.notion-text {
-    width: fit-content;
 }
 
 .resource .notion-page__title .notion-semantic-string {
