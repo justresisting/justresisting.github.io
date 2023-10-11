@@ -187,12 +187,13 @@
     --drop-shadow: drop-shadow(0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.5)) !important;
 
 /* $Site Border */
+    --border-default: var(--border-thickness) var(--border-style) var(--color-border-default) !important;
     --border-thickness: 1px !important;
     --border-style: solid !important;
     --color-border-default: var(--accent-bg-light) !important;
-    --border-default: var(--border-thickness) var(--border-style) var(--color-border-default) !important;
-    --border-default-dark: var(--border-thickness) var(--border-style) var(--accent-light) !important;
-    --border-default-link: var(--border-thickness) var(--border-style) var(--color-text-yellow) !important;
+
+    --border-dark: var(--border-thickness) var(--border-style) var(--accent-light) !important;
+    --border-link: var(--border-thickness) var(--border-style) var(--color-text-yellow) !important;
 
 /* ^Site Header */
 /* %Hero Image Size */
@@ -476,15 +477,20 @@ div#block-5df357da07bf4d268800212ce07fdd7b.notion-callout .notion-callout__conte
     line-height: 1;
 }
 
+/* $Underline = Centered */
+/* @ makes all underlined text appear centered on the page */
+.notion-text:has(u) {
+    max-width: fit-content;
+}
+/* @ removes underline from Notion text underline markup */
+.notion-text .notion-semantic-string u {
+    text-decoration: none;
+}
+/* !END Underline = Centered */
+
 .notion-semantic-string {
     line-height: 1.5;
 }
-
-/* .notion-semantic-string,
-p.notion-text__content span.notion-semantic-string,
-.notion-text__content {
-    display: inline-block;
-} */
 
 /* /Important */
 /* @ affects paragraph flow */
@@ -762,10 +768,10 @@ a.notion-link.super-navbar__item {
 }
 
 /* @Header Turned: *OFF* */
-/* !END HEADER COVER IMAGE */
 .parent-page__places-states img.notion-header__cover-image {
     display: none;
 }
+/* !END HEADER COVER IMAGE */
 
 /* ^HEADER TITLE */
 .notion-header__title {
@@ -901,7 +907,7 @@ div.notion-property.notion-property__url:hover {
 /* $Specific */
 /* @ .property-526f4e7e = PROGRAM */
 .notion-property.notion-property__relation.property-526f4e7e {
-    border: var(--border-default-dark);
+    border: var(--border-dark);
     border-radius: var(--element-radius);
     padding: var(--space-3xs);
     color: var(--color-text-yellow);
@@ -1718,6 +1724,8 @@ xx } */
 .notion-collection-gallery {
     /* border-top: var(--collection-gallery-header); */
     color: var(--color-text-default);
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
 }
 
 /* ^Gallery Sizes */
@@ -1834,7 +1842,7 @@ xx } */
     color: var(--color-text-default);
     opacity: 1;
     transition: var(--transition);
-    border-bottom: var(--border-default-link)
+    border-bottom: var(--border-link)
 }
 
 span.notion-semantic-string {
