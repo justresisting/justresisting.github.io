@@ -1848,7 +1848,7 @@ span.notion-semantic-string {
 /*.notion-collection-board, .notion-collection-board.small, .notion-collection-board.medium, .notion-collection-board.large {*/
 /*  background-color: var(--color-bg-default);*/
 /*}*/
-/* ! END END COLLECTION BOARDS */
+/* ! END COLLECTION BOARDS */
 
 /* #COLLECTION LISTS */
 /*.notion-collection-list {*/
@@ -1862,6 +1862,10 @@ span.notion-semantic-string {
 /*.notion-collection-list__item {*/
 /*  background-color: var(--color-card-bg);*/
 /*}*/
+
+.notion-list-item {
+    width: max-content;
+}
 
 .notion-collection-list__item .notion-property.notion-property__title .notion-semantic-string > span {
     overflow: hidden;
@@ -1887,7 +1891,7 @@ span.notion-semantic-string {
 /*    margin: 0;*/
 /*    padding-inline-start: calc(1em - 8px);*/
 /*}*/
-/* ! END END COLLECTION LISTS */
+/* ! END COLLECTION LISTS */
 
 /* #COLLECTION CALENDARS */
 /*.notion-collection-card.calendar {*/
