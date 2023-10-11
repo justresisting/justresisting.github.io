@@ -1,15 +1,19 @@
 /* %Variables */
 :root {
-    /* #Global Colors */
-    /* ^QUICK COLORS  */
+/* #Global Colors */
+/* ^QUICK COLORS  */
     /* / CHANGE COLORS ACROSS THEME */
-    /* / NEED RGB() IN VARIABLES */
+    /* / RGB() IN VARIABLES: *NO* */
     --site-bg: 37, 37, 37 !important;
     --site-accent: 173, 173, 37 !important;
     --site-accent-bg: 73, 73, 37 !important;
     --site-hover: 73, 73, 73 !important;
     --site-primary: 51, 51, 51 !important;
-    /* ^Colors */
+
+/* ^Global Theme Colors */
+
+/* $Base Colors */
+/* / RGB() IN VARIABLES: *NO* */
     --color-white: 255, 255, 255 !important;
     --color-black: 0, 0, 0 !important;
     --color-gray: 73, 73, 73 !important;
@@ -21,10 +25,11 @@
     --color-purple: 108, 51, 153 !important;
     --color-pink: 153, 108, 153 !important;
     --color-red: 153, 0, 0 !important;
-    /* ^GLOBAL THEME COLORS */
-    /* /DEPEND ON QUICK COLORS */
-    /* /DONT NEED RGB() IN VARIABLES */
-    /* ^Text */
+
+/* %Variable Colors */
+/* / DEPEND ON QUICK COLORS */
+/* / RGB() IN VARIABLES: *YES* */
+/* $ color-text = typography */
     --color-text-white: rgb(var(--color-white)) !important;
     --color-text-black: rgba(0, 0, 0, 1) !important;
     --color-text-gray: rgba(192, 192, 192, 1) !important;
@@ -36,7 +41,7 @@
     --color-text-purple: rgba(175, 50, 175, 1) !important;
     --color-text-pink: rgba(225, 150, 200, 1) !important;
     --color-text-red: rgba(225, 50, 50, 1) !important;
-    /* $ color-bg = opaque */
+/* $ color-bg = opaque */
     --color-bg-gray: rgba(var(--color-gray), 1) !important;
     --color-bg-black: rgba(var(--color-black), 1) !important;
     --color-bg-brown: rgba(var(--color-brown), 1) !important;
@@ -47,7 +52,7 @@
     --color-bg-purple: rgba(var(--color-purple), 1) !important;
     --color-bg-pink: rgba(var(--color-pink), 1) !important;
     --color-bg-red: rgba(var(--color-red), 1) !important;
-    /* $ color-bg-light = transparent */
+/* $ color-bg-light = transparent */
     --color-bg-gray-light: rgba(var(--color-gray), 0.5) !important;
     --color-bg-black-light: rgba(var(--color-black), 0.25) !important;
     --color-bg-brown-light: rgba(var(--color-brown), 0.5) !important;
@@ -58,45 +63,55 @@
     --color-bg-purple-light: rgba(var(--color-purple), 0.5) !important;
     --color-bg-pink-light: rgba(var(--color-pink), 0.5) !important;
     --color-bg-red-light: rgba(var(--color-red), 0.5) !important;
-    /* $THEME DEFAULT */
+/* !END VARIABLE COLORS */
+
+/* ^THEME DEFAULT */
     --color-default: rgb(var(--site-primary)) !important;
     --color-default-light: rgba(var(--site-primary), 0.5) !important;
-    /* $THEME BG DEFAULT */
+
+/* ^THEME BG DEFAULT */
     --color-bg: rgb(var(--site-bg)) !important;
     --color-bg-default: rgb(var(--site-bg)) !important;
     --color-bg-light: rgba(var(--site-bg), 0.5) !important;
-    /* $THEME ACCENT DEFAULT */
+
+/* ^THEME ACCENT DEFAULT */
     --accent: rgb(var(--site-accent)) !important;
     --accent-light: rgba(var(--site-accent), 0.5) !important;
-    /* $THEME ACCENT BG DEFAULT */
+
+/* ^THEME ACCENT BG DEFAULT */
     --accent-bg: rgb(var(--site-accent-bg)) !important;
     --accent-bg-light: rgba(var(--site-accent-bg), 0.5) !important;
-    /* $THEME HOVER DEFAULT */
+    
+/* ^THEME HOVER DEFAULT */
     --color-hover: rgb(var(--site-hover)) !important;
     --color-hover-light: rgba(var(--site-hover), 0.5) !important;
     /* --color-card-bg-hover: rgb(var(--site-hover)) !important; */
     --color-card-bg-hover: var(--color-bg-black-light) !important;
     --color-card-bg-hover-light: rgba(var(--site-hover), 0.5) !important;
-    /* $Header Hover */
+
+
+/* $Header Hover */
     --header-hover: var(--color-text-gray) !important;
     /* --color-ui-hover-bg: rgba(var(--site-hover), 0.25) !important; */
     /* --color-ui-hover-bg: rgb(var(--site-accent-bg)) !important; */
     --color-ui-hover-bg: var(--color-bg-black-light) !important;
     --color-ui-hover-bg-light: rgba(var(--site-accent), 0.125) !important;
-    /* ^DEFAULT COLOR: */
-    /* $BLOCK BACKGROUNDS */
+
+/* ^DEFAULT COLOR: */
+/* $BLOCK BACKGROUNDS */
     --color-card-bg: rgb(var(--site-primary)) !important;
-    /* $NAVBAR CTA BUTTON */
+/* $NAVBAR CTA BUTTON */
     --navbar-button-background-color: rgb(232, 232, 0) !important;
-    /* $CODE BLOCKS BACKGROUND */
+/* $CODE BLOCKS BACKGROUND */
     --color-code-bg: var(--color-bg-black) !important;
-    /* $FOREGROUND TEXT  */
+/* $FOREGROUND TEXT  */
     --color-text-default: rgb(var(--color-white)) !important;
-    /* $DIMMER FOREGROUND TEXT  */
+/* $DIMMER FOREGROUND TEXT  */
     --color-text-default-light: var(--color-text-gray) !important;
-    /* ! END Colors */
-    /* #DESIGN SYSTEM */
-    /* ^Type */
+/* ! END Colors */
+
+/* %UTOPIA DESIGN SYSTEM */
+/* ^Type */
     --font-small: clamp(0.78rem, calc(0.77rem + 0.03vw), 0.8rem) !important;
     --font-medium: clamp(0.88rem, calc(0.9rem + 0.16vw), 1rem) !important;
     --font-large: clamp(1.06rem, calc(1.01rem + 0.27vw), 1.25rem) !important;
@@ -106,8 +121,9 @@
     --heading3-size: clamp(1.84rem, calc(1.66rem + 0.86vw), 2.44rem) !important;
     --heading2-size: clamp(2.2rem, calc(1.96rem + 1.21vw), 3.05rem) !important;
     --heading1-size: clamp(2.64rem, calc(2.31rem + 1.67vw), 3.82rem) !important; */
-    /* ^Space */
-    /* $T-shirt Sizes */
+
+/* ^Space */
+/* $T-shirt Sizes */
     --space-3xs: clamp(0.31rem, calc(0.31rem + 0vw), 0.31rem);
     /*~  .25rem */
     --space-2xs: clamp(0.56rem, calc(0.54rem + 0.11vw), 0.63rem);
@@ -126,7 +142,8 @@
     /*~ 4.75rem */
     --space-3xl: clamp(6.75rem, calc(6.49rem + 1.3vw), 7.5rem);
     /*~    7rem */
-    /* $One-up pairs */
+
+/* $One-up pairs */
     --space-3xs-2xs: clamp(0.31rem, calc(0.2rem + 0.54vw), 0.63rem);
     --space-2xs-xs: clamp(0.56rem, calc(0.43rem + 0.65vw), 0.94rem);
     --space-xs-s: clamp(0.88rem, calc(0.74rem + 0.65vw), 1.25rem);
@@ -135,81 +152,97 @@
     --space-l-xl: clamp(2.25rem, calc(1.73rem + 2.61vw), 3.75rem);
     --space-xl-2xl: clamp(3.38rem, calc(2.81rem + 2.83vw), 5rem);
     --space-2xl-3xl: clamp(4.5rem, calc(3.46rem + 5.22vw), 7.5rem);
-    /* $Custom pairs */
+
+/* $Custom pairs */
     --space-s-l: clamp(1.13rem, calc(0.65rem + 2.39vw), 2.5rem);
     --space-xs-xl: clamp(0.88rem, calc(-0.12rem + 5vw), 3.75rem);
-    /* ^Fluid Type */
+
+/* ^Fluid Type */
     --font-body: var(--font-medium) !important;
     --heading-size: var(--font-large) !important;
     --font-title: var(--heading5-size) !important;
     --title-size: calc(var(--heading1-size) * 1.25) !important;
-    /* ^Fluid Spacing */
 
-    /* ^Site UI */
-    /* $PAGE WIDTH */
+/* ^Fluid Spacing */
+
+/* ^Site UI */
+/* $Page Width */
     --theme-width: 1200px !important;
     --responsive-width: calc(100% - var(--space-m)) !important;
     --long-width: 40rem !important;
     --mid-width: 24rem !important;
     --short-width: 16rem !important;
-    /* $ Site Border Radius [Rounding] */
+
+/* $ Site Border Radius [Rounding] */
     --border-radii-layout: var(--space-2xs) !important;
     --element-radius: var(--border-radii-layout) !important;
     --property-image-radius: var(--space-s) !important;
-    /* $Site Column Spacing*/
+
+/* $Site Column Spacing*/
     --column-spacing: var(--space-m) !important;
-    /* $Site Shadow */
+
+/* $Site Shadow */
     /* --site-shadow: .25rem .25rem .5rem .125rem rgba(0, 0, 0, .75) !important; */
     --site-shadow: 0.5rem 0.5rem 1rem 0.125rem rgba(0, 0, 0, 0.5) !important;
     --drop-shadow: drop-shadow(0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.5)) !important;
-    /* $Site Border */
+
+/* $Site Border */
     --border-thickness: 1px !important;
     --border-style: solid !important;
     --color-border-default: var(--accent-bg-light) !important;
     --border-default: var(--border-thickness) var(--border-style) var(--color-border-default) !important;
     --border-default-dark: var(--border-thickness) var(--border-style) var(--accent-light) !important;
     --border-default-link: var(--border-thickness) var(--border-style) var(--color-text-yellow) !important;
-    /* ^Site Header */
-    /* $Hero Image Size */
+
+/* ^Site Header */
+/* %Hero Image Size */
     --notion-header-page-title: 75vh !important;
-    /* $Margin between Hero & Title [SHOULD BE 96px or 6rem] */
+
+/* %Margin between Hero & Title [SHOULD BE 96px or 6rem] */
     /* --notion-header-title-wrapper-margin-top: 6rem !important; */
     --notion-header-title-wrapper-margin-top: .5rem !important;
-    /* $Site Margin */
+
+/* %Site Margin */
     --wide: auto 0 !important;
     /* left-to-right */
     --long: 0 auto !important;
     /* top-to-bottom */
-    /* $Site Padding */
+
+/* %Site Padding */
     --padding-layout: var(--space-xs) !important;
     --padding-right: calc(env(safe-area-inset-left) + clamp(1rem, calc(-1.43rem + 12.17vw), 8rem)) !important;
     --padding-left: calc(env(safe-area-inset-left) + clamp(1rem, calc(-1.43rem + 12.17vw), 8rem)) !important;
-    /* $Site Transition */
+
+/* %Site Transition */
     --transition-property: all !important;
     --transition-duration: 0.3s !important;
     --transition-timing-function: ease-in-out !important;
     --transition-delay: 0.1s !important;
     --transition: var(--transition-property) var(--transition-duration) var(--transition-timing-function) var(--transition-delay) !important;
-    /* ^SUPER CONTENT  */
+
+/* ^SUPER CONTENT  */
     --super-content-bg: var(--color-bg) !important;
     --super-footer-padding: 0 var(--space-m) !important;
     --super-content-padding: 0 !important;
     --super-content-padding-left: var(--padding-left) !important;
     --super-content-padding-right: var(--padding-right) !important;
     --super-content-margin-top: 0 !important;
-    /* $PILLS */
+
+/* $PILLS */
     --color-pill-default: var(--color-bg-black) !important;
     --color-pill-text-default: var(--color-text-default) !important;
     --pill-margin: var(--space-3xs) !important;
     --pill-padding: var(--space-3xs) !important;
     --pill-radius: calc(var(--element-radius) / 2) !important;
     --pill-border: 1px solid rgba(var(--site-accent), 0.35) !important;
-    /* $Call to Actions */
+
+/* $Call to Actions */
     --cta-padding: var(--space-2xs) var(--space-xs) !important;
     --cta-border-radius: 4px !important;
     --cta-border: none !important;
     --cta-shadow: none !important;
-    /* $Callouts */
+
+/* $Callouts */
     --callout-padding: var(--space-3xs) 0 var(--space-3xs) 0 !important;
     --callout-padding-top: var(--space-3xs) !important;
     --callout-title-bg: var(--color-bg-default);
@@ -228,32 +261,39 @@
     --callout-content-margin: 0 var(--space-2xs) !important;
     --callout-min-height: 100%;
     --callout-min-width: 100%;
-    /* $Images */
+
+/* $Images */
     --image-border-radius: var(--element-radius) !important;
-    /* $DIVIDERS */
+
+/* $DIVIDERS */
     --divider-margin: var(--space-s) 0 !important;
     --divider-opacity: 1 !important;
     --divider-thickness: 2px !important;
     --divider-style: solid !important;
     --divider-color: var(--color-border-default) !important;
     --divider-border: var(--divider-thickness) var(--divider-style) var(--divider-color) !important;
-    /* $Typography */
+
+/* $Typography */
     --text-spacing: 1px !important;
     --secondary-font: "Inter", sans-serif !important;
     --notion-text-margin: 0 0 0 0 !important;
     --heading-weight: 800;
-    /* ^Toggles */
+
+/* ^Toggles */
     --toggle-size: var(--space-l) !important;
     --toggle-color: var(--accent) !important;
     --toggle-closed: var(--accent) !important;
     --toggle-open: rgba(var(--site-accent), 0.75) !important;
-    /* ^Links */
+
+/* ^Links */
     --link-border-width: 0 0 0 0 !important;
     --link-border-style: none !important;
     --link-border-color: none !important;
-    /* ^Code */
+
+/* ^Code */
     --code-margin: var(--space-xs) !important;
-    /* ^Database View Picker */
+
+/* ^Database View Picker */
     --picker-margin: var(--collection-margin) !important;
     --picker-padding: var(--collection-padding) !important;
     --picker-border-radius: var(--element-radius) !important;
@@ -264,20 +304,24 @@
     --picker-hover-bg-color: var(--color-bg-yellow-light) !important;
     --picker-hover-text-color: var(--color-text-default) !important;
     --picker-hover-border-color: var(--color-bg-yellow) !important;
-    /* ^Site Hero Image Parralax Effect /position: fixed/ */
+
+/* %Site Hero Image Parralax Effect /position: fixed/ */
     --parallax-effect: fixed !important;
-    /* ^Grid Layout */
+
+/* %Grid Layout */
     /* @--grid-layout affects collection card size */
     /* @ auto-fit stretched all cards full length of screen */
     /* @ This can result in extremely long cards if only a few exist */
     /* @ auto-fill is normal Super behavior, this results in all cards */
     /* @ stretched together clumped to the left */
     --grid-layout: auto-fit !important;
-    /* ^Object-Fit */
+
+/* %Object-Fit */
     --contain: contain !important;
     --cover: cover !important;
-    /* ^Collections */
-    /* $Collection Spacing */
+
+/* ^Collections */
+/* $Collection Spacing */
     --collection-margin: var(--space-3xs) 0 !important;
     --collection-padding: 0 var(--space-xs) !important;
     --collection-property-text-size: var(--font-body) !important;
@@ -285,7 +329,7 @@
     --collection-list-item-padding: 5px 0 5px 5px !important;
     --collection-title-text-size: var(--font-title) !important;
     --collection-gallery-gap: var(--column-spacing) !important;
-    /* $COLLECTION CARDS */
+/* $Collection Cards */
     --collection-card-border: var(--border-default) !important;
     --collection-gallery-header: var(--border-default) !important;
     --collection-card-border-radius: var(--element-radius) !important;
@@ -295,20 +339,24 @@
     --collection-card-border-radii: var(--border-radii-layout) !important;
     --collection-card-gap: var(--column-spacing) !important;
     --collection-card-shadow: var(--site-shadow) !important;
-    /* $Collection Card Size */
+/* $Collection Card Size */
     --collection-card-cover-size-static-small: 172px !important;
     --collection-card-cover-size-static-medium: 260px !important;
     --collection-card-cover-size-static-large: 320px !important;
-    /* --collection-card-cover-size-tiny: 6rem !important;
---collection-card-cover-size-smaller: 9rem !important;
---collection-card-cover-size-small: 12rem !important;
---collection-card-cover-height-small: 9rem !important;
---collection-card-cover-size-medium: 16rem !important;
---collection-card-cover-height-medium: 12rem !important;
---collection-card-cover-size-large: 24rem !important;
---collection-card-cover-height-large: 18rem !important;
---collection-card-cover-size-larger: 32rem !important; */
 
+    /* --collection-card-cover-size-tiny: 6rem !important;
+        --collection-card-cover-size-smaller: 9rem !important;
+        --collection-card-cover-size-small: 12rem !important;
+        --collection-card-cover-height-small: 9rem !important;
+        --collection-card-cover-size-medium: 16rem !important;
+        --collection-card-cover-height-medium: 12rem !important;
+        --collection-card-cover-size-large: 24rem !important;
+        --collection-card-cover-height-large: 18rem !important;
+        --collection-card-cover-size-larger: 32rem !important; */
+/* !END Collections */
+
+/* %Utopia */
+/* $Collection Cards: Utopia */
     --collection-card-cover-size-tiny: clamp(2rem,
             calc(0.61rem + 6.96vw),
             6rem) !important;
@@ -338,6 +386,7 @@
             32rem) !important;
 }
 
+/* ^Random Utopia */
 /* --space-3xs: clamp(0.25rem, calc(0.16rem + 0.43vw), 0.50rem);
   --space-2xs: clamp(0.50rem, calc(0.33rem + 0.87vw), 1.00rem);
   --space-xs: clamp(0.75rem, calc(0.49rem + 1.30vw), 1.50rem);
@@ -360,12 +409,15 @@
 
 /* Custom pairs */
 /* --space-s-l: clamp(1.00rem, calc(-1.43rem + 12.17vw), 8.00rem); */
+/* !END Random Utopia */
+/* !END Utopia */
 
 /* ! END Variables */
 
 /* #BEGIN THEME CSS */
 
 /* #WIDGETS */
+
 /* ^Gumroad Shopping Cart */
 /* @Default Display: *none* */
 /* ?Only on Front Page, Sometimes */
@@ -392,6 +444,7 @@ div#block-5df357da07bf4d268800212ce07fdd7b.notion-callout .notion-callout__conte
 }
 
 /* ! END CREDLY BADGE */
+
 /* ^Tally.so Contact Forms */
 .tally-app {
     background: rgb(37, 37, 37) none repeat scroll 0% 0%;
@@ -409,12 +462,234 @@ div#block-5df357da07bf4d268800212ce07fdd7b.notion-callout .notion-callout__conte
 /* ! END Tally.so Block Headings */
 
 /* ! END Tally.so Contact Forms */
+
 /* ! END WIDGETS */
 
 /* #TEXT */
+
+.notion-text {
+    margin: auto;
+    width: 100%;
+    max-width: var(--long-width);
+}
+
 .notion-semantic-string {
     line-height: 1.5;
 }
+
+/* .notion-semantic-string,
+p.notion-text__content span.notion-semantic-string,
+.notion-text__content {
+    display: inline-block;
+} */
+
+/* /Important */
+/* @ affects paragraph flow */
+.notion-semantic-string,
+p.notion-text__content span.notion-semantic-string,
+.notion-text__content,
+/* @ affects paragraph flow */
+div.notion-callout__content span.notion-semantic-string {
+    display: inline-block;
+    justify-content: space-evenly;
+    justify-items: center;
+    justify-self: center;
+}
+
+/* @ centers lines of text on the page */
+.notion-text {
+    width: fit-content;
+}
+
+.resource .notion-page__title .notion-semantic-string {
+    /* background-color: var(--accent-bg); */
+    border-radius: calc(var(--element-radius) / 1.75);
+    padding: 0 var(--space-3xs);
+    line-height: normal;
+}
+
+.resource .notion-page__title .notion-semantic-string span {
+    white-space: break-spaces;
+    border-bottom: 1px solid yellow;
+    border-radius: 0;
+}
+
+/* !END TEXT */
+
+/* #COLOR */
+/* ^DEFAULT COLOR *LIGHT* */
+.color-default-light {
+    color: var(--color-text-default-light) !important;
+}
+
+.color-gray-light {
+    color: var(--color-text-gray-light) !important;
+}
+
+.color-brown-light {
+    color: var(--color-text-brown-light) !important;
+}
+
+.color-orange-light {
+    color: var(--color-text-orange-light) !important;
+}
+
+.color-yellow-light {
+    color: var(--color-text-yellow-light) !important;
+}
+
+.color-green-light {
+    color: var(--color-text-green-light) !important;
+}
+
+.color-blue-light {
+    color: var(--color-text-blue-light) !important;
+}
+
+.color-purple-light {
+    color: var(--color-text-purple-light) !important;
+}
+
+.color-pink-light {
+    color: var(--color-text-pink-light) !important;
+}
+
+.color-red-light {
+    color: var(--color-text-red-light) !important;
+}
+/* !END DEFAULT COLOR *LIGHT* */
+
+/* ^DEFAULT BACKGROUND BG COLOR *LIGHT* */
+.bg-default-light {
+    background-color: var(--color-bg-default-light) !important;
+}
+
+.bg-gray-light {
+    background-color: var(--color-bg-gray-light) !important;
+}
+
+.bg-brown-light {
+    background-color: var(--color-bg-brown-light) !important;
+}
+
+.bg-orange-light {
+    background-color: var(--color-bg-orange-light) !important;
+}
+
+.bg-yellow-light {
+    background-color: var(--color-bg-yellow-light) !important;
+}
+
+.bg-green-light {
+    background-color: var(--color-bg-green-light) !important;
+}
+
+.bg-blue-light {
+    background-color: var(--color-bg-blue-light) !important;
+}
+
+.bg-purple-light {
+    background-color: var(--color-bg-purple-light) !important;
+}
+
+.bg-pink-light {
+    background-color: var(--color-bg-pink-light) !important;
+}
+
+.bg-red-light {
+    background-color: var(--color-bg-red-light) !important;
+}
+/* !END DEFAULT BACKGROUND BG COLOR *LIGHT* */
+
+/* ^DEFAULT TEXT COLOR */
+.color-default {
+    color: var(--color-text-default) !important;
+}
+
+.color-gray {
+    color: var(--color-text-gray) !important;
+}
+
+.color-brown {
+    color: var(--color-text-brown) !important;
+}
+
+.color-orange {
+    color: var(--color-text-orange) !important;
+}
+
+.color-yellow {
+    color: var(--color-text-yellow) !important;
+}
+
+.color-green {
+    color: var(--color-text-green) !important;
+}
+
+.color-blue {
+    color: var(--color-text-blue) !important;
+}
+
+.color-purple {
+    color: var(--color-text-purple) !important;
+}
+
+.color-pink {
+    color: var(--color-text-pink) !important;
+}
+
+.color-red {
+    color: var(--color-text-red) !important;
+}
+/* !END DEFAULT TEXT COLOR */
+
+/* ^DEFAULT BACKGROUND BG COLOR */
+.bg-default {
+    background-color: var(--color-bg-default) !important;
+}
+
+.bg-accent {
+    background-color: var(--color-bg-accent) !important;
+}
+
+.bg-gray {
+    background-color: var(--color-bg-gray) !important;
+}
+
+.bg-brown {
+    background-color: var(--color-bg-brown) !important;
+}
+
+.bg-orange {
+    background-color: var(--color-bg-orange) !important;
+}
+
+.bg-yellow {
+    background-color: var(--color-bg-yellow) !important;
+}
+
+.bg-green {
+    background-color: var(--color-bg-green) !important;
+}
+
+.bg-blue {
+    background-color: var(--color-bg-blue) !important;
+}
+
+.bg-purple {
+    background-color: var(--color-bg-purple) !important;
+}
+
+.bg-pink {
+    background-color: var(--color-bg-pink) !important;
+}
+
+.bg-red {
+    background-color: var(--color-bg-red) !important;
+}
+/* !END DEFAULT BACKGROUND BG COLOR */
+
+/* !END COLORS */
 
 /* #SUPER NAVBAR */
 /* ^Super Navbar BLUR */
@@ -1645,175 +1920,6 @@ span.notion-semantic-string {
 
 .notion-image.normal img {
     height: 100%;
-}
-
-/* #TEXT */
-
-.notion-text {
-    margin: auto;
-    width: 100%;
-    max-width: var(--long-width);
-}
-
-/* .notion-semantic-string,
-p.notion-text__content span.notion-semantic-string,
-.notion-text__content {
-    display: inline-block;
-} */
-.notion-semantic-string,
-p.notion-text__content span.notion-semantic-string, 
-.notion-text__content,
- /* @ Important for paragraph flow */
-div.notion-callout__content span.notion-semantic-string {
-    display: inline-block;
-    justify-content: space-evenly;
-    justify-items: center;
-    justify-self: center;
-}
-
-.resource .notion-page__title .notion-semantic-string {
-    /* background-color: var(--accent-bg); */
-    border-radius: calc(var(--element-radius) / 1.75);
-    padding: 0 var(--space-3xs);
-    line-height: normal;
-}
-
-.resource .notion-page__title .notion-semantic-string span {
-    white-space: break-spaces;
-    border-bottom: 1px solid yellow;
-    border-radius: 0;
-}
-
-/* #COLOR */
-/* ^DEFAULT COLOR *LIGHT* */
-.color-default-light {
-    color: var(--color-text-default-light)!important; 
-}
-.color-gray-light {
-    color: var(--color-text-gray-light)!important;
-}
-.color-brown-light {
-    color: var(--color-text-brown-light)!important;
-}
-.color-orange-light {
-    color: var(--color-text-orange-light)!important;
-}
-.color-yellow-light {
-    color: var(--color-text-yellow-light)!important;
-}
-.color-green-light {
-    color: var(--color-text-green-light)!important;
-}
-.color-blue-light {
-    color: var(--color-text-blue-light)!important;
-}
-.color-purple-light {
-    color: var(--color-text-purple-light)!important;
-}
-.color-pink-light {
-    color: var(--color-text-pink-light)!important;
-}
-.color-red-light {
-    color: var(--color-text-red-light)!important;
-}
-
-/* ^DEFAULT BACKGROUND BG COLOR *LIGHT* */
-.bg-default-light {
-    background-color: var(--color-bg-default-light)!important;
-}
-.bg-gray-light {
-    background-color: var(--color-bg-gray-light)!important;
-}
-.bg-brown-light {
-    background-color: var(--color-bg-brown-light)!important;
-}
-.bg-orange-light {
-    background-color: var(--color-bg-orange-light)!important;
-}
-.bg-yellow-light {
-    background-color: var(--color-bg-yellow-light)!important;
-}
-.bg-green-light {
-    background-color: var(--color-bg-green-light)!important;
-}
-.bg-blue-light {
-    background-color: var(--color-bg-blue-light)!important;
-}
-.bg-purple-light {
-    background-color: var(--color-bg-purple-light)!important;
-}
-.bg-pink-light {
-    background-color: var(--color-bg-pink-light)!important;
-}
-.bg-red-light {
-    background-color: var(--color-bg-red-light)!important;
-}
-
-/* ^DEFAULT TEXT COLOR */
-.color-default {
-    color: var(--color-text-default)!important;
-}
-.color-gray {
-    color: var(--color-text-gray)!important;
-}
-.color-brown {
-    color: var(--color-text-brown)!important;
-}
-.color-orange {
-    color: var(--color-text-orange)!important;
-}
-.color-yellow {
-    color: var(--color-text-yellow)!important;
-}
-.color-green {
-    color: var(--color-text-green)!important;
-}
-.color-blue {
-    color: var(--color-text-blue)!important;
-}
-.color-purple {
-    color: var(--color-text-purple)!important;
-}
-.color-pink {
-    color: var(--color-text-pink)!important;
-}
-.color-red {
-    color: var(--color-text-red)!important;
-}
-
-/* ^DEFAULT BACKGROUND BG COLOR */
-.bg-default {
-    background-color: var(--color-bg-default)!important;
-}
-.bg-accent {
-    background-color: var(--color-bg-accent)!important;
-}
-.bg-gray {
-    background-color: var(--color-bg-gray)!important;
-}
-.bg-brown {
-    background-color: var(--color-bg-brown)!important;
-}
-.bg-orange {
-    background-color: var(--color-bg-orange)!important;
-}
-.bg-yellow {
-    background-color: var(--color-bg-yellow)!important;
-}
-.bg-green {
-    background-color: var(--color-bg-green)!important;
-}
-.bg-blue {
-    background-color: var(--color-bg-blue)!important;
-}
-.bg-purple {
-    background-color: var(--color-bg-purple)!important;
-}
-.bg-pink {
-    background-color: var(--color-bg-pink)!important;
-}
-.bg-red {
-    background-color: var(--color-bg-red)!important;
 }
 
 /* #PAGES */
