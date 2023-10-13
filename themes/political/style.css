@@ -496,13 +496,17 @@ div#block-5df357da07bf4d268800212ce07fdd7b.notion-callout .notion-callout__conte
 /* @ affects paragraph flow */
 .notion-semantic-string,
 p.notion-text__content span.notion-semantic-string,
-.notion-text__content,
+.notion-text__content {
 /* @ affects paragraph flow */
-div.notion-callout__content span.notion-semantic-string {
+/* div.notion-callout__content span.notion-semantic-string { */
     display: inline-block;
     justify-content: space-evenly;
     justify-items: center;
     justify-self: center;
+}
+/* @ reduces margin-top on callouts */
+div.notion-callout__content span.notion-semantic-string {
+    display: block;
 }
 
 .resource .notion-page__title .notion-semantic-string {
@@ -1245,6 +1249,7 @@ div.notion-toggle__content span.notion-semantic-string {
     min-width: -moz-available;
     width: 100%;
     margin: var(--callout-margin);
+    margin-top: var(--callout-margin-top);
     margin-bottom: 1rem;
     padding: var(--callout-padding);
 }
