@@ -524,8 +524,6 @@ div.notion-callout__content span.notion-semantic-string {
 
 /* !END TEXT */
 
-
-
 /* #SUPER NAVBAR */
 /* ^Super Navbar BLUR */
 /* @background-color: opacity must be <1 */
@@ -682,6 +680,7 @@ img.notion-header__icon {
     /* border-bottom: 1px solid var(--color-bg-yellow); */
     /* border-bottom: 1px solid yellow; */
 /* } */
+
 /* ^LINK UNDERLINE */
 .notion-property__relation .resource .notion-link.notion-page .notion-page__title .notion-semantic-string span {
     border-bottom: var(--border-thickness) var(--border-style) var(--color-bg-yellow) !important;
@@ -712,8 +711,7 @@ div.notion-property.notion-property__relation {
     color: var(--color-text-default);
 }
 
-/* ^URLs */
-/* ^Email */
+/* ^URLs/Email */
 div.notion-property.notion-property__email,
 div.notion-property.notion-property__url {
     font-size: var(--font-small);
@@ -726,14 +724,14 @@ div.notion-property.notion-property__url {
     grid-auto-columns: var(--collection-card-cover-size-large);
 }
 
-/* $General :hover */
-/* ^URLs */
-/* ^Email */
+/* ^URLs/Email: HOVER */
 div.notion-property.notion-property__email:hover,
 div.notion-property.notion-property__url:hover {
     opacity: 1;
     transition: var(--transition);
 }
+/* !END URLs/Email: HOVER */
+/* !END URLs/Email */
 
 /* $Specific */
 /* @ .property-526f4e7e = PROGRAM */
@@ -765,8 +763,6 @@ div.notion-property.notion-property__url:hover {
 }
 /* $Specific :hover */
 
-/* XXNotion Header Content Title Wrapper */
-/* XXDEFAULT: *96px* */
 
 .notion-page__properties {
     margin: auto;
@@ -775,7 +771,7 @@ div.notion-property.notion-property__url:hover {
     /* background-color: var(--color-bg) !important; */
 }
 
-/* ^Property: *PROPERTY* */
+/* ^Property: *Property* */
 /* @DEFAULT: *GRID* */
 /* @display: grid;*/
 /* @grid-template-columns: 160px 1fr;*/
@@ -803,7 +799,8 @@ div.notion-property.notion-property__url:hover {
 }
 
 /* ! END Property: *Property* */
-/* ^PROPERTY: *Property Name* */
+
+/* ^Property: *Property Name* */
 .notion-page__property-name {
     align-items: center !important;
     /* white-space: pre-wrap !important; */
@@ -813,7 +810,7 @@ div.notion-property.notion-property__url:hover {
     /* justify-content: left !important; */
 }
 
-/* $ Notion Property Titles */
+/* ^Property: *Title* */
 .notion-property__title .notion-semantic-string {
     font-weight: 500;
     font-size: var(--font-title);
@@ -842,6 +839,7 @@ div.notion-property.notion-property__url:hover {
 }
 
 /* ! END Create Even Property Name Background Sizes */
+
 /* $Center all Page Properties (Relations, pills, etc) under Property Name */
 .notion-page__properties .notion-property {
     justify-content: space-evenly;
@@ -863,8 +861,10 @@ div.notion-property.notion-property__url:hover {
     background-color: var(--color-card-bg);
     border-radius: var(--element-radius);
 }
+/* !END Center all Page Properties (Relations, pills, etc) under Property Name */
 
-/* ! END PROPERTY: *TITLE* */
+/* !END Property: *Title* */
+
 /* ^Relation File */
 /* .notion-property.notion-property__file {
     min-width: 25vw;
@@ -888,6 +888,7 @@ div.notion-property.notion-property__url:hover {
 }
 
 /* ! END Relation File */
+
 /* ^Relation File Image */
 /* .notion-property.notion-property__file img { */
 /* min-height: 8rem; */
@@ -928,7 +929,9 @@ div.notion-property.notion-property__url:hover {
 }
 
 /* ! END Relation File Image */
+
 /* ^Relation Property */
+
 /* $Icon for Relations from Districts */
 .notion-property.notion-property__relation.property-7e3b3f51 .resource .notion-page__icon.small {
     display: none !important;
@@ -946,6 +949,7 @@ div.notion-property.notion-property__url:hover {
 }
 
 /* ! END Relation Property */
+
 /* ! END PAGE PROPERTIES */
 
 /* #NOTION PILLS */
@@ -1020,10 +1024,11 @@ h3.notion-heading.toggle:hover {
 /* ! END Headings */
 
 /* #NOTION PAGES */
-/* ^Notion Page Icons */
+/* ^Notion Page Icons - NONE*/
 .notion-semantic-string .resource .notion-page__icon {
     display: none;
 }
+
 /* @:HOVER */
 .notion-page > div:hover {
     background-color: transparent !important;
@@ -1066,18 +1071,23 @@ h3.notion-heading.toggle:hover {
     padding-left: var(--padding-left);
     padding-right: var(--padding-right);
 }
-
+/* ^Heading Toggle 1 */
 .notion-toggle.closed.notion-toggle-heading-1 > .notion-toggle__summary > .notion-toggle__trigger {
     font-size: var(--heading1-size);
 }
+/* !END Heading Toggle 1 */
 
+/* ^Heading Toggle 2 */
 .notion-toggle.closed.notion-toggle-heading-2 > .notion-toggle__summary > .notion-toggle__trigger {
     font-size: var(--heading2-size);
 }
+/* !END Heading Toggle 2 */
 
+/* ^Heading Toggle 3 */
 .notion-toggle.closed.notion-toggle-heading-3 > .notion-toggle__summary > .notion-toggle__trigger {
     font-size: var(--heading3-size);
 }
+/* !END Heading Toggle 3 */
 
 /* $Glyph BEFORE clicking*/
 /* font-size affects glyph size */
@@ -1135,6 +1145,7 @@ h3.notion-heading.toggle:hover {
 .notion-toggle.bg-brown {
     display: none;
 }
+/* ! END INVISIBLE TOGGLE */
 
 /* @Removes Toggle Glyph ::before on collection section headers w/ toggles */
 .notion-toggle__trigger.notion-collection-group__section-toggle::before {
@@ -1151,7 +1162,6 @@ div.notion-toggle__content span.notion-semantic-string {
     display: block;
 }
 
-/* ! END INVISIBLE TOGGLE */
 /* ! END TOGGLES */
 
 /* #QUOTES */
@@ -1165,6 +1175,7 @@ div.notion-toggle__content span.notion-semantic-string {
 }
 
 /* ! END Quote Text */
+
 /* ! END QUOTES */
 
 /* #CALLOUTS */
@@ -1211,6 +1222,7 @@ div.notion-toggle__content span.notion-semantic-string {
 }
 
 /* ! END Callout Title */
+
 /* $Callout Content */
 /* @ span.notion-semantic-string = ALL CONTENT */
 .notion-callout__content span.notion-semantic-string {
@@ -1235,6 +1247,7 @@ div.notion-toggle__content span.notion-semantic-string {
 }
 
 /* ! END Callout Content Text */
+
 /* $Callout in a Callout */
 /* @Makes All Heights Match */
 .notion-callout .notion-callout {
@@ -1266,7 +1279,9 @@ div.notion-toggle__content span.notion-semantic-string {
 }
 
 /* ! END Callout in a Callout */
+
 /* ! END Text within a Callout in a Callouts */
+
 /* ! END CALLOUTS */
 /* ! END NOTION ELEMENTS */
 
@@ -2192,14 +2207,7 @@ div#block-fad8cd2cf13d4097a3e7b6702abf1b03 .notion-callout {
   pointer-events: all;
 } */
 /* ! END ! END DEMOS !!*/
+
 /* !END THEME */
 
 /* #NOTES */
-/* /LEFT OFF */
-/* /Working on snippet to make Notion Header Cover Height reduce */
-/* /when there is img.notion-header__icon[src*="Black_Circle_AME.png"] */
-/* 
-.notion-header__cover:has( ~ .notion-header__content img.notion-header__icon[src*="Black_Circle_AME.png"]) img.notion-header__cover-image {
-    object-fit: contain !important;
-} 
-*/
