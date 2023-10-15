@@ -1775,6 +1775,11 @@ span.notion-semantic-string {
     justify-self: center;
 }
 
+.notion-image:hover {
+    border: 0.25rem solid var(--accent);
+    border-radius: var(--image-border-radii);
+}
+
 .notion-image.normal img {
     height: 100%;
 }
