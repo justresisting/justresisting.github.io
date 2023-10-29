@@ -2006,12 +2006,28 @@ span.notion-semantic-string {
 }
 
 /* @AME Categories */
-#block-8ece99eb023440b795edff12716d74e6 .notion-collection-gallery,
-/* @States */
-#block-fef0e5380d934f8f930eed5525c1e8cf .notion-collection-gallery {
+#block-8ece99eb023440b795edff12716d74e6 .notion-collection-gallery {
     --grid-layout: auto-fit !important;
     grid-template-columns: repeat(var(--grid-layout),
+            minmax(var(--collection-card-cover-size-small), 1fr)) !important;
+}
+/* @States */
+#block-fef0e5380d934f8f930eed5525c1e8cf .notion-collection-gallery {
+    --grid-layout: auto-fill !important;
+    grid-template-columns: repeat(var(--grid-layout),
             minmax(var(--collection-card-cover-size-medium), 1fr)) !important;
+}
+/* @Initiatives */
+#block-03a75cd0c2e2422e82dd01c675f30202 .notion-collection-gallery {
+    --grid-layout: auto-fit !important;
+    grid-template-columns: repeat(var(--grid-layout),
+            minmax(var(--collection-card-cover-size-large), 1fr)) !important;
+}
+/* @Policies */
+#block-8807eddd128e437e99811170b48ee9ba .notion-collection-gallery {
+    --grid-layout: auto-fit !important;
+    grid-template-columns: repeat(var(--grid-layout),
+            minmax(var(--collection-card-cover-size-large), 1fr)) !important;
 }
 
 /* ! END Home */
