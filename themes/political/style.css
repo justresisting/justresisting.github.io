@@ -1702,6 +1702,10 @@ span.notion-semantic-string {
 /*.notion-collection-board, .notion-collection-board.small, .notion-collection-board.medium, .notion-collection-board.large {*/
 /*  background-color: var(--color-bg-default);*/
 /*}*/
+
+.notion-collection-board__column {
+    height: fit-content;
+}
 /* ! END COLLECTION BOARDS */
 
 /* #COLLECTION LISTS */
