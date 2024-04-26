@@ -1718,7 +1718,8 @@ span.notion-semantic-string {
 /*}*/
 
 .notion-list-item {
-    width: max-content;
+    width: auto;
+
 }
 
 .notion-collection-list__item .notion-property.notion-property__title .notion-semantic-string > span {
