@@ -1187,8 +1187,8 @@ div.notion-toggle__content span.notion-semantic-string {
     /* box-shadow: var(--site-shadow); */
     /* filter: var(--drop-shadow); */
     margin: var(--callout-margin);
-    margin-top: var(--space-s-l) !important;
-    margin-bottom: var(--space-s-l) !important;
+    /* margin-top: var(--space-s-l); */
+    /* margin-bottom: var(--space-s-l); */
     /* padding: var(--callout-padding); */
     justify-content: space-evenly;
     justify-items: center;
