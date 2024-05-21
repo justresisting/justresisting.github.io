@@ -698,6 +698,7 @@ img.notion-header__icon {
 .notion-property {
     transition: var(--transition);
     z-index: 11;
+    
 }
 
 /* @Increases font-size on all properties */
@@ -848,8 +849,8 @@ div.notion-property.notion-property__url:hover {
 .notion-collection-card__property {
     display: block;
     justify-content: space-between;
-    justify-items: center;
-    justify-self: center;
+    justify-items: left;
+    justify-self: left;
 }
 
 .notion-collection-card__property-list {
@@ -1717,9 +1718,10 @@ span.notion-semantic-string {
 /*    padding: var(--collection-padding);*/
 /*}*/
 
-/*.notion-collection-list__item {*/
-/*  background-color: var(--color-card-bg);*/
-/*}*/
+.notion-collection-list__item {
+    flex-direction: column;
+    align-items: stretch;
+ }
 
 .notion-list-item {
     width: auto;
