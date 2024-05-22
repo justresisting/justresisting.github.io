@@ -2102,7 +2102,7 @@ span.notion-semantic-string {
 }
 
 .parent-page__blog-posts .notion-page__property {
-    display: inline;
+    display: grid !important;
 }
 
 .parent-page__blog-posts .notion-page__properties {
