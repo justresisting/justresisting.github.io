@@ -2101,6 +2101,15 @@ span.notion-semantic-string {
     margin-bottom: 1rem;
 }
 
+.parent-page__blog-posts .notion-page__property {
+    display: inline;
+}
+
+.parent-page__blog-posts .notion-page__properties {
+    margin: auto;
+    display: block;
+}
+
 /* ! END Blog */
 /* %Contact */
 /* ^CONTACT PAGE COLLECTION CARD COVER SIZE */
