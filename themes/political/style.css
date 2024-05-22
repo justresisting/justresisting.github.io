@@ -169,7 +169,7 @@
 /* $Page Width */
     --theme-width: 1200px !important;
     --responsive-width: calc(100% - var(--space-m)) !important;
-    --long-width: 43.75rem !important;
+    --long-width: 40rem !important;
     --mid-width: 24rem !important;
     --short-width: 16rem !important;
 
@@ -2096,6 +2096,7 @@ span.notion-semantic-string {
     color: #fff;
     display: block;
     font: normal 400 16px Georgia, Utopia, 'Palatino Linotype', Palatino, serif;
+    font-size: large;
     line-height: 2;
     margin-bottom: 1rem;
 }
