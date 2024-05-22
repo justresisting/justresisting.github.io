@@ -1791,6 +1791,12 @@ span.notion-semantic-string {
 .notion-image.normal img {
     height: 100%;
 }
+
+.notion-image.page-width > figcaption {
+    padding: var(--2xs) var(--3xs);
+    width: 100%;
+    max-width: var(--long-width);
+}
 /* !END Images */
 
 /* !END EMBED */
