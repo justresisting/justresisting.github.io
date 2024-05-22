@@ -2110,6 +2110,11 @@ span.notion-semantic-string {
     display: block;
 }
 
+.parent-page__blog-posts .notion-page__properties .notion-property {
+    justify-content: space-between;
+}
+
+
 /* ! END Blog */
 /* %Contact */
 /* ^CONTACT PAGE COLLECTION CARD COVER SIZE */
