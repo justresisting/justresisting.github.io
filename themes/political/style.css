@@ -1612,9 +1612,9 @@ xx } */
 
 /* *Small */
 .notion-collection-gallery.small {
-    --grid-layout: auto-fit;
+    --grid-layout: auto-fill;
     grid-template-columns: repeat(var(--grid-layout),
-            minmax(var(--collection-card-cover-size-tiny), 1fr)) !important;
+            minmax(var(--collection-card-cover-size-small), 1fr)) !important;
     grid-gap: 1rem !important;
     gap: 1rem !important;
 }
