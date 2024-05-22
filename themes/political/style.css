@@ -2111,17 +2111,15 @@ span.notion-semantic-string {
 }
 
 .parent-page__blog-posts .notion-page__properties .notion-property {
-    justify-content: space-between;
+    justify-content: space-between !important;
 }
 
 /* ^Property: *Property Name* */
 .parent-page__blog-posts .notion-page__property-name {
     align-items: center !important;
-    /* white-space: pre-wrap !important; */
     padding: 0;
     margin: 0;
     filter: var(--drop-shadow);
-    /* justify-content: left !important; */
 }
 
 .parent-page__blog-posts .notion-page__property-name > span {
