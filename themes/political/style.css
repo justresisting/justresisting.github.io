@@ -2091,14 +2091,11 @@ span.notion-semantic-string {
     max-width: var(--long-width);
 }
 
-.parent-page__blog-posts {
+.parent-page__blog-posts,
+.parent-page__blog-posts .notion-text {
     color: #fff;
     display: block;
     font: normal 400 16px Georgia, Utopia, 'Palatino Linotype', Palatino, serif;
-    line-height: 2;
-}
-
-.parent-page__blog-posts .notion-text {
     line-height: 2;
     margin-bottom: 1rem;
 }
