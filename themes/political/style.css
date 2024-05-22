@@ -2086,6 +2086,23 @@ span.notion-semantic-string {
     object-fit: contain !important;
 }
 
+.parent-page__blog-posts .notion-image.page-width img {
+    width: 100%;
+    max-width: var(--long-width);
+}
+
+.parent-page__blog-posts {
+    color: #fff;
+    display: block;
+    font: normal 400 16px Georgia, Utopia, 'Palatino Linotype', Palatino, serif;
+    line-height: 2;
+}
+
+.parent-page__blog-posts .notion-text {
+    line-height: 2;
+    margin-bottom: 1rem;
+}
+
 /* ! END Blog */
 /* %Contact */
 /* ^CONTACT PAGE COLLECTION CARD COVER SIZE */
