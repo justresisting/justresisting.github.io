@@ -2114,6 +2114,20 @@ span.notion-semantic-string {
     justify-content: space-between;
 }
 
+/* ^Property: *Property Name* */
+.parent-page__blog-posts .notion-page__property-name {
+    align-items: center !important;
+    /* white-space: pre-wrap !important; */
+    padding: 0;
+    margin: 0;
+    filter: var(--drop-shadow);
+    /* justify-content: left !important; */
+}
+
+.parent-page__blog-posts .notion-page__property-name > span {
+    font-size: large;
+    line-height: normal;
+}
 
 /* ! END Blog */
 /* %Contact */
