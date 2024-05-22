@@ -1598,14 +1598,14 @@ xx } */
 /* / more compact gallery columns and displays more data */
 /* *Large */
 .notion-collection-gallery.large {
-    --grid-layout: auto-fit;
+    --grid-layout: auto-fill;
     grid-template-columns: repeat(var(--grid-layout),
             minmax(var(--collection-card-cover-size-large), 1fr)) !important;
 }
 
 /* *Medium */
 .notion-collection-gallery.medium {
-    --grid-layout: auto-fit;
+    --grid-layout: auto-fill;
     grid-template-columns: repeat(var(--grid-layout),
             minmax(var(--collection-card-cover-size-medium), 1fr)) !important;
 }
