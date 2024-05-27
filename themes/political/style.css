@@ -1709,7 +1709,7 @@ xx } */
     /* transition: var(--transition); */
     /* border-bottom: var(--border-link); */
     text-decoration: underline;
-    text-decoration-color: var(--color-bg-yellow);
+    text-decoration-color: yellow;
 }
 
 span.notion-semantic-string {
