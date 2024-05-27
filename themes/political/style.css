@@ -1707,7 +1707,9 @@ xx } */
     color: var(--color-text-default);
     opacity: 1;
     /* transition: var(--transition); */
-    border-bottom: var(--border-link)
+    /* border-bottom: var(--border-link); */
+    text-decoration: underline;
+    text-decoration-color: var(--color-bg-yellow);
 }
 
 span.notion-semantic-string {
