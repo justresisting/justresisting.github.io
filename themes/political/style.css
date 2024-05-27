@@ -710,6 +710,8 @@ img.notion-header__icon {
 /* ^Relations */
 div.notion-property.notion-property__relation {
     color: var(--color-text-default);
+    display: flex;
+    justify-content: center;
 }
 
 /* ^URLs/Email */
