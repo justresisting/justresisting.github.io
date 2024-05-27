@@ -522,6 +522,16 @@ div.notion-callout__content span.notion-semantic-string {
     border-radius: 0;
 }
 
+span.notion-page__title.notion-semantic-string {
+    text-decoration: underline;
+}
+
+span.notion-page__title.notion-semantic-string:hover {
+    text-decoration: underline;
+    background: var(--color-card-bg-hover);
+    text-decoration-color: var(--color-bg-yellow);
+}
+
 /* !END TEXT */
 
 /* #SUPER NAVBAR */
