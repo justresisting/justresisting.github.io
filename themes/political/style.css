@@ -1069,8 +1069,8 @@ h3.notion-heading.toggle:hover {
     position: relative !important;
     text-align: left !important;
     transition: var(--transition) !important;
-    padding-left: var(--padding-left);
-    padding-right: var(--padding-right);
+    /* padding-left: var(--padding-left);
+    padding-right: var(--padding-right); */
 }
 /* ^Heading Toggle 1 */
 .notion-toggle.closed.notion-toggle-heading-1 > .notion-toggle__summary > .notion-toggle__trigger {
@@ -1615,8 +1615,10 @@ xx } */
     --grid-layout: auto-fill;
     grid-template-columns: repeat(var(--grid-layout),
             minmax(var(--collection-card-cover-size-small), 1fr)) !important;
-    grid-gap: 1rem !important;
-    gap: 1rem !important;
+    /* grid-gap: 1rem !important;
+    gap: 1rem !important; */
+    grid-gap: var(--space-2xs);
+    gap: var(--space-2xs);
 }
 
 /* / ALL GROUPED COLLECTION GALLERIES */
@@ -2162,6 +2164,7 @@ span.notion-semantic-string {
     width: 3rem !important;
     max-width: 4rem !important;
     position: unset;
+    margin: auto;
 }
 
 /* $Collection Card Cover IMAGE */
