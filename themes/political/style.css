@@ -1692,7 +1692,7 @@ xx } */
 .notion-link.link:hover {
     color: var(--color-text-default);
     opacity: 1;
-    transition: var(--transition);
+    /* transition: var(--transition); */
     border-bottom: var(--border-link)
 }
 
