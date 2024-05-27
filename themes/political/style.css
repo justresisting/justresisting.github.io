@@ -708,7 +708,9 @@ img.notion-header__icon {
 
 /* $General */
 /* ^Relations */
-div.notion-property.notion-property__relation {
+div.notion-property.notion-property__relation,
+div.notion-property.notion-property__url,
+div.notion-property.notion-property__email {
     color: var(--color-text-default);
     display: flex;
     justify-content: center;
