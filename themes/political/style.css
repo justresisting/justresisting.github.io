@@ -1710,6 +1710,7 @@ xx } */
     /* border-bottom: var(--border-link); */
     text-decoration: underline;
     text-decoration-color: yellow;
+    background-color: var(--color-card-bg-hover);
 }
 
 span.notion-semantic-string {
