@@ -2127,7 +2127,7 @@ span.notion-semantic-string {
 }
 
 .parent-page__blog-posts .notion-page__property {
-    display: grid !important;
+    display: grid;
 }
 
 .parent-page__blog-posts .notion-page__properties {
@@ -2136,7 +2136,7 @@ span.notion-semantic-string {
 }
 
 .parent-page__blog-posts .notion-page__properties .notion-property {
-    justify-content: space-between !important;
+    justify-content: space-between;
 }
 
 .parent-page__blog-posts .notion-page__property-name {
