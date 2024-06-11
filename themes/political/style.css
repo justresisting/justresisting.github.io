@@ -1471,6 +1471,8 @@ xx } */
 /* ^Collection Card Content */
 .notion-collection-card__content {
     border: none;
+    height: 100%;
+    min-height: var(--collection-card-cover-size-larger);
 }
 
 /* ^Collection Card Cover Div */
