@@ -1473,6 +1473,7 @@ xx } */
     border: none;
     height: 100%;
     min-height: var(--collection-card-cover-size-larger);
+    min-height: auto;
 }
 
 /* ^Collection Card Cover Div */
